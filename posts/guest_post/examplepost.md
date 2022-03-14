@@ -3,7 +3,7 @@ title: "This is an example post"
 author: "Alex Merced"
 category: "example"
 date: "2022-03-13"
-bannerImage: "https://isaiahcounselingandwellness.com/wp-content/uploads/2018/06/Tryzens-Blog-Page-Banner.jpg"
+bannerImage: "/images/postbanner/examplebanner.PNG"
 tags:
     - example
 ---
