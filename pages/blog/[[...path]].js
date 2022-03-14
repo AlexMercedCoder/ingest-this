@@ -2,12 +2,20 @@ import fs from "fs";
 import matter from "gray-matter";
 import Image from "next/image";
 import Link from "next/link";
-import path from "path";
+import styles from "../../styles/Blog.module.css"
+
 
 // The Blog Page Content
 export default function Blog({ posts, categories }) {
   return (
-    <main>
+    <main className={styles.main}>
+      <aside className={styles.featured}>
+        <h1>Featured Post</h1>
+        <Link href={`/posts/${posts[0].slug}`} >
+              <Image src={posts[0].frontmatter.bannerImage} alt={posts[0].frontmatter.title} width={285} height={160}/>
+        </Link>
+      </aside>
+      <aside className={styles.blogs}>
       {posts.map((post) => {
         //extract slug and frontmatter
         const { slug, frontmatter } = post;
@@ -18,14 +26,24 @@ export default function Blog({ posts, categories }) {
         //JSX for individual blog listing
         return (
           <article key={slug}>
-            <Link href={`/posts/${slug}`}>
-              <h1>{title}</h1>
+            <Link href={`/posts/${slug}`} >
+              <Image src={bannerImage} alt={title} width={285} height={160}/>
             </Link>
-            <h3>{author}</h3>
-            <h3>{date}</h3>
           </article>
         );
       })}
+      </aside>
+      <aside className={styles.categories}>
+        <h4>Categories</h4>
+        {categories.map(c => {
+          return <div key={c}>
+            <Link href={`/blog/category/${c}`}>
+              {c}
+            </Link>
+          </div>
+        })}
+
+      </aside>
     </main>
   );
 }
@@ -136,6 +154,8 @@ export async function getStaticProps({ params: { path } }) {
       });
     }
   }
+
+  posts.sort((x,y) => new Date(y.frontmatter.date).getTime() - new Date(x.frontmatter.date).getTime())
 
   // Return the pages static props
   return {

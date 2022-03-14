@@ -2,10 +2,11 @@
 title: 6 JS Object Types You May Not Have Used
 date: "2020-11-30"
 author: "Alex Merced"
-category: "example"
-bannerImage: "https://isaiahcounselingandwellness.com/wp-content/uploads/2018/06/Tryzens-Blog-Page-Banner.jpg"
+category: "javascript"
+bannerImage: "/images/postbanner/examplebanner.PNG"
 tags:
-    - example
+    - javascript
+    - data types
 ---
 
 **My Javascript Playlist:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3
@@ -15,7 +16,7 @@ tags:
 Maps are like objects in the sense is that they manage key/value pairs with a few minor differences.
 
 - It's iterable, so you can use them for for loops
-- You have to use get ans set functions to manipulate and use the key/values
+- You have to use get and set functions to manipulate and use the key/values
 - anything can be keys, numbers, functions, objects, etc.
 
 ### How to use a Map
@@ -53,7 +54,7 @@ console.log(mySet)
 
 ## 3 - Symbols
 
-If you ever used Ruby, you may be very familiar with Symbols. Symbols allow to create a unique static value that can be used in different ways in particular to avoid creating multiple string objects in memory, and in javascript as map strings. Not quite as necessary in JS as in Ruby, but still nice when you need an object to use as a map key.
+If you ever used Ruby, you may be very familiar with Symbols. Symbols allow to create a unique static value that can be used in different ways in particular to avoid creating multiple string objects in memory, and in javascript as map keys. Not quite as necessary in JS as in Ruby, but still nice when you need an object to use as a map key for library you are writing and don't want to use a name space the library consumer may use.
 
 ```js
 
@@ -81,7 +82,7 @@ console.log(user.description)
 
 ```
 
-There are several other pre-made symbols which are used as object keys to manipulate how they behave, most famously, Symbol.iterator.
+There are several other pre-made symbols which are used as object keys to manipulate how different types behave, most famously, Symbol.iterator, which defines how an object is iterated in for/of loops.
 
 ## 4 - Generators
 
@@ -141,7 +142,7 @@ Reflect.set(myObj, "vegetable", "Broccolli")
 
 ## 6 Proxy
 
-The Proxy type allows you to create a proxy object that refers to other existing objects but can change some of its functionality.
+The Proxy type allows you to create a proxy object that refers to another existing object but can run some logic everytime a property is get or set.
 
 ```js 
 

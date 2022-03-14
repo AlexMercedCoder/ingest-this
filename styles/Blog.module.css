@@ -1,0 +1,36 @@
+.main {
+    width: 95%;
+    margin: auto;
+    padding: 10px 0;
+    display: grid;
+    grid-template-areas: 
+    "f f f c"
+    "b b b c"
+    "b b b c"
+    "b b b c";
+}
+
+.featured {
+    grid-area: f;
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.blogs {
+    grid-area: b;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.categories {
+    grid-area: c;
+    font-size: 1.2em;
+    padding: 0 5px;
+}
