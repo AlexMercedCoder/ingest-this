@@ -1,7 +1,13 @@
 ---
 title: Intro to Angular 9 Tutorial
-date: "2020-08-21T22:12:03.284Z"
-description: "Enterprise level frontend framework"
+date: "2020-08-21"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - javascript
+    - frontend
+    - angular
 ---
 
 **ANGULAR VIDEO PLAYLIST:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbahNK_YUsjTzP5U-FkGA544

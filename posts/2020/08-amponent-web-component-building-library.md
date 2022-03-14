@@ -1,7 +1,13 @@
 ---
 title: AMPonent, Webcomponent Building Library
-date: "2020-08-19T22:12:03.284Z"
-description: "Building Reactive and Styling UI Components"
+date: "2020-08-19"
+author: "Alex Merced"
+category: "web components"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - javascript
+    - web components
+    - frontend
 ---
 
 ## What is AMPonent?

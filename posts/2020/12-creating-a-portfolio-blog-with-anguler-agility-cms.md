@@ -1,7 +1,14 @@
 ---
 title: Creating a Portfolio/Blog with Angular/Agility CMS
-date: "2020-12-21T22:12:03.284Z"
-description: An Introductory Angular Tutorial
+date: "2020-12-21"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - javascript
+    - jamstack
+    - angular
+    - headless cms
 ---
 
 ## Pre-Requisites
