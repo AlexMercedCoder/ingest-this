@@ -1,7 +1,11 @@
 ---
 title: 6 JS Object Types You May Not Have Used
-date: "2020-11-30T22:12:03.284Z"
-description: Getting Advanced with Javascript
+date: "2020-11-30"
+author: "Alex Merced"
+category: "example"
+bannerImage: "https://isaiahcounselingandwellness.com/wp-content/uploads/2018/06/Tryzens-Blog-Page-Banner.jpg"
+tags:
+    - example
 ---
 
 **My Javascript Playlist:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3
