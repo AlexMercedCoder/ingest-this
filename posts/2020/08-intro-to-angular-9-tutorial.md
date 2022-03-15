@@ -3,7 +3,7 @@ title: Intro to Angular 9 Tutorial
 date: "2020-08-21"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/examplebanner.PNG"
+bannerImage: "/images/postbanner/2020/intro-to-angular.PNG"
 tags:
     - javascript
     - frontend

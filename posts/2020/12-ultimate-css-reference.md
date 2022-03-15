@@ -3,7 +3,7 @@ title: Ultimate CSS Reference
 date: "2020-12-27"
 author: "Alex Merced"
 category: "css"
-bannerImage: "/images/postbanner/examplebanner.PNG"
+bannerImage: "/images/postbanner/2020/ultimate-css-reference.PNG"
 tags:
     - css
     - reference

@@ -3,7 +3,7 @@ title: Building Your Coder/Developer Brand
 date: "2020-09-16"
 author: "Alex Merced"
 category: "branding"
-bannerImage: "/images/postbanner/examplebanner.PNG"
+bannerImage: "/images/postbanner/2020/building-your-brand.PNG"
 tags:
     - branding
 ---

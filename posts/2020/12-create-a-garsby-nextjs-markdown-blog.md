@@ -3,7 +3,7 @@ title: Creating a Gatsby or NextJS Markdown Blog
 date: "2020-12-05"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/examplebanner.PNG"
+bannerImage: "/images/postbanner/2020/markdown-blog-gatsby-nextjs.PNG"
 tags:
     - jamstack
     - markdown

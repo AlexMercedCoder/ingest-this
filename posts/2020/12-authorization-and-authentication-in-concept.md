@@ -3,7 +3,7 @@ title: Authorization and Authentication in Concept
 date: "2020-12-07"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/examplebanner.PNG"
+bannerImage: "/images/postbanner/2020/authorization-concept.PNG"
 tags:
     - javascript
     - authentication

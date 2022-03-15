@@ -3,7 +3,7 @@ title: AMPonent, Webcomponent Building Library
 date: "2020-08-19"
 author: "Alex Merced"
 category: "web components"
-bannerImage: "/images/postbanner/examplebanner.PNG"
+bannerImage: "/images/postbanner/2020/amponent.PNG"
 tags:
     - javascript
     - web components
