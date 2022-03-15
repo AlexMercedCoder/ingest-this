@@ -8,6 +8,7 @@ const videos = [
   { title: "GO", playlists: [{ title: "", url: "" }] },
   { title: "Rust", playlists: [{ title: "", url: "" }] },
   { title: "Other Languages", playlists: [{ title: "", url: "" }] },
+  { title: "Misc.", playlists: [{ title: "", url: "" }] },
 ];
 
 export default videos;
