@@ -1,7 +1,12 @@
 ---
 title: Fundamentals of Client Side Javascript
-date: "2020-12-28T12:12:03.284Z"
-description: The Building Blocks of Client-Side Javascript Master
+date: "2020-12-28"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - frontend
+    - javascript
 ---
 
 ## Why read this?

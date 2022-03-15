@@ -1,7 +1,14 @@
 ---
 title: Axios, Fetch and other useful images!
-date: "2020-10-19T22:12:03.284Z"
-description: Javascript in Review
+date: "2020-10-19"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - axios
+    - fetch
+    - javascript
+    - ajax
 ---
 
 ## Fetch

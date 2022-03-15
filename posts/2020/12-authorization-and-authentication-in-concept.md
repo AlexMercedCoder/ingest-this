@@ -1,7 +1,14 @@
 ---
 title: Authorization and Authentication in Concept
-date: "2020-12-07T22:12:03.284Z"
-description: Understand JWT, Sessions and Bcrypt
+date: "2020-12-07"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - javascript
+    - authentication
+    - authorization
+    - jwt
 ---
 
 ## What is Authentication and Authorization?

@@ -1,7 +1,14 @@
 ---
 title: Ultimate Basic Coder Reference (Bash, Git, VSCode, Nodejs, more)
 date: "2020-09-05T22:12:03.284Z"
-description: "The Basics We Should all know"
+author: "Alex Merced"
+category: "reference"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - bash
+    - git
+    - vscode
+    - nodejs
 ---
 
 ## About
@@ -15,8 +22,6 @@ One of the best ways to grow and learn as a developer is to be part of the grand
 devNursery slack channel = https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA
 
 devNursery discord channel = https://discord.gg/hkdrPwX
-
-devNursery spectrum chat = https://spectrum.chat/devnursery?tab=posts
 
 ## Bash
 

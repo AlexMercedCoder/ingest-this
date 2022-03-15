@@ -1,7 +1,11 @@
 ---
 title: Building Your Coder/Developer Brand
-date: "2020-09-16T22:12:03.284Z"
-description: "Creating the Demand For You"
+date: "2020-09-16"
+author: "Alex Merced"
+category: "branding"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - branding
 ---
 
 ## Why do you need a brand?
