@@ -2,47 +2,61 @@ import fs from "fs";
 import matter from "gray-matter";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../../styles/Blog.module.css"
-
+import styles from "../../styles/Blog.module.css";
+import Head from "next/head";
 
 // The Blog Page Content
 export default function Blog({ posts, categories }) {
   return (
     <main className={styles.main}>
+      <Head>
+        <title>
+          GrokOverflow - blog listing
+        </title>
+        <meta
+          name="description"
+          content={`Listing of GrokOverflow Articles on development`}
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <aside className={styles.featured}>
         <h1>Featured Post</h1>
-        <Link href={`/posts/${posts[0].slug}`} >
-              <Image src={posts[0].frontmatter.bannerImage} alt={posts[0].frontmatter.title} width={285} height={160}/>
+        <Link href={`/posts/${posts[0].slug}`}>
+          <Image
+            src={posts[0].frontmatter.bannerImage}
+            alt={posts[0].frontmatter.title}
+            width={285}
+            height={160}
+          />
         </Link>
       </aside>
       <aside className={styles.blogs}>
-      {posts.map((post) => {
-        //extract slug and frontmatter
-        const { slug, frontmatter } = post;
-        //extract frontmatter properties
-        const { title, author, category, date, bannerImage, tags } =
-          frontmatter;
+        {posts.map((post) => {
+          //extract slug and frontmatter
+          const { slug, frontmatter } = post;
+          //extract frontmatter properties
+          const { title, author, category, date, bannerImage, tags } =
+            frontmatter;
 
-        //JSX for individual blog listing
-        return (
-          <article key={slug}>
-            <Link href={`/posts/${slug}`} >
-              <Image src={bannerImage} alt={title} width={285} height={160}/>
-            </Link>
-          </article>
-        );
-      })}
+          //JSX for individual blog listing
+          return (
+            <article key={slug}>
+              <Link href={`/posts/${slug}`}>
+                <Image src={bannerImage} alt={title} width={285} height={160} />
+              </Link>
+            </article>
+          );
+        })}
       </aside>
       <aside className={styles.categories}>
         <h4 className={styles.rtitle}>Categories</h4>
-        {categories.map(c => {
-          return <div key={c}>
-            <Link href={`/blog/category/${c}`}>
-              {c}
-            </Link>
-          </div>
+        {categories.map((c) => {
+          return (
+            <div key={c}>
+              <Link href={`/blog/category/${c}`}>{c}</Link>
+            </div>
+          );
         })}
-
       </aside>
     </main>
   );
@@ -92,11 +106,12 @@ export async function getStaticPaths(...args) {
       paths.push(`/blog/tag/${tag}`);
     });
     // paths for each author
-    paths.push(`/blog/author/${frontmatter.author.toLowerCase().replace(" ","-")}`)
+    paths.push(
+      `/blog/author/${frontmatter.author.toLowerCase().replace(" ", "-")}`
+    );
   });
 
   paths = [...new Set(paths)];
-
 
   return {
     paths,
@@ -106,7 +121,6 @@ export async function getStaticPaths(...args) {
 
 //Generating the Static Props for the Blog Page
 export async function getStaticProps({ params: { path } }) {
-
   // get list of files from the posts folder
   const files = fs.readdirSync("posts");
 
@@ -159,12 +173,16 @@ export async function getStaticProps({ params: { path } }) {
 
     if (path[0] === "author") {
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.author.toLowerCase() === path[1].replace("-"," ");
+        return frontmatter.author.toLowerCase() === path[1].replace("-", " ");
       });
     }
   }
 
-  posts.sort((x,y) => new Date(y.frontmatter.date).getTime() - new Date(x.frontmatter.date).getTime())
+  posts.sort(
+    (x, y) =>
+      new Date(y.frontmatter.date).getTime() -
+      new Date(x.frontmatter.date).getTime()
+  );
 
   // Return the pages static props
   return {

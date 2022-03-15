@@ -28,6 +28,7 @@ pre {
   font-size: 1.2em;
   line-height: 1.5em;
   border-radius: 10px;
+  overflow: scroll;
 }
 
 /* code {
@@ -57,4 +58,5 @@ pre {
 .blog-post p {
   font-size: 1.1em;
   line-height: 1.2em;
+  overflow: scroll;
 }

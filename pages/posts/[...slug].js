@@ -5,6 +5,7 @@ import hljs from "highlight.js"
 import styles from "../../styles/Post.module.css"
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 // syntax highlighting?
 const md = new MarkdownIt({
@@ -32,6 +33,11 @@ export default function Post({ frontmatter, content }) {
 
   return (
     <main className={styles.main}>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={`"${title}" an article written by ${author} touching on ${tags.join(", ")}`} />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <img src={bannerImage} className={styles.img} alt={title} />
       <div className={styles.details}>
       <h2>
