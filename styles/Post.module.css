@@ -1,0 +1,20 @@
+.main {
+    width: 60%;
+    min-width: 300px;
+    margin: auto;
+}
+
+.img {
+    display: block;
+    width: 55%;
+    min-width: 300px;
+    margin: 10px auto;
+}
+
+.details {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--main-color-1);
+    color: white;
+    margin: 20px;
+}

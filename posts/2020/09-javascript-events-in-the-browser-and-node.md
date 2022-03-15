@@ -3,7 +3,7 @@ title: Javascript Events - In the Browser and Node
 date: "2020-09-12"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2020/javascript-events.PNG"
+bannerImage: "/images/postbanner/2020/javascript-events.png"
 tags:
     - javascript
 ---

@@ -3,7 +3,7 @@ title: Fundamentals of Client Side Javascript
 date: "2020-12-28"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2020/client-side-js-fundamentals.PNG"
+bannerImage: "/images/postbanner/2020/client-side-js-fundamentals.png"
 tags:
     - frontend
     - javascript
@@ -37,7 +37,7 @@ The navigator object has several functions that can be used to determine
 
 The window object really bundles most of the APIs I'll be talking about but one of the parts of it people may not be aware of but is quite useful is the location property.
 
-- [window API] (https://developer.mozilla.org/en-US/docs/Web/API/Window)
+- [window API](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 
 - window.location gives you access to the URL bar to redirect users to other pages or parse URL queries from the URL
 

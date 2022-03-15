@@ -3,7 +3,7 @@ title: Ultimate Django Reference (Deployment, Rest API, Commands, .env)
 date: "2020-08-27"
 author: "Alex Merced"
 category: "reference"
-bannerImage: "/images/postbanner/2020/ultimate-django-reference.PNG"
+bannerImage: "/images/postbanner/2020/ultimate-django-reference.png"
 tags:
     - deployment
     - django

@@ -3,7 +3,7 @@ title: Create Your Dev Portfolio with this Gatsby Template
 date: "2020-12-30"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/2020/create-your-portfolio.PNG"
+bannerImage: "/images/postbanner/2020/create-your-portfolio.png"
 tags:
     - gatsby
     - javascript

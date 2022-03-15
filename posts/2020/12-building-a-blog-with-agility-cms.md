@@ -3,7 +3,7 @@ title: Building a Blog with Agility Headless CMS
 date: "2020-12-19"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/building-agility-blog.PNG"
+bannerImage: "/images/postbanner/2020/building-agility-blog.png"
 tags:
     - javascript
     - jamstack

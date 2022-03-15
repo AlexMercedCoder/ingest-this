@@ -5,6 +5,9 @@ import Link from 'next/link'
 
 function Header (props){
     return <header className={styles.header}>
+        <Head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
+        </Head>
         <div id="logo">
     <Image src={"/images/banner-logo-trans.PNG"} alt="GrokOverflow Logo" height={100} width={300}/>
         </div>

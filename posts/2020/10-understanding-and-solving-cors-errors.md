@@ -3,7 +3,7 @@ title: Understanding and Solving Cors Errors
 date: "2020-10-20"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/understanding-cors.PNG"
+bannerImage: "/images/postbanner/2020/understanding-cors.png"
 tags:
     - cors
     - backend

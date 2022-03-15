@@ -3,7 +3,7 @@ title: Tutorial - Writing Your First GraphQL API
 date: "2020-11-20"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/writing-first-graphql.PNG"
+bannerImage: "/images/postbanner/2020/writing-first-graphql.png"
 tags:
     - backend
     - graphql

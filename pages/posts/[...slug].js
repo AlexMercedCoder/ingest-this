@@ -1,22 +1,49 @@
 import fs from "fs";
 import matter from "gray-matter";
-import md from "markdown-it";
+import MarkdownIt from "markdown-it";
+import hljs from "highlight.js"
+import styles from "../../styles/Post.module.css"
+import Image from "next/image";
+import Link from "next/link";
+
+// syntax highlighting?
+const md = new MarkdownIt({
+  html: true,
+  linkify: false,
+  typographer: true,
+  highlight: function (str, lang) {
+    if (lang && hljs.getLanguage(lang)) {
+      try {
+        return '<pre class="hljs"><code>' +
+               hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
+               '</code></pre>';
+      } catch (__) {}
+    }
+
+    return '<pre class="hljs"><code>' + md.utils.escapeHtml(str) + '</code></pre>';
+  }
+})
+
+
 
 // The page for each post
 export default function Post({ frontmatter, content }) {
   const { title, author, category, date, bannerImage, tags } = frontmatter;
 
   return (
-    <main>
-      <img src={bannerImage} />
-      <h1>{title}</h1>
+    <main className={styles.main}>
+      <img src={bannerImage} className={styles.img} alt={title} />
+      <div className={styles.details}>
       <h2>
-        {author} || {date}
+        <Link href={`/blog/author/${author}`}>{author}</Link> || {date}
       </h2>
       <h3>
-        {category} || {tags.join()}
+      <Link href={`/blog/category/${category}`}>{category}</Link> || {tags.map((tag, index) => {
+        return <Link href={`/blog/tag/${tag}`} key={tag}>{`${index !== 0 ? "-" : ""} ${tag} `}</Link>
+      })}
       </h3>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      </div>
+      <div className="blog-post" dangerouslySetInnerHTML={{ __html: md.render(content) }} />
     </main>
   );
 }
@@ -40,7 +67,6 @@ export async function getStaticPaths() {
     paths.push(`/posts/${fileName.replace(".md", "")}`);
   });
 
-  paths.forEach(p => console.log(p));
 
   // return list of paths
   return {
@@ -51,7 +77,7 @@ export async function getStaticPaths() {
 
 // Generate the static props for the page
 export async function getStaticProps({params: {slug}}) {
-  console.log("SLUG:", slug)
+
   if (slug.length === 2) {
     const fileName = fs.readFileSync(
       `posts/${slug[0]}/${slug[1]}.md`,

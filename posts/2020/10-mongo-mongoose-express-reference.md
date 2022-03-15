@@ -3,7 +3,7 @@ title: Mongo, Mongoose and Express Reference
 date: "2020-10-15"
 author: "Alex Merced"
 category: "database"
-bannerImage: "/images/postbanner/2020/mongo-mongoose-reference.PNG"
+bannerImage: "/images/postbanner/2020/mongo-mongoose-reference.png"
 tags:
     - mongo
     - mongoose

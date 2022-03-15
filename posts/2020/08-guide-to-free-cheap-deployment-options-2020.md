@@ -3,7 +3,7 @@ title: Guide to Free/Cheap Deployment Options 2020
 date: "2020-08-30"
 author: "Alex Merced"
 category: "deployment"
-bannerImage: "/images/postbanner/2020/guide-deployment-options.PNG"
+bannerImage: "/images/postbanner/2020/guide-deployment-options.png"
 tags:
     - deployment
 ---

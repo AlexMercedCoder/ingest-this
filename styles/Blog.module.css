@@ -34,3 +34,36 @@
     font-size: 1.2em;
     padding: 0 5px;
 }
+
+@media(max-width: 974px){
+
+    .main {
+        width: 95%;
+        margin: auto;
+        padding: 10px 0;
+        display: grid;
+        grid-template-areas: 
+        "f "
+        "c"
+        "b"
+        "b";
+    }
+
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        line-height: 115%;
+        border: 4px solid var(--main-color-1);
+        padding: 4px;
+    }
+
+    .categories a {
+        margin: 6px;
+    }
+
+    .rtitle {
+        display: none;
+    }
+
+}

@@ -3,7 +3,7 @@ title: Axios, Fetch and other useful images!
 date: "2020-10-19"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/axios-fetch.PNG"
+bannerImage: "/images/postbanner/2020/axios-fetch.png"
 tags:
     - axios
     - fetch

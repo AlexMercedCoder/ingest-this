@@ -34,7 +34,7 @@ export default function Blog({ posts, categories }) {
       })}
       </aside>
       <aside className={styles.categories}>
-        <h4>Categories</h4>
+        <h4 className={styles.rtitle}>Categories</h4>
         {categories.map(c => {
           return <div key={c}>
             <Link href={`/blog/category/${c}`}>
@@ -91,9 +91,12 @@ export async function getStaticPaths(...args) {
     frontmatter.tags.forEach((tag) => {
       paths.push(`/blog/tag/${tag}`);
     });
+    // paths for each author
+    paths.push(`/blog/author/${frontmatter.author.toLowerCase().replace(" ","-")}`)
   });
 
   paths = [...new Set(paths)];
+
 
   return {
     paths,
@@ -151,6 +154,12 @@ export async function getStaticProps({ params: { path } }) {
     if (path[0] === "tag") {
       posts = posts.filter(({ frontmatter }) => {
         return frontmatter.tags.includes(path[1]);
+      });
+    }
+
+    if (path[0] === "author") {
+      posts = posts.filter(({ frontmatter }) => {
+        return frontmatter.author.toLowerCase() === path[1].replace("-"," ");
       });
     }
   }

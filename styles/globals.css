@@ -1,6 +1,7 @@
 :root {
   --main-color-1: firebrick;
   --main-color-2: lightslategray;
+  --code-color: #C0DFD9
 }
 
 html,
@@ -19,4 +20,41 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+pre {
+  /* background-color: black; */
+  padding:10px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  border-radius: 10px;
+}
+
+/* code {
+  white-space: pre-wrap;
+  line-height: 1.5em;
+  overflow-wrap: break-word;
+
+  color: var(--code-color)
+}  */
+
+.blog-post a {
+  color: var(--main-color-1)
+}
+
+.blog-post a:hover {
+  color: var(--main-color-2)
+}
+
+.blog-post :is(h1,h2,h3,h4,h5,h6) {
+  color: var(--main-color-1)
+}
+
+.blog-post h2 {
+  text-transform: uppercase;
+}
+
+.blog-post p {
+  font-size: 1.1em;
+  line-height: 1.2em;
 }

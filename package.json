@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
+    "highlight.js": "^11.5.0",
+    "linkify-it": "^3.0.3",
     "markdown-it": "^12.3.2",
     "next": "12.1.0",
     "react": "17.0.2",

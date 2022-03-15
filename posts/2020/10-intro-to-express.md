@@ -3,7 +3,7 @@ title: Intro to Express
 date: "2020-10-12"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/intro-to-express.PNG"
+bannerImage: "/images/postbanner/2020/intro-to-express.png"
 tags:
     - backend
     - express

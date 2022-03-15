@@ -3,7 +3,7 @@ title: Javascript Callback Array Methods
 date: "2020-10-13"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2020/js-callback-array.PNG"
+bannerImage: "/images/postbanner/2020/js-callback-array.png"
 tags:
     - javascript
 ---

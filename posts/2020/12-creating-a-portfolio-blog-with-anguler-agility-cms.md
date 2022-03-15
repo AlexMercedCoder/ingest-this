@@ -3,7 +3,7 @@ title: Creating a Portfolio/Blog with Angular/Agility CMS
 date: "2020-12-21"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/2020/create-blog-angular-agility.PNG"
+bannerImage: "/images/postbanner/2020/create-blog-angular-agility.png"
 tags:
     - javascript
     - jamstack
