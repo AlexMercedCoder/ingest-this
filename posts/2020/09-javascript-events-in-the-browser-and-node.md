@@ -1,7 +1,11 @@
 ---
 title: Javascript Events - In the Browser and Node
-date: "2020-09-12T22:12:03.284Z"
-description: "A Comprehensive Guide to Javascript Events"
+date: "2020-09-12"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - javascript
 ---
 
 ## What are Events

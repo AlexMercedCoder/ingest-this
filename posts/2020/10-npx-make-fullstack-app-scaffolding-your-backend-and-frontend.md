@@ -1,7 +1,12 @@
 ---
-title: npx make-fullstack-app - Scaffolding your back and frontend
-date: "2020-10-22T22:12:03.284Z"
-description: One Project, Two Apps, One Command
+title: npx make-fullstack-app - Scaffolding your backend and frontend
+date: "2020-10-22"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - backend
+    - frontend
 ---
 
 ## Why?

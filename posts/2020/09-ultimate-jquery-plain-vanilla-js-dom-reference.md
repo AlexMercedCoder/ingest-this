@@ -1,7 +1,12 @@
 ---
 title: Ultimate jQuery/Plain Vanilla JS DOM Reference
 date: "2020-09-13T22:12:03.284Z"
-description: "The Basics of one of the most popular libraries ever"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - jquery
+    - javascript
 ---
 
 ## What is jQuery

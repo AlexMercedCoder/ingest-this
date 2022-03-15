@@ -1,7 +1,14 @@
 ---
 title: Konjection - ORM Helper using Knex and Objection
-date: "2020-11-16T22:12:03.284Z"
-description: Connect and Setup Your Models with Ease
+date: "2020-11-16"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - javascript
+    - backend
+    - mongo
+    - database
 ---
 
 **Konjection Tutorial Video:** https://youtu.be/zfp7D_MB9c0

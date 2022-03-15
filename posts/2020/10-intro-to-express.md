@@ -1,7 +1,14 @@
 ---
 title: Intro to Express
-date: "2020-10-12T22:12:03.284Z"
-description: Creating a Backend Server
+date: "2020-10-12"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - backend
+    - express
+    - node
+    - javascript
 ---
 
 **Watch My Intro to Express Video Playlist Here: https://www.youtube.com/playlist?list=PLY6oTPmKnKbamIu4uuDJ3QNNDU1SoOkjl**
