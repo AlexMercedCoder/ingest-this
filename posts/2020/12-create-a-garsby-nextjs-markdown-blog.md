@@ -1,7 +1,14 @@
 ---
 title: Creating a Gatsby or NextJS Markdown Blog
-date: "2020-12-05T22:12:03.284Z"
-description: Using merced-spinup templates
+date: "2020-12-05"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - jamstack
+    - markdown
+    - nextjs
+    - gatsby
 ---
 
 ## Why a Markdown Blog

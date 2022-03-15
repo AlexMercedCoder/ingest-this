@@ -1,7 +1,12 @@
 ---
 title: Tutorial - Writing Your First GraphQL API
-date: "2020-11-20T22:12:03.284Z"
-description: An Alternative to RESTFul API
+date: "2020-11-20"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - backend
+    - graphql
 ---
 
 ## What is GraphQL?

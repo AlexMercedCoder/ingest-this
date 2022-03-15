@@ -1,7 +1,11 @@
 ---
 title: Guide to Free/Cheap Deployment Options 2020
-date: "2020-08-30T22:12:03.284Z"
-description: "Quality, Fast, Deployment for your static or full stack site."
+date: "2020-08-30"
+author: "Alex Merced"
+category: "deployment"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - deployment
 ---
 
 ## And the categories are...

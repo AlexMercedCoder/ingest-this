@@ -1,7 +1,13 @@
 ---
 title: Frontend CRUD with Plain Vanilla JS
-date: "2020-08-18T22:12:03.284Z"
-description: "A Basic Exploration of Frontend DOM Manipulation"
+date: "2020-08-18"
+author: "Alex Merced"
+category: "reference"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - crud
+    - javascript
+    - frontend
 ---
 
 ## Our Mission

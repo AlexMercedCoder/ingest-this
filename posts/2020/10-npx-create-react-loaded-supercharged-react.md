@@ -1,7 +1,13 @@
 ---
 title: npx create-react-loaded supercharged react
-date: "2020-10-14T22:12:03.284Z"
-description: Router, GlobalState, Sass and more!
+date: "2020-10-14"
+author: "Alex Merced"
+category: "react"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - react
+    - frontend
+    - web development
 ---
 
 ## React Templates

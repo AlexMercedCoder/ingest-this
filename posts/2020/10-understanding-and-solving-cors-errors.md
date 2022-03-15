@@ -1,7 +1,13 @@
 ---
 title: Understanding and Solving Cors Errors
-date: "2020-10-20T22:12:03.284Z"
-description: Allowing Cross-Origin API Requests
+date: "2020-10-20"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - cors
+    - backend
+    - web development
 ---
 
 ## Explanation

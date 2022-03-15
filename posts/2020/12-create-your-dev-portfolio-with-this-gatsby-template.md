@@ -1,7 +1,12 @@
 ---
 title: Create Your Dev Portfolio with this Gatsby Template
-date: "2020-12-30T12:12:03.284Z"
-description: Template designed for Dev Portfolios
+date: "2020-12-30"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - gatsby
+    - javascript
 ---
 
 ## create-markdown-blog

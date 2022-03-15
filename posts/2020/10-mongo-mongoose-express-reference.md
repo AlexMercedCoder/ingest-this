@@ -1,7 +1,14 @@
 ---
 title: Mongo, Mongoose and Express Reference
-date: "2020-10-15T22:12:03.284Z"
-description: Queries and Endpoints oh my!
+date: "2020-10-15"
+author: "Alex Merced"
+category: "database"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - mongo
+    - mongoose
+    - express
+    - node
 ---
 
 **CHECK OUT MY PLAYLIST ON CREATING A REACT/EXPRESS APPLICATION WITH MONGO AND JWT AUTH HERE:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbZsBHeBGNL9suAPIJdLaVk9

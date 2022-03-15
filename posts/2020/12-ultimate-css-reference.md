@@ -1,7 +1,13 @@
 ---
 title: Ultimate CSS Reference
-date: "2020-12-27T12:12:03.284Z"
-description: "CSS All the Things!"
+date: "2020-12-27"
+author: "Alex Merced"
+category: "css"
+bannerImage: "/images/postbanner/examplebanner.PNG"
+tags:
+    - css
+    - reference
+    - frontend
 ---
 
 ## What is this guide?
