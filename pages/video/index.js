@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import videoData from "./data";
+import videoData from "../../data/data";
 
 export default function Videos({ videoData }) {
   return (

@@ -1,7 +1,11 @@
 ---
 title: Becoming a Developer in 2022
-date: "2022-01-22T12:12:03.284Z"
-description: How to switch careers within 12-18 months
+date: "2022-01-22"
+author: "Alex Merced"
+category: "careers"
+bannerImage: "/images/postbanner/2020/amponent.png"
+tags:
+    - careers
 ---
 
 ## Your Mission if you choose to accept it
