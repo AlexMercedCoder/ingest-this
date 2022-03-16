@@ -35,6 +35,16 @@
     padding: 0 5px;
 }
 
+.categories a:hover {
+    color: var(--main-color-1)
+}
+
+@media (max-width: 800px) {
+    .categories a {
+        color: var(--main-color-1)
+    }
+}
+
 @media(max-width: 974px){
 
     .main {
@@ -59,11 +69,13 @@
     }
 
     .categories a {
-        margin: 6px;
+        margin: 10px;
     }
 
     .rtitle {
         display: none;
     }
+
+    
 
 }

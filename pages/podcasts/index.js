@@ -1,8 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import styles from "../../styles/Other.module.css"
 
 export default function Podcasts() {
-  return (<main>
+  return (<main className={styles.main}>
+    <Head>
+        <title>GrokOverflow - developer podcast listings</title>
+        <meta name="description" content="GrokOverflow - listing of podcasts for developers" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <h1>Development Podcasts</h1>
     <h3>Make sure to subscribe to my podcasts on iTunes/Stitcher/Spotify</h3>
 

@@ -1,0 +1,15 @@
+.main {
+    width:30%;
+    min-width: 300px;
+    margin: auto;
+}
+
+.main a:hover {
+    color: var(--main-color-1)
+}
+
+@media (max-width: 800px) {
+    .main a {
+        color: var(--main-color-1)
+    }
+}

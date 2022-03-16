@@ -1,10 +1,15 @@
 import Head from "next/head";
-import Image from "next/image";
 import videoData from "../../data/data";
+import styles from "../../styles/Other.module.css"
 
 export default function Videos({ videoData }) {
   return (
-    <main>
+    <main className={styles.main}>
+          <Head>
+        <title>GrokOverflow - developer video playlists</title>
+        <meta name="description" content="GrokOverflow - video playlists for developers on topics like frontend, backend, data, deployment and more." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1>Video Playlists</h1>
       {videoData.map((v) => {
         return (
