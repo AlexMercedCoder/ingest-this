@@ -1,7 +1,11 @@
 ---
 title: Creating a Consistent Developer Environment with Docker
-date: "2022-02-05T12:12:03.284Z"
-description: Using Docker to create an Environment in PHP, Ruby, Python and more
+date: "2022-02-05"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2022/docker-dev-env.png"
+tags:
+    - careers
 ---
 
 [VIDEO OVERVIEW OF USING DOCKER IMAGE FROM DOCKER HUB](https://youtu.be/mN5UHsMNm4U)

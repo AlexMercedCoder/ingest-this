@@ -7,7 +7,20 @@
     "f f f c"
     "b b b c"
     "b b b c"
-    "b b b c";
+    "b b b c"
+    "n n n c";
+}
+
+.main img {
+    transition: border-radius .3s, border .3s, filter .3s;
+    filter: grayscale(50%);
+    cursor: pointer;
+}
+
+.main img:hover {
+    border-radius: 30px;
+    border: 3px solid var(--main-color-2);
+    filter: grayscale(0%);
 }
 
 .featured {
@@ -39,6 +52,23 @@
     color: var(--main-color-1)
 }
 
+.buttons {
+    grid-area: n;
+    text-align: center;
+}
+
+.buttons button {
+    padding: 10px;
+    background-color: var(--main-color-1);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border-radius: 6px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
 @media (max-width: 800px) {
     .categories a {
         color: var(--main-color-1)
@@ -56,7 +86,8 @@
         "f "
         "c"
         "b"
-        "b";
+        "b"
+        "n";
     }
 
     .categories {

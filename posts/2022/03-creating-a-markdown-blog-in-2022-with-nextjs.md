@@ -1,7 +1,14 @@
 ---
 title: Creating a Markdown Blog in 2022 with Next JS
-date: "2022-03-13T12:12:03.284Z"
-description: Creating a Blog and Deploying with NextJS
+date: "2022-03-13"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/2022/creating-markdown-blog-nextjs.png"
+tags:
+    - jamstack
+    - markdown
+    - nextjs
+    - react
 ---
 
 ## Why Do you want a markdown blog

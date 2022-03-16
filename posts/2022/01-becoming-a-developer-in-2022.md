@@ -3,7 +3,7 @@ title: Becoming a Developer in 2022
 date: "2022-01-22"
 author: "Alex Merced"
 category: "careers"
-bannerImage: "/images/postbanner/2020/amponent.png"
+bannerImage: "/images/postbanner/2022/becoming-a-dev.png"
 tags:
     - careers
 ---

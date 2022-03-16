@@ -41,7 +41,7 @@ export default function Post({ frontmatter, content }) {
       <img src={bannerImage} className={styles.img} alt={title} />
       <div className={styles.details}>
       <h2>
-        <Link href={`/blog/author/${author}`}>{author}</Link> || {date}
+        <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`}>{author}</Link> || {date}
       </h2>
       <h3>
       <Link href={`/blog/category/${category}`}>{category}</Link> || {tags.map((tag, index) => {

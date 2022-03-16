@@ -1,7 +1,14 @@
 ---
 title: Javascript DOM & jQuery Cheatsheet 2022
-date: "2022-03-12T12:12:03.284Z"
-description: All the main bits summed up in one place
+date: "2022-03-12"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - javascript
+    - dom
+    - jquery
+    - frontend
 ---
 #### Join the slack and discord community at devNursery.com
 

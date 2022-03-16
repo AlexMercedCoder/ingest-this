@@ -4,9 +4,27 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Blog.module.css";
 import Head from "next/head";
+import { useState } from "react";
 
 // The Blog Page Content
 export default function Blog({ posts, categories }) {
+
+  const maxSlice = Math.ceil(posts.length / 20)
+
+  const getPostSlice = (page) => {
+
+    const firstPost = (page-1) * 20
+    const lastPost = page < maxSlice ? page * 20 : posts.length -1
+    console.log(firstPost, lastPost)
+
+    return {
+      page,
+      slice: posts.slice(firstPost, lastPost )
+    }
+  }
+
+  const [postSlice, setPostSlice] = useState(getPostSlice(1))
+
   return (
     <main className={styles.main}>
       <Head>
@@ -31,7 +49,7 @@ export default function Blog({ posts, categories }) {
         </Link>
       </aside>
       <aside className={styles.blogs}>
-        {posts.map((post) => {
+        {postSlice.slice.map((post) => {
           //extract slug and frontmatter
           const { slug, frontmatter } = post;
           //extract frontmatter properties
@@ -47,7 +65,18 @@ export default function Blog({ posts, categories }) {
             </article>
           );
         })}
+        
       </aside>
+      <div className={styles.buttons}>
+          <button onClick={() => {
+            const page = postSlice.page > 1 ? postSlice.page - 1 : 1 
+            setPostSlice(getPostSlice(page))
+          }}>Back</button>
+          <button onClick={() => {
+            const page = postSlice.page < maxSlice ? postSlice.page + 1 : maxSlice 
+            setPostSlice(getPostSlice(page))
+          }}>Next</button>
+        </div>
       <aside className={styles.categories}>
         <h4 className={styles.rtitle}>Categories</h4>
         {categories.map((c) => {

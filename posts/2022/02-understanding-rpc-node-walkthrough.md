@@ -1,7 +1,13 @@
 ---
 title: Understanding RPC (tour of API protocols, gRPC nodejs walkthrough, and Apache Arrow Flight)
-date: "2022-02-19T12:12:03.284Z"
-description: How to write Markdown and where you can use it
+date: "2022-02-19"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2022/understanding-remote-procedure-call-rpc.png"
+tags:
+    - backend
+    - api
+    - node
 ---
 
 ## The World of Protocols

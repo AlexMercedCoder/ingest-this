@@ -1,7 +1,13 @@
 ---
 title: Why All Developers Should Master Markdown
-date: "2022-02-05T12:12:03.284Z"
-description: How to write Markdown and where you can use it
+date: "2022-02-05"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/2022/master-markdown.png"
+tags:
+    - tooling
+    - markdown
+    - jamstack
 ---
 
 ## What is Markdown
