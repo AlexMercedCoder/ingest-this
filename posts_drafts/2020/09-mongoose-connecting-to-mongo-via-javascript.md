@@ -1,7 +1,14 @@
 ---
 title: Mongoose, Connecting to Mongo via Javascript
-date: "2020-09-17T22:12:03.284Z"
-description: Documents, Collections and Databases oh my!
+date: "2020-09-17"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - mongo
+    - mongoose
+    - javascript
+    - backend
 ---
 
 ## What is Mongo and Mongoose?

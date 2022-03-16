@@ -1,7 +1,13 @@
 ---
 title: Delivering JSON Data with Netlify
-date: "2020-12-20T22:12:03.284Z"
-description: Using Netlify to Deliver Static JSON
+date: "2020-12-20"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - json
+    - netlify
+    - api
 ---
 
 ## Why use JSON to Deliver Data and What is JAMStack

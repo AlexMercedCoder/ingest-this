@@ -1,7 +1,11 @@
 ---
 title: Spin-up your next project with merced-spinup
-date: "2020-09-19T22:12:03.284Z"
-description: Templates for days
+date: "2020-09-19"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - tooling
 ---
 
 ## What is merced-spinup

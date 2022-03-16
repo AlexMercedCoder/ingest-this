@@ -1,7 +1,13 @@
 ---
 title: Ruby on Rails Tutorial - Heroku API Deployment
 date: "2020-11-12T22:12:03.284Z"
-description: Deploy a Full Crud API Quickly!
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - rails
+    - ruby
+    - backend
 ---
 
 **My Learning Ruby on Rails Video Playlist:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbYlAqVHgzZl5lou54bizdbV

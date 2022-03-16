@@ -1,7 +1,13 @@
 ---
 title: React Pro Tips in Several Images
 date: "2020-10-12T22:12:03.284Z"
-description: Super Charge Your React Code
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - react
+    - frontend
+    - javascript
 ---
 
 **Watch My Intro to React Video Playlist Here: https://www.youtube.com/playlist?list=PLY6oTPmKnKbb5sh681mrY7u3Hm1g5ecze**

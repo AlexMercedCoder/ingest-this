@@ -1,7 +1,14 @@
 ---
-title: React Hooks Basics Reference
+title: React Hooks Basic Reference
 date: "2020-09-23T22:12:03.284Z"
-description: useEffect, useState, UseReducer and more!
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - react
+    - javascript
+    - frontend
+    - reference
 ---
 
 ## What are React Hooks?

@@ -1,7 +1,13 @@
 ---
 title: React 101 Tutorial
 date: "2020-08-18T22:12:03.284Z"
-description: "Basics of How React Works"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - react
+    - javascript
 ---
 
 ## What is React?

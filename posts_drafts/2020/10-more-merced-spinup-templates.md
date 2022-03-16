@@ -1,7 +1,11 @@
 ---
 title: More Merced-Spinup Templates
-date: "2020-10-05T22:12:03.284Z"
-description: Gulp, Express and React!
+date: "2020-10-05"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - tooling
 ---
 
 **To See me list my prior templates go here**: https://tuts.alexmercedcoder.com/2020/mercedspinuptut/

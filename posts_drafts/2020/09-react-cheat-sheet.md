@@ -1,7 +1,14 @@
 ---
 title: React Cheat Sheet
-date: "2020-09-24T22:12:03.284Z"
-description: Props, State, Forms, Classes, Functions
+date: "2020-09-24"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - reference
+    - react
+    - frontend
+    - javascript
 ---
 
 **MY SET OF REACT TUTORIAL VIDEOS** => https://www.youtube.com/playlist?list=PLY6oTPmKnKbba6LlpF7kcnsyWdlwePt_V

@@ -1,7 +1,13 @@
 ---
 title: Svelte after Sapper - The Svelte Ecosystem
-date: "2020-12-23T22:12:03.284Z"
-description: "Enterprise level frontend framework"
+date: "2020-12-23"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - javascript
+    - svelte
+    - jamstack
 ---
 
 ## What is the story?

@@ -1,7 +1,13 @@
 ---
 title: merced-react-hooks => Application State, LocalStorage, Lifecycle
-date: "2020-10-29T22:12:03.284Z"
-description: Utility Hooks Library for React
+date: "2020-10-29"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - javascript
+    - react
+    - frontend
 ---
 
 **merced-react-hooks VIDEO PLAYLIST:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbYurl9-_fSMY4X6DZ1sx39s

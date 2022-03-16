@@ -1,7 +1,11 @@
 ---
 title: Big List of Online Places to Code/Prototype
 date: "2020-09-24T22:12:03.284Z"
-description: Code on the Go
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+tags:
+    - tooling
 ---
 
 Across the internet that has always been many code playgrounds, places we can practice basic coding drills. Nowadays we have even more robus online coding tools that allow us to even build whole applications online. This is meant to be a list of such tools.

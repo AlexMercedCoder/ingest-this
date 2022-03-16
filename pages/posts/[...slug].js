@@ -6,6 +6,7 @@ import styles from "../../styles/Post.module.css"
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
+import mdVideo from "markdown-it-video"
 
 // syntax highlighting?
 const md = new MarkdownIt({
@@ -23,6 +24,12 @@ const md = new MarkdownIt({
 
     return '<pre class="hljs"><code>' + md.utils.escapeHtml(str) + '</code></pre>';
   }
+}).use(mdVideo, // <-- this use(package_name) is required 
+{
+  youtube: { width: 640, height: 390 },
+  vimeo: { width: 500, height: 281 },
+  vine: { width: 600, height: 600, embed: 'simple' },
+  prezi: { width: 550, height: 400 }
 })
 
 
