@@ -3,7 +3,7 @@ title: Web Components Part 3 - Lifecycle Functions
 date: "2020-09-05"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/web-components-lifecycle.png"
 tags:
     - frontend
     - web components

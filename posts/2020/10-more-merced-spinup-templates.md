@@ -3,7 +3,7 @@ title: More Merced-Spinup Templates
 date: "2020-10-05"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+bannerImage: "/images/postbanner/2020/more-spinup-templates.png"
 tags:
     - tooling
 ---

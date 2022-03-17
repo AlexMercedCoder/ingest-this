@@ -1,9 +1,9 @@
 ---
 title: Ruby vs Javascript in Several Images
-date: "2020-11-02T22:12:03.284Z"
+date: "2020-11-02"
 author: "Alex Merced"
 category: "ruby"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/ruby-and-js-side-by-side.png"
 tags:
     - ruby
     - javascript

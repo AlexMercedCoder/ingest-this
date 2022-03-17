@@ -3,7 +3,7 @@ title: React Cheat Sheet
 date: "2020-09-24"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/react-cheat-sheet.png"
 tags:
     - reference
     - react

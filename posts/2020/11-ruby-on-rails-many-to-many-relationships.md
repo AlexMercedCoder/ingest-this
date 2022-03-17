@@ -1,9 +1,9 @@
 ---
 title: Ruby on Rails Tutorial - Many to Many Relationships
-date: "2020-11-11T22:12:03.284Z"
+date: "2020-11-11"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/rails-many-to-many.png"
 tags:
     - database
     - rails

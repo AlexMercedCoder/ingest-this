@@ -3,7 +3,7 @@ title: Ruby on Rails API with JWT Auth Tutorial
 date: "2020-08-18"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/rails-jwt-auth.png"
 tags:
     - ruby
     - rails

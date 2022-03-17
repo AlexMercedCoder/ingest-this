@@ -3,7 +3,7 @@ title: merced-react-hooks => Application State, LocalStorage, Lifecycle
 date: "2020-10-29"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+bannerImage: "/images/postbanner/2020/merced-react-hooks.png"
 tags:
     - javascript
     - react

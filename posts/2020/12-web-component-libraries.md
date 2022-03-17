@@ -3,7 +3,7 @@ title: Web Component Libraries
 date: "2020-12-18"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/web-component-libraries.png"
 tags:
     - frontend
     - web components

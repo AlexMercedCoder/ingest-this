@@ -3,7 +3,7 @@ title: Learning Svelte 101
 date: "2020-10-05"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/learning-svelte-101.png"
 tags:
     - frontend
     - svelte

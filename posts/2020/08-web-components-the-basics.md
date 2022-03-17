@@ -3,7 +3,7 @@ title: Web Components Part 1 - The Basics
 date: "2020-08-26"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/web-components-the-basics.png"
 tags:
     - frontend
     - web components

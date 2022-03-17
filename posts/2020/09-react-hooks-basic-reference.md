@@ -1,9 +1,9 @@
 ---
 title: React Hooks Basic Reference
-date: "2020-09-23T22:12:03.284Z"
+date: "2020-09-23"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/react-hooks-basic-reference.png"
 tags:
     - react
     - javascript

@@ -3,7 +3,7 @@ title: Spin-up your next project with merced-spinup
 date: "2020-09-19"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
+bannerImage: "/images/postbanner/2020/merced-spin-up.png"
 tags:
     - tooling
 ---

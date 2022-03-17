@@ -3,7 +3,7 @@ title: React in Concept - The Terms and Idea
 date: "2020-09-24"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/react-in-concept.png"
 tags:
     - frontend
     - react

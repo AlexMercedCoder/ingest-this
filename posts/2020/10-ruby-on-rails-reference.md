@@ -1,9 +1,9 @@
 ---
 title: Ruby on Rails Reference - CLI Commands, Bundler, Macros
-date: "2020-10-22T22:12:03.284Z"
+date: "2020-10-22"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+bannerImage: "/images/postbanner/2020/rails-reference.png"
 tags:
     - reference
     - ruby
