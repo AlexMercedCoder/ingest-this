@@ -1,7 +1,13 @@
 ---
 title: Writing Javascript Promises
-date: "2020-09-25T22:12:03.284Z"
-description: Under the Hood of Asynchronous Javascript
+date: "2020-09-25"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - typescript
+    - javascript
 ---
 
 To read my previous article explaining promises, go here:

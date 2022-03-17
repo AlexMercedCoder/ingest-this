@@ -1,7 +1,14 @@
 ---
 title: Passing Data Between Components in Vue
-date: "2020-09-20T22:12:03.284Z"
-description: Props, Queries and Events oh my!
+date: "2020-09-20"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - vue
+    - javascript
+    - backend
 ---
 
 ## The dilemma

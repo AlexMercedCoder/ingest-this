@@ -1,7 +1,14 @@
 ---
 title: Web Components Part 1 - The Basics
-date: "2020-08-26T22:12:03.284Z"
-description: "Creating, ShadowDOM"
+date: "2020-08-26"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - web components
+    - javascript
+    - backend
 ---
 
 ## What is a Web Component

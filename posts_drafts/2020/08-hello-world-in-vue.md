@@ -1,7 +1,13 @@
 ---
 title: Hello World in Vue
-date: "2020-08-17T22:12:03.284Z"
-description: "Firs Blog Post and Vue Tutorial"
+date: "2020-08-17"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - vue
+    - javascript
 ---
 
 **VUE VIDEO PLAYLIST:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbbsEAIDfFAlhAVbSCIt2Bxx

@@ -1,6 +1,6 @@
 ---
 title: Big List of Online Places to Code/Prototype
-date: "2020-09-24T22:12:03.284Z"
+date: "2020-09-24"
 author: "Alex Merced"
 category: "tooling"
 bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"

@@ -1,7 +1,14 @@
 ---
 title: Typescript 101 - Typing, Interfaces and Enums oh MY!
-date: "2020-10-02T22:12:03.284Z"
-description: Super charging Javascript Scalability
+date: "2020-10-02"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - typescript
+    - javascript
+    - backend
 ---
 
 **Watch My Typescript Video Playlist Here: https://www.youtube.com/playlist?list=PLY6oTPmKnKbboGAL_-MineM-zcOblOm6V**

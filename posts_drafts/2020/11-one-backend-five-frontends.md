@@ -1,7 +1,16 @@
 ---
 title: 1 Backend, 5 Frontends - Todo List with Rails, React, Angular, Vue, Svelte, and jQuery
-date: "2020-11-17T22:12:03.284Z"
-description: Same app... different frontend frameworks
+date: "2020-11-17"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - react
+    - javascript
+    - angular
+    - vue
+    - svelte
 ---
 
 ## Why are we doing this?

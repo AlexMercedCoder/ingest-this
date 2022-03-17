@@ -1,7 +1,12 @@
 ---
 title: Making Framework Agnostic Web Components with StencilJS
 date: "2020-10-26T22:12:03.284Z"
-description: Ionics Component Creation Tool
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - web components
 ---
 
 **STENCIL VIDEO PLAYLIST:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbazpUTMcGmvMtgU5sr0Ip-V

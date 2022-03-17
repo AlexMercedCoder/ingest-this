@@ -1,7 +1,13 @@
 ---
 title: Web Components Part 2 - Styling and Slots
-date: "2020-08-27T22:12:03.284Z"
-description: "Making Pretty and Flexible Components"
+date: "2020-08-27"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - web components
+    - javascript
 ---
 
 ## What is a Web Component

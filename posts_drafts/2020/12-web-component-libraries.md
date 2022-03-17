@@ -1,7 +1,13 @@
 ---
 title: Web Component Libraries
-date: "2020-12-18T22:12:03.284Z"
-description: Libraries of Pre-Built Web Components
+date: "2020-12-18"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - web components
+    - javascript
 ---
 
 ## What are Web Components

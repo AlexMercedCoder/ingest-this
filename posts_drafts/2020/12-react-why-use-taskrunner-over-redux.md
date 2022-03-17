@@ -1,7 +1,13 @@
 ---
 title: React - Why use TaskRunner over Redux, useReducer
-date: "2020-12-24T12:12:03.284Z"
-description: "A State Management Alternative"
+date: "2020-12-24"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - react
+    - javascript
 ---
 
 ## What is the story?

@@ -1,7 +1,13 @@
 ---
 title: Learning Svelte 101
-date: "2020-10-05T22:12:03.284Z"
-description: Cybernetically Enhanced Web Apps!
+date: "2020-10-05"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - svelte
+    - javascript
 ---
 
 **This tutorial will be using this codesandbox, so open it up and fork it**: https://codesandbox.io/s/welcome-to-svelte-is0hb

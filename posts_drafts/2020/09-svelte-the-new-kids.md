@@ -1,7 +1,13 @@
 ---
 title: Svelte - The New Kids on the Frontend Framework Block
-date: "2020-09-05T22:12:03.284Z"
-description: "Compiling based frontend framework"
+date: "2020-09-05"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - svelte
+    - javascript
 ---
 
 ## What is Svelte

@@ -1,7 +1,13 @@
 ---
 title: Web Components Part 3 - Lifecycle Functions
-date: "2020-09-05T22:12:03.284Z"
-description: "Built in functions that run at certain points"
+date: "2020-09-05"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2022/understanding-ssh.png"
+tags:
+    - frontend
+    - web components
+    - javascript
 ---
 
 ## What is a Web Component
