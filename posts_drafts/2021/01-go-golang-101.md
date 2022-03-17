@@ -1,7 +1,12 @@
 ---
 title: Go/Golang 101 - The Syntax and Basics
-date: "2021-01-04T12:12:03.284Z"
-description: A Fun Language for Fast Compiled Apps
+date: "2021-01-04"
+author: "Alex Merced"
+category: "other languages"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - golang
+	- other languages
 ---
 
 ## Why do we need another lower-level compiled language?

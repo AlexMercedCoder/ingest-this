@@ -1,7 +1,12 @@
 ---
 title: Understanding Dependency Injection
-date: "2021-01-24T12:12:03.284Z"
-description: What a Fancy Word
+date: "2021-01-24"
+author: "Alex Merced"
+category: "computer science"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - design patterns
+    - computer science
 ---
 
 - [Watch My Video Explanation](https://youtu.be/qGVJVqHNTNo)

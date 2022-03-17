@@ -1,7 +1,13 @@
 ---
 title: Creating a Bosque Programming Language Dev Environment in 2021
-date: "2021-01-18T12:12:03.284Z"
-description: Microsoft Exeperimental Language
+date: "2021-01-18"
+author: "Alex Merced"
+category: "other languages"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+  - bosque
+  - microsoft
+  - other languages
 ---
 
 ## What is Bosque?
@@ -36,11 +42,11 @@ Create a folder you want to work out of and copy the docker file from the [Bosqu
 
 I could not find clarity on how to compile code. I know in the most recent docs they referred compiling with a file called exegen.exe, but it would likely be called something else for linux (the dockerfile creates a Linux container) and the file path in the readme didn't match the docker container. I eventually found the compiler here:
 
-```/bosque/impl/bin/runtimes/exegen/exegen.js```
+`/bosque/impl/bin/runtimes/exegen/exegen.js`
 
 The Compile Command would then be
 
-```node /bosque/impl/bin/runtimes/exegen/exegen.js -o <outputfile> <source>.bsq```
+`node /bosque/impl/bin/runtimes/exegen/exegen.js -o <outputfile> <source>.bsq`
 
 That's a mouthful so I created the following alias in a bash script and I run it every time I open up this folder:
 
@@ -61,11 +67,11 @@ This feels much easier!
 Create a file called helloworld.bsq
 
 ```rust
-namespace NSMain;  
-entrypoint  
-function main(): String {  
- return "Hello World";  
-}  
+namespace NSMain;
+entrypoint
+function main(): String {
+ return "Hello World";
+}
 ```
 
 then compile it
@@ -83,4 +89,3 @@ then run the file
 ## Conclusion
 
 Now you have an environment for working with the Bosque language, also if you haven't used the remote-container extension before, now you know how you can easily generate an environment for any language without installing new software on your system.
-

@@ -1,7 +1,13 @@
 ---
 title: Getting Started Programming Ballerina 101
-date: "2021-01-05T12:12:03.284Z"
-description: Web Application Architecture
+date: "2021-01-05"
+author: "Alex Merced"
+category: "other languages"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - ballerina
+    - other languages
+    - jvm
 ---
 
 ## What is Ballerina?

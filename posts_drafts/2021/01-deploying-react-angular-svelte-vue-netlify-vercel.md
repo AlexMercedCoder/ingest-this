@@ -1,7 +1,14 @@
 ---
 title: Deploying React, Angular, Svelte and Vue to Netlify & Vercel
-date: "2021-01-12T12:12:03.284Z"
-description: Getting Your Project Online
+date: "2021-01-12"
+author: "Alex Merced"
+category: "deployment"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - deployment
+    - frontend
+    - javascript
+    - tooling
 ---
 
 ## Creating Your Project

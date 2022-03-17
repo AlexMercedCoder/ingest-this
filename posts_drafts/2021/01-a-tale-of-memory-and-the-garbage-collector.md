@@ -1,7 +1,11 @@
 ---
 title: A Tale of Memory and the Garbage Collector
-date: "2021-01-29T12:12:03.284Z"
-description: The Stack, The Heap, and Memory Management
+date: "2021-01-29"
+author: "Alex Merced"
+category: "computer science"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - computer science
 ---
 
 ## It all starts with memory

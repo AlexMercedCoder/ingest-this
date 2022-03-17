@@ -1,7 +1,12 @@
 ---
 title: Git - A Guide to Understanding and Using Git
-date: "2021-01-09T12:12:03.284Z"
-description: All The Commands in Words that Make Sense
+date: "2021-01-09"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - git
+    - tooling
 ---
 
 - [VIDEO: Intro to Git](https://www.youtube.com/watch?v=L4zbgo7KFoA&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=7&t=9s)

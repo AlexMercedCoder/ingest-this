@@ -1,7 +1,11 @@
 ---
 title: Guide to Becoming a Developer in 2021
-date: "2021-01-07T12:12:03.284Z"
-description: Step by Step Guide and Advice
+date: "2021-01-07"
+author: "Alex Merced"
+category: "careers"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - careers
 ---
 ## Reasons to Become a Developer
 

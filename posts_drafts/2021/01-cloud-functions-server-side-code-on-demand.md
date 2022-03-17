@@ -1,7 +1,13 @@
 ---
 title: Cloud Functions - Server-Side Code On Demand
-date: "2021-01-22T12:12:03.284Z"
-description: Why you should embrace serverless tech
+date: "2021-01-22"
+author: "Alex Merced"
+category: "serverless"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - serverless
+    - backend
+    - cloud
 ---
 
 ## How things have been done

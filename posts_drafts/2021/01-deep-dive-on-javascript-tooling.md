@@ -1,7 +1,12 @@
 ---
 title: Deep Dive on Javascript Tooling (Bundlers, Linters, Oh MY!)
-date: "2021-01-08T12:12:03.284Z"
-description: Node, ESLint, Babel, Bundlers
+date: "2021-01-08"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - javascript
+    - tooling
 ---
 
 ## Node

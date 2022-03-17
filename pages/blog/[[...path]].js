@@ -4,33 +4,42 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Blog.module.css";
 import Head from "next/head";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 // The Blog Page Content
 export default function Blog({ posts, categories }) {
-
-  const maxSlice = Math.ceil(posts.length / 20)
+  const searchRef = useRef(null);
+  const maxSlice = Math.ceil(posts.length / 20);
 
   const getPostSlice = (page) => {
-
-    const firstPost = (page-1) * 20
-    const lastPost = page < maxSlice ? page * 20 : posts.length -1
-    console.log(firstPost, lastPost)
+    const firstPost = (page - 1) * 20;
+    const lastPost = page < maxSlice ? page * 20 : posts.length - 1;
+    console.log(firstPost, lastPost);
 
     return {
       page,
-      slice: posts.slice(firstPost, lastPost )
-    }
-  }
+      slice: posts.slice(firstPost, lastPost),
+    };
+  };
 
-  const [postSlice, setPostSlice] = useState(getPostSlice(1))
+  const [postSlice, setPostSlice] = useState(getPostSlice(1));
+
+  const search = () => {
+    const term = searchRef.current.value;
+    const results = posts.filter(
+      (p) =>
+        p.frontmatter.tags.includes(term) || p.frontmatter.title.includes(term)
+    );
+    setPostSlice({
+      page: 1,
+      slice: results,
+    });
+  };
 
   return (
     <main className={styles.main}>
       <Head>
-        <title>
-          GrokOverflow - blog listing
-        </title>
+        <title>GrokOverflow - blog listing</title>
         <meta
           name="description"
           content={`Listing of GrokOverflow Articles on development`}
@@ -65,27 +74,49 @@ export default function Blog({ posts, categories }) {
             </article>
           );
         })}
-        
       </aside>
       <div className={styles.buttons}>
-          <button onClick={() => {
-            const page = postSlice.page > 1 ? postSlice.page - 1 : 1 
-            setPostSlice(getPostSlice(page))
-          }}>Back</button>
-          <button onClick={() => {
-            const page = postSlice.page < maxSlice ? postSlice.page + 1 : maxSlice 
-            setPostSlice(getPostSlice(page))
-          }}>Next</button>
+        <button
+          onClick={() => {
+            const page = postSlice.page > 1 ? postSlice.page - 1 : 1;
+            setPostSlice(getPostSlice(page));
+          }}
+        >
+          Back
+        </button>
+        <button
+          onClick={() => {
+            const page =
+              postSlice.page < maxSlice ? postSlice.page + 1 : maxSlice;
+            setPostSlice(getPostSlice(page));
+          }}
+        >
+          Next
+        </button>
+      </div>
+      <aside className={styles.c}>
+        <div className={styles.searchBox}>
+          <h4 className={styles.rtitle}>Post Search</h4>
+          <input
+            type="text"
+            name="search"
+            placeholder="search titles and tags"
+            ref={searchRef}
+          />
+          <button onClick={search} className={styles.searchButton}>
+            Search
+          </button>
         </div>
-      <aside className={styles.categories}>
-        <h4 className={styles.rtitle}>Categories</h4>
-        {categories.map((c) => {
-          return (
-            <div key={c}>
-              <Link href={`/blog/category/${c}`}>{c}</Link>
-            </div>
-          );
-        })}
+        <div className={styles.categories}>
+          <h4 className={styles.rtitle}>Categories</h4>
+          {categories.map((c) => {
+            return (
+              <div key={c}>
+                <Link href={`/blog/category/${c}`}>{c}</Link>
+              </div>
+            );
+          })}
+        </div>
       </aside>
     </main>
   );

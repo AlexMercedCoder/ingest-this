@@ -8,6 +8,8 @@
     "b b b c"
     "b b b c"
     "b b b c"
+    "b b b c"
+    "b b b c"
     "n n n c";
 }
 
@@ -42,10 +44,15 @@
 
 }
 
-.categories {
+.c {
     grid-area: c;
+}
+
+.categories {
+
     font-size: 1.2em;
     padding: 0 5px;
+    text-align: center;
 }
 
 .categories a:hover {
@@ -57,7 +64,7 @@
     text-align: center;
 }
 
-.buttons button {
+.buttons button, .searchButton, .searchBox input {
     padding: 10px;
     background-color: var(--main-color-1);
     color: white;
@@ -69,9 +76,37 @@
     cursor: pointer;
 }
 
+.searchBox input {
+    margin: 0px;
+}
+
+.searchBox input::placeholder {
+    color: white;
+}
+
+.searchBox {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+
 @media (max-width: 800px) {
     .categories a {
         color: var(--main-color-1)
+    }
+
+    .searchBox input {
+        margin: 0px;
+        font-size: .8em;
+    }
+}
+
+@media(max-width: 300px){
+    .searchBox input {
+        font-size: .6em;
+        padding: 3px;
     }
 }
 

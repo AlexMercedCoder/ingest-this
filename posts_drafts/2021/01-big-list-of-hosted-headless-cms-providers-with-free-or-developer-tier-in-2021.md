@@ -1,7 +1,13 @@
 ---
 title: Big List of Hosted Headless CMS Providers with Free or Developer Tier in 2021
-date: "2021-01-12T12:12:03.284Z"
-description: Get Your JAM Stack ON
+date: "2021-01-12"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - headless cms
+    - jamstack
+    - tooling
 ---
 
 ## What is a Headless CMS
