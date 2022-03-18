@@ -1,7 +1,13 @@
 ---
 title: How to use Netlify Cloud Functions
-date: "2021-01-23T12:12:03.284Z"
-description: Your First Cloud Function
+date: "2021-01-23"
+author: "Alex Merced"
+category: "serverless"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - serverless
+    - deployment
+    - backend
 ---
 
 ## Context

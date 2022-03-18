@@ -1,7 +1,12 @@
 ---
 title: Git/Github - Making the Switch from Master to Main
-date: "2021-01-09T12:12:03.284Z"
-description: Getting with the times
+date: "2021-01-09"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - git
+    - tooling
 ---
 
 ## Why Should I do this?

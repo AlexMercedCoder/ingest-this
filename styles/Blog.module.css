@@ -78,6 +78,7 @@
 
 .searchBox input {
     margin: 0px;
+    text-transform: none;
 }
 
 .searchBox input::placeholder {

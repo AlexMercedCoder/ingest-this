@@ -1,7 +1,12 @@
 ---
 title: In-Depth Guide on Understanding Deploying Web Apps
-date: "2021-01-01T12:12:03.284Z"
-description: Servers, Ports and Environmental Variables oh my
+date: "2021-01-01"
+author: "Alex Merced"
+category: "deployment"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - deployment
+    - computer science
 ---
 
 ## What we will be discussing

@@ -1,7 +1,11 @@
 ---
-title: Python Virtual Environment 101
-date: "2021-01-27T12:12:03.284Z"
-description: Understanding that Pesky Virtual Environment Thing
+title: Python Virtual Environments 101
+date: "2021-01-27"
+author: "Alex Merced"
+category: "python"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - python
 ---
 
 ## Why do we care?

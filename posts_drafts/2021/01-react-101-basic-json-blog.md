@@ -1,7 +1,13 @@
 ---
 title: React 101 - Basic JSON Blog from 0 to deployment
-date: "2021-01-08T12:12:03.284Z"
-description: A Simple Build to Learn React
+date: "2021-01-08"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - react
+    - javascript
+    - frontend
 ---
 
 ## Our Goal

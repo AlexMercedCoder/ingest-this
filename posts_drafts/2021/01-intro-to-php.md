@@ -1,7 +1,13 @@
 ---
 title: Intro to PHP
-date: "2021-01-15T12:12:03.284Z"
-description: Learn the Pre-Hypertext Processor Language
+date: "2021-01-15"
+author: "Alex Merced"
+category: "php"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - php
+    - backend
+    - other languages
 ---
 
 ## What is PHP?

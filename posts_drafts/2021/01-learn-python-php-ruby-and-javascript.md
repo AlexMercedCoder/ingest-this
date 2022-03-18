@@ -1,7 +1,14 @@
 ---
 title: Learn Python, PHP, Ruby and Javascript in one Blog Post
-date: "2021-01-30T12:12:03.284Z"
-description: Be the Polyglot you know you can be!
+date: "2021-01-30"
+author: "Alex Merced"
+category: "other languages"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - python
+    - php
+    - ruby
+    - javascript
 ---
 
 ## Getting Started
