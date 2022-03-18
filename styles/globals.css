@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 :root {
-  --main-color-1: firebrick;
-  --main-color-2: lightslategray;
+  --main-color-1: lightseagreen;
+  --main-color-2: black;
   --code-color: #C0DFD9
 }
 
 code {
-  background-color: rgb(44, 14, 14);
+  background-color: rgb(17, 37, 68);
   color: white;
   padding: 6px;
   border-radius: 3px;;

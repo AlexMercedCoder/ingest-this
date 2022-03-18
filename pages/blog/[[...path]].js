@@ -52,8 +52,8 @@ export default function Blog({ posts, categories }) {
           <Image
             src={posts[0].frontmatter.bannerImage}
             alt={posts[0].frontmatter.title}
-            width={285}
-            height={160}
+            width={150}
+            height={150}
           />
         </Link>
       </aside>
@@ -69,7 +69,7 @@ export default function Blog({ posts, categories }) {
           return (
             <article key={slug}>
               <Link href={`/posts/${slug}`}>
-                <Image src={bannerImage} alt={title} width={285} height={160} />
+                <Image src={bannerImage} alt={title} width={150} height={150} />
               </Link>
             </article>
           );
