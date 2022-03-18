@@ -13,6 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>Welcome to GrokOverflow!</h1>
+        <h2>Content for devs, coders and engineers</h2>
         <p> My name is Alex Merced (AlexMercedCoder.com) and on this website you willll find lots of blogs, videos and podcasts on all sorts of different types of software development. Check out the blog section and feel free to click on any category, tag or author to quickly find the blog post your looking for.</p>
         <p>Guest submissions are welcome. Pitch me your idea by emailing me at alex@grokoverflow.com or message me in the devNursery slack community linked in the navigation.</p>
         <p>

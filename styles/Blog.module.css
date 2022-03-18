@@ -17,6 +17,9 @@
     transition: border-radius .3s, border .3s, filter .3s;
     filter: grayscale(50%);
     cursor: pointer;
+    /* width: 50% !important;
+    height: auto !important; */
+    /* min-width: 150px !important; */
 }
 
 .main img:hover {
