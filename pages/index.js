@@ -27,8 +27,8 @@ export default function Home() {
             <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper"><li>Youtube.com</li></a>
             <a href="https://odysee.com/@alexmercedcoder:e"><li>Odysee (Alternative Video Network)</li></a>
             <a href="https://indieweb.social/@alexmerced"><li>Mastodon (Twitter Alternative)</li></a>
-            <a href="https://open.spotify.com/show/3v0FiFQ4cssESk9SxKmVfJ"><li>DataNation Podcast</li></a>
-            <a href="https://open.spotify.com/show/1kMcquypdIElTu4Nu98XPM"><li>Web Dev 101 Podcast</li></a>
+            <a href="https://open.spotify.com/show/3KHzqR9eFW6bJ1Tqoh2juM"><li>DataNation Podcast</li></a>
+            <a href="https://open.spotify.com/show/04ZuSb96sicLYm9xb3NpXC"><li>Web Dev 101 Podcast</li></a>
             <a href="https://www.grokoverflow.com"><li>GrokOverflow - Content for Devs</li></a>
           </ul>
         </p>
