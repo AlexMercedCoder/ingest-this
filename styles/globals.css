@@ -86,3 +86,8 @@ pre {
   line-height: 1.2em;
   /* overflow: auto; */
 }
+
+.blog-post img {
+  max-width: 90%;
+  text-align: center;
+}
