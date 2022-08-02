@@ -39,10 +39,10 @@ export default function Blog({ posts, categories }) {
   return (
     <main className={styles.main}>
       <Head>
-        <title>GrokOverflow - blog listing</title>
+        <title>IngestThis - blog listing</title>
         <meta
           name="description"
-          content={`Listing of GrokOverflow Articles on development`}
+          content={`Listing of IngestThis Articles on development`}
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
