@@ -4,6 +4,7 @@ tags:
   - "data engineering"
   - "data lakehouse"
   - "dremio"
+author: "Alex Merced"
 title: "Resources for Learning more about Catalog level versioning with Project Nessie & Dremio Arctic (Rollbacks, Branching, Tagging and Multi-Table Txns)"
 date: "2023-05-10T12:12:03.284Z"
 author: "Alex Merced"
