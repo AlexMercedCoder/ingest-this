@@ -3,7 +3,7 @@ title: "Overview of the Data Lakehouse, Dremio and Apache Iceberg"
 date: "2023-04-05T12:12:03.284Z"
 author: "Alex Merced"
 category: "data engineering"
-bannerImage: "https://i.imgur.com/O14AYU4.png"
+bannerImage: "/images/postbanner/2023/B320A627-63C5-401F-A507-2786352C02FB.png"
 tags:
   - data engineering
   - data lakehouse
@@ -11,6 +11,7 @@ tags:
 ---
 
 In this article, I hope clarify the who, what, why, and how of:
+
 - The Data Lakehouse
 - Dremio
 - Apache Iceberg
@@ -28,6 +29,7 @@ Before the concept of a data lakehouse, you had two different patterns:
 - **Data Warehouse**: Putting structured data in a database optimized for analytical workloads. Data Warehouses provided performance and ease of use but came with a hefty price tag, along with often having your data stuck in their available toolsets.
 
 The data lakehouse arises from trying to combine the best of both worlds:
+
 - affordability
 - flexibility
 - performance
@@ -37,13 +39,13 @@ You get affordability and flexibility by taking full ownership of your data, usi
 
 You get ease of use and performance based on the modular abstraction you build on top of that data lake storage. Essentially different layers which different tools can interchangeably fill. The Layers are like so:
 
-| Layer | Purpose |
-|-------|---------|
-| Storage | Where the data is stored (HDFS/Object Storage)|
-| File Format | How the data is stored (Parquet/ORC/AVRO) |
-| Table Format | Metadata that tools can use to treat your data like database tables (Apache Iceberg/Delta Lake/Apache Hudi) |
-| Catalog + Semantic Layer | Tools for tracking what tables exist, documenting them, organizing them, controlling their access (Dremio Arctic/AWS Glue/Tabular/Onehouse/Select */Cube) |
-| Query Engine | A tool that can run analytical workloads on the datasets visible through the catalogs it connects to (Dremio Sonar/Presto/Trino)|
+| Layer                    | Purpose                                                                                                                                                    |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Storage                  | Where the data is stored (HDFS/Object Storage)                                                                                                             |
+| File Format              | How the data is stored (Parquet/ORC/AVRO)                                                                                                                  |
+| Table Format             | Metadata that tools can use to treat your data like database tables (Apache Iceberg/Delta Lake/Apache Hudi)                                                |
+| Catalog + Semantic Layer | Tools for tracking what tables exist, documenting them, organizing them, controlling their access (Dremio Arctic/AWS Glue/Tabular/Onehouse/Select \*/Cube) |
+| Query Engine             | A tool that can run analytical workloads on the datasets visible through the catalogs it connects to (Dremio Sonar/Presto/Trino)                           |
 
 So, instead of using a database or data warehouse that abstracts all these layers, leaving you stuck inside, the lakehouse lets you use any and as many tools at each layer as you like (you can use more than one).
 
@@ -66,24 +68,28 @@ Essentially Dremio is an all-purpose tool for making your data lake or data lake
 ### What is Dremio Cloud and Dremio Software
 
 Dremio has two deployment models:
+
 1. Self-deployment (maintain your own Dremio cluster on-prem or in the cloud)
 2. Cloud SaaS Product (sign up in minutes for Dremio cloud)
 
 The self-deployment model makes sense if:
+
 - Due to internal or external rules, you can't use a cloud service
 - Your data is currently on-prem
 - You need custom connectors (large library of community connectors available for Dremio Software)
 - You are using a cloud service not yet supported by Dremio Cloud
 
 Cloud SaaS makes sense if:
+
 - You use primarily one of the cloud services supported by Dremio Cloud
 - You don't want to have to maintain a cluster
 - You want access to Dremio Arctic (more on this soon)
-- You prefer SaaS 
+- You prefer SaaS
 
 ![Choosing a Dremio Deployment Model](https://i.imgur.com/ZSQVNvl.jpg)
 
 Either deployment model has a way of evaluating it for free (You still have to pay for any associated cloud infrastructure):
+
 - You can deploy [Dremio Community Edition](https://www.dremio.com/get-started-dremio-software/) to try out Dremio software today.
 - You can [sign up for Dremio Cloud in minutes](https://www.dremio.com/sign-up/) and use it for free.
 
