@@ -7,7 +7,6 @@ tags:
 author: "Alex Merced"
 title: "Resources for Learning more about Catalog level versioning with Project Nessie & Dremio Arctic (Rollbacks, Branching, Tagging and Multi-Table Txns)"
 date: "2023-05-10T12:12:03.284Z"
-author: "Alex Merced"
 category: "data engineering"
 bannerImage: "/images/postbanner/2023/B216305A-28E8-48B7-B247-77805DC6E51D.png"
 
