@@ -1,5 +1,4 @@
 ---
-noteId: "fdb83ab0ef4311edbf7e1fae3043dfc4"
 tags:
   - "data engineering"
   - "data lakehouse"
