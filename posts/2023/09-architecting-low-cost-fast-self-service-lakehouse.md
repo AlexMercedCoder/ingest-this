@@ -24,6 +24,8 @@ There are several goals data architects perpetually trying to improve upon:
 
 ## How has this been done up until now?
 
+![Old-School Data Architecture](https://i.imgur.com/xku46Uf.png)
+
 1. Land raw data from differing sources into the data lake in a "raw zone"
 Make all your transformations, data validations, schema updates, denormalizations and land the data into optimized parquet files in the "silver zone"
 1. Generate aggregated data into their own parquet files that live in a "gold zone"
@@ -52,6 +54,8 @@ Data has to be governed from the data lake and data warehouse along with the iss
 - Giving users the ability to curate the data changes they need (last-mile ETL) should be easy so the engineering team can focus on the health of the entire architecture versus a backlog of schema changes, access requests, etc.
 
 ## How do we make this happen:
+
+![Dremio Based Lakehouse Architecture](https://i.imgur.com/JhRNkOz.png)
 
 1. Land your raw data in the open-source Apache Iceberg table format in your data storage, cataloged by an open-source Nessie or Dremio Arctic catalog. The catalog will allow us to track the newly ingested data on an isolated branch that doesn't affect previously validated production data on our "main" branch which fuels the queries of our end users.
 1. Run all your data validation, transformation and clean-up work on the branch, then merge the changes across all your tables as one large multi-table commit when done. At this point, no data duplicates have been generated.
