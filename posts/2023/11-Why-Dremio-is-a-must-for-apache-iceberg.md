@@ -4,7 +4,7 @@ date: "2022-11-30"
 description: "Why is Dremio so useful for Apache Iceberg data lakehouses"
 author: "Alex Merced"
 category: "data lakehouse"
-bannerImage: "https://i.imgur.com/MxMfN8I.png"
+bannerImage: "https://i.imgur.com/cpoMZQ8.png"
 tags:
   - Apache Iceberg
   - Data Lakehouse
