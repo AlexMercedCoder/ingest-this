@@ -49,12 +49,7 @@ export default function Blog({ posts, categories }) {
       <aside className={styles.featured}>
         <h1>Featured Post</h1>
         <Link href={`/posts/${posts[0].slug}`}>
-          <Image
-            src={posts[0].frontmatter.bannerImage}
-            alt={posts[0].frontmatter.title}
-            width={150}
-            height={150}
-          />
+        {posts[0].frontmatter.title}
         </Link>
       </aside>
       <aside className={styles.blogs}>
@@ -67,9 +62,9 @@ export default function Blog({ posts, categories }) {
 
           //JSX for individual blog listing
           return (
-            <article key={slug}>
+            <article key={slug} className={styles.square}>
               <Link href={`/posts/${slug}`}>
-                <Image src={bannerImage} alt={title} width={150} height={150} />
+                {title}
               </Link>
             </article>
           );
