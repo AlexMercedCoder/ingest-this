@@ -50,11 +50,11 @@ One of the most persuasive arguments for adopting Apache Iceberg is its dynamic 
 
 Dremio is a comprehensive [data lakehouse platform that consolidates numerous functionalities, typically offered by different vendors, into a single solution](https://www.dremio.com/blog/what-is-a-data-lakehouse-platform/). It unifies data analytics through data virtualization and a semantic layer, streamlining the integration and interpretation of data from diverse sources. Dremio's robust SQL query engine is capable of federating queries across various data sources, offering transparent acceleration to enhance performance. Additionally, Dremio's suite of lakehouse management features includes a Nessie-powered data catalog, which ensures data is versioned and easily transportable, alongside automated table maintenance capabilities. This integration of multiple key features into one platform simplifies the data management process, making Dremio a powerful and efficient tool for organizations looking to harness the full potential of their data lakehouse.
 
-### 5. Apache Arrow
+### 1. Apache Arrow
 
 One of the key reasons Dremio's SQL query engine outperforms other distributed query engines and data warehouses is its core reliance on [Apache Arrow, an in-memory data format increasingly recognized as the de facto standard for analytical processing](https://www.dremio.com/blog/the-origins-of-apache-arrow-its-fit-in-todays-data-landscape/). Apache Arrow facilitates the swift and efficient loading of data from various sources into a unified format optimized for speedy processing. Moreover, it introduces a transport protocol known as Apache Arrow Flight, which significantly reduces serialization/deserialization bottlenecks often encountered when transferring data over the network within a distributed system or between different systems. This integration of Apache Arrow at the heart of Dremio's architecture enhances its query performance, making it a powerful tool for data analytics.
 
-### 4. Columnar Cloud Cache
+### 2. Columnar Cloud Cache
 
 One common bottleneck in querying a data lake based on object storage is the latency experienced when retrieving a large number of objects from storage. Additionally, each individual request can incur a cost, contributing to the overall storage access expenses. Dremio addresses these challenges with its [C3 (Columnar Cloud Cache) feature, which caches frequently accessed data on the NVMe memory of nodes within the Dremio cluster](https://www.dremio.com/blog/how-dremio-delivers-fast-queries-on-object-storage-apache-arrow-reflections-and-the-columnar-cloud-cache/). This caching mechanism enables rapid access to data during subsequent query executions that require the same information. As a result, the more queries that are run, the more efficient Dremio becomes. This not only enhances query performance over time but also reduces costs, making Dremio an increasingly cost-effective and faster solution as usage grows. This anti-fragile nature of Dremio, where it strengthens and improves with stress or demand, is a significant advantage for organizations looking to optimize their data querying capabilities.
 
@@ -66,7 +66,7 @@ In contrast, Dremio introduces a unique feature called Reflections, which simpli
 
 For data engineers, Dremio automates the management of these materializations, treating them as Iceberg tables that can be intelligently substituted when a query that would benefit from them is detected. Data analysts, on the other hand, continue to query tables and build dashboards as usual, without needing to navigate additional namespaces. They will, however, experience noticeable performance improvements immediately, without any extra effort. This streamlined approach not only enhances efficiency but also significantly reduces the complexity typically associated with optimizing query performance.
 
-### 2. Semantic Layer
+### 4. Semantic Layer
 
 Many query engines and data warehouses lack the capability to offer an organized, user-friendly interface for end users, a feature known as a semantic layer. This layer is crucial for providing logical, intuitive views for understanding and discovering data. Without this feature, organizations often find themselves needing to integrate services from additional vendors, which can introduce a complex web of dependencies and potential conflicts to manage.
 
