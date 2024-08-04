@@ -6,8 +6,7 @@ import Script from 'next/script'
 
 function Header (props){
     return <header className={styles.header}>
-        <Head>
-        <Script
+                <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-VV24N90YMR"
         strategy="afterInteractive"
       />
@@ -19,6 +18,8 @@ function Header (props){
           gtag('config', 'G-VV24N90YMR');
         `}
       </Script>
+        <Head>
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo">
