@@ -2,18 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Header.module.css'
 import Link from 'next/link'
+import Script from 'next/script'
 
 function Header (props){
     return <header className={styles.header}>
         <Head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VV24N90YMR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VV24N90YMR');
-</script>
+        <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-VV24N90YMR"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-VV24N90YMR');
+        `}
+      </Script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo">
