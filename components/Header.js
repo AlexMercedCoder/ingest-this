@@ -6,8 +6,6 @@ import Link from 'next/link'
 function Header (props){
     return <header className={styles.header}>
         <Head>
-
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VV24N90YMR"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
