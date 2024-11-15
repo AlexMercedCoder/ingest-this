@@ -1,6 +1,5 @@
 ---
 title: Deep Dive into Dremio's File-based Auto Ingestion into Apache Iceberg Tables
-pubDatetime: 2024-11-15T09:00:00Z
 date: "2024-11-15"
 description: "Auto ingesting data from JSON, CSV, and Parquet files into Apache Iceberg Tables"
 author: "Alex Merced"
@@ -10,8 +9,6 @@ tags:
   - data lakehouse
   - data engineering
   - apache iceberg
-slug: 2024-11-deep-dive-auto-ingest-dremio-iceberg
-image: "/images/blog.png"
 ---
 
 - [Blog: What is a Data Lakehouse and a Table Format?](https://www.dremio.com/blog/apache-iceberg-crash-course-what-is-a-data-lakehouse-and-a-table-format/?utm_source=ev_external_blog&utm_medium=influencer&utm_campaign=autoingestdremio&utm_content=alexmerced&utm_term=external_blog)
