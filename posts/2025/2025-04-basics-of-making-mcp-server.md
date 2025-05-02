@@ -1,5 +1,5 @@
 ---
-title: Building a Basic MCP Server with Python
+title: Introduction to Data Engineering Concepts | Scheduling and Workflow Orchestration
 date: "2025-04-04"
 description: "The Basics of Building a Basic MCP Server"
 author: "Alex Merced"
