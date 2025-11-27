@@ -39,12 +39,25 @@ export default function Blog({ posts, categories }) {
   return (
     <main className={styles.main}>
       <Head>
-        <title>IngestThis - blog listing</title>
+        <title>IngestThis - Blog & Articles</title>
         <meta
           name="description"
-          content={`Listing of IngestThis Articles on development`}
+          content="Browse the latest articles on Data Engineering, Data Science, and Architecture on IngestThis."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="IngestThis - Blog & Articles" />
+        <meta property="og:description" content="Browse the latest articles on Data Engineering, Data Science, and Architecture on IngestThis." />
+        <meta property="og:image" content="https://ingestthis.com/images/banner.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="IngestThis - Blog & Articles" />
+        <meta property="twitter:description" content="Browse the latest articles on Data Engineering, Data Science, and Architecture on IngestThis." />
+        <meta property="twitter:image" content="https://ingestthis.com/images/banner.png" />
       </Head>
       <aside className={styles.featured}>
         <h1>Featured Post</h1>

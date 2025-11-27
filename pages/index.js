@@ -6,15 +6,27 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          IngestThis - content for Data Engineers, Scientists, Analysts and
-          Architects
-        </title>
+        <title>IngestThis - Data Engineering, Science, and Architecture Content</title>
         <meta
           name="description"
-          content="IngestThis - content for Data Engineers, Scientists, Analysts and Architects"
+          content="IngestThis is the home for data professionals. Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ingestthis.com/" />
+        <meta property="og:title" content="IngestThis - Data Engineering Content" />
+        <meta property="og:description" content="Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects." />
+        <meta property="og:image" content="https://ingestthis.com/images/banner.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://ingestthis.com/" />
+        <meta property="twitter:title" content="IngestThis - Data Engineering Content" />
+        <meta property="twitter:description" content="Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects." />
+        <meta property="twitter:image" content="https://ingestthis.com/images/banner.png" />
       </Head>
 
       <main className={styles.main}>

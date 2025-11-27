@@ -41,9 +41,25 @@ export default function Post({ frontmatter, content }) {
   return (
     <main className={styles.main}>
       <Head>
-        <title>{title}</title>
-        <meta name="description" content={`"${title}" an article written by ${author} touching on ${tags.join(", ")}`} />
+        <title>{title} | IngestThis</title>
+        <meta name="description" content={`"${title}" - ${tags.join(", ")}. Written by ${author}.`} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={`Read "${title}" by ${author} on IngestThis.`} />
+        <meta property="og:image" content={bannerImage || "https://ingestthis.com/images/banner.png"} />
+        <meta property="article:author" content={author} />
+        <meta property="article:published_time" content={date} />
+        <meta property="article:tag" content={tags.join(",")} />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={`Read "${title}" by ${author} on IngestThis.`} />
+        <meta property="twitter:image" content={bannerImage || "https://ingestthis.com/images/banner.png"} />
       </Head>
       <div className={styles.details}>
       <h2>
