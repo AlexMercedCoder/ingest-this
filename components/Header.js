@@ -28,6 +28,7 @@ function Header (props){
         <nav className={styles.nav}>
             <Link href="/blog"><div className={styles.link}>BLOG</div></Link>
             <a href="https://join.slack.com/t/datanationcom-gti9492/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA"><div className={styles.link}>COMMUNITY</div></a>
+            <a href="https://open.spotify.com/show/2PRDrWVpgDvKxN6n1oUsJF?si=9b37b1ba28e2444b"><div className={styles.link}>PODCAST</div></a>
         </nav>
     </header>
 }
