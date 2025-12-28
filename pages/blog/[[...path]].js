@@ -5,9 +5,10 @@ import Link from "next/link";
 import styles from "../../styles/Blog.module.css";
 import Head from "next/head";
 import { useState, useRef } from "react";
+import Fuse from "fuse.js";
 
 // The Blog Page Content
-export default function Blog({ posts, categories }) {
+export default function Blog({ posts, categories, pageTitle }) {
   const searchRef = useRef(null);
   const maxSlice = Math.ceil(posts.length / 20);
 
@@ -22,14 +23,25 @@ export default function Blog({ posts, categories }) {
     };
   };
 
+  // Fuse.js configuration
+  const fuseOptions = {
+    keys: ["frontmatter.title", "frontmatter.tags", "frontmatter.description"],
+    threshold: 0.3,
+  };
+
   const [postSlice, setPostSlice] = useState(getPostSlice(1));
 
   const search = () => {
     const term = searchRef.current.value;
-    const results = posts.filter(
-      (p) =>
-        p.frontmatter.tags.includes(term) || p.frontmatter.title.includes(term)
-    );
+    if (!term) {
+        setPostSlice(getPostSlice(1));
+        return;
+    }
+
+    const fuse = new Fuse(posts, fuseOptions);
+    const result = fuse.search(term);
+    const results = result.map(r => r.item);
+
     setPostSlice({
       page: 1,
       slice: results,
@@ -60,10 +72,16 @@ export default function Blog({ posts, categories }) {
         <meta property="twitter:image" content="https://ingestthis.com/images/banner.png" />
       </Head>
       <aside className={styles.featured}>
-        <h1>Featured Post</h1>
-        <Link href={`/posts/${posts[0].slug}`}>
-        {posts[0].frontmatter.title}
-        </Link>
+        {pageTitle ? (
+            <h1>{pageTitle}</h1>
+        ) : (
+            <>
+            <h1>Featured Post</h1>
+            <Link href={`/posts/${posts[0].slug}`}>
+            {posts[0].frontmatter.title}
+            </Link>
+            </>
+        )}
       </aside>
       <aside className={styles.blogs}>
         {postSlice.slice.map((post) => {
@@ -226,22 +244,28 @@ export async function getStaticProps({ params: { path } }) {
   categories = [...new Set(categories)];
 
   // filter by category or tag for a category or tag page
+  let pageTitle = null;
+
   if (path) {
     if (path[0] === "category") {
+      pageTitle = `Category: ${path[1]}`;
       posts = posts.filter(({ frontmatter }) => {
         return frontmatter.category === path[1];
       });
     }
 
     if (path[0] === "tag") {
+      pageTitle = `Tag: ${path[1]}`;
       posts = posts.filter(({ frontmatter }) => {
         return frontmatter.tags.includes(path[1]);
       });
     }
 
     if (path[0] === "author") {
+        const authorName = path[1].replace("-", " "); // Naive cleanup
+        pageTitle = `Author: ${authorName}`; 
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.author.toLowerCase() === path[1].replace("-", " ");
+        return frontmatter.author.toLowerCase() === authorName;
       });
     }
   }
@@ -257,6 +281,7 @@ export async function getStaticProps({ params: { path } }) {
     props: {
       posts,
       categories,
+      pageTitle
     },
   };
 }

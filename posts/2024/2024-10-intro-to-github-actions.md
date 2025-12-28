@@ -394,7 +394,7 @@ jobs:
 ```
 In this example:
 
-- The secret API_KEY is securely referenced in the curl command using ${{ secrets.API_KEY }}.
+- The secret API_KEY is securely referenced in the curl command using `${{ secrets.API_KEY }}`.
 - The actual value of the secret will not appear in the logs, ensuring it is not exposed.
 
 ### Step 3: Environment-Specific Secrets

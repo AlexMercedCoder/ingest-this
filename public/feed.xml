@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>IngestThis</title>
+      <link>https://ingestthis.com</link>
+      <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
+      <language>en</language>
+      <lastBuildDate>Sun, 28 Dec 2025 21:26:42 GMT</lastBuildDate>
+      <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
+      
+    <item>
+      <title>dremioframe &amp; iceberg - Pythonic interfaces for Dremio and Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2025/2025-12-dremioframe-and-iceframe</link>
+      <guid>https://ingestthis.com/posts/2025/2025-12-dremioframe-and-iceframe</guid>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Discover DremioFrame and IceFrame, two new Python libraries that simplify working with Dremio and Apache Iceberg. Learn how these tools streamline data management and enhance productivity for modern data teams.]]></description>
+    </item>
+    <item>
+      <title>Introducing dremioframe - A Pythonic DataFrame Interface for Dremio</title>
+      <link>https://ingestthis.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</link>
+      <guid>https://ingestthis.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</guid>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Discover dremioframe, a new Python library that offers a DataFrame-like experience for interacting with Dremio's data lakehouse platform. Learn how to leverage its intuitive API to streamline your data engineering workflows.]]></description>
+    </item>
+    <item>
+      <title>Comprehensive Hands-on Walk Through of Dremio Cloud Next Gen (Hands-on with Free Trial)</title>
+      <link>https://ingestthis.com/posts/2025/2025-11-Dremio-next-gen-tutorial</link>
+      <guid>https://ingestthis.com/posts/2025/2025-11-Dremio-next-gen-tutorial</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Walkthrough with the new trial of the Dremio Cloud Platform]]></description>
+    </item>
+    <item>
+      <title>2025-2026 Guide to Learning about Apache Iceberg, Data Lakehouse &amp; Agentic AI</title>
+      <link>https://ingestthis.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</link>
+      <guid>https://ingestthis.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[A curated guide to mastering Apache Iceberg, data lakehouse architectures, and the emerging field of Agentic AI for data professionals.]]></description>
+    </item>
+    <item>
+      <title>An Exploration of the Commercial Iceberg Catalog Ecosystem</title>
+      <link>https://ingestthis.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</link>
+      <guid>https://ingestthis.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dive into the world of commercial Iceberg catalogs and discover how they enhance data lakehouse architectures for modern data engineering.]]></description>
+    </item>
+    <item>
+      <title>Building a Universal Lakehouse Catalog - Beyond Iceberg Tables</title>
+      <link>https://ingestthis.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</link>
+      <guid>https://ingestthis.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</guid>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Exploring paths to a universal lakehouse catalog that supports multiple data formats and engines, building on Apache Iceberg's success.]]></description>
+    </item>
+    <item>
+      <title>Intro to Apache Iceberg with Apache Polaris and Apache Spark</title>
+      <link>https://ingestthis.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</link>
+      <guid>https://ingestthis.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to leverage Apache Iceberg with Apache Polaris and Apache Spark to build scalable and efficient data lakehouses.]]></description>
+    </item>
+    <item>
+      <title>The State of Apache Iceberg v4 - October 2025 Edition</title>
+      <link>https://ingestthis.com/posts/2025/2025-10-apache-iceberg-v4</link>
+      <guid>https://ingestthis.com/posts/2025/2025-10-apache-iceberg-v4</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[What's Coming in Apache Iceberg v4: A Deep Dive into the Future of Open Table Formats]]></description>
+    </item>
+    <item>
+      <title>The Ultimate Guide to Open Table Formats - Iceberg, Delta Lake, Hudi, Paimon, and DuckLake</title>
+      <link>https://ingestthis.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</link>
+      <guid>https://ingestthis.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Understanding Iceberg, Delta Lake, Hudi, Paimon, and DuckLake]]></description>
+    </item>
+    <item>
+      <title>The 2025 &amp; 2026 Ultimate Guide to the Data Lakehouse and the Data Lakehouse Ecosystem</title>
+      <link>https://ingestthis.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</link>
+      <guid>https://ingestthis.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</guid>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[What is the Data Lakehouse and the Data Lakehouse Ecosystem? This comprehensive guide covers everything you need to know about the Data Lakehouse architecture, open table formats like Apache Iceberg, Delta Lake, Apache Hudi, and Apache Paimon, and the modern data ecosystem that supports them.]]></description>
+    </item>
+    <item>
+      <title>The Endgame — Building an Autonomous Optimization Pipeline for Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</guid>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to automate compaction, snapshot expiration, and layout optimization in Apache Iceberg using metadata-driven triggers and orchestration tools for a self-healing lakehouse.]]></description>
+    </item>
+    <item>
+      <title>Managing Large-Scale Optimizations — Parallelism, Checkpointing, and Fail Recovery</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to scale Apache Iceberg table optimizations across large datasets using parallelism, checkpointing, and fail recovery to ensure reliability and performance.]]></description>
+    </item>
+    <item>
+      <title>Unlocking the Power of Agentic AI with Apache Iceberg and Dremio</title>
+      <link>https://ingestthis.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</link>
+      <guid>https://ingestthis.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Unlocking the Power of Agentic AI with Apache Iceberg and Dremio]]></description>
+    </item>
+    <item>
+      <title>Hidden Pitfalls — Compaction and Partition Evolution in Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Partition evolution in Apache Iceberg is a powerful feature, but if not managed carefully, it can introduce fragmentation and impact compaction performance. Learn how to handle it effectively.]]></description>
+    </item>
+    <item>
+      <title>Using Iceberg Metadata Tables to Determine When Compaction Is Needed</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</guid>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Discover how to use Apache Iceberg's metadata tables to proactively detect small files, bloated manifests, and table fragmentation—so you can trigger compaction only when it's needed.]]></description>
+    </item>
+    <item>
+      <title>Designing the Ideal Cadence for Compaction and Snapshot Expiration</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-06-iceberg-optimization-cadence</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-06-iceberg-optimization-cadence</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to design an effective schedule for compaction and snapshot expiration in Apache Iceberg to balance cost, performance, and data freshness.]]></description>
+    </item>
+    <item>
+      <title>Avoiding Metadata Bloat with Snapshot Expiration and Rewriting Manifests</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to prevent and clean up metadata bloat in Apache Iceberg by expiring snapshots and rewriting manifests for better performance and manageability.]]></description>
+    </item>
+    <item>
+      <title>Smarter Data Layout — Sorting and Clustering Iceberg Tables</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Improve query performance in Apache Iceberg by organizing your data layout with sorting and Z-order clustering. Learn how to reduce scan cost and improve filter effectiveness.]]></description>
+    </item>
+    <item>
+      <title>Optimizing Compaction for Streaming Workloads in Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-03-iceberg-streaming-compaction</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-03-iceberg-streaming-compaction</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to design fast, incremental compaction strategies in Apache Iceberg to support high-throughput streaming pipelines without disrupting freshness or performance.]]></description>
+    </item>
+    <item>
+      <title>The Basics of Compaction — Bin Packing Your Data for Efficiency</title>
+      <link>https://ingestthis.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</link>
+      <guid>https://ingestthis.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how standard compaction works in Apache Iceberg and why bin packing your data files is essential for maintaining query performance and cost efficiency.]]></description>
+    </item>
+    </channel>
+  </rss>

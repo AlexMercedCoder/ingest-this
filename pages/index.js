@@ -43,42 +43,69 @@ export default function Home() {
           alex@ingestthis.com or message me in the devNursery slack community
           linked in the navigation.
         </p>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "IngestThis",
+              url: "https://ingestthis.com/",
+            }),
+          }}
+        />
         <p>
           Also make sure to follow me on the following platforms:
           <ul>
-            <a href="https://www.twitter.com/alexmercedcoder">
-              <li>Twitter (General Development account)</li>
-            </a>
-            <a href="https://www.twitter.com/amlakehouse">
-              <li>Twitter (Data Engineering Account)</li>
-            </a>
-            <a href="https://www.linkedin.com/in/alexmerced">
-              <li>LinkedIn</li>
-            </a>
-            <a href="https://www.instagram.com/alexmercedcoder">
-              <li>Instagram</li>
-            </a>
-            <a href="https://www.github.com/alexmercedcoder">
-              <li>Github</li>
-            </a>
-            <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper">
-              <li>Youtube.com</li>
-            </a>
-            <a href="https://odysee.com/@alexmercedcoder:e">
-              <li>Odysee (Alternative Video Network)</li>
-            </a>
-            <a href="https://indieweb.social/@alexmerced">
-              <li>Mastodon (Twitter Alternative)</li>
-            </a>
-            <a href="https://open.spotify.com/show/3KHzqR9eFW6bJ1Tqoh2juM">
-              <li>DataNation Podcast</li>
-            </a>
-            <a href="https://open.spotify.com/show/04ZuSb96sicLYm9xb3NpXC">
-              <li>Web Dev 101 Podcast</li>
-            </a>
-            <a href="https://www.grokoverflow.com">
-              <li>GrokOverflow - Content for Devs</li>
-            </a>
+            <li>
+              <a href="https://www.twitter.com/alexmercedcoder">
+                Twitter (General Development account)
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/amlakehouse">
+                Twitter (Data Engineering Account)
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/alexmerced">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/alexmercedcoder">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.github.com/alexmercedcoder">Github</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper">
+                Youtube.com
+              </a>
+            </li>
+            <li>
+              <a href="https://odysee.com/@alexmercedcoder:e">
+                Odysee (Alternative Video Network)
+              </a>
+            </li>
+            <li>
+              <a href="https://indieweb.social/@alexmerced">
+                Mastodon (Twitter Alternative)
+              </a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/show/3KHzqR9eFW6bJ1Tqoh2juM">
+                DataNation Podcast
+              </a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/show/04ZuSb96sicLYm9xb3NpXC">
+                Web Dev 101 Podcast
+              </a>
+            </li>
+            <li>
+              <a href="https://www.grokoverflow.com">
+                GrokOverflow - Content for Devs
+              </a>
+            </li>
           </ul>
         </p>
       </main>

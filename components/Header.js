@@ -3,8 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Header.module.css'
 import Link from 'next/link'
 import Script from 'next/script'
+import { useRouter } from "next/router";
+import ThemeToggle from "./ThemeToggle";
 
 function Header (props){
+    const router = useRouter();
     return <header className={styles.header}>
                 <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-VV24N90YMR"
@@ -19,7 +22,8 @@ function Header (props){
         `}
       </Script>
         <Head>
-
+        <link rel="canonical" href={`https://ingestthis.com${router.asPath.split("?")[0]}`} />
+        <meta property="og:site_name" content="IngestThis" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo">
@@ -29,6 +33,7 @@ function Header (props){
             <Link href="/blog"><div className={styles.link}>BLOG</div></Link>
             <a href="https://join.slack.com/t/datanationcom-gti9492/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA"><div className={styles.link}>COMMUNITY</div></a>
             <a href="https://open.spotify.com/show/2PRDrWVpgDvKxN6n1oUsJF?si=9b37b1ba28e2444b"><div className={styles.link}>PODCAST</div></a>
+            <ThemeToggle />
         </nav>
     </header>
 }

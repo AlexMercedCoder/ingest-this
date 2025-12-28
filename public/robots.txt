@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ingestthis.com
+
+# Sitemaps
+Sitemap: https://ingestthis.com/sitemap.xml
+Sitemap: https://ingestthis.com/server-sitemap.xml
