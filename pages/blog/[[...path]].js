@@ -83,23 +83,15 @@ export default function Blog({ posts, categories, pageTitle }) {
             </>
         )}
       </aside>
-      <aside className={styles.blogs}>
-        {postSlice.slice.map((post) => {
-          //extract slug and frontmatter
-          const { slug, frontmatter } = post;
-          //extract frontmatter properties
-          const { title, author, category, date, bannerImage, tags } =
-            frontmatter;
+import BlogCard from "../../components/BlogCard";
 
-          //JSX for individual blog listing
-          return (
-            <article key={slug} className={styles.square}>
-              <Link href={`/posts/${slug}`}>
-                {title}
-              </Link>
-            </article>
-          );
-        })}
+// ... existing imports ...
+
+// Inside Blog component logic ...
+      <aside className={styles.blogs}>
+        {postSlice.slice.map((post) => (
+            <BlogCard key={post.slug} post={post} />
+        ))}
       </aside>
       <div className={styles.buttons}>
         <button

@@ -30,19 +30,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Welcome to IngestThis!</h1>
-        <h2>Content for Data Engineers, Scientists, Analysts and Architects</h2>
-        <p>
-          {" "}
-          My name is Alex Merced (alexmercedcoder.dev) and on this website you
-          will be the home of a content that data professionals and aspiring
-          data professionals may find useful.
-        </p>
-        <p>
+        <section className={styles.hero}>
+            <h1>IngestThis!</h1>
+            <h2>Data Engineering, Science, and Architecture Content</h2>
+            <p>
+            Home for data professionals. Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.
+            </p>
+            <p>
           Guest submissions are welcome. Pitch me your idea by emailing me at
-          alex@ingestthis.com or message me in the devNursery slack community
-          linked in the navigation.
-        </p>
+          alex@ingestthis.com or message me in the devNursery slack community.
+            </p>
+        </section>
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -54,60 +53,53 @@ export default function Home() {
             }),
           }}
         />
-        <p>
-          Also make sure to follow me on the following platforms:
-          <ul>
-            <li>
-              <a href="https://www.twitter.com/alexmercedcoder">
-                Twitter (General Development account)
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com/amlakehouse">
-                Twitter (Data Engineering Account)
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/alexmerced">LinkedIn</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/alexmercedcoder">Instagram</a>
-            </li>
-            <li>
-              <a href="https://www.github.com/alexmercedcoder">Github</a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper">
-                Youtube.com
-              </a>
-            </li>
-            <li>
-              <a href="https://odysee.com/@alexmercedcoder:e">
-                Odysee (Alternative Video Network)
-              </a>
-            </li>
-            <li>
-              <a href="https://indieweb.social/@alexmerced">
-                Mastodon (Twitter Alternative)
-              </a>
-            </li>
-            <li>
-              <a href="https://open.spotify.com/show/3KHzqR9eFW6bJ1Tqoh2juM">
-                DataNation Podcast
-              </a>
-            </li>
-            <li>
-              <a href="https://open.spotify.com/show/04ZuSb96sicLYm9xb3NpXC">
-                Web Dev 101 Podcast
-              </a>
-            </li>
-            <li>
-              <a href="https://www.grokoverflow.com">
-                GrokOverflow - Content for Devs
-              </a>
-            </li>
-          </ul>
-        </p>
+
+        <section className={styles.socialGrid}>
+            <a href="https://www.twitter.com/alexmercedcoder" className={styles.socialCard}>
+                <h3>Twitter</h3>
+                <p>General Dev Account</p>
+            </a>
+            <a href="https://www.twitter.com/amlakehouse" className={styles.socialCard}>
+                <h3>Twitter</h3>
+                <p>Data Engineering</p>
+            </a>
+             <a href="https://www.linkedin.com/in/alexmerced" className={styles.socialCard}>
+                <h3>LinkedIn</h3>
+                <p>Professional Profile</p>
+            </a>
+            <a href="https://www.instagram.com/alexmercedcoder" className={styles.socialCard}>
+                <h3>Instagram</h3>
+                <p>Personal & Tech</p>
+            </a>
+            <a href="https://www.github.com/alexmercedcoder" className={styles.socialCard}>
+                <h3>GitHub</h3>
+                <p>Code & Projects</p>
+            </a>
+            <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper" className={styles.socialCard}>
+                <h3>YouTube</h3>
+                <p>Video Tutorials</p>
+            </a>
+            <a href="https://odysee.com/@alexmercedcoder:e" className={styles.socialCard}>
+                <h3>Odysee</h3>
+                <p>Video Backup</p>
+            </a>
+             <a href="https://indieweb.social/@alexmerced" className={styles.socialCard}>
+                <h3>Mastodon</h3>
+                <p>Decentralized Social</p>
+            </a>
+            <a href="https://open.spotify.com/show/3KHzqR9eFW6bJ1Tqoh2juM" className={styles.socialCard}>
+                <h3>DataNation</h3>
+                <p>Podcast</p>
+            </a>
+            <a href="https://open.spotify.com/show/04ZuSb96sicLYm9xb3NpXC" className={styles.socialCard}>
+                <h3>Web Dev 101</h3>
+                <p>Podcast</p>
+            </a>
+            <a href="https://www.grokoverflow.com" className={styles.socialCard} style={{gridColumn: '1 / -1', textAlign: 'center'}}>
+                <h3>GrokOverflow</h3>
+                <p>My Developer Portfolio & Blog</p>
+            </a>
+        </section>
       </main>
     </div>
   );
