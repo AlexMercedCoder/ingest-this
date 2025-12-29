@@ -8,17 +8,48 @@ import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 import rehypeHighlight from 'rehype-highlight'
 
-// syntax highlighting?
+import Comments from "../../components/Comments";
+import CopyButton from "../../components/CopyButton";
+import { Children } from "react";
+
+// Custom Pre component for Copy Button
+const Pre = ({ children, ...props }) => {
+    // Extract text content from the code block
+    let codeText = "";
+    try {
+        // If children is a <code> element (standard markdown)
+        if (children && children.props && children.props.children) {
+             codeText = children.props.children;
+        } else if (typeof children === "string") {
+            codeText = children;
+        }
+    } catch (e) {
+        console.error("Error parsing code block for copy", e);
+    }
+
+    return (
+        <div style={{ position: "relative" }}>
+            <CopyButton text={codeText} />
+            <pre {...props}>{children}</pre>
+        </div>
+    );
+};
+
+const components = {
+    pre: Pre
+};
+
 
 
 
 // The page for each post
-export default function Post({ frontmatter, mdxSource, relatedPosts }) {
+export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime }) {
   const { title, author, category, date, bannerImage, tags } = frontmatter;
 
   return (
     <main className={styles.main}>
       <Head>
+        {/* ... existing head content ... */}
         <title>{title} | IngestThis</title>
         <meta name="description" content={`"${title}" - ${tags.join(", ")}. Written by ${author}.`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -60,19 +91,36 @@ export default function Post({ frontmatter, mdxSource, relatedPosts }) {
           }}
         />
       </Head>
-      <h1>{title}</h1>
-      <div className={styles.details}>
-      <h2>
-        <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`}>{author}</Link> || {date}
-      </h2>
-      <h3>
-      <Link href={`/blog/category/${category}`}>{category}</Link> || {tags.map((tag, index) => {
-        return <Link href={`/blog/tag/${tag}`} key={tag}>{`${index !== 0 ? "-" : ""} ${tag} `}</Link>
-      })}
-      </h3>
+
+      {bannerImage && (
+        <div className={styles.heroContainer}>
+            <Image 
+                src={bannerImage} 
+                alt={title} 
+                fill 
+                style={{objectFit: 'cover'}}
+                priority
+            />
+        </div>
+      )}
+
+      <h1 className={styles.title}>{title}</h1>
+      
+      <div className={styles.metadata}>
+        <div className={styles.metaRow}>
+            <span>🗓 {date}</span>
+            <span>👤 <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`}>{author}</Link></span>
+            <span>⏱ {readingTime} min read</span>
+        </div>
+        <div className={styles.tagsRow}>
+             <Link href={`/blog/category/${category}`} className={styles.categoryPill}>{category}</Link>
+             {tags.map((tag) => (
+                <Link href={`/blog/tag/${tag}`} key={tag} className={styles.tagHash}>#{tag}</Link>
+             ))}
+        </div>
       </div>
       <div className="blog-post">
-        <MDXRemote {...mdxSource} />
+        <MDXRemote {...mdxSource} components={components} />
       </div>
       <hr />
       <h3>Read Next</h3>
@@ -85,6 +133,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts }) {
             </div>
         ))}
       </div>
+      <Comments />
     </main>
   );
 }
@@ -137,6 +186,10 @@ export async function getStaticProps({ params: { slug } }) {
     },
   })
   
+  // Calculate reading time
+  const wordCount = content.split(/\s+/g).length;
+  const readingTime = Math.ceil(wordCount / 200);
+  
   // Calculate related posts
   const allFiles = fs.readdirSync("posts");
   let allPosts = [];
@@ -170,7 +223,9 @@ export async function getStaticProps({ params: { slug } }) {
     props: {
         frontmatter,
         mdxSource,
-        relatedPosts
+        mdxSource,
+        relatedPosts,
+        readingTime
     },
   };
 }

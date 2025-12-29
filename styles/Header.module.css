@@ -15,12 +15,17 @@
     margin-bottom: .8em;
 }
 
-.themeToggle {
+.themeToggle, .searchTrigger {
     background: none;
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
     padding: 0 10px;
+    transition: transform 0.2s;
+}
+
+.searchTrigger:hover {
+    transform: scale(1.1);
 }
 
 .link {

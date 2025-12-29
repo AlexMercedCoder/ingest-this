@@ -6,9 +6,25 @@ import Script from 'next/script'
 import { useRouter } from "next/router";
 import ThemeToggle from "./ThemeToggle";
 
+import { useState, useEffect } from "react";
+import SearchModal from "./SearchModal";
+
 function Header (props){
     const router = useRouter();
-    return <header className={styles.header}>
+    const [isSearchOpen, setIsSearchOpen] = useState(false);
+    const [searchPosts, setSearchPosts] = useState([]);
+
+    // Prefetch search data when user hovers or opens
+    const fetchSearchData = async () => {
+        if (searchPosts.length > 0) return;
+        const res = await fetch("/api/search");
+        const data = await res.json();
+        setSearchPosts(data);
+    };
+
+    return (
+     <>
+      <header className={styles.header}>
                 <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-VV24N90YMR"
         strategy="afterInteractive"
@@ -30,12 +46,26 @@ function Header (props){
         <Link href="/"><Image src={"/images/ig-transparent.PNG"} alt="IngestThis Logo" height={100} width={300}/></Link>
         </div>
         <nav className={styles.nav}>
+            <button 
+                className={styles.searchTrigger}
+                onClick={() => {
+                    fetchSearchData();
+                    setIsSearchOpen(true);
+                }}
+                onMouseEnter={fetchSearchData}
+                aria-label="Search"
+            >
+                🔍
+            </button>
             <Link href="/blog"><div className={styles.link}>BLOG</div></Link>
             <a href="https://join.slack.com/t/datanationcom-gti9492/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA"><div className={styles.link}>COMMUNITY</div></a>
             <a href="https://open.spotify.com/show/2PRDrWVpgDvKxN6n1oUsJF?si=9b37b1ba28e2444b"><div className={styles.link}>PODCAST</div></a>
             <ThemeToggle />
         </nav>
     </header>
+    {isSearchOpen && <SearchModal posts={searchPosts} onClose={() => setIsSearchOpen(false)} />}
+    </>
+    );
 }
 
 export default Header

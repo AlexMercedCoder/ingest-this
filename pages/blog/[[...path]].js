@@ -6,6 +6,7 @@ import styles from "../../styles/Blog.module.css";
 import Head from "next/head";
 import { useState, useRef } from "react";
 import Fuse from "fuse.js";
+import BlogCard from "../../components/BlogCard";
 
 // The Blog Page Content
 export default function Blog({ posts, categories, pageTitle }) {
@@ -83,11 +84,7 @@ export default function Blog({ posts, categories, pageTitle }) {
             </>
         )}
       </aside>
-import BlogCard from "../../components/BlogCard";
 
-// ... existing imports ...
-
-// Inside Blog component logic ...
       <aside className={styles.blogs}>
         {postSlice.slice.map((post) => (
             <BlogCard key={post.slug} post={post} />
@@ -113,18 +110,7 @@ import BlogCard from "../../components/BlogCard";
         </button>
       </div>
       <aside className={styles.c}>
-        <div className={styles.searchBox}>
-          <h4 className={styles.rtitle}>Post Search</h4>
-          <input
-            type="text"
-            name="search"
-            placeholder="search titles and tags"
-            ref={searchRef}
-          />
-          <button onClick={search} className={styles.searchButton}>
-            Search
-          </button>
-        </div>
+        {/* Search moved to Header */}
         <div className={styles.categories}>
           <h4 className={styles.rtitle}>Categories</h4>
           {categories.map((c) => {
