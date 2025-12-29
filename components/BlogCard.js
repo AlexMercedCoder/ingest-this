@@ -9,22 +9,7 @@ export default function BlogCard({ post }) {
   return (
     <article className={styles.card}>
       <Link href={`/posts/${slug}`}>
-        <div className={styles.cardImageContainer}>
-          {bannerImage ? (
-            <Image
-              src={bannerImage}
-              alt={title}
-              width={400}
-              height={225}
-              className={styles.cardImage}
-              style={{ objectFit: 'cover' }}
-            />
-          ) : (
-            <div className={styles.placeholderImage}>
-                <span>No Image</span>
-            </div>
-          )}
-        </div>
+
         <div className={styles.cardContent}>
           <div className={styles.cardMeta}>
             <span>{date}</span> • <span>{author}</span>

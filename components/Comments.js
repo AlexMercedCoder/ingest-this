@@ -1,4 +1,3 @@
-import script from "next/script";
 import { useEffect, useRef } from "react";
 
 export default function Comments() {
@@ -7,7 +6,24 @@ export default function Comments() {
   useEffect(() => {
     if (!ref.current) return;
     
-    // Check if script already exists to avoid duplication
+    // Function to get current theme
+    const getTheme = () => {
+        const theme = document.documentElement.getAttribute("data-theme");
+        return theme === "dark" ? "transparent_dark" : "light";
+    };
+
+    const updateGiscusTheme = () => {
+        const theme = getTheme();
+        const iframe = document.querySelector("iframe.giscus-frame");
+        if (!iframe) return;
+        
+        iframe.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+        );
+    };
+
+    // Check if script already exists
     if (ref.current.querySelector(".giscus-script")) return;
 
     const script = document.createElement("script");
@@ -21,13 +37,30 @@ export default function Comments() {
     script.setAttribute("data-reactions-enabled", "1");
     script.setAttribute("data-emit-metadata", "0");
     script.setAttribute("data-input-position", "bottom");
-    script.setAttribute("data-theme", "preferred_color_scheme");
+    // Use explicit theme based on current state instead of "preferred_color_scheme"
+    script.setAttribute("data-theme", getTheme()); 
     script.setAttribute("data-lang", "en");
     script.setAttribute("crossorigin", "anonymous");
     script.setAttribute("async", "true");
     script.classList.add("giscus-script");
 
     ref.current.appendChild(script);
+
+    // Watch for theme changes
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            if (mutation.type === "attributes" && mutation.attributeName === "data-theme") {
+                updateGiscusTheme();
+            }
+        });
+    });
+
+    observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-theme"],
+    });
+
+    return () => observer.disconnect();
   }, []);
 
   return <div style={{width: '100%', marginTop: '40px'}} ref={ref} />;

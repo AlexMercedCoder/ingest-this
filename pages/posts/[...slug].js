@@ -92,17 +92,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
         />
       </Head>
 
-      {bannerImage && (
-        <div className={styles.heroContainer}>
-            <Image 
-                src={bannerImage} 
-                alt={title} 
-                fill 
-                style={{objectFit: 'cover'}}
-                priority
-            />
-        </div>
-      )}
+
 
       <h1 className={styles.title}>{title}</h1>
       
