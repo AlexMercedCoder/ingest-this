@@ -1,254 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://ingestthis.com</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/data engineering</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data engineering</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/batch</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/streaming</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/author/alex-merced</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/oltp</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/web storage</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/oltp</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/database</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/backend</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/javascript</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/node</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/database</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/SQL</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/data</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data warehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/frontend</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data lake</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/data lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Apache Iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/dremio</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Data Engineering</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Engineering</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Excel</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/CSV</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Parquet</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Data Lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Lake</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Modeling</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Apache Hive</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/APache Iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Javascript</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Database</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Delta Lake</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Apache Hudi</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Data Architecture</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Architecture</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Open Source</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/apache iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data analytics</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Data Analytics</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data apps</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/streamlit</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Devops</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/docker</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/devops</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/apache parquet</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Data Modeling</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/data modeling</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/dbt</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/DevOps</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/devOps</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Continuous Integration</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Continuous Deployment</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Python</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Apache Arrow</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/python</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/python</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/sql</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/sql</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/rust</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/rust</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/apache hudi</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/delta lake</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/AI</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/AI</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/langchain</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/DevOps</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Helm</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Kubernetes</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/ML</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/MCP</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/AI Agents</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Databases</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Lakes</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Lakehouses</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/category/Apache Iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Optimization</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Table Maintenance</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Data Optimization</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Compaction</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Streaming</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Clustering</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Sorting</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Z-order</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Query Optimization</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Metadata Optimization</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Snapshot Expiration</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Manifest Rewrite</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Table Optimization</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Metadata Tables</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Automation</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Partition Evolution</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Parallelism</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Resilience</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Metadata</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Lakehouse Optimization</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Agentic AI</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Apache Polaris</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/blog/tag/Dremio</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/03-batch-streaming</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/03-localstorage</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/04-2022-mongoosejs-cheatsheet</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/05-introduction-to-SQL</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/06-intro-to-the-world-of-data</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/07-Hands-on-intro-to-apache-iceberg-in-five-minutes</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/08-five-reasons-you-should-embrace-dremio-cloud</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2022/11-configuring-apache-spark-for-apache-iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/04-overview-of-the-data-lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/05-Dremio-Arctic-Project-Nessie-Resources.md</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/05-Why-Project-Nessie-Matters-For-Data-Engineers</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/06-Dremio-Modern-Data-Architecture</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/06-file-encryption-overview</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/06-parquet-file-compression</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/07-project-nessie-in-depth</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/08-creating-a-iceberg-nessie-data-lakehouse-on-your-laptop copy</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/09-architecting-low-cost-fast-self-service-lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/10-an-in-depth-overview-of-iceberg-nessie</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/10-why-dremio-iceberg-data-lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/11-Why-Dremio-is-a-must-for-apache-iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2023/12-Converting-xls-csv-into-parquet-no-code-with-dremio</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/01-Apache_Iceberg_Catalog_Versioning_Data_Lakehouse_Management</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/01-Nessie-Alternative-to-Hive-JDBC-for-Apache-Iceberg.md</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/01-Open_Lakehouse_Engineering</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/01-Why-Choose-Data-Lakehouse-Apache-Iceberg-Dremio</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/02-Data-Lakehouse-Apache-Iceberg-Nessie-Dremio</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/02-Data-Vault-Modeling</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/02-Partitioning-Apache-Hive-Apache-Iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/02-Row-based-OLTP-Column-based-OLAP.md</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/02-Table_Format_FUD_Apache_Iceberg_Delta_Lake_Apache_Hudi</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/02-What-are-ontologies</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/02-introduction-to-ansi-sql</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/03-10-reasons-apache-iceberg-dremio-lakehouse</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/03-5-open-source-data-project-to-follow</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/03-5-reasons-apache-iceberg-dremio</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/03-Apache-Iceberg-The-Great-Equalizer</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/03-deep-dive-into-apache-iceberg-catalogs</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/04-End-to-End-Data-Engineering-Tutorial-Ingest-Dashboards</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/04-The-Future-Of-Apache-Iceberg-Catalogs</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/04-deep-dive-into-apache-iceberg</loc><lastmod>2025-12-28T21:26:43.053Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/05-3-reasons-data-engineers-should-embrace-apache-iceberg</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/05-Apache-Iceberg-Partitioning-Deep-Dive</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/05-SQL-on-Excel-Files</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/06-apache-iceberg-intro-to-lakehouse-engineering-course</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/07-Apache-Iceberg-Reliability</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/07-Upcoming-Events</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/07-databases-deconstructed-data-lakehouses-and-table-formats</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-07-Understanding-Polaris-Apache-Iceberg-Catalog</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Delete-Files</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest-List</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-08-acid-guarantees-and-apache-iceberg</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-08-data-lakehouses-101</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-08-using-the-alexmerced-datanotebook-image</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-08-what-apache-iceberg-rest-catalog-is-and-isnt</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-09-Deep-Dive-into-data-apps-with-streamlit</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-09-Why-Dremio-Iceberg-Matters</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-09-a-deep-dive-into-docker-compose</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-09-decentralization-centralization-data-at-scale</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-09-five-trends-in-data-lakehouse</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-09-hands-on-iceberg-dremio-minio-nessie</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-CDC-when-there-is-no-CDC</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-Data-Lakhouse-Roundup-1</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-01</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-02</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-03</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-04</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-05</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-06</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-07</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-08</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-09</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-10</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-bronze-silver-gold-data</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-data-modeling-entities-and-events</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-dbt-macros</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-github-actions-dbt-airflow-data</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-governing-apache-iceberg-tables</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-hands-on-with-iceberg-dremio-laptop</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-intro-to-github-actions</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-learning-data-with-python</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-pyarrow-and-python</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-10-ultimate-directory-of-Apache-Iceberg-Resources</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-11-10-Iceberg-developments</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-11-Dremio-and-AI-Ready-Data</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-11-Python-Analytics-Pattern-Matching</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-11-deep-dive-auto-ingest-dremio-iceberg</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-11-intro-to-sql-with-dremio</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-11-rust-cargo-toml</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2024/2024-12-2025-guide-architecting-an-iceberg-lakehouse</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-01-2025-comprehensive-apache-iceberg-guide</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-01-XTable-or-Uniform</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-01-the-lakehouse-benefits-and-enhancing</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-02-crash-course-on-langchain</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-02-understanding-helm-charts</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-01</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-02</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-03</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-04</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-05</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-06</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-07</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-08</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-09</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-10</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-04-basics-of-making-mcp-server</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-01</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-02</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-03</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-04</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-05</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-06</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-07</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-08</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-09</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-10</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-11</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-12</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-13</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-14</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-15</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-16</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-17</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-18</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-01-iceberg-optimization-degradation</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-03-iceberg-streaming-compaction</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-06-iceberg-optimization-cadence</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-07-discovering-or-organizing-lakehouse-iceberg-meetups</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-10-apache-iceberg-v4</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-11-Dremio-next-gen-tutorial</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://ingestthis.com/posts/2025/2025-12-dremioframe-and-iceframe</loc><lastmod>2025-12-28T21:26:43.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/data engineering</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data engineering</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/batch</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/streaming</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/author/alex-merced</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/oltp</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/web storage</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/oltp</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/database</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/backend</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/javascript</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/node</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/database</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/SQL</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/data</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data warehouse</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data lakehouse</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/frontend</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data lake</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/data lakehouse</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Apache Iceberg</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/dremio</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Lakehouse</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Data Engineering</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Engineering</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Excel</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/CSV</loc><lastmod>2026-02-19T15:50:09.197Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Parquet</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Data Lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Lake</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Modeling</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Apache Hive</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/APache Iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Javascript</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Database</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Delta Lake</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Apache Hudi</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Data Architecture</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Architecture</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Open Source</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/apache iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data analytics</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Data Analytics</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data apps</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/streamlit</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Devops</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/docker</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/devops</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/apache parquet</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Data Modeling</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/data modeling</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/dbt</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/DevOps</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/devOps</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Continuous Integration</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Continuous Deployment</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Python</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Apache Arrow</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/python</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/python</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/sql</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/sql</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/rust</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/rust</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/apache hudi</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/delta lake</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/AI</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/AI</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/langchain</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/DevOps</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Helm</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Kubernetes</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/ML</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/MCP</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/AI Agents</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Databases</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Lakes</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Lakehouses</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Apache Iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Optimization</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Table Maintenance</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Data Optimization</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Compaction</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Streaming</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Clustering</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Sorting</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Z-order</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Query Optimization</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Metadata Optimization</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Snapshot Expiration</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Manifest Rewrite</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Table Optimization</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Metadata Tables</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Automation</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Partition Evolution</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Parallelism</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Resilience</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Metadata</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Lakehouse Optimization</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Agentic AI</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Apache Polaris</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/Dremio</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/apache polaris</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/apache arrow</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Software Development</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/ai coding</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/developer tools</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/software development</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/ai assistants</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/retrieval-augmented generation</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/RAG</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/artificial intelligence</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/language models</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/machine learning</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/recursion</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/open source</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/database design</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/best practices</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/category/Semantic Layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/semantic layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/seo</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/blog/tag/analytics</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/03-batch-streaming</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/03-localstorage</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/04-2022-mongoosejs-cheatsheet</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/05-introduction-to-SQL</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/06-intro-to-the-world-of-data</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/07-Hands-on-intro-to-apache-iceberg-in-five-minutes</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/08-five-reasons-you-should-embrace-dremio-cloud</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2022/11-configuring-apache-spark-for-apache-iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/04-overview-of-the-data-lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/05-Dremio-Arctic-Project-Nessie-Resources.md</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/05-Why-Project-Nessie-Matters-For-Data-Engineers</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/06-Dremio-Modern-Data-Architecture</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/06-file-encryption-overview</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/06-parquet-file-compression</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/07-project-nessie-in-depth</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/08-creating-a-iceberg-nessie-data-lakehouse-on-your-laptop copy</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/09-architecting-low-cost-fast-self-service-lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/10-an-in-depth-overview-of-iceberg-nessie</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/10-why-dremio-iceberg-data-lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/11-Why-Dremio-is-a-must-for-apache-iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2023/12-Converting-xls-csv-into-parquet-no-code-with-dremio</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/01-Apache_Iceberg_Catalog_Versioning_Data_Lakehouse_Management</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/01-Nessie-Alternative-to-Hive-JDBC-for-Apache-Iceberg.md</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/01-Open_Lakehouse_Engineering</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/01-Why-Choose-Data-Lakehouse-Apache-Iceberg-Dremio</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/02-Data-Lakehouse-Apache-Iceberg-Nessie-Dremio</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/02-Data-Vault-Modeling</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/02-Partitioning-Apache-Hive-Apache-Iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/02-Row-based-OLTP-Column-based-OLAP.md</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/02-Table_Format_FUD_Apache_Iceberg_Delta_Lake_Apache_Hudi</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/02-What-are-ontologies</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/02-introduction-to-ansi-sql</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/03-10-reasons-apache-iceberg-dremio-lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/03-5-open-source-data-project-to-follow</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/03-5-reasons-apache-iceberg-dremio</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/03-Apache-Iceberg-The-Great-Equalizer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/03-deep-dive-into-apache-iceberg-catalogs</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/04-End-to-End-Data-Engineering-Tutorial-Ingest-Dashboards</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/04-The-Future-Of-Apache-Iceberg-Catalogs</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/04-deep-dive-into-apache-iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/05-3-reasons-data-engineers-should-embrace-apache-iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/05-Apache-Iceberg-Partitioning-Deep-Dive</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/05-SQL-on-Excel-Files</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/06-apache-iceberg-intro-to-lakehouse-engineering-course</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/07-Apache-Iceberg-Reliability</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/07-Upcoming-Events</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/07-databases-deconstructed-data-lakehouses-and-table-formats</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-07-Understanding-Polaris-Apache-Iceberg-Catalog</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Delete-Files</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest-List</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-08-acid-guarantees-and-apache-iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-08-data-lakehouses-101</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-08-using-the-alexmerced-datanotebook-image</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-08-what-apache-iceberg-rest-catalog-is-and-isnt</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-09-Deep-Dive-into-data-apps-with-streamlit</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-09-Why-Dremio-Iceberg-Matters</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-09-a-deep-dive-into-docker-compose</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-09-decentralization-centralization-data-at-scale</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-09-five-trends-in-data-lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-09-hands-on-iceberg-dremio-minio-nessie</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-CDC-when-there-is-no-CDC</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-Data-Lakhouse-Roundup-1</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-01</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-02</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-03</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-04</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-05</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-06</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-07</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-08</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-09</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-all-about-parquet-part-10</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-bronze-silver-gold-data</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-data-modeling-entities-and-events</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-dbt-macros</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-github-actions-dbt-airflow-data</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-governing-apache-iceberg-tables</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-hands-on-with-iceberg-dremio-laptop</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-intro-to-github-actions</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-learning-data-with-python</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-pyarrow-and-python</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-10-ultimate-directory-of-Apache-Iceberg-Resources</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-11-10-Iceberg-developments</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-11-Dremio-and-AI-Ready-Data</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-11-Python-Analytics-Pattern-Matching</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-11-deep-dive-auto-ingest-dremio-iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-11-intro-to-sql-with-dremio</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-11-rust-cargo-toml</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2024/2024-12-2025-guide-architecting-an-iceberg-lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-01-2025-comprehensive-apache-iceberg-guide</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-01-XTable-or-Uniform</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-01-the-lakehouse-benefits-and-enhancing</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-02-crash-course-on-langchain</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-02-understanding-helm-charts</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-01</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-02</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-03</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-04</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-05</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-06</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-07</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-08</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-09</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-AI-Agents-MCP-10</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-04-basics-of-making-mcp-server</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-01</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-02</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-03</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-04</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-05</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-06</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-07</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-08</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-09</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-10</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-11</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-12</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-13</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-14</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-15</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-16</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-17</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-05-intro-to-data-engineering-concepts-18</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-01-iceberg-optimization-degradation</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-03-iceberg-streaming-compaction</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-06-iceberg-optimization-cadence</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-07-discovering-or-organizing-lakehouse-iceberg-meetups</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-10-apache-iceberg-v4</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-11-Dremio-next-gen-tutorial</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-12-2025-year-in-review-iceberg-arrow-polaris-parquet</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2025/2025-12-dremioframe-and-iceframe</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-01-A-Practical-Guide-to-AI-Assisted-Coding</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-01-rag-isnt-the-problem</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-01-recursive-langauge-models</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-01-the-story-of-pangolin-catalog</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-01-what-is-data-modeling</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-02-types-of-data-models</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-03-star-schema-vs-snowflake</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-04-data-modeling-lakehouse</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-05-dimensional-modeling</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-06-slowly-changing-dimensions</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-07-data-modeling-for-analytics</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-08-denormalization-when-why</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-09-data-vault-modeling</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-10-data-modeling-best-practices</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-01-think-like-data-engineer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-02-design-data-pipelines</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-03-data-quality-first</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-04-idempotent-pipelines</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-05-schema-evolution</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-06-batch-vs-streaming</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-07-partition-and-organize</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-08-testing-data-pipelines</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-09-observability-monitoring</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-debp-10-de-best-practices-checklist</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-01-what-is-a-semantic-layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-02-how-to-build-semantic-layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-03-semantic-layer-vs-metrics-layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-04-semantic-layer-vs-data-catalog</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-05-why-ai-fails-without-semantic-layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-06-semantic-layer-data-governance</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-07-data-virtualization-semantic-layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-08-headless-bi-semantic-layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-09-self-documenting-semantic-layer</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-19-semantic_layer_seo-10-semantic-layer-best-practices</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ingestthis.com/posts/2026/2026-02-2026-Intro-to-Apache-Iceberg</loc><lastmod>2026-02-19T15:50:09.198Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

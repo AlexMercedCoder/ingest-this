@@ -5,148 +5,148 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 28 Dec 2025 21:26:42 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 19 Feb 2026 15:50:09 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
-      <title>dremioframe &amp; iceberg - Pythonic interfaces for Dremio and Apache Iceberg</title>
-      <link>https://ingestthis.com/posts/2025/2025-12-dremioframe-and-iceframe</link>
-      <guid>https://ingestthis.com/posts/2025/2025-12-dremioframe-and-iceframe</guid>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Discover DremioFrame and IceFrame, two new Python libraries that simplify working with Dremio and Apache Iceberg. Learn how these tools streamline data management and enhance productivity for modern data teams.]]></description>
+      <title>What Is Data Modeling? A Complete Guide</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-01-what-is-data-modeling</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-01-what-is-data-modeling</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Every database, data warehouse, and data lakehouse starts with the same question: how should this data be organized? Data modeling answers that question by creating a structured blueprint of your data — what it contains, how it relates, and what it means.]]></description>
     </item>
     <item>
-      <title>Introducing dremioframe - A Pythonic DataFrame Interface for Dremio</title>
-      <link>https://ingestthis.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</link>
-      <guid>https://ingestthis.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</guid>
-      <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Discover dremioframe, a new Python library that offers a DataFrame-like experience for interacting with Dremio's data lakehouse platform. Learn how to leverage its intuitive API to streamline your data engineering workflows.]]></description>
+      <title>Conceptual, Logical, and Physical Data Models Explained</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-02-types-of-data-models</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-02-types-of-data-models</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Most data teams jump straight from a stakeholder request to creating database tables. They skip the planning steps that prevent misalignment, redundancy, and rework. The result: tables that make sense to the engineer who built them but confuse everyone else.]]></description>
     </item>
     <item>
-      <title>Comprehensive Hands-on Walk Through of Dremio Cloud Next Gen (Hands-on with Free Trial)</title>
-      <link>https://ingestthis.com/posts/2025/2025-11-Dremio-next-gen-tutorial</link>
-      <guid>https://ingestthis.com/posts/2025/2025-11-Dremio-next-gen-tutorial</guid>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Walkthrough with the new trial of the Dremio Cloud Platform]]></description>
+      <title>Star Schema vs. Snowflake Schema: When to Use Each</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-03-star-schema-vs-snowflake</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-03-star-schema-vs-snowflake</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Both star schemas and snowflake schemas are dimensional models. They both organize data into fact tables (measurable events) and dimension tables (context about those events). The difference is how they structure the dimensions.]]></description>
     </item>
     <item>
-      <title>2025-2026 Guide to Learning about Apache Iceberg, Data Lakehouse &amp; Agentic AI</title>
-      <link>https://ingestthis.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</link>
-      <guid>https://ingestthis.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[A curated guide to mastering Apache Iceberg, data lakehouse architectures, and the emerging field of Agentic AI for data professionals.]]></description>
+      <title>Data Modeling for the Lakehouse: What Changes</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-04-data-modeling-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-04-data-modeling-lakehouse</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Traditional data modeling assumed you controlled the database. You defined schemas up front, enforced foreign keys at write time, and optimized with indexes. The lakehouse changes every one of those assumptions.]]></description>
     </item>
     <item>
-      <title>An Exploration of the Commercial Iceberg Catalog Ecosystem</title>
-      <link>https://ingestthis.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</link>
-      <guid>https://ingestthis.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Dive into the world of commercial Iceberg catalogs and discover how they enhance data lakehouse architectures for modern data engineering.]]></description>
+      <title>Dimensional Modeling: Facts, Dimensions, and Grains</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-05-dimensional-modeling</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-05-dimensional-modeling</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dimensional modeling is the most widely used approach for organizing analytics data. Developed by Ralph Kimball, it structures data into two types of tables: facts (what happened) and dimensions (the context around what happened). The technique optimizes for query speed and business readability, not for storage efficiency or transactional integrity.]]></description>
     </item>
     <item>
-      <title>Building a Universal Lakehouse Catalog - Beyond Iceberg Tables</title>
-      <link>https://ingestthis.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</link>
-      <guid>https://ingestthis.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</guid>
-      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Exploring paths to a universal lakehouse catalog that supports multiple data formats and engines, building on Apache Iceberg's success.]]></description>
+      <title>Slowly Changing Dimensions: Types 1-3 with Examples</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-06-slowly-changing-dimensions</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-06-slowly-changing-dimensions</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dimensions change. A customer moves cities. A product gets reclassified. An employee changes departments. How your data model handles these changes determines whether your historical reports are accurate or misleading.]]></description>
     </item>
     <item>
-      <title>Intro to Apache Iceberg with Apache Polaris and Apache Spark</title>
-      <link>https://ingestthis.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</link>
-      <guid>https://ingestthis.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</guid>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how to leverage Apache Iceberg with Apache Polaris and Apache Spark to build scalable and efficient data lakehouses.]]></description>
+      <title>Data Modeling for Analytics: Optimize for Queries, Not Transactions</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-07-data-modeling-for-analytics</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-07-data-modeling-for-analytics</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The data model that runs your production application is almost never the right model for analytics. Transactional systems are designed for fast writes — inserting orders, updating inventory, processing payments. Analytics systems are designed for fast reads — scanning millions of rows, aggregating across dimensions, filtering by date ranges.]]></description>
     </item>
     <item>
-      <title>The State of Apache Iceberg v4 - October 2025 Edition</title>
-      <link>https://ingestthis.com/posts/2025/2025-10-apache-iceberg-v4</link>
-      <guid>https://ingestthis.com/posts/2025/2025-10-apache-iceberg-v4</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[What's Coming in Apache Iceberg v4: A Deep Dive into the Future of Open Table Formats]]></description>
+      <title>Denormalization: When and Why to Flatten Your Data</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-08-denormalization-when-why</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-08-denormalization-when-why</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Normalization is the first rule taught in database design. Eliminate redundancy. Store each fact once. Use foreign keys. It's the right rule for transactional systems. And it's the wrong rule for most analytics workloads.]]></description>
     </item>
     <item>
-      <title>The Ultimate Guide to Open Table Formats - Iceberg, Delta Lake, Hudi, Paimon, and DuckLake</title>
-      <link>https://ingestthis.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</link>
-      <guid>https://ingestthis.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</guid>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Understanding Iceberg, Delta Lake, Hudi, Paimon, and DuckLake]]></description>
+      <title>Data Vault Modeling: Hubs, Links, and Satellites</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-09-data-vault-modeling</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-09-data-vault-modeling</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dimensional modeling works well when your source systems are stable and your business questions are predictable. But what happens when sources change constantly, new systems get added every quarter, and regulatory requirements demand a full audit trail of every attribute change?]]></description>
     </item>
     <item>
-      <title>The 2025 &amp; 2026 Ultimate Guide to the Data Lakehouse and the Data Lakehouse Ecosystem</title>
-      <link>https://ingestthis.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</link>
-      <guid>https://ingestthis.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[What is the Data Lakehouse and the Data Lakehouse Ecosystem? This comprehensive guide covers everything you need to know about the Data Lakehouse architecture, open table formats like Apache Iceberg, Delta Lake, Apache Hudi, and Apache Paimon, and the modern data ecosystem that supports them.]]></description>
+      <title>Data Modeling Best Practices: 7 Mistakes to Avoid</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-10-data-modeling-best-practices</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-data_modeling-10-data-modeling-best-practices</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A bad data model doesn't announce itself. It hides behind slow dashboards, conflicting numbers, confused analysts, and AI agents that generate wrong SQL. By the time someone identifies the model as the root cause, the team has already built dozens of reports on top of it.]]></description>
     </item>
     <item>
-      <title>The Endgame — Building an Autonomous Optimization Pipeline for Apache Iceberg</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</guid>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how to automate compaction, snapshot expiration, and layout optimization in Apache Iceberg using metadata-driven triggers and orchestration tools for a self-healing lakehouse.]]></description>
+      <title>How to Think Like a Data Engineer</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-01-think-like-data-engineer</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-01-think-like-data-engineer</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The median lifespan of a popular data tool is about three years. The tool you master today may be deprecated or replaced by the time your next project ships. What doesn't change are the principles underneath: how data flows, how systems fail, how contracts between producers and consumers work, and how to decompose messy requirements into clean, maintainable pipelines.]]></description>
     </item>
     <item>
-      <title>Managing Large-Scale Optimizations — Parallelism, Checkpointing, and Fail Recovery</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</guid>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how to scale Apache Iceberg table optimizations across large datasets using parallelism, checkpointing, and fail recovery to ensure reliability and performance.]]></description>
+      <title>How to Design Reliable Data Pipelines</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-02-design-data-pipelines</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-02-design-data-pipelines</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Most pipeline failures aren't caused by bad code. They're caused by no architecture. A script that reads from an API, transforms JSON, and writes to a database works fine on day one. On day ninety it fails at 3 AM because the API changed its response format, and the only way to recover is to rerun the entire pipeline from scratch — hoping that reprocessing three months of data doesn't create duplicates.]]></description>
     </item>
     <item>
-      <title>Unlocking the Power of Agentic AI with Apache Iceberg and Dremio</title>
-      <link>https://ingestthis.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</link>
-      <guid>https://ingestthis.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Unlocking the Power of Agentic AI with Apache Iceberg and Dremio]]></description>
+      <title>Data Quality Is a Pipeline Problem, Not a Dashboard Problem</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-03-data-quality-first</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-03-data-quality-first</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[When an analyst finds null values in a revenue column, the typical response is to add a calculated field in the BI tool: `IF revenue IS NULL THEN 0`. That "fix" doesn't fix anything. It masks a problem at the source — and every downstream consumer has to independently discover and patch the same issue.]]></description>
     </item>
     <item>
-      <title>Hidden Pitfalls — Compaction and Partition Evolution in Apache Iceberg</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</guid>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Partition evolution in Apache Iceberg is a powerful feature, but if not managed carefully, it can introduce fragmentation and impact compaction performance. Learn how to handle it effectively.]]></description>
+      <title>Idempotent Pipelines: Build Once, Run Safely Forever</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-04-idempotent-pipelines</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-04-idempotent-pipelines</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A pipeline runs, processes 100,000 records, and loads them into the target table. Then it fails on a downstream step. The orchestrator retries the entire job. Now the table has 200,000 records — 100,000 of them duplicates. Revenue reports double. Dashboards misfire. Someone spends the next four hours manually deduplicating records and explaining to stakeholders why the numbers were wrong.]]></description>
     </item>
     <item>
-      <title>Using Iceberg Metadata Tables to Determine When Compaction Is Needed</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</guid>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Discover how to use Apache Iceberg's metadata tables to proactively detect small files, bloated manifests, and table fragmentation—so you can trigger compaction only when it's needed.]]></description>
+      <title>Schema Evolution Without Breaking Consumers</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-05-schema-evolution</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-05-schema-evolution</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A source team renames a column from `user_id` to `customer_id`. Twelve hours later, five dashboards show blank values, two ML pipelines fail, and the data engineering team spends the morning tracing a problem that could have been prevented with one rule: treat your schema like an API.]]></description>
     </item>
     <item>
-      <title>Designing the Ideal Cadence for Compaction and Snapshot Expiration</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-06-iceberg-optimization-cadence</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-06-iceberg-optimization-cadence</guid>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how to design an effective schedule for compaction and snapshot expiration in Apache Iceberg to balance cost, performance, and data freshness.]]></description>
+      <title>Batch vs. Streaming: Choose the Right Processing Model</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-06-batch-vs-streaming</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-06-batch-vs-streaming</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA["We need real-time data." This is one of the most expensive sentences in data engineering — because it's rarely true, and implementing it when it's not needed multiplies complexity, cost, and operational burden.]]></description>
     </item>
     <item>
-      <title>Avoiding Metadata Bloat with Snapshot Expiration and Rewriting Manifests</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</guid>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how to prevent and clean up metadata bloat in Apache Iceberg by expiring snapshots and rewriting manifests for better performance and manageability.]]></description>
+      <title>Partition and Organize Data for Performance</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-07-partition-and-organize</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-07-partition-and-organize</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A table with 500 million rows takes 45 seconds to query. After partitioning it by date, the same query — filtering on a single day — returns in 2 seconds. The SQL didn't change. The data didn't change. The only thing that changed was how the data was organized on disk.]]></description>
     </item>
     <item>
-      <title>Smarter Data Layout — Sorting and Clustering Iceberg Tables</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</guid>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Improve query performance in Apache Iceberg by organizing your data layout with sorting and Z-order clustering. Learn how to reduce scan cost and improve filter effectiveness.]]></description>
+      <title>Testing Data Pipelines: What to Validate and When</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-08-testing-data-pipelines</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-08-testing-data-pipelines</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Ask an application developer how they test their code and they'll describe unit tests, integration tests, CI/CD pipelines, and coverage metrics. Ask a data engineer the same question and the most common answer is: "we check the dashboard."]]></description>
     </item>
     <item>
-      <title>Optimizing Compaction for Streaming Workloads in Apache Iceberg</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-03-iceberg-streaming-compaction</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-03-iceberg-streaming-compaction</guid>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how to design fast, incremental compaction strategies in Apache Iceberg to support high-throughput streaming pipelines without disrupting freshness or performance.]]></description>
+      <title>Pipeline Observability: Know When Things Break</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-09-observability-monitoring</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-09-observability-monitoring</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An analyst messages you on Slack: "The revenue numbers look wrong. Is the pipeline broken?" You check the orchestrator — all green. You check the target table — data loaded this morning. You check the row count — looks normal. Forty-five minutes later, you discover that a source API returned empty responses for one region, and the pipeline happily loaded zero rows for that region without alerting anyone.]]></description>
     </item>
     <item>
-      <title>The Basics of Compaction — Bin Packing Your Data for Efficiency</title>
-      <link>https://ingestthis.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</link>
-      <guid>https://ingestthis.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</guid>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how standard compaction works in Apache Iceberg and why bin packing your data files is essential for maintaining query performance and cost efficiency.]]></description>
+      <title>Data Engineering Best Practices: The Complete Checklist</title>
+      <link>https://ingestthis.com/posts/2026/2026-02-19-debp-10-de-best-practices-checklist</link>
+      <guid>https://ingestthis.com/posts/2026/2026-02-19-debp-10-de-best-practices-checklist</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Best practices documents are easy to write and hard to use. They list principles without context, advice without prioritization, and rules without explaining when to break them. This one is different. It's a practical, tool-agnostic checklist organized by the categories that matter most — with each item tied to a specific outcome.]]></description>
     </item>
     </channel>
   </rss>
