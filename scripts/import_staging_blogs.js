@@ -7,14 +7,44 @@ const IMAGES_BASE_DIR = path.join(process.cwd(), 'public', 'images', '2026');
 
 // Series directory mappings
 const SERIES_MAP = {
-    'data_modeling': { category: 'Data Modeling', tags: ['data modeling', 'database design'] },
-    'debp': { category: 'Data Engineering', tags: ['data engineering', 'best practices'] },
-    'semantic_layer_seo': { category: 'Semantic Layer', tags: ['semantic layer', 'seo', 'analytics'] }
+    'AI_FEATURE_BLOGS': { category: 'AI', tags: ['ai', 'dremio', 'sql', 'machine learning'] },
+    'connector-blogs': { category: 'Data Engineering', tags: ['dremio', 'connectors', 'data integration'] }
 };
 
 // Ensure directories exist
 if (!fs.existsSync(POSTS_DIR)) {
     fs.mkdirSync(POSTS_DIR, { recursive: true });
+}
+
+// Escape MDX-problematic characters outside code fences and inline code
+function escapeMdxContent(text) {
+    // Split by code fences (``` blocks)
+    const parts = text.split(/(```[\s\S]*?```)/g);
+    
+    return parts.map((part, idx) => {
+        // Odd indices are code fence blocks — leave untouched
+        if (part.startsWith('```')) return part;
+        
+        // For non-code parts, process line by line
+        return part.split('\n').map(line => {
+            // Preserve inline code spans: split by backtick pairs
+            const segments = line.split(/(`[^`]+`)/g);
+            return segments.map((seg, si) => {
+                // Odd indices are inline code — leave untouched
+                if (si % 2 === 1) return seg;
+                
+                // Escape { and } (MDX expressions)
+                seg = seg.replace(/\{/g, '\\{').replace(/\}/g, '\\}');
+                
+                // Escape < and > but preserve markdown links/images and HTML entities
+                // Escape standalone < that aren't part of HTML entities
+                seg = seg.replace(/<(?!\/?\w|!--)/g, '\\<');
+                seg = seg.replace(/(?<!="|=')>/g, '\\>');
+                
+                return seg;
+            }).join('');
+        }).join('\n');
+    }).join('');
 }
 
 // Function to process a single post
@@ -72,16 +102,15 @@ function processPost(series, chapterDir) {
 
     let bannerImage = '';
 
-    // Check for postbanner folder
-    const bannerPath = path.join(chapterPath, 'postbanner');
-    if (fs.existsSync(bannerPath)) {
-        const files = fs.readdirSync(bannerPath);
-        const imageFile = files.find(f => /\.(png|jpg|jpeg|gif|webp)$/i.test(f));
-        if (imageFile) {
-             const src = path.join(bannerPath, imageFile);
-             const dest = path.join(imageDestDir, imageFile);
-             fs.copyFileSync(src, dest);
-             bannerImage = `/images/2026/${series}/${chapterDir}/${imageFile}`;
+    // Check for standalone banner.png in chapter dir
+    if (!bannerImage) {
+        const bannerFile = ['banner.png', 'banner.jpg', 'banner.jpeg', 'banner.webp']
+            .find(f => fs.existsSync(path.join(chapterPath, f)));
+        if (bannerFile) {
+            const src = path.join(chapterPath, bannerFile);
+            const dest = path.join(imageDestDir, bannerFile);
+            fs.copyFileSync(src, dest);
+            bannerImage = `/images/2026/${series}/${chapterDir}/${bannerFile}`;
         }
     }
 
@@ -90,6 +119,10 @@ function processPost(series, chapterDir) {
         // Regex for Markdown images: ![alt](url)
         const regex = /!\[(.*?)\]\((.*?)\)/g;
         return line.replace(regex, (match, alt, url) => {
+            // Skip external URLs
+            if (url.startsWith('http://') || url.startsWith('https://')) {
+                return match;
+            }
             const imageName = path.basename(url);
             const imageSrcPath = path.join(chapterPath, url);
             
@@ -111,22 +144,23 @@ function processPost(series, chapterDir) {
         });
     });
 
-    content = newContentLines.join('\n');
+    // MDX-safe escaping: escape <, >, {, } outside code fences and inline code
+    content = escapeMdxContent(newContentLines.join('\n'));
 
 
     // Generate Frontmatter
     const { category, tags } = SERIES_MAP[series] || { category: 'General', tags: [] };
     
     // Construct simplified slug from chapter dir (remove number prefix if desired, keeping it for ordering is better?)
-    // The requirement was: 2026-02-19-[series]-[chapter]-[slug]
-    // simpler: 2026-02-19-[series]-[chapterDir]
-    const filename = `2026-02-19-${series}-${chapterDir}.md`;
+    // The requirement was: 2026-03-01-[series]-[chapter]-[slug]
+    // simpler: 2026-03-01-[series]-[chapterDir]
+    const filename = `2026-03-01-${series}-${chapterDir}.md`;
     const finalPath = path.join(POSTS_DIR, filename);
 
     const frontmatter = [
         '---',
         `title: "${title.replace(/"/g, '\\"')}"`,
-        `date: "2026-02-19"`,
+        `date: "2026-03-01"`,
         `description: "${description.replace(/"/g, '\\"')}"`,
         `author: "Alex Merced"`,
         `category: "${category}"`,
