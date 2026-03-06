@@ -7,8 +7,7 @@ const IMAGES_BASE_DIR = path.join(process.cwd(), 'public', 'images', '2026');
 
 // Series directory mappings
 const SERIES_MAP = {
-    'AI_FEATURE_BLOGS': { category: 'AI', tags: ['ai', 'dremio', 'sql', 'machine learning'] },
-    'connector-blogs': { category: 'Data Engineering', tags: ['dremio', 'connectors', 'data integration'] }
+    'aitoolblogs': { category: 'AI', tags: ['ai', 'dremio', 'coding tools', 'developer tools'] }
 };
 
 // Ensure directories exist
@@ -152,15 +151,15 @@ function processPost(series, chapterDir) {
     const { category, tags } = SERIES_MAP[series] || { category: 'General', tags: [] };
     
     // Construct simplified slug from chapter dir (remove number prefix if desired, keeping it for ordering is better?)
-    // The requirement was: 2026-03-01-[series]-[chapter]-[slug]
-    // simpler: 2026-03-01-[series]-[chapterDir]
-    const filename = `2026-03-01-${series}-${chapterDir}.md`;
+    // The requirement was: 2026-03-05-[series]-[chapter]-[slug]
+    // simpler: 2026-03-05-[series]-[chapterDir]
+    const filename = `2026-03-05-${series}-${chapterDir}.md`;
     const finalPath = path.join(POSTS_DIR, filename);
 
     const frontmatter = [
         '---',
         `title: "${title.replace(/"/g, '\\"')}"`,
-        `date: "2026-03-01"`,
+        `date: "2026-03-05"`,
         `description: "${description.replace(/"/g, '\\"')}"`,
         `author: "Alex Merced"`,
         `category: "${category}"`,

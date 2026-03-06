@@ -5,9 +5,100 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 01 Mar 2026 20:38:03 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 05 Mar 2026 22:51:37 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>How to Use Dremio with Amazon Kiro: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-amazon-kiro</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-amazon-kiro</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Amazon Kiro is an agentic AI IDE from AWS that introduces spec-driven development to the coding workflow. Instead of jumping straight to code, Kiro helps you define structured specifications — requirements, technical designs, and task breakdowns — before writing a single line. It then generates code that follows those specs and keeps everything in sync as the project evolves. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with Claude Code: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-code</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-code</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code is Anthropic's terminal-based coding agent. It reads your files, writes code, runs commands, and maintains context across a session. Dremio is a unified lakehouse platform that gives AI agents three things they need to answer business questions accurately: deep business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with Claude CoWork: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-cowork</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-cowork</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude CoWork is Anthropic's desktop agentic assistant. Unlike Claude Code (a terminal coding agent), CoWork operates as a general-purpose autonomous agent that reads and writes files, browses the web, manages tasks, and generates complete project artifacts. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with Cursor: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-cursor</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-cursor</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cursor is an AI-native code editor built as a fork of VS Code. It integrates AI directly into the editing experience with features like Chat, Composer (multi-file editing), and inline code generation. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with Gemini CLI: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-gemini-cli</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-gemini-cli</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI is Google's open-source terminal-based AI agent. It runs directly in your terminal, powered by Gemini models with a 1-million token context window. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with GitHub Copilot: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-github-copilot</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-github-copilot</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHub Copilot is the most widely adopted AI coding assistant, integrated into VS Code, JetBrains IDEs, and the GitHub platform. Its agent mode allows Copilot to plan and execute multi-step coding tasks, run terminal commands, and interact with external tools through MCP. The Copilot CLI extends agentic development to the terminal. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with Google Antigravity: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-google-antigravity</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-google-antigravity</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google Antigravity is an agent-first IDE built by Google DeepMind. Its autonomous agents plan multi-step tasks, write code, browse documentation, and iterate without constant hand-holding. Dremio is a unified lakehouse platform that provides the business context, universal data access, and interactive query speed that AI agents need to produce accurate analytics.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with JetBrains AI Assistant: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-jetbrains-ai</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-jetbrains-ai</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[JetBrains AI Assistant is built into IntelliJ IDEA, PyCharm, DataGrip, and every JetBrains IDE. It provides AI chat, inline code generation, multi-file refactoring, and agentic background workers that can autonomously execute multi-step tasks. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with OpenAI Codex CLI: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openai-codex</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openai-codex</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI Codex CLI is a terminal-based coding agent built in Rust. It reads your codebase, writes files, executes commands, and supports MCP for connecting to external data services. Dremio is a unified lakehouse platform that provides the business context, universal data access, and query speed that coding agents need to produce accurate, working analytics code.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with OpenCode: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-opencode</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-opencode</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenCode is an open-source, terminal-based AI coding agent released under the MIT license. It provides a TUI with split panes, uses the Language Server Protocol (LSP) for deep codebase understanding, and maintains persistent project context through file-based memory. Dremio is a unified lakehouse platform built on open standards like Apache Iceberg, Apache Arrow, and Apache Polaris.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with OpenWork: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openwork</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openwork</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenWork is an open-source desktop AI agent built on the OpenCode engine. It runs entirely on your machine with your own API keys, giving you full control over your data and your AI costs. Dremio is a unified lakehouse platform built on open standards like Apache Iceberg, Apache Arrow, and Apache Polaris.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with Windsurf: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-windsurf</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-windsurf</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windsurf is an AI-native code editor built as a fork of VS Code. Its standout feature is Cascade, an agentic AI system that plans and executes multi-step coding tasks autonomously. Cascade understands your entire codebase, can chain together multiple file edits, terminal commands, and tool calls in a single flow. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
+    <item>
+      <title>How to Use Dremio with Zed: Connect, Query, and Build Data Apps</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-zed</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-zed</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Zed is an open-source, GPU-accelerated code editor written in Rust. It is designed for speed and collaboration, with a built-in AI assistant that supports multiple LLM providers and an agent mode for autonomous multi-step development. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
+    </item>
     <item>
       <title>Classify Your Data with SQL: A Hands-On Guide to Dremio's AI_CLASSIFY Function</title>
       <link>https://ingestthis.com/posts/2026/2026-03-01-AI_FEATURE_BLOGS-01-ai-classify</link>
@@ -56,97 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-04-microsoft-sql-server</guid>
       <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Microsoft SQL Server is one of the most widely deployed enterprise databases in the world. ERP systems, CRM platforms, financial applications, and custom business applications run on SQL Server across on-premises data centers and Azure cloud deployments. But connecting SQL Server data to a modern analytics platform typically requires building ETL pipelines, managing SSIS packages, or purchasing additional SQL Server Enterprise licenses for analytics workloads.]]></description>
-    </item>
-    <item>
-      <title>Connect IBM Db2 to Dremio Cloud: Modernize Mainframe Analytics with Federation and AI</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-05-ibm-db2</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-05-ibm-db2</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[IBM Db2 is the relational database that powers critical applications across banking, insurance, government, healthcare, and manufacturing. For organizations running Db2 — particularly on IBM Z (mainframes) or IBM i — the database holds decades of transactional data: account balances, policy records, claim histories, manufacturing workflows, and government records. This data is enormously valuable for analytics but notoriously difficult to access outside the Db2/IBM ecosystem.]]></description>
-    </item>
-    <item>
-      <title>Connect SAP HANA to Dremio Cloud: Unlock Analytics Beyond the SAP Ecosystem</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-06-sap-hana</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-06-sap-hana</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SAP HANA is the in-memory database platform that powers SAP S/4HANA, SAP BW/4HANA, and custom enterprise applications across finance, manufacturing, logistics, and supply chain. It's fast for SAP-native analytics — real-time financial reporting, material requirements planning, and production analytics run directly on HANA's in-memory columnar engine. But SAP HANA exists in a walled garden.]]></description>
-    </item>
-    <item>
-      <title>Connect Amazon S3 to Dremio Cloud: Query Your Data Lake with SQL, Federation, and AI</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-07-amazon-s3</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-07-amazon-s3</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Amazon S3 is the default landing zone for data in the cloud. Log files, Parquet datasets, CSV exports, JSON events, IoT telemetry, and raw data dumps — it all ends up in S3 buckets. But S3 is storage, not an analytics engine. You can't run SQL against S3 natively. To query it, you need Amazon Athena (per-TB pricing), AWS Glue ETL jobs (cluster management), or a data warehouse that imports the data. All add cost, complexity, and latency.]]></description>
-    </item>
-    <item>
-      <title>Connect Azure Storage to Dremio Cloud: Query Your Microsoft Data Lake with SQL and AI</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-08-azure-storage</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-08-azure-storage</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Azure Storage is Microsoft's cloud storage platform, spanning Blob Storage, Azure Data Lake Storage Gen2 (ADLS Gen2), and Azure Files. If your organization uses Microsoft Azure, your data lake almost certainly lives in Azure Storage — Parquet files from Azure Data Factory pipelines, CSV exports from Azure SQL Database, JSON event streams from Azure Event Hubs, and raw data from Azure IoT Hub all land in Azure Storage containers.]]></description>
-    </item>
-    <item>
-      <title>Connect Amazon Redshift to Dremio Cloud: Extend Your Warehouse with Federation and AI Analytics</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-09-amazon-redshift</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-09-amazon-redshift</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Amazon Redshift is AWS's managed data warehouse, designed for petabyte-scale analytics. If your organization chose Redshift for analytical workloads, you've built data pipelines, ETL jobs, and dashboards around it. But as data ecosystems grow, Redshift's limitations become painfully clear: connecting data outside Redshift requires ETL or Redshift Spectrum (additional cost per TB scanned), sharing Redshift data with non-AWS tools means exporting to S3, and Redshift's concurrency limits constrain how many dashboards and users can query simultaneously.]]></description>
-    </item>
-    <item>
-      <title>Connect Google BigQuery to Dremio Cloud: Cross-Cloud Analytics Without Data Movement</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-10-google-bigquery</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-10-google-bigquery</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google BigQuery is Google Cloud's serverless data warehouse. If your organization uses Google Cloud Platform, BigQuery is where your analytics data, marketing attribution, Google Analytics exports, and machine learning model outputs live. BigQuery is powerful within Google's ecosystem, but it creates challenges when your data spans multiple clouds or when costs grow with usage.]]></description>
-    </item>
-    <item>
-      <title>Connect Snowflake to Dremio Cloud: Federate, Govern, and Accelerate Beyond Snowflake</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-11-snowflake</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-11-snowflake</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Snowflake is a popular cloud data warehouse known for its separation of storage and compute, near-zero maintenance, and broad ecosystem. Many organizations have made Snowflake their primary analytics platform. But as data ecosystems mature, limitations emerge: Snowflake credits are consumed on every query, connecting Snowflake data to non-Snowflake sources requires data sharing agreements or ETL, and running all workloads in Snowflake means paying Snowflake prices for everything — including repetitive dashboard queries and ad-hoc exploration.]]></description>
-    </item>
-    <item>
-      <title>Connect Azure Synapse Analytics to Dremio Cloud: Multi-Cloud Data Warehouse Federation</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-12-azure-synapse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-12-azure-synapse</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Microsoft Azure Synapse Analytics combines big data analytics and enterprise data warehousing into a single Azure-integrated platform. If your organization has chosen the Microsoft cloud ecosystem, your cleaned and modeled analytical data likely lives in Synapse dedicated SQL pools or serverless SQL pools. Synapse works well within Azure, but it creates challenges when you need to connect that data with AWS, Google Cloud, or on-premises databases. Azure Data Factory pipelines handle some of this, but they add cost, latency, and engineering complexity.]]></description>
-    </item>
-    <item>
-      <title>Connect Vertica to Dremio Cloud: Federation for Analytics-Optimized Data</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-13-vertica</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-13-vertica</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Vertica is a columnar analytics database engineered for fast aggregate queries on large datasets. It was built from the ground up for analytical workloads — column-oriented storage, massively parallel processing, and automatic database design optimization. Organizations running Vertica typically have years of investment in analytics infrastructure: curated schemas, optimized projections, and sophisticated workloads that depend on Vertica's high-performance query engine.]]></description>
-    </item>
-    <item>
-      <title>Connect MongoDB to Dremio Cloud: SQL Analytics on Document Data</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-14-mongodb</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-14-mongodb</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[MongoDB is the most popular NoSQL document database. It stores data in flexible JSON-like documents, making it ideal for applications with evolving schemas — user profiles, product catalogs, IoT sensor data, and content management systems. But MongoDB's document model creates analytics challenges: you can't run SQL joins natively, aggregation pipelines are complex, and connecting MongoDB data to relational sources requires custom application code or ETL.]]></description>
-    </item>
-    <item>
-      <title>Connect Apache Druid to Dremio Cloud: Add SQL Joins, AI, and Governance to Your Real-Time Analytics</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-15-apache-druid</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-15-apache-druid</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Druid is a real-time analytics database designed for sub-second queries on high-ingestion-rate event data. Clickstream analytics, application monitoring, IoT telemetry, and ad-tech workloads rely on Druid's columnar storage and inverted indexes for instantaneous queries.]]></description>
-    </item>
-    <item>
-      <title>Connect AWS Glue Data Catalog to Dremio Cloud: Query and Manage Your AWS Iceberg Tables</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-16-aws-glue</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-16-aws-glue</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AWS Glue Data Catalog is AWS's managed metadata service for data lakes. It stores table definitions, schemas, partition information, and statistics for data stored in Amazon S3. If you've built your data lake on AWS using Apache Spark (on EMR), AWS Glue ETL jobs, or Amazon Athena, your table metadata lives in Glue. But Glue is just a catalog — a registry of what's where. To actually query the data, you need Athena (per-TB pricing), EMR clusters (infrastructure management), or Redshift Spectrum (additional cost).]]></description>
-    </item>
-    <item>
-      <title>Connect Snowflake Open Catalog to Dremio Cloud: Multi-Engine Iceberg Analytics</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-17-snowflake-open-catalog</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-17-snowflake-open-catalog</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Snowflake Open Catalog is Snowflake's managed implementation of the Apache Iceberg REST catalog specification, based on the open-source Apache Polaris project. It serves as a centralized metadata catalog for Apache Iceberg tables, enabling multiple compute engines — including Dremio, Spark, Trino, and Flink — to read from and write to the same Iceberg tables without metadata conflicts.]]></description>
     </item>
     </channel>
   </rss>
