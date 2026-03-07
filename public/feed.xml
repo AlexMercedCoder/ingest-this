@@ -5,9 +5,128 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Thu, 05 Mar 2026 22:51:37 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 07 Mar 2026 22:40:05 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Context Management Strategies for ChatGPT: A Complete Guide to Getting Better Results</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-01-chatgpt</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-01-chatgpt</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Getting consistently useful results from ChatGPT requires more than writing good prompts. The real differentiator is how you manage context: the background information, instructions, documents, and accumulated knowledge that shapes every response ChatGPT generates. Without deliberate context management, you end up repeating yourself, getting generic answers, and wasting time course-correcting the AI.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for OpenAI Codex: A Complete Guide Across Browser, CLI, and App</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-02-openai-codex</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-02-openai-codex</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI Codex is not a chatbot. It is an autonomous software engineering agent that runs tasks in isolated cloud sandboxes, operates across a browser interface, a command-line tool, and a dedicated macOS app, and can work on multiple tasks in parallel. Because of this architecture, context management in Codex works fundamentally differently from ChatGPT or traditional coding assistants. Instead of conversational context windows, you manage context through persistent configuration files, skill definitions, and project-level instructions that shape how the agent approaches your codebase.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Claude Web: A Complete Guide to Projects, Artifacts, and Intelligent Context</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-03-claude-web</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-03-claude-web</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude's web interface at claude.ai combines one of the largest context windows in the industry with a structured Project system that makes it genuinely useful for sustained, complex work. While many AI chat interfaces are limited to one-off conversations, Claude Web is designed for ongoing engagement where the AI accumulates understanding of your work over time. The key to unlocking that potential is managing context deliberately rather than treating each conversation as a blank slate.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Claude Desktop: A Complete Guide to MCP, Computer Use, and Local File Access</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-04-claude-desktop</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-04-claude-desktop</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Desktop takes everything available in Claude Web and adds three capabilities that fundamentally change how you manage context: MCP server connections that link Claude to external tools and data sources, direct local file access that eliminates the upload-download cycle, and Computer Use that lets Claude interact with your desktop environment. These additions make Claude Desktop the right choice when your work requires live data, local file system access, or integration with tools that Claude Web cannot reach.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Claude CoWork: A Complete Guide for Knowledge Workers</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-05-claude-cowork</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-05-claude-cowork</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude CoWork represents a fundamentally different approach to AI context management. Unlike chat interfaces where you send messages and receive responses, CoWork is an autonomous agent that works on your local machine, reads and writes files directly, and executes multi-step tasks with minimal supervision. For knowledge workers who spend their days in documents, spreadsheets, and presentations, CoWork replaces the constant back-and-forth of copy-paste workflows with direct delegation.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Claude Code: A Complete Guide for Developers</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-06-claude-code</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-06-claude-code</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code is a terminal-native agentic coding assistant that lives in your command line and operates directly on your codebase. Unlike chat-based interfaces where you copy and paste code snippets, Claude Code reads your files, explores your project structure, runs commands, executes tests, and commits changes. Context management in Claude Code is about configuring the agent's persistent knowledge of your project so it can operate effectively without constant direction.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Gemini Web and NotebookLM: A Complete Guide to Google's AI Knowledge Ecosystem</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-07-gemini-web-notebooklm</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-07-gemini-web-notebooklm</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google's AI ecosystem for knowledge work consists of two deeply integrated tools: Gemini (the conversational AI at gemini.google.com) and NotebookLM (the research-focused assistant at notebooklm.google.com). In early 2026, these two platforms became interoperable, allowing Gemini to access information stored in NotebookLM notebooks. This integration creates something unique in the AI landscape: a persistent knowledge infrastructure where documents you upload once become available across both conversational and research interfaces.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Gemini CLI: A Complete Guide to Terminal-Native AI Development</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-08-gemini-cli</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-08-gemini-cli</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI is an open-source terminal agent powered by Gemini models that operates directly in your command line. It brings Google's AI capabilities into the environment where many developers already live, with a context management system built around hierarchical configuration files, persistent memory, MCP server integration, and direct codebase interaction. Unlike web-based tools where context is managed through uploads and conversation, Gemini CLI assembles its context from your project structure, your instruction files, and the tools you connect to it.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Google Antigravity: A Complete Guide to the Agent-First IDE</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-09-google-antigravity</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-09-google-antigravity</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google Antigravity is an agent-first IDE built by Google DeepMind's Advanced Agentic Coding team. It approaches context management differently from other AI coding tools because it is designed from the ground up around agentic workflows, where the AI is not just an assistant responding to prompts, but an autonomous agent that plans, executes, tracks progress, and retains knowledge across sessions. Its context management system centers on three pillars: Skills for reusable capability, Knowledge Items for persistent memory, and Artifacts for transparent documentation of its work.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for OpenCode: A Complete Guide to the Open-Source Terminal AI Agent</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-10-opencode</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-10-opencode</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenCode is an open-source terminal-based AI coding agent that prioritizes privacy, local-first operation, and broad model provider support. Built as a TUI (terminal user interface) application, it runs entirely in your terminal and supports dozens of LLM providers from OpenAI and Anthropic to local models through Ollama. Its context management system is built around configuration files, session persistence, MCP integration, and a dual-agent architecture that separates planning from code generation.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for OpenWork: A Complete Guide to the Desktop AI Agent Framework</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-11-openwork</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-11-openwork</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenWork is a desktop-native AI agent framework designed for local, multi-step task execution on your computer. Unlike browser-based AI tools or terminal agents, OpenWork operates as a desktop application that can interact with your file system, manage long-running sessions, and execute complex workflows autonomously. Its context management centers on Skills, session persistence, direct file system access, and a plugin architecture that extends its capabilities.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Cursor: A Complete Guide to the AI-Native Code Editor</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-12-cursor</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-12-cursor</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cursor is an AI-native code editor built on the VS Code foundation that integrates AI deeply into every aspect of the development workflow. Its context management system is one of the most sophisticated among coding tools, combining workspace-level indexing, granular rules files, documentation integration, MCP server support, and intelligent context assembly that automatically determines which files and symbols are relevant to your current task.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Perplexity AI: A Complete Guide to Research-First AI Conversations</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-13-perplexity</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-13-perplexity</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Perplexity AI occupies a unique position in the AI landscape: it is a research-first tool that combines conversational AI with real-time web search to produce answers grounded in current sources. Unlike coding-focused tools or general chatbots, Perplexity is built for information retrieval, analysis, and synthesis. Its context management is designed around Spaces (persistent research workspaces), Focus Modes (search scope control), and an elastic context window that adapts to the complexity of your query.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Windsurf: A Complete Guide to the AI Flow IDE</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-14-windsurf</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-14-windsurf</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windsurf is an AI-powered IDE built on the VS Code foundation that introduces the concept of "Flows," a paradigm where the AI maintains deep awareness of your actions, codebase, and development patterns over time. Its context management differentiates from other editors through Cascade (its agentic coding assistant), persistent Rules files, Memories, and a sophisticated context engine that tracks not just what files you are editing, but how you work.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for Zed: A Complete Guide to the High-Performance AI Code Editor</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-15-zed</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-15-zed</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Zed is a high-performance code editor built in Rust that prioritizes speed, simplicity, and real-time collaboration. Its AI integration is designed to be fast and unobtrusive, with context management built around an assistant panel, inline transformations, slash commands, and a flexible provider system that supports multiple AI services. What sets Zed apart from other AI editors is its focus on performance (everything runs natively, not in Electron) and its built-in multiplayer editing that extends to AI interactions.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for T3 Chat: A Complete Guide to the Unified Multi-Model AI Interface</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-16-t3-chat</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-16-t3-chat</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[T3 Chat is a modern web-based AI chat interface that gives you access to multiple AI models through a single unified platform. Its primary value proposition is model flexibility: instead of being locked into one provider, you can switch between Claude, GPT, Gemini, Llama, and other models within the same interface. This makes T3 Chat unique from a context management perspective because the same context strategies must work across fundamentally different model families with different capabilities, context window sizes, and strengths.]]></description>
+    </item>
+    <item>
+      <title>Context Management Strategies for VS Code with LLM Plugins: A Complete Guide to Building Your Own AI-Powered IDE</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-17-vscode-llm-plugins</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-17-vscode-llm-plugins</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Visual Studio Code is the most widely used code editor in the world, and its extensibility means you can integrate AI capabilities through a growing ecosystem of LLM plugins. Unlike purpose-built AI editors (Cursor, Windsurf, Zed), VS Code gives you the freedom to choose and combine AI extensions, configure them to your preferences, and even switch between providers without changing editors. The tradeoff is that context management is not as seamlessly integrated as in dedicated AI editors. It requires more deliberate configuration.]]></description>
+    </item>
     <item>
       <title>How to Use Dremio with Amazon Kiro: Connect, Query, and Build Data Apps</title>
       <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-amazon-kiro</link>
@@ -28,125 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-cowork</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude CoWork is Anthropic's desktop agentic assistant. Unlike Claude Code (a terminal coding agent), CoWork operates as a general-purpose autonomous agent that reads and writes files, browses the web, manages tasks, and generates complete project artifacts. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Cursor: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-cursor</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-cursor</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cursor is an AI-native code editor built as a fork of VS Code. It integrates AI directly into the editing experience with features like Chat, Composer (multi-file editing), and inline code generation. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Gemini CLI: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-gemini-cli</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-gemini-cli</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI is Google's open-source terminal-based AI agent. It runs directly in your terminal, powered by Gemini models with a 1-million token context window. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with GitHub Copilot: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-github-copilot</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-github-copilot</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GitHub Copilot is the most widely adopted AI coding assistant, integrated into VS Code, JetBrains IDEs, and the GitHub platform. Its agent mode allows Copilot to plan and execute multi-step coding tasks, run terminal commands, and interact with external tools through MCP. The Copilot CLI extends agentic development to the terminal. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Google Antigravity: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-google-antigravity</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-google-antigravity</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google Antigravity is an agent-first IDE built by Google DeepMind. Its autonomous agents plan multi-step tasks, write code, browse documentation, and iterate without constant hand-holding. Dremio is a unified lakehouse platform that provides the business context, universal data access, and interactive query speed that AI agents need to produce accurate analytics.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with JetBrains AI Assistant: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-jetbrains-ai</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-jetbrains-ai</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[JetBrains AI Assistant is built into IntelliJ IDEA, PyCharm, DataGrip, and every JetBrains IDE. It provides AI chat, inline code generation, multi-file refactoring, and agentic background workers that can autonomously execute multi-step tasks. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with OpenAI Codex CLI: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openai-codex</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openai-codex</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Codex CLI is a terminal-based coding agent built in Rust. It reads your codebase, writes files, executes commands, and supports MCP for connecting to external data services. Dremio is a unified lakehouse platform that provides the business context, universal data access, and query speed that coding agents need to produce accurate, working analytics code.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with OpenCode: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-opencode</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-opencode</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenCode is an open-source, terminal-based AI coding agent released under the MIT license. It provides a TUI with split panes, uses the Language Server Protocol (LSP) for deep codebase understanding, and maintains persistent project context through file-based memory. Dremio is a unified lakehouse platform built on open standards like Apache Iceberg, Apache Arrow, and Apache Polaris.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with OpenWork: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openwork</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-openwork</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenWork is an open-source desktop AI agent built on the OpenCode engine. It runs entirely on your machine with your own API keys, giving you full control over your data and your AI costs. Dremio is a unified lakehouse platform built on open standards like Apache Iceberg, Apache Arrow, and Apache Polaris.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Windsurf: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-windsurf</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-windsurf</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windsurf is an AI-native code editor built as a fork of VS Code. Its standout feature is Cascade, an agentic AI system that plans and executes multi-step coding tasks autonomously. Cascade understands your entire codebase, can chain together multiple file edits, terminal commands, and tool calls in a single flow. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Zed: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-zed</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-zed</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Zed is an open-source, GPU-accelerated code editor written in Rust. It is designed for speed and collaboration, with a built-in AI assistant that supports multiple LLM providers and an agent mode for autonomous multi-step development. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>Classify Your Data with SQL: A Hands-On Guide to Dremio's AI_CLASSIFY Function</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-AI_FEATURE_BLOGS-01-ai-classify</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-AI_FEATURE_BLOGS-01-ai-classify</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Most classification workflows require exporting data to Python, running a model, and importing results back into your warehouse. Dremio's `AI_CLASSIFY` function eliminates that entire pipeline. You write a SELECT statement, pass in your text and your categories, and the LLM assigns a label. The classified data stays in your lakehouse, governed and queryable immediately.]]></description>
-    </item>
-    <item>
-      <title>Generate Summaries and Insights with Dremio's AI_COMPLETE Function</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-AI_FEATURE_BLOGS-02-ai-complete</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-AI_FEATURE_BLOGS-02-ai-complete</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Every data team has a version of this problem: a table full of raw data that needs human-readable summaries, translations, or narrative descriptions. Product descriptions that need rewriting for a new market. Customer records that need one-sentence executive summaries. Support interactions that need post-call notes.]]></description>
-    </item>
-    <item>
-      <title>Extract Structured Data from Text with Dremio's AI_GENERATE Function</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-AI_FEATURE_BLOGS-03-ai-generate</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-AI_FEATURE_BLOGS-03-ai-generate</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Unstructured text is the most underused data in most organizations. Customer emails sit in inboxes. Contract notes live in text fields. Meeting summaries exist as free-text columns in CRM systems. The information is there, but it's locked inside prose that SQL can't filter, join, or aggregate.]]></description>
-    </item>
-    <item>
-      <title>Connect PostgreSQL to Dremio Cloud: Query, Federate, and Accelerate Your Data</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-01-postgresql</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-01-postgresql</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PostgreSQL powers more production applications than almost any other open-source database. It's where your customer records, transaction logs, product catalogs, and operational data live. But running analytics directly against PostgreSQL creates problems: heavy analytical queries compete with transactional workloads, cross-database joins require custom ETL, and your data team can't access PostgreSQL data alongside data in S3, Snowflake, or other systems without building pipelines.]]></description>
-    </item>
-    <item>
-      <title>Connect MySQL to Dremio Cloud: Federated Analytics Without ETL</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-02-mysql</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-02-mysql</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[MySQL runs more web applications, SaaS platforms, and e-commerce backends than any other database. It's fast for transactional reads and writes, but it becomes a bottleneck when your data team needs to run analytical queries, join MySQL data with other sources, or build dashboards that don't compete with application traffic.]]></description>
-    </item>
-    <item>
-      <title>Connect Oracle Database to Dremio Cloud: Enterprise Analytics Without Data Movement</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-03-oracle</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-03-oracle</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Oracle Database runs the most critical enterprise applications in the world — ERP systems, financial ledgers, supply chain management, and HR platforms. These systems generate massive volumes of data that business teams want to analyze, but running analytical queries directly against Oracle is expensive (license costs scale with CPU usage), complex (Oracle-specific SQL dialects and tooling), and risky (heavy queries can impact transactional performance).]]></description>
-    </item>
-    <item>
-      <title>Connect Microsoft SQL Server to Dremio Cloud: Federate Enterprise Data Without ETL</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-04-microsoft-sql-server</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-01-connector-blogs-04-microsoft-sql-server</guid>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Microsoft SQL Server is one of the most widely deployed enterprise databases in the world. ERP systems, CRM platforms, financial applications, and custom business applications run on SQL Server across on-premises data centers and Azure cloud deployments. But connecting SQL Server data to a modern analytics platform typically requires building ETL pipelines, managing SSIS packages, or purchasing additional SQL Server Enterprise licenses for analytics workloads.]]></description>
     </item>
     </channel>
   </rss>
