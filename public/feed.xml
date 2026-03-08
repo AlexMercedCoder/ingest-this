@@ -5,7 +5,7 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sat, 07 Mar 2026 22:40:05 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 08 Mar 2026 01:39:18 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
@@ -128,6 +128,13 @@
       <description><![CDATA[Visual Studio Code is the most widely used code editor in the world, and its extensibility means you can integrate AI capabilities through a growing ecosystem of LLM plugins. Unlike purpose-built AI editors (Cursor, Windsurf, Zed), VS Code gives you the freedom to choose and combine AI extensions, configure them to your preferences, and even switch between providers without changing editors. The tradeoff is that context management is not as seamlessly integrated as in dedicated AI editors. It requires more deliberate configuration.]]></description>
     </item>
     <item>
+      <title>The Model Context Protocol (MCP) Explained: A Complete Guide to How Every Major AI Tool Connects to External Data</title>
+      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-18-mcp-deep-dive</link>
+      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-18-mcp-deep-dive</guid>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The Model Context Protocol (MCP) has become the universal standard for connecting AI models to external tools, data sources, and services. Originally open-sourced by Anthropic in November 2024 and now managed by the Linux Foundation, MCP solves one of the biggest frustrations in working with AI: getting models to interact with the systems where your actual work lives. Instead of copying and pasting data into chat windows or uploading files manually, MCP lets AI tools query databases, read documentation, interact with APIs, manage files, and perform actions across your entire tool ecosystem through a standardized protocol.]]></description>
+    </item>
+    <item>
       <title>How to Use Dremio with Amazon Kiro: Connect, Query, and Build Data Apps</title>
       <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-amazon-kiro</link>
       <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-amazon-kiro</guid>
@@ -140,13 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-code</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code is Anthropic's terminal-based coding agent. It reads your files, writes code, runs commands, and maintains context across a session. Dremio is a unified lakehouse platform that gives AI agents three things they need to answer business questions accurately: deep business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Claude CoWork: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-cowork</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-cowork</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CoWork is Anthropic's desktop agentic assistant. Unlike Claude Code (a terminal coding agent), CoWork operates as a general-purpose autonomous agent that reads and writes files, browses the web, manages tasks, and generates complete project artifacts. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections.]]></description>
     </item>
     </channel>
   </rss>
