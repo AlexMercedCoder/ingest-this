@@ -5,9 +5,58 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 08 Mar 2026 01:39:18 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 13 Apr 2026 19:33:14 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Apache Software Foundation: History, Purpose, and Process</title>
+      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-01-apache-software-foundation</link>
+      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-01-apache-software-foundation</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+    </item>
+    <item>
+      <title>What is Apache Parquet? Columns, Encoding, and Performance</title>
+      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-02-apache-parquet</link>
+      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-02-apache-parquet</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+    </item>
+    <item>
+      <title>What is Apache Iceberg? The Table Format Revolution</title>
+      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-03-apache-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-03-apache-iceberg</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+    </item>
+    <item>
+      <title>What is Apache Polaris? Unifying the Iceberg Ecosystem</title>
+      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-04-apache-polaris</link>
+      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-04-apache-polaris</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+    </item>
+    <item>
+      <title>What is Apache Arrow? Erasing the Serialization Tax</title>
+      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-05-apache-arrow</link>
+      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-05-apache-arrow</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+    </item>
+    <item>
+      <title>Assembling the Apache Lakehouse: The Modular Architecture</title>
+      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-06-assembling-apache-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-06-assembling-apache-lakehouse</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+    </item>
+    <item>
+      <title>Agentic Analytics on the Apache Lakehouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-07-agentic-analytics</link>
+      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-07-agentic-analytics</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+    </item>
     <item>
       <title>Context Management Strategies for ChatGPT: A Complete Guide to Getting Better Results</title>
       <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-01-chatgpt</link>
@@ -98,55 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-13-perplexity</guid>
       <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Perplexity AI occupies a unique position in the AI landscape: it is a research-first tool that combines conversational AI with real-time web search to produce answers grounded in current sources. Unlike coding-focused tools or general chatbots, Perplexity is built for information retrieval, analysis, and synthesis. Its context management is designed around Spaces (persistent research workspaces), Focus Modes (search scope control), and an elastic context window that adapts to the complexity of your query.]]></description>
-    </item>
-    <item>
-      <title>Context Management Strategies for Windsurf: A Complete Guide to the AI Flow IDE</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-14-windsurf</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-14-windsurf</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windsurf is an AI-powered IDE built on the VS Code foundation that introduces the concept of "Flows," a paradigm where the AI maintains deep awareness of your actions, codebase, and development patterns over time. Its context management differentiates from other editors through Cascade (its agentic coding assistant), persistent Rules files, Memories, and a sophisticated context engine that tracks not just what files you are editing, but how you work.]]></description>
-    </item>
-    <item>
-      <title>Context Management Strategies for Zed: A Complete Guide to the High-Performance AI Code Editor</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-15-zed</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-15-zed</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Zed is a high-performance code editor built in Rust that prioritizes speed, simplicity, and real-time collaboration. Its AI integration is designed to be fast and unobtrusive, with context management built around an assistant panel, inline transformations, slash commands, and a flexible provider system that supports multiple AI services. What sets Zed apart from other AI editors is its focus on performance (everything runs natively, not in Electron) and its built-in multiplayer editing that extends to AI interactions.]]></description>
-    </item>
-    <item>
-      <title>Context Management Strategies for T3 Chat: A Complete Guide to the Unified Multi-Model AI Interface</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-16-t3-chat</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-16-t3-chat</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[T3 Chat is a modern web-based AI chat interface that gives you access to multiple AI models through a single unified platform. Its primary value proposition is model flexibility: instead of being locked into one provider, you can switch between Claude, GPT, Gemini, Llama, and other models within the same interface. This makes T3 Chat unique from a context management perspective because the same context strategies must work across fundamentally different model families with different capabilities, context window sizes, and strengths.]]></description>
-    </item>
-    <item>
-      <title>Context Management Strategies for VS Code with LLM Plugins: A Complete Guide to Building Your Own AI-Powered IDE</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-17-vscode-llm-plugins</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-17-vscode-llm-plugins</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Visual Studio Code is the most widely used code editor in the world, and its extensibility means you can integrate AI capabilities through a growing ecosystem of LLM plugins. Unlike purpose-built AI editors (Cursor, Windsurf, Zed), VS Code gives you the freedom to choose and combine AI extensions, configure them to your preferences, and even switch between providers without changing editors. The tradeoff is that context management is not as seamlessly integrated as in dedicated AI editors. It requires more deliberate configuration.]]></description>
-    </item>
-    <item>
-      <title>The Model Context Protocol (MCP) Explained: A Complete Guide to How Every Major AI Tool Connects to External Data</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-18-mcp-deep-dive</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-18-mcp-deep-dive</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The Model Context Protocol (MCP) has become the universal standard for connecting AI models to external tools, data sources, and services. Originally open-sourced by Anthropic in November 2024 and now managed by the Linux Foundation, MCP solves one of the biggest frustrations in working with AI: getting models to interact with the systems where your actual work lives. Instead of copying and pasting data into chat windows or uploading files manually, MCP lets AI tools query databases, read documentation, interact with APIs, manage files, and perform actions across your entire tool ecosystem through a standardized protocol.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Amazon Kiro: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-amazon-kiro</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-amazon-kiro</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Amazon Kiro is an agentic AI IDE from AWS that introduces spec-driven development to the coding workflow. Instead of jumping straight to code, Kiro helps you define structured specifications — requirements, technical designs, and task breakdowns — before writing a single line. It then generates code that follows those specs and keeps everything in sync as the project evolves. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
-    </item>
-    <item>
-      <title>How to Use Dremio with Claude Code: Connect, Query, and Build Data Apps</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-code</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-05-aitoolblogs-claude-code</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code is Anthropic's terminal-based coding agent. It reads your files, writes code, runs commands, and maintains context across a session. Dremio is a unified lakehouse platform that gives AI agents three things they need to answer business questions accurately: deep business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow.]]></description>
     </item>
     </channel>
   </rss>
