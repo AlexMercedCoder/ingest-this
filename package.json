@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "node scripts/generate-rss.js && next-sitemap"
+    "postbuild": "node scripts/generate-llms-txt.js && node scripts/generate-rss.js && next-sitemap"
   },
   "dependencies": {
     "@vercel/og": "^0.8.6",
