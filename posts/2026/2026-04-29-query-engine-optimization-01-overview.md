@@ -1,7 +1,7 @@
 ---
 title: "How Query Engines Think: The Tradeoffs Behind Every Data System"
 date: "2026-04-29"
-description: "<!-- Meta Description: Every database is a collection of engineering tradeoffs. Learn the 9 design decisions that shape how query engines store, index, and process your data. -->"
+description: "Every database is a collection of engineering tradeoffs. Learn the 9 design decisions that shape how query engines store, index, and process your data."
 author: "Alex Merced"
 category: "Data Engineering"
 bannerImage: "/images/2026/query-engine-optimization/01-overview/query-engine-decision-map.png"
@@ -11,9 +11,9 @@ tags:
   - performance optimization
 ---
 
-<!-- Meta Description: Every database is a collection of engineering tradeoffs. Learn the 9 design decisions that shape how query engines store, index, and process your data. --\>
-<!-- Primary Keyword: query engine design --\>
-<!-- Secondary Keywords: database tradeoffs, query optimization, OLTP vs OLAP --\>
+
+
+
 
 Every database you have ever used is a collection of deliberate engineering tradeoffs. PostgreSQL is fast at looking up a single customer record but slow at scanning a billion rows for an aggregate. ClickHouse is the opposite. DuckDB runs analytical queries on your laptop at speeds that embarrass some cloud data warehouses, but it is not designed to handle 10,000 concurrent transactional writes per second. Dremio accelerates analytical queries on lakehouse data using Apache Arrow and Iceberg, but it is not a replacement for a transactional OLTP database.
 

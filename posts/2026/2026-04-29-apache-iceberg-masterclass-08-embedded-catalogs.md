@@ -1,7 +1,7 @@
 ---
 title: "When Catalogs Are Embedded in Storage"
 date: "2026-04-29"
-description: "<!-- Meta Description: S3 Tables and MinIO AI Stor embed the Iceberg catalog directly in the storage layer. Here is when embedded catalogs make sense and when they do not. -->"
+description: "S3 Tables and MinIO AI Stor embed the Iceberg catalog directly in the storage layer. Here is when embedded catalogs make sense and when they do not."
 author: "Alex Merced"
 category: "Data Lakehouse"
 bannerImage: "/images/2026/apache-iceberg-masterclass/08-embedded-catalogs/embedded-vs-standalone.png"
@@ -12,9 +12,9 @@ tags:
   - dremio
 ---
 
-<!-- Meta Description: S3 Tables and MinIO AI Stor embed the Iceberg catalog directly in the storage layer. Here is when embedded catalogs make sense and when they do not. --\>
-<!-- Primary Keyword: embedded Iceberg catalog --\>
-<!-- Secondary Keywords: S3 Tables, MinIO AI Stor, storage-managed catalog --\>
+
+
+
 
 This is Part 8 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 7](/posts/2026/2026-04-29-apache-iceberg-masterclass-07-lakehouse-catalogs) covered the traditional catalog landscape. This article examines a newer approach: embedding the catalog directly inside the storage layer.
 

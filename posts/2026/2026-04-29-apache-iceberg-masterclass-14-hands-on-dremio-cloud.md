@@ -1,7 +1,7 @@
 ---
 title: "Hands-On with Apache Iceberg Using Dremio Cloud"
 date: "2026-04-29"
-description: "<!-- Meta Description: A practical walkthrough of creating, querying, and optimizing Iceberg tables on Dremio Cloud, from account setup to AI-powered analytics. -->"
+description: "A practical walkthrough of creating, querying, and optimizing Iceberg tables on Dremio Cloud, from account setup to AI-powered analytics."
 author: "Alex Merced"
 category: "Data Lakehouse"
 bannerImage: "/images/2026/apache-iceberg-masterclass/14-hands-on-dremio-cloud/dremio-iceberg-workflow.png"
@@ -12,9 +12,9 @@ tags:
   - dremio
 ---
 
-<!-- Meta Description: A practical walkthrough of creating, querying, and optimizing Iceberg tables on Dremio Cloud, from account setup to AI-powered analytics. --\>
-<!-- Primary Keyword: Dremio Cloud Apache Iceberg --\>
-<!-- Secondary Keywords: Dremio Cloud tutorial, Iceberg hands-on, COPY INTO, semantic layer --\>
+
+
+
 
 This is Part 14 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 13](/posts/2026/2026-04-29-apache-iceberg-masterclass-13-streaming-to-iceberg) covered streaming approaches. This article is a practical walkthrough of working with Iceberg on [Dremio Cloud](https://www.dremio.com/get-started/), covering table creation, data ingestion, optimization, semantic layer construction, and AI-powered analytics.
 

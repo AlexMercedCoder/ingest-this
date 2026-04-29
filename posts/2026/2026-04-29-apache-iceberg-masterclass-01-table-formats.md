@@ -1,7 +1,7 @@
 ---
 title: "What Are Table Formats and Why Were They Needed?"
 date: "2026-04-29"
-description: "<!-- Meta Description: Table formats like Apache Iceberg solved the ACID, schema, and performance problems that turned data lakes into data swamps. Here is how each one works. -->"
+description: "Table formats like Apache Iceberg solved the ACID, schema, and performance problems that turned data lakes into data swamps. Here is how each one works."
 author: "Alex Merced"
 category: "Data Lakehouse"
 bannerImage: "/images/2026/apache-iceberg-masterclass/01-table-formats/before-after-table-formats.png"
@@ -12,9 +12,9 @@ tags:
   - dremio
 ---
 
-<!-- Meta Description: Table formats like Apache Iceberg solved the ACID, schema, and performance problems that turned data lakes into data swamps. Here is how each one works. --\>
-<!-- Primary Keyword: data lake table formats --\>
-<!-- Secondary Keywords: Apache Iceberg, Delta Lake, Apache Hudi, Apache Paimon --\>
+
+
+
 
 This is Part 1 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). This article covers the fundamental question: what problem do table formats solve, and why does the choice between them matter?
 

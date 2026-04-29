@@ -1,7 +1,7 @@
 ---
 title: "Hash, Sort-Merge, Broadcast: How Distributed Joins Work"
 date: "2026-04-29"
-description: "<!-- Meta Description: Distributed joins move data across the network using shuffle, broadcast, or co-location strategies. Here is how each works and when engines choose which. -->"
+description: "Distributed joins move data across the network using shuffle, broadcast, or co-location strategies. Here is how each works and when engines choose which."
 author: "Alex Merced"
 category: "Data Engineering"
 bannerImage: "/images/2026/query-engine-optimization/09-distributed-joins/shuffle-join.png"
@@ -11,9 +11,9 @@ tags:
   - performance optimization
 ---
 
-<!-- Meta Description: Distributed joins move data across the network using shuffle, broadcast, or co-location strategies. Here is how each works and when engines choose which. --\>
-<!-- Primary Keyword: distributed join algorithms --\>
-<!-- Secondary Keywords: shuffle join, broadcast join, hash join database --\>
+
+
+
 
 This is Part 9 of a 10-part series on query engine design. [Part 8](/posts/2026/2026-04-29-query-engine-optimization-08-partitioning) covered partitioning. This article covers the most expensive operation in distributed query processing: joining two tables whose data lives on different nodes.
 

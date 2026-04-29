@@ -82,13 +82,18 @@ function processPost(series, chapterDir) {
         lines.splice(titleIndex, 1);
     }
 
-    // Extract Description (first paragraph)
+    // Extract Description
     let description = '';
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-        if (line && !line.startsWith('#') && !line.startsWith('![')) {
-             description = line;
-             break;
+    const metaDescMatch = content.match(/<!--\s*Meta Description:\s*(.*?)\s*-->/i);
+    if (metaDescMatch) {
+        description = metaDescMatch[1];
+    } else {
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (line && !line.startsWith('#') && !line.startsWith('![') && !line.startsWith('<!--')) {
+                 description = line;
+                 break;
+            }
         }
     }
     // refined description extraction strategy? 
@@ -160,8 +165,11 @@ function processPost(series, chapterDir) {
         return newLine;
     });
 
+    // Remove HTML comments to prevent MDX parsing errors
+    const contentWithoutComments = newContentLines.join('\n').replace(/<!--[\s\S]*?-->/g, '');
+
     // MDX-safe escaping: escape <, >, {, } outside code fences and inline code
-    content = escapeMdxContent(newContentLines.join('\n'));
+    content = escapeMdxContent(contentWithoutComments);
 
 
     // Generate Frontmatter

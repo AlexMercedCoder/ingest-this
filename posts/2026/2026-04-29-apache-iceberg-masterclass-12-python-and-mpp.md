@@ -1,7 +1,7 @@
 ---
 title: "Using Apache Iceberg with Python and MPP Query Engines"
 date: "2026-04-29"
-description: "<!-- Meta Description: Access Iceberg tables from Python with PyIceberg, DuckDB, and Polars, or through MPP engines like Dremio, Spark, and Trino. Here is how each approach works. -->"
+description: "Access Iceberg tables from Python with PyIceberg, DuckDB, and Polars, or through MPP engines like Dremio, Spark, and Trino. Here is how each approach works."
 author: "Alex Merced"
 category: "Data Lakehouse"
 bannerImage: "/images/2026/apache-iceberg-masterclass/12-python-and-mpp/python-iceberg-stack.png"
@@ -12,9 +12,9 @@ tags:
   - dremio
 ---
 
-<!-- Meta Description: Access Iceberg tables from Python with PyIceberg, DuckDB, and Polars, or through MPP engines like Dremio, Spark, and Trino. Here is how each approach works. --\>
-<!-- Primary Keyword: Python Apache Iceberg --\>
-<!-- Secondary Keywords: PyIceberg, DuckDB Iceberg, Dremio Arrow Flight, MPP query engine --\>
+
+
+
 
 This is Part 12 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 11](/posts/2026/2026-04-29-apache-iceberg-masterclass-11-metadata-tables) covered metadata tables. This article covers the two main ways to access Iceberg data: directly from Python libraries and through MPP (massively parallel processing) query engines.
 

@@ -1,7 +1,7 @@
 ---
 title: "How Databases Organize Data on Disk: Pages, Blocks, and File Formats"
 date: "2026-04-29"
-description: "<!-- Meta Description: Databases structure data on disk as heap files, sorted files, or LSM trees, then wrap it in formats like Parquet with metadata that lets engines skip irrelevant blocks. -->"
+description: "Databases structure data on disk as heap files, sorted files, or LSM trees, then wrap it in formats like Parquet with metadata that lets engines skip irrelevant blocks."
 author: "Alex Merced"
 category: "Data Engineering"
 bannerImage: "/images/2026/query-engine-optimization/03-data-organization-on-disk/write-read-spectrum.png"
@@ -11,9 +11,9 @@ tags:
   - performance optimization
 ---
 
-<!-- Meta Description: Databases structure data on disk as heap files, sorted files, or LSM trees, then wrap it in formats like Parquet with metadata that lets engines skip irrelevant blocks. --\>
-<!-- Primary Keyword: data file formats --\>
-<!-- Secondary Keywords: Parquet file format, database storage internals, predicate pushdown --\>
+
+
+
 
 This is Part 3 of a 10-part series on query engine design. [Part 2](/posts/2026/2026-04-29-query-engine-optimization-02-row-vs-column-storage) covered row vs. column storage layouts. This article goes one level deeper: how data is physically structured within files, and what metadata accompanies it to make reads efficient.
 

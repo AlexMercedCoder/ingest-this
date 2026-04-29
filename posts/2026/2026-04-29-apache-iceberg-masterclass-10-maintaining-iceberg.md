@@ -1,7 +1,7 @@
 ---
 title: "Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup"
 date: "2026-04-29"
-description: "<!-- Meta Description: Keep Iceberg tables fast with compaction, snapshot expiry, orphan cleanup, and manifest rewriting. Here is when and how to run each operation. -->"
+description: "Keep Iceberg tables fast with compaction, snapshot expiry, orphan cleanup, and manifest rewriting. Here is when and how to run each operation."
 author: "Alex Merced"
 category: "Data Lakehouse"
 bannerImage: "/images/2026/apache-iceberg-masterclass/10-maintaining-iceberg/maintenance-operations.png"
@@ -12,9 +12,9 @@ tags:
   - dremio
 ---
 
-<!-- Meta Description: Keep Iceberg tables fast with compaction, snapshot expiry, orphan cleanup, and manifest rewriting. Here is when and how to run each operation. --\>
-<!-- Primary Keyword: Iceberg table maintenance --\>
-<!-- Secondary Keywords: compaction, snapshot expiry, orphan file cleanup, OPTIMIZE TABLE --\>
+
+
+
 
 This is Part 10 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 9](/posts/2026/2026-04-29-apache-iceberg-masterclass-09-storage-degradation) covered how tables degrade. This article covers the four maintenance operations that keep Iceberg tables healthy and the three approaches to running them.
 
