@@ -7,7 +7,9 @@ const IMAGES_BASE_DIR = path.join(process.cwd(), 'public', 'images', '2026');
 
 // Series directory mappings
 const SERIES_MAP = {
-    'context-management-blogs': { category: 'AI', tags: ['ai', 'context management', 'coding tools', 'developer tools'] }
+    'context-management-blogs': { category: 'AI', tags: ['ai', 'context management', 'coding tools', 'developer tools'] },
+    'apache-iceberg-masterclass': { category: 'Data Lakehouse', tags: ['apache iceberg', 'data lakehouse', 'data engineering', 'dremio'] },
+    'query-engine-optimization': { category: 'Data Engineering', tags: ['query engine', 'database internals', 'performance optimization'] }
 };
 
 // Ensure directories exist
@@ -117,7 +119,7 @@ function processPost(series, chapterDir) {
     const newContentLines = lines.map(line => {
         // Regex for Markdown images: ![alt](url)
         const regex = /!\[(.*?)\]\((.*?)\)/g;
-        return line.replace(regex, (match, alt, url) => {
+        let newLine = line.replace(regex, (match, alt, url) => {
             // Skip external URLs
             if (url.startsWith('http://') || url.startsWith('https://')) {
                 return match;
@@ -141,6 +143,21 @@ function processPost(series, chapterDir) {
                 return match; // return original if not found
             }
         });
+
+        // Regex for Markdown links: [text](../[chapterDir]/content.md)
+        const linkRegex = /\[(.*?)\]\(\.\.\/([^\/]+)\/content\.md\)/g;
+        newLine = newLine.replace(linkRegex, (match, text, linkedChapterDir) => {
+            return `[${text}](/posts/2026/2026-04-29-${series}-${linkedChapterDir})`;
+        });
+
+        // Regex for Markdown links: [text](../README.md) -> maps to first post
+        const readmeRegex = /\[(.*?)\]\(\.\.\/README\.md\)/g;
+        newLine = newLine.replace(readmeRegex, (match, text) => {
+            const firstPostDir = series === 'apache-iceberg-masterclass' ? '01-table-formats' : '01-overview';
+            return `[${text}](/posts/2026/2026-04-29-${series}-${firstPostDir})`;
+        });
+
+        return newLine;
     });
 
     // MDX-safe escaping: escape <, >, {, } outside code fences and inline code
@@ -151,15 +168,15 @@ function processPost(series, chapterDir) {
     const { category, tags } = SERIES_MAP[series] || { category: 'General', tags: [] };
     
     // Construct simplified slug from chapter dir (remove number prefix if desired, keeping it for ordering is better?)
-    // The requirement was: 2026-03-07-[series]-[chapter]-[slug]
-    // simpler: 2026-03-07-[series]-[chapterDir]
-    const filename = `2026-03-07-${series}-${chapterDir}.md`;
+    // The requirement was: 2026-04-29-[series]-[chapter]-[slug]
+    // simpler: 2026-04-29-[series]-[chapterDir]
+    const filename = `2026-04-29-${series}-${chapterDir}.md`;
     const finalPath = path.join(POSTS_DIR, filename);
 
     const frontmatter = [
         '---',
         `title: "${title.replace(/"/g, '\\"')}"`,
-        `date: "2026-03-07"`,
+        `date: "2026-04-29"`,
         `description: "${description.replace(/"/g, '\\"')}"`,
         `author: "Alex Merced"`,
         `category: "${category}"`,
