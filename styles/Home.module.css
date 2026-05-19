@@ -1,133 +1,163 @@
+/* ===== HOME — Huddle Midnight Canvas Layout ===== */
+
 .container {
-  padding: 0 2rem;
+  padding: 0;
   width: 100%;
-  max-width: 1200px;
-  margin: auto;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-bottom: var(--spacing-96);
 }
 
+/* ===== HERO — Centered on Midnight ===== */
 .hero {
   text-align: center;
-  margin-bottom: var(--spacing-xxl, 4rem);
-  padding: 4rem 2rem;
-  background: linear-gradient(135deg, rgba(15, 118, 110, 0.1) 0%, rgba(30, 41, 59, 0.05) 100%);
-  border-radius: 20px;
-  width: 100%;
+  padding: var(--spacing-96) var(--spacing-40) var(--spacing-48);
+  background-color: var(--color-midnight-canvas);
 }
 
 .hero h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
-  margin-bottom: var(--spacing-sm);
-  background: linear-gradient(to right, var(--primary-color), var(--primary-hover));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: clamp(2.5rem, 8vw, 69px);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+  color: var(--color-ash-cloud);
+  margin-bottom: var(--spacing-16);
+  background: none;
+  -webkit-text-fill-color: unset;
 }
 
 .hero h2 {
-  font-size: 1.5rem;
-  color: var(--text-heading);
-  font-weight: 600;
-  margin-bottom: var(--spacing-md);
+  font-size: clamp(1.1rem, 3vw, var(--text-subheading));
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-subheading);
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: var(--spacing-24);
+  letter-spacing: 0;
 }
 
 .hero p {
-  font-size: 1.1rem;
-  color: var(--text-main);
-  max-width: 700px;
-  margin: 0 auto var(--spacing-sm);
-  line-height: 1.6;
+  font-size: var(--text-body);
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 640px;
+  margin: 0 auto var(--spacing-12);
+  line-height: var(--leading-body);
+  font-family: var(--font-roboto);
+  letter-spacing: var(--tracking-body-sm);
 }
 
+/* CTA link below hero — Earth Clay pill */
+.heroCta {
+  display: inline-block;
+  margin-top: var(--spacing-32);
+  background-color: var(--color-earth-clay);
+  color: var(--color-golden-ochre);
+  border: 1px solid var(--color-golden-ochre);
+  border-radius: var(--radius-buttons);
+  padding: var(--spacing-12) var(--spacing-40);
+  font-family: var(--font-nng);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-body-sm);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background-color 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.heroCta:hover {
+  background-color: #7a521f;
+  transform: translateY(-2px);
+  color: var(--color-golden-ochre);
+}
+
+/* ===== SOCIAL / CONNECT GRID — Pastel Project Cards ===== */
 .socialGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-12);
   width: 100%;
+  padding: var(--spacing-48) var(--spacing-40) 0;
 }
 
+/* Card color rotation using pastel backgrounds */
 .socialCard {
-  background-color: var(--surface-color);
-  padding: var(--spacing-md);
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
+  background-color: var(--color-warm-violet);
+  color: var(--color-midnight-canvas);
+  padding: var(--spacing-24) var(--spacing-20);
+  border-radius: var(--radius-cards);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: transform 0.25s ease, filter 0.25s ease;
   min-height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Alternate card backgrounds via nth-child */
+.socialCard:nth-child(2n) {
+  background-color: var(--color-golden-ochre);
+}
+.socialCard:nth-child(3n) {
+  background-color: var(--color-rose-blush);
+}
+.socialCard:nth-child(4n) {
+  background-color: var(--color-cream-paper);
+}
+.socialCard:nth-child(5n) {
+  background-color: var(--color-deep-plum);
+  color: var(--color-cream-paper);
+}
+.socialCard:nth-child(5n) h3,
+.socialCard:nth-child(5n) p {
+  color: var(--color-cream-paper);
 }
 
 .socialCard:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
-  background-color: var(--surface-color); /* Ensure bg stays solid */
+  transform: translateY(-6px) scale(1.01);
+  filter: brightness(1.06);
 }
 
 .socialCard h3 {
-  font-size: 1.2rem;
-  margin-bottom: 4px;
-  color: var(--text-heading);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-midnight-canvas);
+  margin-bottom: var(--spacing-4);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-family: var(--font-moderat);
 }
 
 .socialCard p {
-  font-size: 0.9rem;
-  color: var(--text-muted);
+  font-size: var(--text-caption);
+  color: rgba(0,0,0,0.6);
   margin: 0;
+  font-family: var(--font-roboto);
+  letter-spacing: var(--tracking-body-sm);
 }
 
-.socialCard:hover h3,
-.socialCard:hover p {
-  color: var(--primary-color);
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid var(--border-color);
-  justify-content: center;
-  align-items: center;
-  margin-top: 4rem;
-  color: var(--text-muted);
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  color: var(--text-main);
-  font-weight: 600;
-}
-
-.footer a:hover {
-  color: var(--primary-color);
-}
-
-/* Responsive Adjustments */
+/* Responsive */
 @media (max-width: 768px) {
+  .hero {
+    padding: var(--spacing-48) var(--spacing-20) var(--spacing-32);
+  }
+
   .hero h1 {
     font-size: 2.5rem;
   }
 
-  .hero h2 {
-    font-size: 1.2rem;
-  }
-  
-  .hero {
-      padding: 3rem 1rem;
+  .socialGrid {
+    padding: var(--spacing-32) var(--spacing-20) 0;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: var(--spacing-10);
   }
 
   .container {
-    padding: 0 1rem;
+    padding-bottom: var(--spacing-48);
   }
 }

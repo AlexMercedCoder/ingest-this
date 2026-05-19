@@ -1,59 +1,83 @@
 .footer {
-  text-align: center;
-  padding: 2rem 1rem 1rem;
-  margin-top: 3rem;
-  border-top: 1px solid var(--border, #e2e8f0);
-  font-size: 0.9rem;
+  background-color: var(--color-midnight-canvas);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: var(--spacing-48) var(--spacing-40) var(--spacing-32);
+  margin-top: var(--spacing-96);
 }
 
 .footerNav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-  margin-bottom: 1.5rem;
+  gap: var(--spacing-48);
+  margin-bottom: var(--spacing-40);
+  max-width: var(--page-max-width);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footerSection {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-  min-width: 120px;
+  gap: var(--spacing-10);
+  min-width: 130px;
   text-align: left;
 }
 
 .footerSection strong {
-  margin-bottom: 0.25rem;
-  font-size: 0.8rem;
+  display: block;
+  margin-bottom: var(--spacing-6);
+  font-family: var(--font-apercu-pro-mono);
+  font-size: var(--text-caption);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  opacity: 0.6;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.35);
 }
 
 .footerSection a,
 .footerSection :global(a) {
+  font-family: var(--font-moderat, var(--font-nng));
+  font-size: var(--text-body-sm);
+  letter-spacing: -0.021em;
+  color: rgba(255,255,255,0.55);
   text-decoration: none;
-  opacity: 0.8;
-  transition: opacity 0.2s;
+  transition: color 0.2s;
 }
 
 .footerSection a:hover {
-  opacity: 1;
-  text-decoration: underline;
+  color: var(--color-warm-violet);
 }
 
 .footerCopy {
   margin: 0;
-  opacity: 0.6;
-  font-size: 0.8rem;
+  text-align: center;
+  font-family: var(--font-apercu-pro-mono);
+  font-size: var(--text-caption);
+  color: rgba(255,255,255,0.25);
+  letter-spacing: 0.04em;
+  max-width: var(--page-max-width);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footerCopy a {
+  color: rgba(255,255,255,0.4);
   text-decoration: none;
-  opacity: 0.8;
+  transition: color 0.2s;
 }
 
 .footerCopy a:hover {
-  text-decoration: underline;
-  opacity: 1;
+  color: var(--color-warm-violet);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: var(--spacing-40) var(--spacing-20) var(--spacing-24);
+    margin-top: var(--spacing-48);
+  }
+
+  .footerNav {
+    gap: var(--spacing-32);
+    justify-content: flex-start;
+  }
 }

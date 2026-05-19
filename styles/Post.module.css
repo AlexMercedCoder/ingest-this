@@ -1,130 +1,18 @@
+/* ===== POST PAGE — Huddle Dark Editorial ===== */
+
 .main {
-  max-width: 800px;
+  max-width: 760px;
   margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-md);
+  padding: var(--spacing-48) var(--spacing-40);
+  background-color: var(--color-midnight-canvas);
+  min-height: 100vh;
 }
 
-/* Hero Image */
-.heroContainer {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 21 / 9;
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: var(--spacing-lg);
-    background-color: var(--secondary-color);
-}
-
-.title {
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: var(--text-heading);
-    margin-bottom: var(--spacing-md);
-    line-height: 1.2;
-}
-
-/* Metadata */
-.metadata {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-sm);
-    padding-bottom: var(--spacing-lg);
-    margin-bottom: var(--spacing-xl);
-    border-bottom: 1px solid var(--border-color);
-}
-
-.metaRow {
-    display: flex;
-    gap: var(--spacing-md);
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    font-weight: 500;
-    flex-wrap: wrap;
-}
-
-.metaRow span {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.tagsRow {
-    display: flex;
-    gap: var(--spacing-xs);
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.categoryPill {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 2px 10px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.tagHash {
-    color: var(--primary-color);
-    font-size: 0.9rem;
-    font-weight: 500;
-    padding: 2px 6px;
-    border-radius: 4px;
-    transition: background 0.2s;
-}
-
-.tagHash:hover {
-    background-color: #f1f5f9; /* Light slate */
-}
-
-/* Content Styling handled globally via .blog-post in globals.css, 
-   but we can add specific overrides here if needed */
-
-.main :global(.blog-post) {
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.8;
-  color: var(--text-main);
-}
-
-.main :global(.blog-post) h1,
-.main :global(.blog-post) h2,
-.main :global(.blog-post) h3 {
-  margin-top: var(--spacing-xl);
-  margin-bottom: var(--spacing-sm);
-  color: var(--text-heading);
-}
-
-.main :global(.blog-post) p {
-  margin-bottom: var(--spacing-md);
-}
-
-.main :global(.blog-post) a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .heroContainer {
-        aspect-ratio: 16 / 9;
-    }
-    
-    .title {
-        font-size: 1.8rem;
-    }
-    
-    .metaRow {
-        gap: var(--spacing-sm);
-        font-size: 0.85rem;
-    }
-}
-/* Banner hero image */
+/* ===== BANNER HERO IMAGE ===== */
 .bannerWrap {
   width: 100%;
-  margin-bottom: 1.5rem;
-  border-radius: 0.5rem;
+  margin-bottom: var(--spacing-32);
+  border-radius: var(--radius-cards);
   overflow: hidden;
 }
 
@@ -133,5 +21,183 @@
   height: auto;
   display: block;
   object-fit: cover;
-  max-height: 400px;
+  max-height: 420px;
+}
+
+/* ===== TITLE ===== */
+.title {
+  font-size: clamp(1.8rem, 5vw, var(--text-heading-lg));
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--tracking-heading-lg);
+  line-height: var(--leading-heading-lg);
+  color: var(--color-ash-cloud);
+  margin-bottom: var(--spacing-24);
+}
+
+/* ===== METADATA BAR ===== */
+.metadata {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-12);
+  padding-bottom: var(--spacing-24);
+  margin-bottom: var(--spacing-40);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.metaRow {
+  display: flex;
+  gap: var(--spacing-24);
+  color: rgba(255,255,255,0.45);
+  font-size: var(--text-body-sm);
+  font-family: var(--font-apercu-pro-mono);
+  font-weight: var(--font-weight-regular);
+  flex-wrap: wrap;
+  letter-spacing: 0.02em;
+}
+
+.metaRow span {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-6);
+}
+
+.metaRow a {
+  color: var(--color-warm-violet);
+  transition: color 0.2s;
+}
+
+.metaRow a:hover {
+  color: var(--primary-hover);
+}
+
+/* ===== TAGS ROW ===== */
+.tagsRow {
+  display: flex;
+  gap: var(--spacing-8);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Category — Earth Clay filled pill */
+.categoryPill {
+  background-color: var(--color-earth-clay);
+  color: var(--color-golden-ochre);
+  border: 1px solid var(--color-golden-ochre);
+  padding: var(--spacing-4) var(--spacing-16);
+  border-radius: var(--radius-buttons);
+  font-size: var(--text-caption);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-nng);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  transition: background-color 0.2s;
+}
+
+.categoryPill:hover {
+  background-color: #7a521f;
+  color: var(--color-golden-ochre);
+}
+
+/* Tags — Charcoal Teal badge */
+.tagHash {
+  background-color: var(--color-charcoal-teal);
+  color: #aebbba;
+  padding: var(--spacing-4) var(--spacing-8);
+  border-radius: var(--radius-badges);
+  font-size: var(--text-caption);
+  font-family: var(--font-apercu-pro-mono);
+  letter-spacing: 0.02em;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.tagHash:hover {
+  background-color: var(--color-deep-plum);
+  color: var(--color-warm-violet);
+}
+
+/* ===== ARTICLE BODY ===== */
+.main :global(.blog-post) {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--color-cream-paper);
+}
+
+.main :global(.blog-post) h2,
+.main :global(.blog-post) h3,
+.main :global(.blog-post) h4 {
+  margin-top: var(--spacing-40);
+  margin-bottom: var(--spacing-12);
+  color: var(--color-ash-cloud);
+}
+
+.main :global(.blog-post) p {
+  margin-bottom: var(--spacing-16);
+}
+
+.main :global(.blog-post) a {
+  color: var(--color-golden-ochre);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.main :global(.blog-post) a:hover {
+  color: var(--color-warm-violet);
+}
+
+/* ===== READ NEXT ===== */
+.main h3 {
+  font-size: var(--text-subheading);
+  color: var(--color-ash-cloud);
+  margin-bottom: var(--spacing-16);
+  letter-spacing: var(--tracking-heading);
+}
+
+.related {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-12);
+  margin-bottom: var(--spacing-48);
+}
+
+.relatedPost {
+  background-color: var(--color-deep-plum);
+  border-radius: var(--radius-cards);
+  padding: var(--spacing-20);
+  transition: filter 0.2s;
+}
+
+.relatedPost:hover {
+  filter: brightness(1.1);
+}
+
+.relatedLink {
+  color: var(--color-cream-paper);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-nng);
+  line-height: 1.4;
+}
+
+.relatedLink:hover {
+  color: var(--color-warm-violet);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .main {
+    padding: var(--spacing-32) var(--spacing-20);
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .metaRow {
+    gap: var(--spacing-12);
+    font-size: var(--text-caption);
+  }
+
+  .related {
+    grid-template-columns: 1fr;
+  }
 }
