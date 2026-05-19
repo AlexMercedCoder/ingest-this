@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Header.module.css'
 import Link from 'next/link'
 import Script from 'next/script'
@@ -44,13 +43,25 @@ function Header (props){
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo" style={{display:'flex', alignItems:'center'}}>
-          <Link href="/" style={{display:'flex', alignItems:'center'}}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/ig-logo-wide.png"
-              alt="IngestThis Logo"
-              style={{ height: '72px', width: 'auto', display: 'block' }}
-            />
+          <Link href="/" style={{display:'flex', alignItems:'center', gap:'8px', textDecoration:'none'}}>
+            {/* Data-pipeline icon */}
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{flexShrink:0}}>
+              <rect x="1" y="1" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
+              <rect x="1" y="9" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
+              <rect x="1" y="17" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
+              <path d="M17 11h4M17 11l-2.5-2.5M17 11l-2.5 2.5" stroke="#bbb2ce" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            {/* Wordmark */}
+            <span style={{
+              fontFamily: "'Inter', ui-sans-serif, system-ui, sans-serif",
+              fontWeight: 700,
+              fontSize: '1.35rem',
+              letterSpacing: '-0.03em',
+              lineHeight: 1,
+              userSelect: 'none',
+            }}>
+              <span style={{color:'#bbb2ce'}}>Ingest</span><span style={{color:'#e4b976'}}>This</span>
+            </span>
           </Link>
         </div>
         <nav className={styles.nav}>
