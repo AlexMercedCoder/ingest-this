@@ -44,7 +44,7 @@ function Header (props){
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo">
-        <Link href="/"><Image src={"/images/ig-transparent.PNG"} alt="IngestThis Logo" height={100} width={300}/></Link>
+        <Link href="/"><Image src={"/images/ig-logo-huddle.png"} alt="IngestThis Logo" height={48} width={180} style={{objectFit: 'contain'}}/></Link>
         </div>
         <nav className={styles.nav}>
             <button 
