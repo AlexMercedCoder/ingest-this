@@ -43,8 +43,15 @@ function Header (props){
         <link rel="alternate" type="application/rss+xml" title="IngestThis RSS Feed" href="/feed.xml" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
-        <div id="logo">
-        <Link href="/"><Image src={"/images/ig-logo-huddle.png"} alt="IngestThis Logo" height={60} width={220} style={{objectFit: 'contain'}}/></Link>
+        <div id="logo" style={{display:'flex', alignItems:'center'}}>
+          <Link href="/" style={{display:'flex', alignItems:'center'}}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/ig-logo-wide.png"
+              alt="IngestThis Logo"
+              style={{ height: '72px', width: 'auto', display: 'block' }}
+            />
+          </Link>
         </div>
         <nav className={styles.nav}>
             <button 
