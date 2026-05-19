@@ -40,6 +40,7 @@ function Header (props){
         <Head>
         <link rel="canonical" href={`https://ingestthis.com${router.asPath.split("?")[0]}`} />
         <meta property="og:site_name" content="IngestThis" />
+        <link rel="alternate" type="application/rss+xml" title="IngestThis RSS Feed" href="/feed.xml" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo">

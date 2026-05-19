@@ -120,3 +120,18 @@
         font-size: 0.85rem;
     }
 }
+/* Banner hero image */
+.bannerWrap {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}

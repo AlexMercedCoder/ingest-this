@@ -43,56 +43,139 @@ const components = {
 
 
 // The page for each post
-export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime }) {
-  const { title, author, category, date, bannerImage, tags } = frontmatter;
+export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime, slug }) {
+  const { title, author, category, date, bannerImage, tags, description } = frontmatter;
+  const postUrl = `https://ingestthis.com/posts/${slug}`;
+  const metaDescription = description || `Read "${title}" by ${author} on IngestThis — covering ${tags.join(", ")}.`;
+  const imageUrl = bannerImage
+    ? (bannerImage.startsWith("http") ? bannerImage : `https://ingestthis.com${bannerImage}`)
+    : `https://ingestthis.com/api/og?title=${encodeURIComponent(title)}`;
 
   return (
     <main className={styles.main}>
       <Head>
         {/* ... existing head content ... */}
         <title>{title} | IngestThis</title>
-        <meta name="description" content={`"${title}" - ${tags.join(", ")}. Written by ${author}.`} />
+        <meta name="description" content={metaDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
         {/* Open Graph */}
         <meta property="og:type" content="article" />
+        <meta property="og:url" content={postUrl} />
         <meta property="og:title" content={title} />
-        <meta property="og:description" content={`Read "${title}" by ${author} on IngestThis.`} />
-        <meta property="og:image" content={bannerImage || `https://ingestthis.com/api/og?title=${encodeURIComponent(title)}`} />
+        <meta property="og:description" content={metaDescription} />
+        <meta property="og:image" content={imageUrl} />
         <meta property="article:author" content={author} />
         <meta property="article:published_time" content={date} />
-        <meta property="article:tag" content={tags.join(",")} />
+        <meta property="article:modified_time" content={date} />
+        <meta property="article:section" content={category} />
+        {tags.map((tag) => (
+          <meta key={tag} property="article:tag" content={tag} />
+        ))}
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={postUrl} />
         <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={`Read "${title}" by ${author} on IngestThis.`} />
-        <meta property="twitter:image" content={bannerImage || `https://ingestthis.com/api/og?title=${encodeURIComponent(title)}`} />
+        <meta property="twitter:description" content={metaDescription} />
+        <meta property="twitter:image" content={imageUrl} />
+
+        {/* Article JSON-LD */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Article",
+              mainEntityOfPage: {
+                "@type": "WebPage",
+                "@id": postUrl,
+              },
               headline: title,
-              image: [
-                bannerImage || "https://ingestthis.com/images/banner.png",
-              ],
+              description: metaDescription,
+              image: [imageUrl],
+              url: postUrl,
               datePublished: date,
+              dateModified: date,
+              keywords: tags.join(", "),
+              wordCount: readingTime * 200,
+              speakable: {
+                "@type": "SpeakableSpecification",
+                cssSelector: [".blog-post p:first-of-type"],
+              },
               author: {
                 "@type": "Person",
                 name: author,
                 url: `https://ingestthis.com/blog/author/${author
                   .toLowerCase()
-                  .replace(" ", "-")}`,
+                  .replace(/ /g, "-")}`,
+                sameAs: [
+                  "https://www.linkedin.com/in/alexmerced",
+                  "https://www.twitter.com/alexmercedcoder",
+                ],
               },
+              publisher: {
+                "@type": "Organization",
+                name: "IngestThis",
+                url: "https://ingestthis.com/",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://ingestthis.com/images/ig-transparent.PNG",
+                },
+              },
+            }),
+          }}
+        />
+
+        {/* BreadcrumbList JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://ingestthis.com/",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Blog",
+                  item: "https://ingestthis.com/blog",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: category,
+                  item: `https://ingestthis.com/blog/category/${category}`,
+                },
+                {
+                  "@type": "ListItem",
+                  position: 4,
+                  name: title,
+                  item: postUrl,
+                },
+              ],
             }),
           }}
         />
       </Head>
 
-
+      {bannerImage && (
+        <div className={styles.bannerWrap}>
+          <img
+            src={bannerImage}
+            alt={`Banner image for article: ${title}`}
+            className={styles.bannerImage}
+            loading="lazy"
+          />
+        </div>
+      )}
 
       <h1 className={styles.title}>{title}</h1>
       
@@ -213,9 +296,9 @@ export async function getStaticProps({ params: { slug } }) {
     props: {
         frontmatter,
         mdxSource,
-        mdxSource,
         relatedPosts,
-        readingTime
+        readingTime,
+        slug: slug.join("/"),
     },
   };
 }

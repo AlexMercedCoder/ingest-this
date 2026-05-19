@@ -5,13 +5,27 @@ import Link from "next/link";
 import styles from "../../styles/Blog.module.css";
 import Head from "next/head";
 import { useState, useRef } from "react";
+import { useRouter } from "next/router";
 import Fuse from "fuse.js";
 import BlogCard from "../../components/BlogCard";
 
+
 // The Blog Page Content
-export default function Blog({ posts, categories, pageTitle }) {
+export default function Blog({ posts, categories, pageTitle, path }) {
+  const router = useRouter();
+  const pageUrl = `https://ingestthis.com${router.asPath.split("?")[0]}`;
   const searchRef = useRef(null);
   const maxSlice = Math.ceil(posts.length / 20);
+
+  // Build dynamic meta values based on filter type
+  const metaTitle = pageTitle ? `${pageTitle} | IngestThis` : "IngestThis - Blog & Articles";
+  const metaDescription = pageTitle
+    ? `Browse articles about ${pageTitle.replace(/^(Category|Tag|Author): /, "")} on IngestThis — Data Engineering, Apache Iceberg, Lakehouse, and AI resources.`
+    : "Browse the latest articles on Data Engineering, Data Science, and Architecture on IngestThis.";
+
+  // Determine JSON-LD type
+  const isAuthorPage = path && path[0] === "author";
+  const authorName = isAuthorPage ? (path[1] || "").replace("-", " ") : null;
 
   const getPostSlice = (page) => {
     const firstPost = (page - 1) * 20;
@@ -52,25 +66,65 @@ export default function Blog({ posts, categories, pageTitle }) {
   return (
     <main className={styles.main}>
       <Head>
-        <title>IngestThis - Blog & Articles</title>
+        <title>{metaTitle}</title>
         <meta
           name="description"
-          content="Browse the latest articles on Data Engineering, Data Science, and Architecture on IngestThis."
+          content={metaDescription}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="IngestThis - Blog & Articles" />
-        <meta property="og:description" content="Browse the latest articles on Data Engineering, Data Science, and Architecture on IngestThis." />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content="https://ingestthis.com/images/banner.png" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="IngestThis - Blog & Articles" />
-        <meta property="twitter:description" content="Browse the latest articles on Data Engineering, Data Science, and Architecture on IngestThis." />
+        <meta property="twitter:url" content={pageUrl} />
+        <meta property="twitter:title" content={metaTitle} />
+        <meta property="twitter:description" content={metaDescription} />
         <meta property="twitter:image" content="https://ingestthis.com/images/banner.png" />
+
+        {/* JSON-LD */}
+        {isAuthorPage ? (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Person",
+                name: authorName,
+                url: pageUrl,
+                sameAs: [
+                  "https://www.linkedin.com/in/alexmerced",
+                  "https://www.twitter.com/alexmercedcoder",
+                  "https://www.alexmercedcoder.dev",
+                ],
+              }),
+            }}
+          />
+        ) : (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "CollectionPage",
+                name: metaTitle,
+                description: metaDescription,
+                url: pageUrl,
+                publisher: {
+                  "@type": "Organization",
+                  name: "IngestThis",
+                  url: "https://ingestthis.com/",
+                },
+              }),
+            }}
+          />
+        )}
       </Head>
       <aside className={styles.featured}>
         {pageTitle ? (
@@ -259,7 +313,8 @@ export async function getStaticProps({ params: { path } }) {
     props: {
       posts,
       categories,
-      pageTitle
+      pageTitle,
+      path: path || null,
     },
   };
 }

@@ -13,8 +13,6 @@ module.exports = {
       { userAgent: 'PerplexityBot', allow: '/' },
       { userAgent: 'anthropic-ai', allow: '/' },
     ],
-    additionalSitemaps: [
-      'https://ingestthis.com/server-sitemap.xml', // optional
-    ],
+    additionalSitemaps: [],
   },
 }

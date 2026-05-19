@@ -1,9 +1,71 @@
 # IngestThis
 
-Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.
+> Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.
+
+## About
+
+IngestThis is a technical blog focused on the modern data ecosystem — covering Data Engineering fundamentals, Apache Iceberg, Data Lakehouses, AI-ready data infrastructure, and developer tools. It is authored primarily by Alex Merced (Head of Developer Relations at Dremio), with guest contributions from the data community.
+
+- **Author:** Alex Merced
+- **Author Site:** https://www.alexmercedcoder.dev
+- **Author LinkedIn:** https://www.linkedin.com/in/alexmerced
+- **Author Twitter:** https://www.twitter.com/alexmercedcoder
+- **Contact:** alex@ingestthis.com
+- **Community:** https://join.slack.com/t/datanationcom-gti9492/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA
+- **RSS Feed:** https://ingestthis.com/feed.xml
+- **Sitemap:** https://ingestthis.com/sitemap.xml
+
+## Topics Covered
+
+- AI
+- Apache Iceberg
+- Data Analytics
+- Data Architecture
+- Data Engineering
+- Data Lakehouse
+- Data Modeling
+- DevOps
+- Devops
+- Javascript
+- Semantic Layer
+- Software Development
+- data
+- data engineering
+- data lakehouse
+- database
+- frontend
+- oltp
+- python
+- rust
+- sql
 
 ## Technical Articles & Tutorials
 
+- [What Are Table Formats and Why Were They Needed?](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats): Table formats like Apache Iceberg solved the ACID, schema, and performance problems that turned data lakes into data swamps. Here is how each one works.
+- [The Metadata Structure of Modern Table Formats](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-02-metadata-structures): Iceberg uses a metadata tree, Delta Lake uses a transaction log, Hudi uses a timeline. Here is exactly how each format organizes metadata and why it matters.
+- [Performance and Apache Iceberg's Metadata](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-03-iceberg-metadata-performance): Iceberg's three-layer metadata tree eliminates directory listing and enables multi-level data skipping. Here is how scan planning actually works.
+- [Partition Evolution: Change Your Partitioning Without Rewriting Data](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-04-partition-evolution): Iceberg lets you change partition schemes without rewriting data. Here is how partition evolution works internally and why Hive-style partitioning could not do this.
+- [Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-05-hidden-partitioning): Iceberg's hidden partitioning separates physical layout from user queries using transform functions. Here is how it works and why it eliminates accidental full scans.
+- [Writing to an Apache Iceberg Table: How Commits and ACID Actually Work](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-06-writing-to-iceberg): Here is exactly how an engine writes to an Iceberg table, step by step, from data files through the atomic commit that makes ACID guarantees possible.
+- [What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-07-lakehouse-catalogs): Lakehouse catalogs store metadata pointers, manage namespaces, and enforce access control. Here is the complete catalog landscape from Polaris to Glue.
+- [When Catalogs Are Embedded in Storage](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-08-embedded-catalogs): S3 Tables and MinIO AI Stor embed the Iceberg catalog directly in the storage layer. Here is when embedded catalogs make sense and when they do not.
+- [How Data Lake Table Storage Degrades Over Time](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-09-storage-degradation): Iceberg tables degrade through small files, orphan files, metadata bloat, sort order decay, and partition skew. Here is how to diagnose each problem.
+- [Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-10-maintaining-iceberg): Keep Iceberg tables fast with compaction, snapshot expiry, orphan cleanup, and manifest rewriting. Here is when and how to run each operation.
+- [Apache Iceberg Metadata Tables: Querying the Internals](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-11-metadata-tables): Iceberg metadata tables let you query snapshots, files, manifests, and partitions using SQL. Here is every metadata table and how to use them.
+- [Using Apache Iceberg with Python and MPP Query Engines](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-12-python-and-mpp): Access Iceberg tables from Python with PyIceberg, DuckDB, and Polars, or through MPP engines like Dremio, Spark, and Trino. Here is how each approach works.
+- [Approaches to Streaming Data into Apache Iceberg Tables](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-13-streaming-to-iceberg): Stream data into Iceberg with Spark Structured Streaming, Flink, or Kafka Connect. Here is how each works and the trade-offs between latency and maintenance.
+- [Hands-On with Apache Iceberg Using Dremio Cloud](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-14-hands-on-dremio-cloud): A practical walkthrough of creating, querying, and optimizing Iceberg tables on Dremio Cloud, from account setup to AI-powered analytics.
+- [Migrating to Apache Iceberg: Strategies for Every Source System](https://ingestthis.com/posts/2026/2026-04-29-apache-iceberg-masterclass-15-migrating-to-iceberg): Migrate to Iceberg from Hive, data warehouses, or raw files using in-place migration, full rewrite, or the zero-downtime view swap pattern.
+- [How Query Engines Think: The Tradeoffs Behind Every Data System](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-01-overview): Every database is a collection of engineering tradeoffs. Learn the 9 design decisions that shape how query engines store, index, and process your data.
+- [Row vs. Column: How Storage Layout Shapes Everything](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-02-row-vs-column-storage): Row stores keep records together for fast transactions. Column stores keep field values together for fast analytics. Here is how each layout works and when to use it.
+- [How Databases Organize Data on Disk: Pages, Blocks, and File Formats](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-03-data-organization-on-disk): Databases structure data on disk as heap files, sorted files, or LSM trees, then wrap it in formats like Parquet with metadata that lets engines skip irrelevant blocks.
+- [B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-04-indexing-strategies): B-trees balance reads and writes for OLTP. LSM trees maximize write throughput. Bitmap indexes accelerate OLAP filtering. Here is when to use each.
+- [Inside the Query Optimizer: How Engines Pick a Plan](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-05-query-optimizer): Query optimizers transform SQL into execution plans using rule-based rewrites, cost-based search, and adaptive runtime adjustments. Here is how each approach works.
+- [Volcano, Vectorized, Compiled: How Engines Execute Your Query](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-06-execution-models): The Volcano model processes one row at a time. Vectorized execution processes batches with SIMD. Code generation fuses operators into compiled code. Here is how each works.
+- [Buffer Pools, Caches, and the Memory Hierarchy](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-07-memory-and-caching): Databases use buffer pools, column caches, and result caches to keep hot data in RAM. Here is how each caching strategy works and what happens when data does not fit.
+- [Partitioning, Sharding, and Data Distribution Strategies](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-08-partitioning): Hash partitioning distributes data evenly. Range partitioning enables fast range scans. Both create tradeoffs. Here is how databases divide data across storage and nodes.
+- [Hash, Sort-Merge, Broadcast: How Distributed Joins Work](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-09-distributed-joins): Distributed joins move data across the network using shuffle, broadcast, or co-location strategies. Here is how each works and when engines choose which.
+- [Concurrency, Isolation, and MVCC: How Engines Handle Contention](https://ingestthis.com/posts/2026/2026-04-29-query-engine-optimization-10-concurrency-control): Databases handle concurrent access using locks, MVCC, or optimistic concurrency control. Here is how each approach works and what tradeoffs each creates.
 - [Apache Software Foundation: History, Purpose, and Process](https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-01-apache-software-foundation): Part of the Open Source and the Lakehouse series
 - [What is Apache Parquet? Columns, Encoding, and Performance](https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-02-apache-parquet): Part of the Open Source and the Lakehouse series
 - [What is Apache Iceberg? The Table Format Revolution](https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-03-apache-iceberg): Part of the Open Source and the Lakehouse series

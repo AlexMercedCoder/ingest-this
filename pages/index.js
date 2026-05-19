@@ -50,6 +50,29 @@ export default function Home() {
               "@type": "WebSite",
               name: "IngestThis",
               url: "https://ingestthis.com/",
+              description: "Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects covering Data Engineering, Apache Iceberg, Data Lakehouses, and AI.",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate: "https://ingestthis.com/blog?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "IngestThis",
+                url: "https://ingestthis.com/",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://ingestthis.com/images/ig-transparent.PNG",
+                },
+                sameAs: [
+                  "https://www.twitter.com/alexmercedcoder",
+                  "https://www.linkedin.com/in/alexmerced",
+                  "https://www.youtube.com/c/AlexMercedFullStackDeveloper",
+                ],
+              },
             }),
           }}
         />

@@ -1,3 +1,59 @@
 .footer {
-    text-align: center;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--border, #e2e8f0);
+  font-size: 0.9rem;
+}
+
+.footerNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 120px;
+  text-align: left;
+}
+
+.footerSection strong {
+  margin-bottom: 0.25rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+}
+
+.footerSection a,
+.footerSection :global(a) {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footerSection a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footerCopy {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+
+.footerCopy a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footerCopy a:hover {
+  text-decoration: underline;
+  opacity: 1;
 }

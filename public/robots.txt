@@ -1,5 +1,24 @@
-# *
+# Default - allow all
 User-agent: *
+Allow: /
+
+# AI Crawlers - explicitly allowed
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 # Host
@@ -7,4 +26,3 @@ Host: https://ingestthis.com
 
 # Sitemaps
 Sitemap: https://ingestthis.com/sitemap.xml
-Sitemap: https://ingestthis.com/server-sitemap.xml
