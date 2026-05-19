@@ -43,9 +43,9 @@ function Header (props){
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo" style={{display:'flex', alignItems:'center'}}>
-          <Link href="/" style={{display:'flex', alignItems:'center', gap:'8px', textDecoration:'none'}}>
+          <Link href="/" style={{display:'flex', alignItems:'center', gap:'10px', textDecoration:'none'}}>
             {/* Data-pipeline icon */}
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{flexShrink:0}}>
+            <svg width="40" height="40" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{flexShrink:0}}>
               <rect x="1" y="1" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
               <rect x="1" y="9" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
               <rect x="1" y="17" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
@@ -55,8 +55,8 @@ function Header (props){
             <span style={{
               fontFamily: "'Inter', ui-sans-serif, system-ui, sans-serif",
               fontWeight: 700,
-              fontSize: '1.35rem',
-              letterSpacing: '-0.03em',
+              fontSize: '3rem',
+              letterSpacing: '-0.04em',
               lineHeight: 1,
               userSelect: 'none',
             }}>
