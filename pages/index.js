@@ -119,7 +119,7 @@ export default function Home() {
           <p>
             Guest submissions are welcome. Pitch your idea by emailing{" "}
             <a href="mailto:alex@ingestthis.com">alex@ingestthis.com</a> or join the{" "}
-            <a href="https://join.slack.com/t/datanationcom-gti9492/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA" rel="noopener noreferrer">devNursery Slack community</a>.
+            <a href="https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q" rel="noopener noreferrer">The Data Lakehouse Hub Slack community</a>.
           </p>
           <a href="/blog" className={styles.heroCta}>Read the Blog →</a>
         </section>

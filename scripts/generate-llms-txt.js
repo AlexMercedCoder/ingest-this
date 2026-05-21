@@ -49,7 +49,7 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - **Author LinkedIn:** https://www.linkedin.com/in/alexmerced
 - **Author Twitter:** https://www.twitter.com/alexmercedcoder
 - **Contact:** alex@ingestthis.com
-- **Community:** https://join.slack.com/t/datanationcom-gti9492/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA
+- **Community:** https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q
 - **RSS Feed:** ${SITE_URL}/feed.xml
 - **Sitemap:** ${SITE_URL}/sitemap.xml
 
