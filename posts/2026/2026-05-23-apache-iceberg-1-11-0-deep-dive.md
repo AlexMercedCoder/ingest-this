@@ -218,6 +218,8 @@ Partition Pruning Step
 
 With this change, the query planner matches the query filter predicates against partition bounds before executing deletion vector checks. If a partition is pruned out, the engine skips validating the deletion vectors for the files in that partition. This change reduces planning CPU cycles and improves scan startup times for partitioned tables.
 
+For a detailed look at how hidden partitioning helps the query engine perform partition pruning and reduce metadata scan sizes, refer to [Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans](/posts/2026/2026-04-29-apache-iceberg-masterclass-05-hidden-partitioning).
+
 ![Diagram showing deletion vector validation pruning skipping skipped partitions during planning](/images/2026/apache-iceberg-1-11-0/deletion-vector-pruning.png)
 
 ---
@@ -419,6 +421,8 @@ Before planning your migration to V3, review the engine compatibility changes in
 *   **Flink 1.19 Support Removed:** Flink 1.19 is no longer supported. The release adds support for **Flink 2.1.0**.
 
 Make sure all query engines and toolchains in your lakehouse deployment support Iceberg V3 and Java 17 before upgrading production tables.
+
+For more on managing query performance optimizations and table format versions inside Dremio, refer to [Agentic Analytics and the Apache Lakehouse](/posts/2026/2026-04-13-apache-lakehouse-07-agentic-analytics).
 
 ![Table upgrade timeline showing migration SQL and deprecated connector support list](/images/2026/apache-iceberg-1-11-0/table-upgrade-path.png)
 
