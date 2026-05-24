@@ -5,148 +5,148 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Mon, 13 Apr 2026 19:33:14 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 24 May 2026 17:30:59 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
-      <title>Apache Software Foundation: History, Purpose, and Process</title>
-      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-01-apache-software-foundation</link>
-      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-01-apache-software-foundation</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+      <title>Automating Table Maintenance Before Small Files Accumulate</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-automating-table-maintenance</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-automating-table-maintenance</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how Databricks Predictive Optimization, AWS S3 Tables, and Iceberg native actions automate compaction and snapshot management before small files degrade performance.]]></description>
     </item>
     <item>
-      <title>What is Apache Parquet? Columns, Encoding, and Performance</title>
-      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-02-apache-parquet</link>
-      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-02-apache-parquet</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+      <title>Choosing the Right Iceberg Control Plane: Polaris vs. Unity Catalog vs. Cloud REST</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-choosing-iceberg-control-plane</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-choosing-iceberg-control-plane</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Choosing an Apache Iceberg catalog? Compare open-source Apache Polaris, open Unity Catalog, and managed cloud REST control planes to unify your lakehouse.]]></description>
     </item>
     <item>
-      <title>What is Apache Iceberg? The Table Format Revolution</title>
-      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-03-apache-iceberg</link>
-      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-03-apache-iceberg</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+      <title>Clean Rooms for Privacy-Preserving Analytics</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-clean-rooms-privacy</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-clean-rooms-privacy</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Data clean rooms enable secure multi-party analytics without sharing raw data. Learn how Databricks Clean Rooms, AWS Clean Rooms, and BigQuery differential privacy work.]]></description>
     </item>
     <item>
-      <title>What is Apache Polaris? Unifying the Iceberg Ecosystem</title>
-      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-04-apache-polaris</link>
-      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-04-apache-polaris</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+      <title>Building Composable Query Engines with Rust Runtimes</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-composable-query-engines</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-composable-query-engines</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache DataFusion, Velox, and Substrait form the foundation of modern composable query engine stacks. Learn how these components fit together and when to use each.]]></description>
     </item>
     <item>
-      <title>What is Apache Arrow? Erasing the Serialization Tax</title>
-      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-05-apache-arrow</link>
-      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-05-apache-arrow</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+      <title>Data Mesh After the Hype: What Actually Works</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-data-mesh-after-hype</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-data-mesh-after-hype</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Three years after Zhamak Dehghani's original papers, data mesh has proven valuable in specific organizational contexts and impractical in others. Here's what the practical implementations look like.]]></description>
     </item>
     <item>
-      <title>Assembling the Apache Lakehouse: The Modular Architecture</title>
-      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-06-assembling-apache-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-06-assembling-apache-lakehouse</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+      <title>How dbt Fusion Reshapes Analytics Engineering</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-dbt-fusion-analytics-engineering</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-dbt-fusion-analytics-engineering</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[dbt Fusion entered public beta in May 2025 with a Rust-powered runtime that changes how analytics engineers develop, validate, and deploy SQL models. Here's what changed.]]></description>
     </item>
     <item>
-      <title>Agentic Analytics on the Apache Lakehouse</title>
-      <link>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-07-agentic-analytics</link>
-      <guid>https://ingestthis.com/posts/2026/2026-04-13-apache-lakehouse-07-agentic-analytics</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Part of the Open Source and the Lakehouse series]]></description>
+      <title>Using DuckDB and Polars to Query Iceberg Tables</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-duckdb-polars-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-duckdb-polars-iceberg</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DuckDB 1.4 LTS and Polars streaming engine now both support reading and writing Apache Iceberg tables. Learn how to use them for lakehouse analytics in 2025.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for ChatGPT: A Complete Guide to Getting Better Results</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-01-chatgpt</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-01-chatgpt</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Getting consistently useful results from ChatGPT requires more than writing good prompts. The real differentiator is how you manage context: the background information, instructions, documents, and accumulated knowledge that shapes every response ChatGPT generates. Without deliberate context management, you end up repeating yourself, getting generic answers, and wasting time course-correcting the AI.]]></description>
+      <title>FinOps for Data Warehouses with Open Billing Data</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-finops-warehouse-cost</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-finops-warehouse-cost</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The FOCUS 1.3 specification and native warehouse cost views make real-time cost attribution practical. Learn how to build a FinOps pipeline for Snowflake, BigQuery, and multi-cloud environments.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for OpenAI Codex: A Complete Guide Across Browser, CLI, and App</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-02-openai-codex</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-02-openai-codex</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Codex is not a chatbot. It is an autonomous software engineering agent that runs tasks in isolated cloud sandboxes, operates across a browser interface, a command-line tool, and a dedicated macOS app, and can work on multiple tasks in parallel. Because of this architecture, context management in Codex works fundamentally differently from ChatGPT or traditional coding assistants. Instead of conversational context windows, you manage context through persistent configuration files, skill definitions, and project-level instructions that shape how the agent approaches your codebase.]]></description>
+      <title>Designing Governed RAG on Data Products</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-governed-rag-data-products</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-governed-rag-data-products</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Enterprise RAG architecture that trusts its own data requires governance at the retrieval layer. Learn how to build governed RAG using data products, access policies, and semantic layer routing.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude Web: A Complete Guide to Projects, Artifacts, and Intelligent Context</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-03-claude-web</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-03-claude-web</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude's web interface at claude.ai combines one of the largest context windows in the industry with a structured Project system that makes it genuinely useful for sustained, complex work. While many AI chat interfaces are limited to one-off conversations, Claude Web is designed for ongoing engagement where the AI accumulates understanding of your work over time. The key to unlocking that potential is managing context deliberately rather than treating each conversation as a blank slate.]]></description>
+      <title>What Iceberg V3 Advances Mean for CDC Pipelines</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-iceberg-cdc-pipelines</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-iceberg-cdc-pipelines</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Iceberg V3 brings deletion vectors and row lineage that reshape CDC pipeline design. Learn what these features mean for your streaming data architecture.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude Desktop: A Complete Guide to MCP, Computer Use, and Local File Access</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-04-claude-desktop</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-04-claude-desktop</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Desktop takes everything available in Claude Web and adds three capabilities that fundamentally change how you manage context: MCP server connections that link Claude to external tools and data sources, direct local file access that eliminates the upload-download cycle, and Computer Use that lets Claude interact with your desktop environment. These additions make Claude Desktop the right choice when your work requires live data, local file system access, or integration with tools that Claude Web cannot reach.]]></description>
+      <title>Kafka 4.0 Changes Streaming Platform Operations</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-kafka-streaming-operations</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-kafka-streaming-operations</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Kafka 4.0 removes ZooKeeper and ships KRaft and KIP-848 by default. Learn what those changes mean for platform operations, upgrades, and client configurations.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude CoWork: A Complete Guide for Knowledge Workers</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-05-claude-cowork</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-05-claude-cowork</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CoWork represents a fundamentally different approach to AI context management. Unlike chat interfaces where you send messages and receive responses, CoWork is an autonomous agent that works on your local machine, reads and writes files directly, and executes multi-step tasks with minimal supervision. For knowledge workers who spend their days in documents, spreadsheets, and presentations, CoWork replaces the constant back-and-forth of copy-paste workflows with direct delegation.]]></description>
+      <title>Lance and Iceberg for Multimodal AI Data</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-lance-iceberg-multimodal</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-lance-iceberg-multimodal</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LanceDB and Apache Iceberg serve complementary roles in a multimodal AI lakehouse. Learn when to use Lance for embeddings and random access, and Iceberg for structured metadata and SQL analytics.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude Code: A Complete Guide for Developers</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-06-claude-code</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-06-claude-code</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code is a terminal-native agentic coding assistant that lives in your command line and operates directly on your codebase. Unlike chat-based interfaces where you copy and paste code snippets, Claude Code reads your files, explores your project structure, runs commands, executes tests, and commits changes. Context management in Claude Code is about configuring the agent's persistent knowledge of your project so it can operate effectively without constant direction.]]></description>
+      <title>Bringing MLflow and Data Pipelines Closer Together</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-mlflow-data-pipelines</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-mlflow-data-pipelines</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MLflow 3 extends observability from classic ML experiments to GenAI tracing and data pipeline lineage. Learn how to connect data quality monitoring with model performance tracking.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Gemini Web and NotebookLM: A Complete Guide to Google's AI Knowledge Ecosystem</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-07-gemini-web-notebooklm</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-07-gemini-web-notebooklm</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google's AI ecosystem for knowledge work consists of two deeply integrated tools: Gemini (the conversational AI at gemini.google.com) and NotebookLM (the research-focused assistant at notebooklm.google.com). In early 2026, these two platforms became interoperable, allowing Gemini to access information stored in NotebookLM notebooks. This integration creates something unique in the AI landscape: a persistent knowledge infrastructure where documents you upload once become available across both conversational and research interfaces.]]></description>
+      <title>Modern Feature Stores Beyond Batch Pipelines</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-modern-feature-stores</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-modern-feature-stores</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Feature stores like Feast now support streaming feature views from Kafka and Kinesis alongside batch pipelines. Learn how to build real-time features that maintain training-serving consistency.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Gemini CLI: A Complete Guide to Terminal-Native AI Development</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-08-gemini-cli</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-08-gemini-cli</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI is an open-source terminal agent powered by Gemini models that operates directly in your command line. It brings Google's AI capabilities into the environment where many developers already live, with a context management system built around hierarchical configuration files, persistent memory, MCP server integration, and direct codebase interaction. Unlike web-based tools where context is managed through uploads and conversation, Gemini CLI assembles its context from your project structure, your instruction files, and the tools you connect to it.]]></description>
+      <title>OpenLineage as the Spine of Data Observability</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-openlineage-observability</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-openlineage-observability</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenLineage provides a standard API for collecting pipeline lineage across Airflow, Spark, Flink, and dbt. Learn how it powers blast radius analysis and incident triage.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Google Antigravity: A Complete Guide to the Agent-First IDE</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-09-google-antigravity</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-09-google-antigravity</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google Antigravity is an agent-first IDE built by Google DeepMind's Advanced Agentic Coding team. It approaches context management differently from other AI coding tools because it is designed from the ground up around agentic workflows, where the AI is not just an assistant responding to prompts, but an autonomous agent that plans, executes, tracks progress, and retains knowledge across sessions. Its context management system centers on three pillars: Skills for reusable capability, Knowledge Items for persistent memory, and Artifacts for transparent documentation of its work.]]></description>
+      <title>When Paimon Beats Iceberg for Mutable Streams</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-paimon-vs-iceberg-mutable-streams</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-paimon-vs-iceberg-mutable-streams</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Paimon uses LSM-Tree storage for native CDC upserts without restart. Learn when Paimon outperforms Iceberg for high-churn mutable streaming workloads.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for OpenCode: A Complete Guide to the Open-Source Terminal AI Agent</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-10-opencode</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-10-opencode</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenCode is an open-source terminal-based AI coding agent that prioritizes privacy, local-first operation, and broad model provider support. Built as a TUI (terminal user interface) application, it runs entirely in your terminal and supports dozens of LLM providers from OpenAI and Anthropic to local models through Ollama. Its context management system is built around configuration files, session persistence, MCP integration, and a dual-agent architecture that separates planning from code generation.]]></description>
+      <title>Policy as Code for Lakehouse Governance</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-policy-as-code-governance</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-policy-as-code-governance</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OPA, ABAC, row filters, and column masks make lakehouse governance programmable and scalable. Learn how Databricks, Snowflake Horizon, and BigQuery implement policy-as-code.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for OpenWork: A Complete Guide to the Desktop AI Agent Framework</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-11-openwork</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-11-openwork</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenWork is a desktop-native AI agent framework designed for local, multi-step task execution on your computer. Unlike browser-based AI tools or terminal agents, OpenWork operates as a desktop application that can interact with your file system, manage long-running sessions, and execute complex workflows autonomously. Its context management centers on Skills, session persistence, direct file system access, and a plugin architecture that extends its capabilities.]]></description>
+      <title>Real-Time Lakehouse Patterns with Apache Flink and Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-real-time-lakehouse-flink</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-real-time-lakehouse-flink</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to build a real-time lakehouse with Apache Flink 2.1 and the Dynamic Iceberg Sink, covering schema evolution, exactly-once delivery, and compaction.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Cursor: A Complete Guide to the AI-Native Code Editor</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-12-cursor</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-12-cursor</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cursor is an AI-native code editor built on the VS Code foundation that integrates AI deeply into every aspect of the development workflow. Its context management system is one of the most sophisticated among coding tools, combining workspace-level indexing, granular rules files, documentation integration, MCP server support, and intelligent context assembly that automatically determines which files and symbols are relevant to your current task.]]></description>
+      <title>Why Semantic Layers Make Enterprise Text-to-SQL Safer</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-semantic-layers-text-to-sql</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-semantic-layers-text-to-sql</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Text-to-SQL accuracy jumps from 40% to 85-95% when grounded in a semantic layer. Learn how Dremio, Snowflake Cortex Analyst, and dbt Semantic Layer improve AI analytics reliability.]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Perplexity AI: A Complete Guide to Research-First AI Conversations</title>
-      <link>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-13-perplexity</link>
-      <guid>https://ingestthis.com/posts/2026/2026-03-07-context-management-blogs-13-perplexity</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Perplexity AI occupies a unique position in the AI landscape: it is a research-first tool that combines conversational AI with real-time web search to produce answers grounded in current sources. Unlike coding-focused tools or general chatbots, Perplexity is built for information retrieval, analysis, and synthesis. Its context management is designed around Spaces (persistent research workspaces), Focus Modes (search scope control), and an elastic context window that adapts to the complexity of your query.]]></description>
+      <title>Choosing Vector Stores for Retrieval Workloads</title>
+      <link>https://ingestthis.com/posts/2026/2026-05-24-vector-stores-retrieval</link>
+      <guid>https://ingestthis.com/posts/2026/2026-05-24-vector-stores-retrieval</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[pgvector, Milvus, Weaviate, and LanceDB each make different tradeoffs on index type, hybrid search, scale, and operational complexity. Learn which fits your retrieval workload.]]></description>
     </item>
     </channel>
   </rss>
