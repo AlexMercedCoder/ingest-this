@@ -24,11 +24,11 @@ This post covers what table maintenance actually does, why the small-file proble
 
 ## What the Small File Problem Actually Costs
 
-Every write to an Apache Iceberg table creates new data files. A batch ETL job that appends 1 GB of data might create 8 x 128 MB Parquet files — reasonable. A Flink streaming job with a 5-minute checkpoint interval writing to 20 partitions creates at least 20 files every 5 minutes. Over 24 hours, that's 5,760 files, none of which are large enough to be efficient for columnar analytics.
+Every write to an Apache Iceberg table creates new data files. A batch ETL job that appends 1 GB of data might create 8 x 128 MB Parquet files, which is reasonable. A Flink streaming job with a 5-minute checkpoint interval writing to 20 partitions creates at least 20 files every 5 minutes. Over 24 hours, that's 5,760 files, none of which are large enough to be efficient for columnar analytics.
 
 The cost is not primarily storage. S3 pricing at scale makes small files a storage non-issue. The cost is query planning and scan performance.
 
-Iceberg query planners read manifest files to determine which data files are relevant to a query. Each manifest entry is a file reference with column-level statistics (min/max values, null counts). When a planner needs to determine which files might contain rows matching a predicate, it scans manifest entries. With 100 files per partition, this is fast. With 10,000 files per partition, the metadata scan itself becomes the bottleneck — often adding seconds to planning time even before a single data byte is read.
+Iceberg query planners read manifest files to determine which data files are relevant to a query. Each manifest entry is a file reference with column-level statistics (min/max values, null counts). When a planner needs to determine which files might contain rows matching a predicate, it scans manifest entries. With 100 files per partition, this is fast. With 10,000 files per partition, the metadata scan itself becomes the bottleneck, often adding seconds to planning time even before a single data byte is read.
 
 ![Bar chart showing query planning overhead increasing from 1x at 10 files per partition to 9.5x at 10,000 files, with performance threshold at 2x indicating when compaction is needed](/images/2026/automating-table-maintenance/small-files-query-performance-impact.png)
 
@@ -46,7 +46,7 @@ Iceberg table maintenance is four distinct operations, each addressing a differe
 
 **RewriteManifests.** Over time, manifest files accumulate entries for both live and expired files. This operation rewrites the manifest list to clean up stale entries and rebalance entry distribution. It's cheaper than data compaction but often overlooked. Manifest rewriting reduces planning overhead independent of data file sizes.
 
-**ExpireSnapshots.** This removes snapshot metadata that is no longer accessible for time-travel queries within your retention window. Critically, it doesn't actually delete the underlying data files—that happens in the next step. Snapshot expiration removes the pointer to old file sets, not the files themselves.
+**ExpireSnapshots.** This removes snapshot metadata that is no longer accessible for time-travel queries within your retention window. Critically, it doesn't actually delete the underlying data files, which happens in the next step. Snapshot expiration removes the pointer to old file sets, not the files themselves.
 
 **DeleteOrphanFiles.** This removes data files that are no longer referenced by any snapshot. Orphaned files accumulate from failed or partial writes. Running this operation periodically ensures storage doesn't silently grow from write failures.
 
@@ -108,7 +108,7 @@ The S3 Tables maintenance model has one significant constraint: it only applies 
 
 ## Self-Managed Maintenance with Spark and Iceberg APIs
 
-For teams that can't use managed maintenance services — whether due to cloud provider, cost structure, or operational preference — the Iceberg Java API provides direct maintenance actions that can be wrapped in Spark or Flink jobs.
+For teams that can't use managed maintenance services, whether due to cloud provider, cost structure, or operational preference, the Iceberg Java API provides direct maintenance actions that can be wrapped in Spark or Flink jobs.
 
 The standard pattern for compaction using the Iceberg Spark Actions API:
 
@@ -134,7 +134,7 @@ print(f"Compacted {rewrite_result.rewrittenDataFilesCount()} files into "
       f"{rewrite_result.addedDataFilesCount()} new files")
 ```
 
-The `filter` parameter is critical for streaming tables. Always exclude the partition currently receiving writes — the "hot" partition. If compaction attempts to rewrite files in a partition where a streaming job is actively writing, the commit can conflict, failing the compaction job and potentially causing the streaming job to retry or fail.
+The `filter` parameter is critical for streaming tables. Always exclude the partition currently receiving writes (the "hot" partition). If compaction attempts to rewrite files in a partition where a streaming job is actively writing, the commit can conflict, failing the compaction job and potentially causing the streaming job to retry or fail.
 
 For snapshot management:
 
@@ -154,7 +154,7 @@ expire_result = SparkActions.get() \
 print(f"Deleted {expire_result.deletedDataFilesCount()} orphaned data files")
 ```
 
-Schedule these maintenance jobs with awareness of the write schedule. Running compaction during peak write periods competes for I/O and compute resources. The standard recommendation is off-peak maintenance windows — late night or early morning — with compaction running hourly or every few hours for active streaming tables.
+Schedule these maintenance jobs with awareness of the write schedule. Running compaction during peak write periods competes for I/O and compute resources. The standard recommendation is off-peak maintenance windows, such as late night or early morning, with compaction running hourly or every few hours for active streaming tables.
 
 ---
 
@@ -162,7 +162,7 @@ Schedule these maintenance jobs with awareness of the write schedule. Running co
 
 ![Comparison table showing manual scheduling versus automated (Predictive/S3 Tables) maintenance across six dimensions: trigger, scope, cost awareness, configuration, hot partition risk, and streaming table support](/images/2026/automating-table-maintenance/manual-vs-automated-maintenance-comparison.png)
 
-The right choice depends on your operating model and platform. Teams on Databricks Unity Catalog should adopt Predictive Optimization for all managed tables—the default behavior requires no configuration and the cost-aware scheduling avoids running maintenance on tables that don't need it. Teams on AWS building new Iceberg infrastructure should evaluate S3 Tables for workloads where the 90% cost reduction on compaction processing makes the managed model economically competitive.
+The right choice depends on your operating model and platform. Teams on Databricks Unity Catalog should adopt Predictive Optimization for all managed tables. The default behavior requires no configuration and the cost-aware scheduling avoids running maintenance on tables that don't need it. Teams on AWS building new Iceberg infrastructure should evaluate S3 Tables for workloads where the 90% cost reduction on compaction processing makes the managed model economically competitive.
 
 Self-managed maintenance remains the appropriate choice for teams with multi-cloud platforms, strict control requirements, or existing operational processes built around Airflow DAGs and Spark jobs. The Iceberg Actions API is production-grade and well-documented. The operational cost is the scheduling complexity and the risk of hot partition conflicts if exclusion logic isn't implemented carefully.
 
@@ -209,7 +209,7 @@ FROM my_catalog.analytics.events.history;
 
 **Compaction effectiveness ratio.** Compare files-before vs files-after for completed compaction runs. The ideal ratio is 50+ input files per 1 output file. Low ratios (10:1) indicate compaction is running too frequently on tables that don't have sufficient small-file accumulation.
 
-Building a simple dashboard from these three metrics—files per partition, snapshot count, and compaction ratio—gives maintenance teams visibility into table health without requiring deep inspection of individual files.
+Building a simple dashboard from these three metrics (files per partition, snapshot count, and compaction ratio) gives maintenance teams visibility into table health without requiring deep inspection of individual files.
 
 ---
 
@@ -234,13 +234,13 @@ The trade-off with Z-order compaction is higher write cost than binpack. Z-order
 - **Hot, recent data:** Binpack compaction to merge small files quickly
 - **Cold, historical data:** Z-order compaction to optimize for read performance
 
-This tiered approach applies Z-order only where the read performance benefit justifies the higher compaction cost — typically data older than a few days that is well-established in the table and unlikely to receive further updates.
+This tiered approach applies Z-order only where the read performance benefit justifies the higher compaction cost, typically for data older than a few days that is well-established in the table and unlikely to receive further updates.
 
 ---
 
 ## Partition Evolution: Planning for Growth
 
-One of the most expensive compaction scenarios is a poorly designed partition strategy that requires a full table rewrite to fix. Iceberg's partition evolution feature allows changing a table's partitioning scheme without rewriting existing files—new files use the new scheme while old files retain their original partition structure.
+One of the most expensive compaction scenarios is a poorly designed partition strategy that requires a full table rewrite to fix. Iceberg's partition evolution feature allows changing a table's partitioning scheme without rewriting existing files. New files use the new scheme while old files retain their original partition structure.
 
 Updating a table from daily partitioning to hourly partitioning as data volume grows:
 
@@ -255,7 +255,7 @@ ALTER TABLE my_catalog.analytics.events
 DROP PARTITION FIELD days(event_date);
 ```
 
-After partition evolution, old data files retain the daily partition structure while new files use the hourly partition. Iceberg's hidden partitioning ensures queries remain transparent—the planner handles both partition schemes simultaneously. Over time, natural turnover (through retention policies or explicit rewrites) eliminates the old partition format from the table.
+After partition evolution, old data files retain the daily partition structure while new files use the hourly partition. Iceberg's hidden partitioning ensures queries remain transparent, since the planner handles both partition schemes simultaneously. Over time, natural turnover (through retention policies or explicit rewrites) eliminates the old partition format from the table.
 
 Planning partition strategy before a table reaches scale avoids the costly alternative: exporting all data, dropping the table, recreating with the correct partition scheme, and re-ingesting everything. Iceberg's partition evolution is one of the format's most operationally valuable features for growing data platforms.
 

@@ -17,9 +17,9 @@ tags:
 
 Warehouse costs are the most visible and most contentious line item on a data platform's budget. Every query is metered. Every dashboard refresh costs something. Engineering leaders who can't explain where costs are coming from can't make informed decisions about where to cut, where to invest, or how to set fair internal budgets by team.
 
-The problem has been interoperability. Snowflake exposes cost data in its own schema format. BigQuery provides cost information through the `JOBS_BY_PROJECT` view and billing export to BigQuery. AWS surfaces it through Cost Explorer and billing exports. None of these use a common format, which means building a unified view requires custom ETL jobs for each provider—jobs that break when providers change their export schemas.
+The problem has been interoperability. Snowflake exposes cost data in its own schema format. BigQuery provides cost information through the `JOBS_BY_PROJECT` view and billing export to BigQuery. AWS surfaces it through Cost Explorer and billing exports. None of these use a common format, which means building a unified view requires custom ETL jobs for each provider, and these jobs break when providers change their export schemas.
 
-The FOCUS specification—FinOps Open Cost and Usage Specification—addresses this by defining a standard schema for cloud and SaaS billing data. FOCUS 1.3, ratified in December 2025, added shared cost allocation, contract commitment datasets, and data recency signals. It's the first version of the spec that makes warehouse FinOps across multiple providers genuinely tractable.
+The FOCUS specification, the FinOps Open Cost and Usage Specification, addresses this by defining a standard schema for cloud and SaaS billing data. FOCUS 1.3, ratified in December 2025, added shared cost allocation, contract commitment datasets, and data recency signals. It's the first version of the spec that makes warehouse FinOps across multiple providers genuinely tractable.
 
 ---
 
@@ -29,9 +29,9 @@ The core FOCUS schema normalizes cloud billing across providers into a common se
 
 FOCUS 1.3 extends this with three important additions:
 
-**Shared cost allocation.** Previous FOCUS versions let you see costs per resource. 1.3 adds allocation columns that show how shared costs are split across workloads — the methodology behind the split, not just the result. For warehouse teams running shared compute across multiple user groups, this is the difference between "we spent $20K on shared virtual warehouses" and "here's how that $20K maps to each team's usage using the provider's allocation algorithm."
+**Shared cost allocation.** Previous FOCUS versions let you see costs per resource. 1.3 adds allocation columns that show how shared costs are split across workloads (meaning the methodology behind the split, not just the result). For warehouse teams running shared compute across multiple user groups, this is the difference between "we spent $20K on shared virtual warehouses" and "here's how that $20K maps to each team's usage using the provider's allocation algorithm."
 
-**Contract commitment datasets.** A separate dataset tracks committed-use contracts — reservation start and end dates, committed quantities, remaining units, and contract descriptions. This makes it possible to track how much of a committed purchase is actually consumed versus wasted, and to attribute waste to specific allocation decisions.
+**Contract commitment datasets.** A separate dataset tracks committed-use contracts (reservation start and end dates, committed quantities, remaining units, and contract descriptions). This makes it possible to track how much of a committed purchase is actually consumed versus wasted, and to attribute waste to specific allocation decisions.
 
 **Data recency and completeness signals.** New metadata fields indicate when the billing dataset was last updated and whether it's complete. This prevents common cost attribution errors where a reporting pipeline runs against incomplete billing data and produces partial results that mislead budget holders.
 
@@ -87,7 +87,7 @@ WHERE creation_time >= TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 30 DAY)
 
 ## Cost Attribution: The Tagging Problem
 
-The most common failure mode in warehouse FinOps is unattributed queries — queries that run without metadata indicating which team or project owns them. As data platform usage grows, the fraction of unattributed costs tends to increase unless tagging is actively enforced.
+The most common failure mode in warehouse FinOps is unattributed queries, which are queries that run without metadata indicating which team or project owns them. As data platform usage grows, the fraction of unattributed costs tends to increase unless tagging is actively enforced.
 
 ![Stacked bar chart showing warehouse cost attribution by team from January to May with unattributed queries growing from 15% to 25% of total cost, exceeding budget threshold in April](/images/2026/finops-warehouse-cost/warehouse-cost-attribution-by-team.png)
 
@@ -119,7 +119,7 @@ query_job = client.query(
 )
 ```
 
-Enforcing tagging at the framework level — in Airflow operators, dbt profiles, and internal query runners — produces consistent attribution without requiring individual analysts to remember to set tags manually.
+Enforcing tagging at the framework level (in Airflow operators, dbt profiles, and internal query runners) produces consistent attribution without requiring individual analysts to remember to set tags manually.
 
 ---
 
@@ -157,13 +157,13 @@ The strategic decision is matching commitment size to anticipated usage with a s
 
 Technology is the easier half of warehouse FinOps. The harder half is organizational: creating a culture where teams are aware of and accountable for their data infrastructure costs.
 
-FinOps culture breaks down at two common failure points. The first is when showback data reaches teams that have never been aware of infrastructure costs and the immediate response is confusion rather than action—"we generated $30K in warehouse costs last month" without context about whether that's good, bad, expected, or avoidable. The second is when chargeback creates political conflict rather than shared accountability, particularly when teams feel that cost allocations are unfair or opaque.
+FinOps culture breaks down at two common failure points. The first is when showback data reaches teams that have never been aware of infrastructure costs and the immediate response is confusion rather than action: "we generated $30K in warehouse costs last month" without context about whether that's good, bad, expected, or avoidable. The second is when chargeback creates political conflict rather than shared accountability, particularly when teams feel that cost allocations are unfair or opaque.
 
 Building a successful FinOps culture requires three investments beyond the technical pipeline:
 
-**Cost awareness education:** Teams that own data pipelines need enough context to interpret their cost reports. What does a BigQuery byte processed actually cost? What makes a query expensive? What's the difference between a cached result and a full scan? This doesn't require deep technical training—a one-hour workshop for analysts and data engineers on "how your queries turn into dollars" dramatically improves the quality of cost-aware behavior.
+**Cost awareness education:** Teams that own data pipelines need enough context to interpret their cost reports. What does a BigQuery byte processed actually cost? What makes a query expensive? What's the difference between a cached result and a full scan? This doesn't require deep technical training; a one-hour workshop for analysts and data engineers on "how your queries turn into dollars" dramatically improves cost-aware behavior.
 
-**Shared optimization incentives:** If engineering teams are charged for warehouse costs but have no mechanism to benefit from reducing them, the rational response is to treat it as a fixed overhead and move on. Creating a shared savings model—where teams that reduce their attributed costs keep a portion of the savings in their platform budget—aligns engineering incentives with cost efficiency.
+**Shared optimization incentives:** If engineering teams are charged for warehouse costs but have no mechanism to benefit from reducing them, the rational response is to treat it as a fixed overhead and move on. Creating a shared savings model, where teams that reduce their attributed costs keep a portion of the savings in their platform budget, aligns engineering incentives with cost efficiency.
 
 **Executive visibility:** FinOps programs that exist only in platform team dashboards don't change organizational behavior. Monthly cost reporting that reaches department heads, with clear attribution to teams and projects, creates the organizational pressure for cost accountability that no internal platform campaign can generate alone.
 
@@ -251,7 +251,7 @@ Cost efficiency metrics provide the denominator that makes spend numbers meaning
 
 **Query efficiency ratio:** Bytes processed divided by bytes returned. High ratios (processing much more than returned) indicate opportunities for partition pruning, materialization, or query optimization. Snowflake and BigQuery both expose this ratio in their query metadata views.
 
-Building a simple cost efficiency dashboard — cost per query over time, cache hit rate, bytes processed ratio — gives platform teams the signal they need to identify optimization opportunities before they pursue spending cuts that might affect analytics quality.
+Building a simple cost efficiency dashboard (showing cost per query over time, cache hit rate, and bytes processed ratio) gives platform teams the signal they need to identify optimization opportunities before they pursue spending cuts that might affect analytics quality.
 
 ---
 
