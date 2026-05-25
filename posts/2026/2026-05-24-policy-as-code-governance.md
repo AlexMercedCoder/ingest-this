@@ -119,7 +119,7 @@ ALTER TABLE orders
 SET ROW FILTER filters.region_filter ON (region_code);
 ```
 
-These functions evaluate at query time using the current user's session context — their roles and attributes. The SQL for the function is stored in Unity Catalog and version-controlled alongside other table metadata.
+These functions evaluate at query time using the current user's session context—their roles and attributes. The SQL for the function is stored in Unity Catalog and version-controlled alongside other table metadata.
 
 ---
 
@@ -290,7 +290,7 @@ Teams implementing policy-as-code governance consistently encounter the same pat
 
 **Start with classification, not policies.** The foundation of effective policy-as-code is a well-maintained taxonomy of sensitivity tags. If columns aren't consistently tagged, policies can't apply consistently. Invest in automated tagging during table creation (inference from column names, schema patterns) and manual review workflows for classification confirmation before writing complex policies.
 
-**Test every user persona.** Policies have a way of having unintended consequences for edge case user types. A policy that correctly restricts external partners might accidentally also restrict internal read-only service accounts that need full data access for operational purposes. Test matrices covering all significant user personas — not just the typical analyst and data owner — catch these edge cases before they become incidents.
+**Test every user persona.** Policies have a way of having unintended consequences for edge case user types. A policy that correctly restricts external partners might accidentally also restrict internal read-only service accounts that need full data access for operational purposes. Test matrices covering all significant user personas—not just the typical analyst and data owner—catch these edge cases before they become incidents.
 
 **Avoid policy logic in application code.** When data access restrictions are duplicated in application code (for example, a BI dashboard that adds a WHERE clause for the current user's region), governance drifts: the policy in the catalog and the logic in the application can diverge. Centralize all access restrictions in the catalog's policy layer.
 
@@ -331,7 +331,7 @@ A phased approach works better. In the first phase, implement tagging for the hi
 
 In the second phase, enable enforcement for the policies covering high-sensitivity data. This is the phase where the governance team needs to be actively engaged, answering questions from teams whose data access patterns change. Expect surprises: analysts who had broader access than they needed, service accounts whose access patterns weren't documented, and edge cases that the policy test suite didn't cover.
 
-In the third phase, extend the tagging taxonomy to cover the full data asset inventory and develop policies for the broader classification tiers. By this point, the policy authoring, CI/CD, and validation workflows are established — the third phase is primarily a coverage expansion rather than a capability development exercise.
+In the third phase, extend the tagging taxonomy to cover the full data asset inventory and develop policies for the broader classification tiers. By this point, the policy authoring, CI/CD, and validation workflows are established—the third phase is primarily a coverage expansion rather than a capability development exercise.
 
 The transition from ad-hoc RBAC to systematic policy-as-code governance is a multi-quarter project for most organizations. The investment pays off in governance scalability: when the data platform adds fifty new tables next quarter, the governance burden is tag application (fast) rather than role design and assignment (slow and error-prone).
 

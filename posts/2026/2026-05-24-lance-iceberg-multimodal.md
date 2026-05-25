@@ -18,7 +18,7 @@ tags:
 
 Apache Iceberg was designed for analytical workloads: columnar scans, partition pruning, SQL aggregations. It's excellent at returning the answer to "what was the average revenue by region for the last 30 days?" and poor at answering "give me the 500 training images most similar to this query image."
 
-The second question is random access retrieval from an embedding index — a fundamentally different access pattern. Columnar storage optimized for scan performance is inefficient for retrieving arbitrary rows by vector similarity. Iceberg tables store Parquet files, and Parquet files are optimized for column projection and predicate pushdown, not random row access.
+The second question is random access retrieval from an embedding index—a fundamentally different access pattern. Columnar storage optimized for scan performance is inefficient for retrieving arbitrary rows by vector similarity. Iceberg tables store Parquet files, and Parquet files are optimized for column projection and predicate pushdown, not random row access.
 
 This is where LanceDB and the Lance format fill a gap. Lance is a columnar format designed for both scan-efficient analytics (like Parquet) and random-access retrieval (unlike Parquet). It builds IVF-PQ vector indexes natively on disk, without requiring vectors to fit in RAM. Combined with Iceberg for structured metadata and SQL analytics, Lance enables a complete multimodal AI data architecture.
 
@@ -46,7 +46,7 @@ The production architecture uses Iceberg and Lance together:
 
 **LanceDB / Lance tables** hold the embeddings and enable vector retrieval: given a query image embedding, find the 50 most semantically similar training examples. The Lance table stores the embedding alongside a pointer to the object store location (S3 URL or file path) so the actual image bytes can be fetched directly after retrieval.
 
-**Object store (S3/GCS/ABS)** holds the raw media files. Neither Iceberg nor Lance tries to store raw images or video — object storage is the right layer for blobs. Both table formats store references to the object store.
+**Object store (S3/GCS/ABS)** holds the raw media files. Neither Iceberg nor Lance tries to store raw images or video—object storage is the right layer for blobs. Both table formats store references to the object store.
 
 The multimodal ingestion pipeline ties these together: when new media arrives, it gets stored in object storage, its embedding is computed (CLIP for images and video, Whisper for audio), the embedding is written to the Lance table, and the structured metadata is written to the Iceberg table.
 
@@ -260,9 +260,9 @@ This SQL-to-Lance bridge — using Iceberg SQL to select training example metada
 
 ## LanceDB in Production: Cloud and Self-Hosted Options
 
-LanceDB operates in two deployment modes. The embedded mode runs the entire database in-process — no separate server, no network overhead. This is the mode used in the code examples throughout this post and is appropriate for single-machine workloads like a model training server or a batch embedding pipeline.
+LanceDB operates in two deployment modes. The embedded mode runs the entire database in-process—no separate server, no network overhead. This is the mode used in the code examples throughout this post and is appropriate for single-machine workloads like a model training server or a batch embedding pipeline.
 
-For production systems that need shared access from multiple processes or distributed environments, LanceDB Cloud provides a managed serverless option. The client API is identical to the embedded mode — you point the connection URI at the cloud endpoint instead of a local path:
+For production systems that need shared access from multiple processes or distributed environments, LanceDB Cloud provides a managed serverless option. The client API is identical to the embedded mode—you point the connection URI at the cloud endpoint instead of a local path:
 
 ```python
 import lancedb
@@ -322,7 +322,7 @@ selected_ids = spark.read.format("iceberg") \
     .collect()
 ```
 
-Six months later, when a production model regression is reported, the training team can load the same snapshot and reconstruct the exact training set that produced the model — enabling them to compare against the current data distribution and identify what changed.
+Six months later, when a production model regression is reported, the training team can load the same snapshot and reconstruct the exact training set that produced the model—enabling them to compare against the current data distribution and identify what changed.
 
 Lance files are versioned implicitly through their S3 paths and the LanceDB table versions. Recording both the Iceberg snapshot ID and the LanceDB table version in the experiment metadata creates a complete, reproducible reference to the training dataset.
 

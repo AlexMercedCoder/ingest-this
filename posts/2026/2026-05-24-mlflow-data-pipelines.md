@@ -17,7 +17,7 @@ tags:
 
 The boundary between data engineering and ML engineering has always been somewhat artificial. A model degrades in production. Is it a model problem? The data feeding it changed. Is it a data pipeline problem? The features it receives don't match what it was trained on. Is it a feature store problem? These questions point to the same underlying issue: the observability tools for data pipelines and the observability tools for ML models are separate, making cross-boundary diagnosis difficult.
 
-MLflow 3, released in 2025, moved toward addressing this by expanding its scope beyond experiment tracking into GenAI tracing, agent evaluation, and closer integration with data quality monitoring. Databricks' Data Quality Monitoring feature provides a framework for applying model-style monitoring — drift detection, statistical distribution tracking — to datasets and pipeline outputs, not just model inference results.
+MLflow 3, released in 2025, moved toward addressing this by expanding its scope beyond experiment tracking into GenAI tracing, agent evaluation, and closer integration with data quality monitoring. Databricks' Data Quality Monitoring feature provides a framework for applying model-style monitoring—drift detection, statistical distribution tracking—to datasets and pipeline outputs, not just model inference results.
 
 Together, these capabilities push toward a vision where data lineage, feature freshness, model performance, and inference quality are visible through a single observability surface rather than four separate tools.
 
@@ -230,7 +230,7 @@ def validate_and_promote_model(run_id: str, min_auc: float = 0.90) -> bool:
     return True
 ```
 
-The CI pipeline calls `validate_and_promote_model()` after each training run. If the model passes, it enters Staging for integration testing. Human approval then promotes it to Production — MLflow's stage transitions support this workflow directly.
+The CI pipeline calls `validate_and_promote_model()` after each training run. If the model passes, it enters Staging for integration testing. Human approval then promotes it to Production—MLflow's stage transitions support this workflow directly.
 
 ---
 
@@ -279,13 +279,13 @@ This pattern — drift-triggered retraining with MLflow experiment logging — c
 
 ## The MLflow Model Registry and Production Deployment
 
-MLflow's Model Registry is where experimentation transitions to production. The registry tracks model versions, their lifecycle stage (Staging, Production, Archived), and the training metadata — runs, datasets, and lineage — associated with each version.
+MLflow's Model Registry is where experimentation transitions to production. The registry tracks model versions, their lifecycle stage (Staging, Production, Archived), and the training metadata—runs, datasets, and lineage—associated with each version.
 
-The lifecycle stage system enables controlled promotions. A data scientist trains a new model version that achieves better performance on validation metrics. They register it in the Model Registry, and it enters the Staging stage. A model review process — which might include automated evaluation against a holdout dataset, human review of the training data and feature set, and comparison against the current production model — gates the promotion to Production.
+The lifecycle stage system enables controlled promotions. A data scientist trains a new model version that achieves better performance on validation metrics. They register it in the Model Registry, and it enters the Staging stage. A model review process—which might include automated evaluation against a holdout dataset, human review of the training data and feature set, and comparison against the current production model—gates the promotion to Production.
 
 For regulated industries, this controlled promotion process with full MLflow run metadata creates the audit trail that compliance teams require: exactly which training data snapshot, which code version, and which hyperparameter configuration produced the model that was promoted to production.
 
-MLflow's Model Registry also integrates with feature stores. When a model is registered, the registry can record which feature view and which point-in-time cutoff was used to generate training features. This integration is critical for detecting training-serving skew — if the feature engineering logic changes between training and serving, the model inputs no longer match what the model was trained on, often causing silent performance degradation without triggering obvious errors.
+MLflow's Model Registry also integrates with feature stores. When a model is registered, the registry can record which feature view and which point-in-time cutoff was used to generate training features. This integration is critical for detecting training-serving skew—if the feature engineering logic changes between training and serving, the model inputs no longer match what the model was trained on, often causing silent performance degradation without triggering obvious errors.
 
 ---
 

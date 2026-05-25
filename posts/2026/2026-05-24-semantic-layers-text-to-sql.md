@@ -20,7 +20,7 @@ Text-to-SQL generated serious excitement when early demonstrations showed AI ass
 
 Raw text-to-SQL, meaning a large language model receiving a database schema and a question and generating SQL directly, produces accurate results on toy datasets and embarrassing results on enterprise schemas. Accuracy rates around 40% on real-world enterprise schemas have been reported across several industry evaluations. That's below the threshold where any responsible team deploys it to business users.
 
-The semantic layer changes this calculation. When the AI generates SQL against a well-maintained semantic model — where metrics like revenue and churn rate are precisely defined, dimensions are mapped, and synonyms are registered — accuracy climbs to 85–95% in multiple enterprise deployments. The difference isn't a better LLM. It's better context.
+The semantic layer changes this calculation. When the AI generates SQL against a well-maintained semantic model—where metrics like revenue and churn rate are precisely defined, dimensions are mapped, and synonyms are registered—accuracy climbs to 85–95% in multiple enterprise deployments. The difference isn't a better LLM. It's better context.
 
 This post covers how four different approaches to semantic layers enable reliable enterprise text-to-SQL: Dremio's natively integrated virtual dataset and reflections architecture, Snowflake Cortex Analyst with Semantic Views, the dbt Semantic Layer powered by MetricFlow, and how to choose between them.
 
@@ -48,13 +48,13 @@ A semantic layer provides the translation layer between business concepts and da
 - **Synonyms**: Alternative names business users might say for the same concept
 - **Business descriptions**: Documentation that explains what each metric measures and how it's calculated
 
-When text-to-SQL is routed through a semantic layer, the AI doesn't generate SQL against raw schema — it generates SQL against a governed vocabulary of pre-defined metrics and dimensions. The generated SQL is guaranteed to use the correct table joins, the correct filters, and the correct aggregation logic because those definitions exist in the semantic model, not in the AI's general knowledge.
+When text-to-SQL is routed through a semantic layer, the AI doesn't generate SQL against raw schema—it generates SQL against a governed vocabulary of pre-defined metrics and dimensions. The generated SQL is guaranteed to use the correct table joins, the correct filters, and the correct aggregation logic because those definitions exist in the semantic model, not in the AI's general knowledge.
 
 ![Semantic layer text-to-SQL routing architecture showing user question flowing through semantic router to either semantic model for trusted deterministic SQL or falling back to raw LLM text-to-SQL with human review](/images/2026/semantic-layers-text-to-sql/semantic-layer-text-sql-routing.png)
 
-The routing architecture works like this: a user submits a natural language question. A semantic router classifies the intent and determines whether the question can be answered using a defined metric or dimension from the semantic model. If yes, the question is routed to the semantic layer, which generates deterministic SQL using the metric definition. If no — the question is outside the semantic model's coverage — the system either falls back to raw text-to-SQL with human review gates, or returns a message asking the user to rephrase.
+The routing architecture works like this: a user submits a natural language question. A semantic router classifies the intent and determines whether the question can be answered using a defined metric or dimension from the semantic model. If yes, the question is routed to the semantic layer, which generates deterministic SQL using the metric definition. If no—the question is outside the semantic model's coverage—the system either falls back to raw text-to-SQL with human review gates, or returns a message asking the user to rephrase.
 
-This routing discipline is what makes the accuracy improvement so dramatic. Questions within the semantic model's coverage are answered deterministically — the SQL is generated from governed metric definitions, not LLM inference. Questions outside coverage either have a human review checkpoint or are declined gracefully. The system never silently generates plausible-but-wrong SQL from raw schema and serves it as a trusted answer.
+This routing discipline is what makes the accuracy improvement so dramatic. Questions within the semantic model's coverage are answered deterministically—the SQL is generated from governed metric definitions, not LLM inference. Questions outside coverage either have a human review checkpoint or are declined gracefully. The system never silently generates plausible-but-wrong SQL from raw schema and serves it as a trusted answer.
 
 ---
 
@@ -110,7 +110,7 @@ This is architecturally significant for AI use cases. When an LLM generates SQL 
 
 ## Snowflake Cortex Analyst
 
-Snowflake Cortex Analyst is Snowflake's native managed text-to-SQL service. It's designed to work with Snowflake Semantic Views — objects defined in Snowflake's metadata layer that describe metrics, measures, and dimension relationships.
+Snowflake Cortex Analyst is Snowflake's native managed text-to-SQL service. It's designed to work with Snowflake Semantic Views—objects defined in Snowflake's metadata layer that describe metrics, measures, and dimension relationships.
 
 ```sql
 -- Define a Snowflake Semantic View for revenue analytics
@@ -130,7 +130,7 @@ COMMENT ON SEMANTIC VIEW revenue_analytics IS
     'Daily revenue by region for completed orders';
 ```
 
-Cortex Analyst uses the semantic view definitions to constrain its SQL generation. A user asking "what was revenue in the west region last week?" generates a SQL query against the pre-defined `total_revenue` metric with the `region` and `order_date` filters applied correctly — not an ad-hoc query that might join the wrong tables.
+Cortex Analyst uses the semantic view definitions to constrain its SQL generation. A user asking "what was revenue in the west region last week?" generates a SQL query against the pre-defined `total_revenue` metric with the `region` and `order_date` filters applied correctly—not an ad-hoc query that might join the wrong tables.
 
 The Cortex Analyst API returns both the SQL it generated and the underlying semantic view it used, providing full transparency about the query generation process. This auditability matters for enterprise deployments where understanding why a query was generated a certain way is as important as the result.
 

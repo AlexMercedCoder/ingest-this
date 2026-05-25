@@ -16,7 +16,7 @@ tags:
 
 Most lakehouse format comparisons skip the part that actually matters for streaming teams: how the format handles mutations. Apache Iceberg is excellent for append-heavy analytics, schema evolution, and multi-engine compatibility. But feed a high-churn CDC stream of updates and deletes into Iceberg using merge-on-read (MoR), and you're managing a growing pile of delete files that accumulate between compaction runs.
 
-Apache Paimon takes a different approach. Its Log-Structured Merge-tree (LSM-tree) architecture is designed from the ground up for continuous upserts. For the right workload — high-frequency mutations, Flink-native execution, real-time table freshness requirements — Paimon produces a cleaner operational profile than Iceberg. For the wrong workload, it's an unnecessary complexity burden.
+Apache Paimon takes a different approach. Its Log-Structured Merge-tree (LSM-tree) architecture is designed from the ground up for continuous upserts. For the right workload—high-frequency mutations, Flink-native execution, real-time table freshness requirements—Paimon produces a cleaner operational profile than Iceberg. For the wrong workload, it's an unnecessary complexity burden.
 
 This post defines the specific conditions where Paimon wins, where Iceberg remains the better default, and what you actually need to configure to use either effectively.
 
@@ -36,7 +36,7 @@ The choice of LSM-tree is not incidental. It's a direct response to the specific
 
 In an LSM-tree, incoming writes land in an in-memory buffer, which is periodically flushed to sorted files on disk. These sorted files are organized into levels (L0, L1, L2, and so on). Background compaction processes merge smaller files from lower levels into larger files at higher levels, resolving conflicts between earlier and later writes to the same key.
 
-For a CDC stream where the same row might be updated many times per minute, this has concrete benefits. New CDC events always write to the in-memory buffer and are flushed to the lowest level. The query engine reads the merged view across levels. The background compaction consolidates updates at rest without blocking writes. At no point does a query need to scan separate delete files and reconcile them against data files — the LSM-tree's merge logic handles this intrinsically.
+For a CDC stream where the same row might be updated many times per minute, this has concrete benefits. New CDC events always write to the in-memory buffer and are flushed to the lowest level. The query engine reads the merged view across levels. The background compaction consolidates updates at rest without blocking writes. At no point does a query need to scan separate delete files and reconcile them against data files—the LSM-tree's merge logic handles this intrinsically.
 
 ![Architecture diagram comparing Paimon LSM-tree with in-memory buffer, SSTable file levels, and background compaction against Iceberg merge-on-read with separate data files and delete files requiring query-time merge](/images/2026/paimon-vs-iceberg-mutable-streams/paimon-lsm-vs-iceberg-mor-architecture.png)
 
@@ -81,7 +81,7 @@ The `merge-engine` property controls how conflicts for the same primary key are 
 
 One of Paimon's most distinctive capabilities is that primary key tables can serve as both a batch-readable lakehouse table and a changelog source for downstream Flink jobs.
 
-When a Flink job reads a Paimon primary key table as a streaming source, it doesn't read static snapshots. It reads the changelog stream — a continuous stream of `+I`, `-U`, `+U`, and `-D` records that represent every mutation to the table. This means you can chain Flink jobs where the output of one job becomes the changelog input of the next, building multi-stage stateful streaming pipelines that maintain real-time derived tables.
+When a Flink job reads a Paimon primary key table as a streaming source, it doesn't read static snapshots. It reads the changelog stream—a continuous stream of `+I`, `-U`, `+U`, and `-D` records that represent every mutation to the table. This means you can chain Flink jobs where the output of one job becomes the changelog input of the next, building multi-stage stateful streaming pipelines that maintain real-time derived tables.
 
 Iceberg can serve as a streaming source in Flink through incremental reads, but its model is snapshot-based. Flink reads successive Iceberg snapshots and emits new or deleted rows detected between them. This works for append-only tables and bounded update patterns, but doesn't produce the full changelog semantics that Paimon emits natively. Building an accurate changelog from Iceberg incremental reads requires additional logic to handle updates that touch the same row across multiple snapshots.
 
@@ -167,7 +167,7 @@ Tags persist independently from snapshots. You can expire Paimon snapshots aggre
 
 ## Streaming Aggregations with Paimon's Aggregation Merge Engine
 
-One of Paimon's most distinctive features is its native support for streaming aggregations — running computations that accumulate over time directly in the table format.
+One of Paimon's most distinctive features is its native support for streaming aggregations—running computations that accumulate over time directly in the table format.
 
 The aggregation merge engine allows defining column-level merge functions that resolve conflicts for the same primary key:
 
@@ -190,7 +190,7 @@ CREATE TABLE user_sessions (
 );
 ```
 
-Incoming events contain partial updates: a new session event increments `session_count` by 1, adds the purchase amount to `total_purchase_amt`, and updates `last_active` to the event timestamp. Paimon's LSM-tree merge logic applies these aggregations at compaction time — accumulating the correct running totals without requiring a stateful Flink operator to maintain the aggregation in RocksDB.
+Incoming events contain partial updates: a new session event increments `session_count` by 1, adds the purchase amount to `total_purchase_amt`, and updates `last_active` to the event timestamp. Paimon's LSM-tree merge logic applies these aggregations at compaction time—accumulating the correct running totals without requiring a stateful Flink operator to maintain the aggregation in RocksDB.
 
 This pattern is particularly efficient for analytics tables that are updated continuously from streaming sources but queried on a batch schedule. The aggregation merge engine handles the incremental state in the table format itself, rather than requiring complex stateful stream processing.
 

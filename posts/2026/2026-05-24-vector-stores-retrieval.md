@@ -20,7 +20,7 @@ Vector retrieval has become a standard component in data platform architectures,
 
 The vector store market has matured rapidly. pgvector brings approximate nearest neighbor (ANN) search to PostgreSQL. Milvus provides a purpose-built distributed vector database designed for billions of vectors. Weaviate integrates hybrid dense and sparse search with a multi-modal retrieval model. LanceDB uses the Lance columnar format for disk-native vector retrieval optimized for ML workflows.
 
-Each of these tools makes different tradeoffs that matter in practice. This guide is about those tradeoffs — not which tool markets itself best, but which tool fits specific workload and operational requirements.
+Each of these tools makes different tradeoffs that matter in practice. This guide is about those tradeoffs—not which tool markets itself best, but which tool fits specific workload and operational requirements.
 
 ---
 
@@ -69,7 +69,7 @@ LIMIT 10;
 
 pgvector's operational advantage is zero new infrastructure. Your existing PostgreSQL setup, backup procedures, replication topology, and tooling all apply to vector columns without modification. The limitation is scale: HNSW indexes must fit in RAM, which practically limits pgvector to datasets of millions of vectors on typical server configurations.
 
-For hybrid search — combining dense vector similarity with keyword (BM25) relevance — pgvector uses PostgreSQL's native `tsvector` full-text search in combination with vector search, joined by RRF (Reciprocal Rank Fusion) or similar fusion scoring. This requires more manual implementation than Milvus or Weaviate's native hybrid search capabilities.
+For hybrid search—combining dense vector similarity with keyword (BM25) relevance—pgvector uses PostgreSQL's native `tsvector` full-text search in combination with vector search, joined by RRF (Reciprocal Rank Fusion) or similar fusion scoring. This requires more manual implementation than Milvus or Weaviate's native hybrid search capabilities.
 
 ---
 
@@ -220,7 +220,7 @@ For a server with 16 GB RAM, this is feasible. For 10 million vectors at 3072 di
 
 Hybrid search combines dense vector retrieval (semantic similarity) with sparse keyword retrieval (BM25/TF-IDF term matching). The intuition is that dense retrieval handles paraphrase and synonym matches well but can miss precise technical terms; sparse retrieval handles exact term matching well but misses semantic equivalents.
 
-For domain-specific retrieval — internal documentation, legal texts, medical literature — hybrid search typically outperforms either approach alone by 10-20% on NDCG@10 benchmarks.
+For domain-specific retrieval—internal documentation, legal texts, medical literature—hybrid search typically outperforms either approach alone by 10-20% on NDCG@10 benchmarks.
 
 The fusion strategy combines results from both retrievers. Reciprocal Rank Fusion (RRF) is the most common:
 
@@ -312,7 +312,7 @@ The practical security controls for enterprise vector stores:
 
 ## Evaluating Retrieval Quality: Beyond "Does It Return Results"
 
-One of the most underinvested areas in production RAG and retrieval systems is systematic evaluation of retrieval quality. Teams often measure whether the system returns results, but rarely measure whether it returns the right results — and whether retrieval quality is stable over time as the document corpus and query distribution evolve.
+One of the most underinvested areas in production RAG and retrieval systems is systematic evaluation of retrieval quality. Teams often measure whether the system returns results, but rarely measure whether it returns the right results—and whether retrieval quality is stable over time as the document corpus and query distribution evolve.
 
 **Recall@K** is the primary retrieval quality metric: given a query for which the ground-truth relevant documents are known, what fraction of those relevant documents appear in the top K results? A Recall@10 of 0.85 means the system returns 8-9 of 10 relevant documents in its first page of results.
 

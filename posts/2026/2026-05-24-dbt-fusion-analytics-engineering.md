@@ -17,7 +17,7 @@ tags:
 
 The dbt Core engine that analytics engineering teams have relied on since 2017 was built in Python at a time when the job of the tool was to template SQL and run it against a warehouse. It worked well for that job. It also inherited the constraints of a text-template system: SQL was a string to be rendered, not code to be analyzed. The engine had no understanding of column references, type compatibility, or cross-model dependencies beyond the explicit `ref()` calls that connected models in the DAG.
 
-dbt Fusion, launched as a public beta on May 28, 2025, is a ground-up rewrite of the dbt execution engine in Rust. It isn't a version update or a performance patch — it's a different execution model. SQL is now treated as an abstract syntax tree (AST) that the engine understands statically, before any query reaches the warehouse. The downstream effects of this architectural change touch everything from local development experience to CI pipeline cost.
+dbt Fusion, launched as a public beta on May 28, 2025, is a ground-up rewrite of the dbt execution engine in Rust. It isn't a version update or a performance patch—it's a different execution model. SQL is now treated as an abstract syntax tree (AST) that the engine understands statically, before any query reaches the warehouse. The downstream effects of this architectural change touch everything from local development experience to CI pipeline cost.
 
 ---
 
@@ -45,13 +45,13 @@ This means errors surface at runtime, after paying for warehouse execution. For 
 
 ## dbt Fusion: SQL as First-Class Code
 
-Fusion replaces the Jinja2-over-text approach with a genuine SQL compiler. The engine parses SQL into an AST, resolves column references across model dependencies, performs type checking, and reports errors locally — before any query reaches the warehouse.
+Fusion replaces the Jinja2-over-text approach with a genuine SQL compiler. The engine parses SQL into an AST, resolves column references across model dependencies, performs type checking, and reports errors locally—before any query reaches the warehouse.
 
 ![dbt Core vs dbt Fusion lifecycle comparison showing Python text templates versus Rust AST compilation, with 30x faster project parsing and error detection shifting from runtime to author time](/images/2026/dbt-fusion-analytics-engineering/dbt-fusion-rust-lifecycle.png)
 
 What this enables:
 
-**Real-time error detection in VS Code.** The Fusion engine powers a Language Server Protocol (LSP) implementation. The official dbt VS Code extension uses this to underline type errors, unresolved column references, and dialect incompatibilities as you type — the same experience TypeScript developers have had for years. Analytics engineers no longer need to submit a job to the warehouse to find out if a column rename broke downstream models.
+**Real-time error detection in VS Code.** The Fusion engine powers a Language Server Protocol (LSP) implementation. The official dbt VS Code extension uses this to underline type errors, unresolved column references, and dialect incompatibilities as you type—the same experience TypeScript developers have had for years. Analytics engineers no longer need to submit a job to the warehouse to find out if a column rename broke downstream models.
 
 **Column-aware autocomplete.** Because Fusion understands the schema of each model in the project, it can suggest valid column names in joins and `WHERE` clauses. This eliminates a class of typo-induced bugs that previously required runtime discovery.
 
@@ -80,7 +80,7 @@ dbt build --select state:modified+
 
 ## What Doesn't Change
 
-Fusion maintains the dbt authoring layer that analytics engineers already know. SQL files, YAML schema definitions, `ref()` and `source()` functions, Jinja macros — these all work the same way. Teams migrating from dbt Core don't rewrite their models. They install the Fusion binary and change the runtime.
+Fusion maintains the dbt authoring layer that analytics engineers already know. SQL files, YAML schema definitions, `ref()` and `source()` functions, Jinja macros—these all work the same way. Teams migrating from dbt Core don't rewrite their models. They install the Fusion binary and change the runtime.
 
 Adapter macro compatibility is the primary migration concern. Fusion's Rust core handles SQL parsing and compilation, but database-specific adapter macros (the code that translates generic dbt operations into warehouse-specific SQL) still use Python. Teams with heavily customized macros may encounter compatibility issues during migration that require testing before moving production environments to Fusion.
 
@@ -160,7 +160,7 @@ This is the governed alternative to every BI tool writing its own revenue calcul
 
 The combination of dbt Fusion and Apache Iceberg Iceberg tables as dbt model targets is a configuration that several data teams have adopted for lakehouse analytics engineering.
 
-When dbt models write to Iceberg tables through adapters that support Iceberg (dbt-spark, dbt-trino, dbt-glue, and the newer dbt-iceberg experimental adapter), the benefits of Iceberg's table format — ACID transactions, schema evolution, time travel — apply to dbt model outputs.
+When dbt models write to Iceberg tables through adapters that support Iceberg (dbt-spark, dbt-trino, dbt-glue, and the newer dbt-iceberg experimental adapter), the benefits of Iceberg's table format—ACID transactions, schema evolution, time travel—apply to dbt model outputs.
 
 **Incremental models with Iceberg:** Iceberg's merge-on-read and copy-on-write strategies map naturally to dbt's incremental materialization strategies. A dbt incremental model that appends new rows uses Iceberg's ACID append. A model that upserts uses Iceberg's MERGE statement support.
 
@@ -247,11 +247,11 @@ The tooling improvements in Fusion and the maturation of the dbt Semantic Layer 
 
 With Fusion, the development experience more closely resembles software engineering. Real-time error feedback in the IDE, fast local compilation, and state-aware CI runs change the feedback loop. The time between "I made a change" and "I know whether the change is correct" shrinks from minutes to seconds for most common changes.
 
-This shift frees analytics engineering time for higher-value work: designing better data models, defining metrics with precision in MetricFlow, improving test coverage, and documenting datasets so that downstream consumers — including AI assistants querying the semantic layer — can use them correctly.
+This shift frees analytics engineering time for higher-value work: designing better data models, defining metrics with precision in MetricFlow, improving test coverage, and documenting datasets so that downstream consumers—including AI assistants querying the semantic layer—can use them correctly.
 
-The semantic layer's role in this shift is particularly significant for AI use cases. A well-designed MetricFlow metric definition is not just useful for Tableau dashboards — it's the definition that an AI agent queries when it answers "what was total revenue this quarter?" If the metric is defined correctly in MetricFlow, the AI answer is grounded in the same calculation logic that powers every other downstream tool. If revenue logic is scattered across BI tool calculations and SQL transforms, AI answers will be inconsistent with the numbers analysts see in dashboards.
+The semantic layer's role in this shift is particularly significant for AI use cases. A well-designed MetricFlow metric definition is not just useful for Tableau dashboards—it's the definition that an AI agent queries when it answers "what was total revenue this quarter?" If the metric is defined correctly in MetricFlow, the AI answer is grounded in the same calculation logic that powers every other downstream tool. If revenue logic is scattered across BI tool calculations and SQL transforms, AI answers will be inconsistent with the numbers analysts see in dashboards.
 
-Analytics engineering discipline — defining metrics in one place, testing every model, documenting every column — has always been valuable. In the AI-assisted analytics environment of 2026, it's load-bearing infrastructure.
+Analytics engineering discipline—defining metrics in one place, testing every model, documenting every column—has always been valuable. In the AI-assisted analytics environment of 2026, it's load-bearing infrastructure.
 
 ---
 

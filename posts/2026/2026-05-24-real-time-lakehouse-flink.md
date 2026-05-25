@@ -16,7 +16,7 @@ tags:
 
 Most streaming pipelines solve the wrong problem. Teams spend months building infrastructure to move data fast, then discover their downstream lakehouse tables are a mess: thousands of tiny files per partition, schemas that drift silently across topics, and compaction jobs fighting live writes at 3 a.m. The ingestion is fast, but the data is barely usable.
 
-Apache Flink 2.1, released in July 2025, explicitly frames itself as a unified real-time Data and AI platform. Paired with the Dynamic Iceberg Sink — which reached production-ready status with Apache Iceberg 1.10.0 support — you now have a concrete path to an architecture where Kafka topics land cleanly in Iceberg tables, schema changes never require a job restart, and a single Flink job can serve hundreds of tables simultaneously.
+Apache Flink 2.1, released in July 2025, explicitly frames itself as a unified real-time Data and AI platform. Paired with the Dynamic Iceberg Sink—which reached production-ready status with Apache Iceberg 1.10.0 support—you now have a concrete path to an architecture where Kafka topics land cleanly in Iceberg tables, schema changes never require a job restart, and a single Flink job can serve hundreds of tables simultaneously.
 
 This post walks through how to actually build that architecture, including the configuration details teams usually skip and the failure modes nobody documents until something breaks in production.
 
@@ -46,7 +46,7 @@ The Dynamic Sink adds three capabilities that change this:
 
 **Automated schema evolution.** When the sink encounters a field in an incoming record that doesn't exist in the current Iceberg table schema, it calls the Iceberg catalog to add the new column. Because Iceberg stores its schema as metadata rather than embedded in the data files, this operation doesn't touch any existing Parquet files. The schema update is a metadata-only write to the catalog. Existing data continues to be readable; new files written after the update include the new field.
 
-**Multi-table fan-out.** A single Dynamic Sink instance can write to an unlimited number of Iceberg tables simultaneously. The routing logic is defined in the incoming event records themselves. Your Kafka event includes a routing key — typically a topic name or entity type — and the sink maps that key to the appropriate Iceberg table. If a table doesn't exist yet, the sink creates it.
+**Multi-table fan-out.** A single Dynamic Sink instance can write to an unlimited number of Iceberg tables simultaneously. The routing logic is defined in the incoming event records themselves. Your Kafka event includes a routing key—typically a topic name or entity type—and the sink maps that key to the appropriate Iceberg table. If a table doesn't exist yet, the sink creates it.
 
 **Automatic table creation.** When the sink encounters a routing key that maps to a table that doesn't exist in the catalog, it creates the table on the fly using the schema inferred from the current record. This means onboarding a new Kafka topic requires zero changes to the Flink job.
 
@@ -123,7 +123,7 @@ In a static Flink pipeline, this silently drops the field or crashes the job dep
 1. The Flink job receives the event and detects the new field during deserialization.
 2. The Dynamic Sink calls the Iceberg catalog's `updateSchema()` API to add the `region` column as a nullable string.
 3. Because Iceberg schema evolution is a metadata-only operation, no existing data files are rewritten. The catalog records the new column in the table metadata and associates it with a new schema ID.
-4. The sink writes the current record — including the `region` field — to a new Parquet file using the updated schema.
+4. The sink writes the current record—including the `region` field—to a new Parquet file using the updated schema.
 5. All downstream readers (Spark, Trino, Dremio) that query the table see the new column for records where it exists. Historical records return NULL for the `region` column, which is correct behavior.
 
 One important constraint: Iceberg only supports widening schema evolution, not narrowing. You can add columns, rename columns (with full compatibility tracking), and widen numeric types (e.g., `int` to `long`). You cannot drop columns via the Dynamic Sink's schema evolution path. Dropping a column requires an explicit catalog operation outside the streaming job.
@@ -168,7 +168,7 @@ RewriteDataFilesSparkAction rewrite = SparkActions
 RewriteDataFilesSparkAction.Result result = rewrite.execute();
 ```
 
-A critical operational rule: never compact the hot partition currently receiving streaming writes. The compaction job reads a set of files, rewrites them into larger files, and commits a new snapshot that removes the original files. If your streaming job is concurrently writing to that same partition, the commit can conflict. Restrict compaction to cold partitions — those at least one or two intervals behind the current streaming boundary.
+A critical operational rule: never compact the hot partition currently receiving streaming writes. The compaction job reads a set of files, rewrites them into larger files, and commits a new snapshot that removes the original files. If your streaming job is concurrently writing to that same partition, the commit can conflict. Restrict compaction to cold partitions—those at least one or two intervals behind the current streaming boundary.
 
 ---
 

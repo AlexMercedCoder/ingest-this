@@ -14,7 +14,7 @@ tags:
 ---
 # Kafka 4.0 Changes Streaming Platform Operations
 
-Apache Kafka 4.0 shipped on March 18, 2025, and it made one thing official: ZooKeeper is gone. Not deprecated, not optional — removed. Every new Kafka 4.0 cluster runs in KRaft mode. If your team still runs ZooKeeper-based brokers, you cannot do an in-place upgrade to 4.0. That's the short version of what changed.
+Apache Kafka 4.0 shipped on March 18, 2025, and it made one thing official: ZooKeeper is gone. Not deprecated, not optional—removed. Every new Kafka 4.0 cluster runs in KRaft mode. If your team still runs ZooKeeper-based brokers, you cannot do an in-place upgrade to 4.0. That's the short version of what changed.
 
 The longer version is more interesting. Kafka 4.0 also marks two other operational milestones. The new consumer rebalance protocol (KIP-848) is now generally available, replacing the "stop-the-world" rebalance behavior that has caused consumer lag spikes for years. And Queues for Kafka (KIP-932), which enables point-to-point messaging semantics on top of Kafka topics, entered early access.
 
@@ -166,7 +166,7 @@ The `enable.idempotence=true` setting ensures that retried producer sends don't 
 
 ## Consumer Lag Monitoring in Production
 
-Consumer lag — the gap between the latest offset in a Kafka partition and the consumer group's current committed offset — is the most important operational metric for streaming platforms. Growing consumer lag means the pipeline is falling behind incoming data. Without monitoring and alerting on consumer lag, you may not discover a falling pipeline until business logic downstream has been starved for hours.
+Consumer lag—the gap between the latest offset in a Kafka partition and the consumer group's current committed offset—is the most important operational metric for streaming platforms. Growing consumer lag means the pipeline is falling behind incoming data. Without monitoring and alerting on consumer lag, you may not discover a falling pipeline until business logic downstream has been starved for hours.
 
 The standard tools for consumer lag monitoring:
 
@@ -204,7 +204,7 @@ def estimate_catchup_time(current_lag_messages, consumer_throughput_msgs_per_sec
     return current_lag_messages / net_catchup_rate  # Returns seconds to catch up
 ```
 
-If `estimate_catchup_time()` returns infinity (the consumer isn't keeping up with the producer even without the backlog), the issue isn't lag — it's consumer throughput. Adding more consumer instances or optimizing the processing logic is the correct intervention, not simply monitoring the lag number.
+If `estimate_catchup_time()` returns infinity (the consumer isn't keeping up with the producer even without the backlog), the issue isn't lag—it's consumer throughput. Adding more consumer instances or optimizing the processing logic is the correct intervention, not simply monitoring the lag number.
 
 ---
 

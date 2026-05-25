@@ -17,7 +17,7 @@ tags:
 
 Data platform incidents follow a predictable pattern. A pipeline fails or a dashboard goes stale. Someone opens Slack and asks which table feeds that dashboard. Someone else checks the Airflow UI and traces it to a Spark job. A third person pulls up the dbt DAG and realizes the issue is three steps upstream in a staging model that reads from an Iceberg table that failed due to a schema change two days ago. The entire investigation takes hours of manual archaeology.
 
-OpenLineage was built to make this archaeology unnecessary. It provides a standardized API for tools across the data stack — Airflow, Spark, Flink, dbt — to emit structured lineage events as pipelines run. Those events flow to a lineage backend (Marquez, DataHub, or similar) that assembles them into a searchable, queryable dependency graph. When something breaks, the graph shows exactly which downstream assets are affected without requiring a human to trace the dependency tree manually.
+OpenLineage was built to make this archaeology unnecessary. It provides a standardized API for tools across the data stack—Airflow, Spark, Flink, dbt—to emit structured lineage events as pipelines run. Those events flow to a lineage backend (Marquez, DataHub, or similar) that assembles them into a searchable, queryable dependency graph. When something breaks, the graph shows exactly which downstream assets are affected without requiring a human to trace the dependency tree manually.
 
 ---
 
@@ -45,11 +45,11 @@ The value of OpenLineage comes from its coverage. A single tool emitting lineage
 
 **Apache Airflow:** The `apache-airflow-providers-openlineage` package integrates at the operator level. It intercepts task execution events and automatically emits OpenLineage run events for each task in a DAG. It propagates parent run IDs so downstream backends can reconstruct the full orchestration hierarchy.
 
-**Apache Spark:** The Spark integration uses a Spark listener — a JVM agent that intercepts read and write operations at the execution plan level. No code changes to Spark jobs are required. The listener reads the physical plan, identifies input and output datasets, and emits run events with schema facets at job start and completion.
+**Apache Spark:** The Spark integration uses a Spark listener—a JVM agent that intercepts read and write operations at the execution plan level. No code changes to Spark jobs are required. The listener reads the physical plan, identifies input and output datasets, and emits run events with schema facets at job start and completion.
 
 **Apache Flink:** Similar to Spark, the Flink integration operates as an agent that captures streaming lineage without modifying job code. This is particularly valuable for streaming pipelines where the data flow is complex and documentation is often out of date.
 
-**dbt:** The `dbt-ol` integration captures lineage from dbt model executions. Each `dbt run` emits events for every model that runs — recording the `ref()` and `source()` dependencies as dataset relationships, and the compiled SQL as a facet on the job event.
+**dbt:** The `dbt-ol` integration captures lineage from dbt model executions. Each `dbt run` emits events for every model that runs—recording the `ref()` and `source()` dependencies as dataset relationships, and the compiled SQL as a facet on the job event.
 
 ---
 
@@ -127,7 +127,7 @@ For organizations that need enterprise governance features alongside lineage —
 
 ## Conclusion
 
-OpenLineage addresses the observability gap that has made data platform incidents disproportionately expensive to diagnose. A data pipeline fails in ways that aren't visible to the tools monitoring individual components — Airflow knows the task failed, but doesn't know what the downstream effects are. Spark knows the job completed, but doesn't know what business dashboard depends on the table it wrote.
+OpenLineage addresses the observability gap that has made data platform incidents disproportionately expensive to diagnose. A data pipeline fails in ways that aren't visible to the tools monitoring individual components—Airflow knows the task failed, but doesn't know what the downstream effects are. Spark knows the job completed, but doesn't know what business dashboard depends on the table it wrote.
 
 By standardizing the lineage event format across tools, OpenLineage makes it possible to build a single, authoritative dependency graph that spans the entire platform. That graph makes blast radius analysis instant and root cause investigation tractable without manual archaeology.
 
@@ -209,7 +209,7 @@ Building SLA monitoring on top of OpenLineage data requires three components:
 2. **Completion detection:** A listener or scheduled query that checks when the relevant `COMPLETE` event was emitted for each monitored job.
 3. **Alert delivery:** A notification when a pipeline hasn't emitted its `COMPLETE` event before the SLA deadline.
 
-This approach treats SLA monitoring as a metadata query problem rather than an infrastructure monitoring problem — you're checking the lineage graph for expected events, not polling health endpoints.
+This approach treats SLA monitoring as a metadata query problem rather than an infrastructure monitoring problem—you're checking the lineage graph for expected events, not polling health endpoints.
 
 ---
 
@@ -252,7 +252,7 @@ The most effective data observability practices share common patterns. The first
 
 The second is using lineage data in incident postmortems. When a pipeline failure or data quality incident is resolved, the postmortem includes a lineage analysis: which upstream changes contributed to the incident? Which downstream assets were affected? What would have been visible in the lineage graph that could have detected the issue earlier? Postmortems that include lineage analysis produce actionable improvements to monitoring configurations.
 
-The third is making lineage visible to data consumers, not just platform engineers. When a data analyst can open the data catalog, click on the dashboard they use daily, and trace its lineage back to source systems — seeing what pipelines feed it, when those pipelines last ran successfully, and whether any upstream quality checks are failing — they develop intuitions about data trustworthiness that improve their analytical work. Analysts who understand that the revenue dashboard reads from Iceberg tables that were last updated four hours ago ask better questions about data freshness than analysts who have no visibility into their data's provenance.
+The third is making lineage visible to data consumers, not just platform engineers. When a data analyst can open the data catalog, click on the dashboard they use daily, and trace its lineage back to source systems—seeing what pipelines feed it, when those pipelines last ran successfully, and whether any upstream quality checks are failing—they develop intuitions about data trustworthiness that improve their analytical work. Analysts who understand that the revenue dashboard reads from Iceberg tables that were last updated four hours ago ask better questions about data freshness than analysts who have no visibility into their data's provenance.
 
 The barrier to this visibility is often not technical but organizational. Platform teams that treat lineage data as internal infrastructure rather than a consumer-facing feature miss the organizational benefit. The goal is a culture where "check the lineage" is a natural first response to data questions, the same way "check the logs" is a natural first response to software incidents.
 

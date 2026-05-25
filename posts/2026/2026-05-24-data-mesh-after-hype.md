@@ -18,7 +18,7 @@ tags:
 
 When Zhamak Dehghani published the original data mesh papers at Thoughtworks in 2019 and 2020, the response split sharply between organizations that saw it as a fundamental rethinking of data platform architecture and skeptics who viewed it as a repackaging of existing domain-driven design concepts applied to data teams.
 
-Both groups were partially right. The conceptual insight in data mesh — that the bottleneck in enterprise data platforms is organizational, not technical, and that treating data as a product published by domain teams addresses scaling problems that no amount of centralized engineering can solve — was valuable and largely correct. The implementation turned out to be significantly harder and more context-dependent than the original framing suggested.
+Both groups were partially right. The conceptual insight in data mesh—that the bottleneck in enterprise data platforms is organizational, not technical, and that treating data as a product published by domain teams addresses scaling problems that no amount of centralized engineering can solve—was valuable and largely correct. The implementation turned out to be significantly harder and more context-dependent than the original framing suggested.
 
 Three years of production data mesh implementations across organizations of various sizes have produced a clearer picture of what works, what doesn't, and where "data product thinking" delivers value without requiring a full organizational reorganization.
 
@@ -39,7 +39,7 @@ In practice, most organizations that have successfully adopted data mesh pattern
 
 ## What Domain Ownership Actually Requires
 
-Full domain ownership — where a domain team handles their own ingestion, transformation, quality monitoring, and publication — requires those teams to have (or develop) data engineering competency. For organizations where data engineering is scarce, asking a sales team or a product team to also manage their Spark jobs and Iceberg table maintenance is unrealistic.
+Full domain ownership—where a domain team handles their own ingestion, transformation, quality monitoring, and publication—requires those teams to have (or develop) data engineering competency. For organizations where data engineering is scarce, asking a sales team or a product team to also manage their Spark jobs and Iceberg table maintenance is unrealistic.
 
 The organizations that have made domain ownership work share two characteristics: they have a strong self-serve data platform (principle 3 genuinely delivers on its promise, so domain teams aren't managing infrastructure directly), and they have embedded or dedicated data engineers within domain teams who handle the technical implementation.
 
@@ -106,11 +106,11 @@ When a data product has a contract like this, consumers know what they're gettin
 
 ## The Bottleneck Data Mesh Actually Solves
 
-The organizational problem data mesh addresses is the centralized data team bottleneck. When all data engineering work — ingestion, transformation, quality monitoring, publication — flows through a central team, that team becomes a bottleneck. Domain teams wait weeks for data pipeline requests. The central team lacks domain context and builds suboptimal transformations. Priority conflicts between domains are constant.
+The organizational problem data mesh addresses is the centralized data team bottleneck. When all data engineering work—ingestion, transformation, quality monitoring, publication—flows through a central team, that team becomes a bottleneck. Domain teams wait weeks for data pipeline requests. The central team lacks domain context and builds suboptimal transformations. Priority conflicts between domains are constant.
 
-![Data mesh maturity progression from centralized ETL teams at the bottom through domain ownership awareness, data products as output, federated governance, to pragmatic data mesh at the top — with Thoughtworks noting Steps 3-4 can be implemented without the full sequence](/images/2026/data-mesh-after-hype/data-mesh-product-thinking-maturity.png)
+![Data mesh maturity progression from centralized ETL teams at the bottom through domain ownership awareness, data products as output, federated governance, to pragmatic data mesh at the top—with Thoughtworks noting Steps 3-4 can be implemented without the full sequence](/images/2026/data-mesh-after-hype/data-mesh-product-thinking-maturity.png)
 
-Domain ownership addresses this by moving pipeline ownership to the teams with the domain context. A finance team that owns their own data pipelines can prioritize, design, and maintain those pipelines without waiting for a central team's ticket queue. The tradeoff is distributed responsibility — the central platform team maintains the self-serve infrastructure, while domain teams maintain their pipelines.
+Domain ownership addresses this by moving pipeline ownership to the teams with the domain context. A finance team that owns their own data pipelines can prioritize, design, and maintain those pipelines without waiting for a central team's ticket queue. The tradeoff is distributed responsibility—the central platform team maintains the self-serve infrastructure, while domain teams maintain their pipelines.
 
 For organizations with 50+ data pipelines spanning 10+ domains and a central data engineering team perpetually backlogged, the mesh topology is worth the organizational investment. For organizations with 10 pipelines and a data engineering team of five, a well-run centralized team with good domain partnership is more practical.
 
@@ -193,7 +193,7 @@ The organizational investment in data mesh should be measured against concrete o
 
 **Cross-domain consumption rate:** How many data products are consumed by domains other than their producer? Low cross-domain consumption suggests the catalog isn't surfacing relevant products, or that consumers don't trust products from other domains. High cross-domain consumption is evidence that the mesh is creating organizational value beyond siloed domain analytics.
 
-**Unattributed pipeline ownership:** The percentage of active pipelines without a named owner. As organizations scale, unmaintained pipelines accumulate. A mesh governance discipline should keep this near zero — every pipeline has an owner, and pipeline removal is a deliberate process.
+**Unattributed pipeline ownership:** The percentage of active pipelines without a named owner. As organizations scale, unmaintained pipelines accumulate. A mesh governance discipline should keep this near zero—every pipeline has an owner, and pipeline removal is a deliberate process.
 
 ---
 

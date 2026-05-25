@@ -16,9 +16,9 @@ tags:
 ---
 # Modern Feature Stores Beyond Batch Pipelines
 
-The original value proposition of a feature store was straightforward: define features once, use them in both training and serving. The feature engineering logic that computed the `user_30d_purchase_count` feature for training data would be the same logic that computed it for inference — no more training-serving skew where the model trains on slightly different features than it receives in production.
+The original value proposition of a feature store was straightforward: define features once, use them in both training and serving. The feature engineering logic that computed the `user_30d_purchase_count` feature for training data would be the same logic that computed it for inference—no more training-serving skew where the model trains on slightly different features than it receives in production.
 
-That problem is real and important. But the batch-only feature store has a significant limitation: the features it can provide are as fresh as the batch pipeline that computes them. For models that make real-time decisions — fraud detection, recommendation ranking, dynamic pricing — batch features computed every hour or every day are not fresh enough.
+That problem is real and important. But the batch-only feature store has a significant limitation: the features it can provide are as fresh as the batch pipeline that computes them. For models that make real-time decisions—fraud detection, recommendation ranking, dynamic pricing—batch features computed every hour or every day are not fresh enough.
 
 The next generation of feature stores adds streaming feature views: feature computations that run continuously against Kafka or Kinesis event streams, populating an online store with features that are seconds-fresh rather than hours-fresh. Feast, the most widely-used open-source feature store, supports streaming feature views natively, with event sources from Kafka and Kinesis and online store backends including Redis, DynamoDB, and Bigtable.
 
@@ -167,7 +167,7 @@ A feature store without governance becomes a feature graveyard. Features are add
 
 Effective feature governance requires:
 
-**Ownership tracking.** Every feature view in the registry should have a named owner — an individual or a team — who is accountable for keeping the computation logic current and the feature quality above threshold. Feast's registry supports tagging feature views with ownership metadata.
+**Ownership tracking.** Every feature view in the registry should have a named owner—an individual or a team—who is accountable for keeping the computation logic current and the feature quality above threshold. Feast's registry supports tagging feature views with ownership metadata.
 
 **Quality thresholds.** Features have expected statistical properties. A `days_since_last_purchase` feature shouldn't have null rates above 5% for active user entities. Setting expected statistics and alerting when feature distributions shift prevents degraded models from silently serving incorrect predictions.
 
@@ -279,11 +279,11 @@ Training-serving skew is one of the most common and most damaging failure modes 
 
 The causes of training-serving skew:
 
-**Different feature computation logic.** The offline batch job that computes features for training runs different code than the online service that computes features for inference. A subtle difference — perhaps a different treatment of missing values, or a different time window for an aggregation — produces different values for the same raw input.
+**Different feature computation logic.** The offline batch job that computes features for training runs different code than the online service that computes features for inference. A subtle difference—perhaps a different treatment of missing values, or a different time window for an aggregation—produces different values for the same raw input.
 
 **Different data sources.** Training features are computed from the offline store (Iceberg tables, data warehouse). Serving features are read from the online store (Redis, DynamoDB). If the pipelines that populate these two stores have different latency characteristics or different data cleaning logic, the values diverge.
 
-**Point-in-time retrieval errors.** Training requires point-in-time correct feature values — the values that were available at the time of each training example's label, not the current values. Failing to implement proper point-in-time retrieval introduces future data leakage into training features, causing artificially high training performance that doesn't generalize.
+**Point-in-time retrieval errors.** Training requires point-in-time correct feature values—the values that were available at the time of each training example's label, not the current values. Failing to implement proper point-in-time retrieval introduces future data leakage into training features, causing artificially high training performance that doesn't generalize.
 
 Feature stores address training-serving skew by centralizing feature computation in a single pipeline that serves both offline and online stores. When both the training dataset generation and the real-time inference path read features from the same computation logic, the risk of skew from code divergence is eliminated. Point-in-time retrieval is handled natively by the feature store's training dataset generation API.
 

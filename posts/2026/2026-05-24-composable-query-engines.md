@@ -15,11 +15,11 @@ tags:
 ---
 # Building Composable Query Engines with Rust Runtimes
 
-For most of data engineering history, a query engine was a monolithic system. You picked a database or warehouse, and it owned everything from the SQL parser through the disk I/O layer. The engine choice was also your storage choice, your catalog choice, and often your governance choice. Composability — the ability to mix and match components from different systems — was minimal.
+For most of data engineering history, a query engine was a monolithic system. You picked a database or warehouse, and it owned everything from the SQL parser through the disk I/O layer. The engine choice was also your storage choice, your catalog choice, and often your governance choice. Composability—the ability to mix and match components from different systems—was minimal.
 
 That design is being dismantled. Apache DataFusion provides an embeddable, modular query execution engine written in Rust. Meta's Velox provides a high-performance C++ execution kernel that plugs into Presto, Spark, and other systems. Substrait provides a cross-language plan representation format that lets query plans flow between different engines without recompilation or reparse. Apache Arrow provides the in-memory columnar format that eliminates serialization overhead when data moves between components.
 
-Together, these four projects define a stack where you can build a query engine the way you build a web application — assembling purpose-fit components rather than accepting a single vendor's implementation decisions at every layer.
+Together, these four projects define a stack where you can build a query engine the way you build a web application—assembling purpose-fit components rather than accepting a single vendor's implementation decisions at every layer.
 
 ---
 
@@ -37,7 +37,7 @@ The composable stack addresses both by separating concerns into standardized lay
 
 ![Layered architecture diagram showing composable query engine stack with application interface at top, parser and optimizer in second layer, Substrait plan exchange in the middle, DataFusion Rust and Velox C++ executors in fourth layer, Apache Arrow IPC below, and object store/Parquet/Iceberg at the bottom](/images/2026/composable-query-engines/composable-query-engine-stack.png)
 
-**Layer 1: The Query Interface.** The application presents queries as SQL strings or DataFrame API calls. This layer handles user-facing concerns: parse, validate column references, resolve types. It produces a logical plan — a tree of relational operators describing what to compute, not how.
+**Layer 1: The Query Interface.** The application presents queries as SQL strings or DataFrame API calls. This layer handles user-facing concerns: parse, validate column references, resolve types. It produces a logical plan—a tree of relational operators describing what to compute, not how.
 
 **Layer 2: Optimization.** The optimizer transforms the logical plan into a physical plan. This is where join ordering, partition pruning, predicate pushdown, and scan selection happen. The optimizer is where most engine-specific intelligence lives. DataFusion implements a pluggable optimizer pipeline where custom rules can be inserted at each optimization pass.
 
@@ -47,7 +47,7 @@ DataFusion supports Substrait as both a producer (it can serialize its physical 
 
 **Layer 4: Execution.** The execution layer reads data, applies operators, and produces results. Both DataFusion and Velox use vectorized, columnar execution: data flows through the operator pipeline as batches of Arrow-format columns rather than row-by-row. This is the architecture that enables cache-friendly SIMD operations and high throughput on modern hardware.
 
-**The memory layer: Apache Arrow IPC.** Arrow's Inter-Process Communication format allows data to pass between processes (or components in the same process) as raw memory pointers to columnar buffers. No serialization, no copying. When a DataFusion component passes a batch to a Velox component in the same process, the data doesn't move at all — only the pointer does.
+**The memory layer: Apache Arrow IPC.** Arrow's Inter-Process Communication format allows data to pass between processes (or components in the same process) as raw memory pointers to columnar buffers. No serialization, no copying. When a DataFusion component passes a batch to a Velox component in the same process, the data doesn't move at all—only the pointer does.
 
 ---
 
@@ -123,7 +123,7 @@ The composable runtime stack doesn't require you to write a query engine to be u
 
 **Understand what your query tools are built on.** When you're evaluating DuckDB (built on its own C++ engine), dbt Fusion (built on DataFusion), or a custom Rust data tool, knowing whether it uses DataFusion or Velox tells you about extensibility, memory characteristics, and interoperability potential.
 
-**Substrait enables federation without ETL.** If you need to route part of a query to one engine and part to another — for example, reading from an Iceberg table via DataFusion and passing results to a GPU acceleration layer — Substrait is the format that makes this possible without intermediate file writes.
+**Substrait enables federation without ETL.** If you need to route part of a query to one engine and part to another—for example, reading from an Iceberg table via DataFusion and passing results to a GPU acceleration layer—Substrait is the format that makes this possible without intermediate file writes.
 
 **Arrow eliminates serialization overhead.** If two components in your pipeline both support Apache Arrow IPC, you can pass data between them without serialization. This is especially relevant for ML pipelines where query results feed directly into model inference.
 
@@ -193,7 +193,7 @@ async fn execute_query(
 }
 ```
 
-This embedded pattern means the query engine starts and stops with the application process, scales horizontally with the application, and has zero network overhead for query execution — data stays in the process address space.
+This embedded pattern means the query engine starts and stops with the application process, scales horizontally with the application, and has zero network overhead for query execution—data stays in the process address space.
 
 ---
 
@@ -271,11 +271,11 @@ The organizational implication is significant. Composable architectures allow di
 
 ## Choosing a Query Engine: Decision Framework
 
-Teams evaluating composable query engine options benefit from a structured decision framework rather than a feature comparison matrix. The right engine depends on the workload pattern, team skills, deployment environment, and operational constraints — not on which engine wins the TPC-DS benchmark on a specific hardware configuration.
+Teams evaluating composable query engine options benefit from a structured decision framework rather than a feature comparison matrix. The right engine depends on the workload pattern, team skills, deployment environment, and operational constraints—not on which engine wins the TPC-DS benchmark on a specific hardware configuration.
 
 **Start with the access pattern.** Single-process SQL on datasets under 100 GB that fit on disk: DuckDB. Python-centric DataFrame transformations with ML integration: Polars. Complex stateful streaming with event-time semantics: Flink. Large-scale batch transformations with wide ecosystem support: Spark. Embedded query execution in an application or API: DataFusion. No single engine covers all of these patterns optimally.
 
-**Consider the operational context.** A team running Kubernetes already knows how to operate distributed JVM services — Spark or Flink is a natural fit. A team building serverless Python functions won't want to manage a Spark cluster. A startup with two data engineers can't afford the operational overhead of Milvus plus Kafka plus Spark — simpler tools that cover the same ground with less infrastructure are more appropriate.
+**Consider the operational context.** A team running Kubernetes already knows how to operate distributed JVM services—Spark or Flink is a natural fit. A team building serverless Python functions won't want to manage a Spark cluster. A startup with two data engineers can't afford the operational overhead of Milvus plus Kafka plus Spark—simpler tools that cover the same ground with less infrastructure are more appropriate.
 
 **Account for ecosystem integrations.** Spark has the deepest catalog and connector integrations of any query engine in the open-source ecosystem. DuckDB has the fastest growing integration surface for ad-hoc analytics. DataFusion's Rust-native execution makes it the best choice when query execution must be embedded in a non-JVM service. Choose based on what already exists in your stack.
 

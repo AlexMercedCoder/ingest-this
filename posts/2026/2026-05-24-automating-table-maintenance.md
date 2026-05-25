@@ -46,7 +46,7 @@ Iceberg table maintenance is four distinct operations, each addressing a differe
 
 **RewriteManifests.** Over time, manifest files accumulate entries for both live and expired files. This operation rewrites the manifest list to clean up stale entries and rebalance entry distribution. It's cheaper than data compaction but often overlooked. Manifest rewriting reduces planning overhead independent of data file sizes.
 
-**ExpireSnapshots.** This removes snapshot metadata that is no longer accessible for time-travel queries within your retention window. Critically, it doesn't actually delete the underlying data files — that happens in the next step. Snapshot expiration removes the pointer to old file sets, not the files themselves.
+**ExpireSnapshots.** This removes snapshot metadata that is no longer accessible for time-travel queries within your retention window. Critically, it doesn't actually delete the underlying data files—that happens in the next step. Snapshot expiration removes the pointer to old file sets, not the files themselves.
 
 **DeleteOrphanFiles.** This removes data files that are no longer referenced by any snapshot. Orphaned files accumulate from failed or partial writes. Running this operation periodically ensures storage doesn't silently grow from write failures.
 
@@ -162,7 +162,7 @@ Schedule these maintenance jobs with awareness of the write schedule. Running co
 
 ![Comparison table showing manual scheduling versus automated (Predictive/S3 Tables) maintenance across six dimensions: trigger, scope, cost awareness, configuration, hot partition risk, and streaming table support](/images/2026/automating-table-maintenance/manual-vs-automated-maintenance-comparison.png)
 
-The right choice depends on your operating model and platform. Teams on Databricks Unity Catalog should adopt Predictive Optimization for all managed tables — the default behavior requires no configuration and the cost-aware scheduling avoids running maintenance on tables that don't need it. Teams on AWS building new Iceberg infrastructure should evaluate S3 Tables for workloads where the 90% cost reduction on compaction processing makes the managed model economically competitive.
+The right choice depends on your operating model and platform. Teams on Databricks Unity Catalog should adopt Predictive Optimization for all managed tables—the default behavior requires no configuration and the cost-aware scheduling avoids running maintenance on tables that don't need it. Teams on AWS building new Iceberg infrastructure should evaluate S3 Tables for workloads where the 90% cost reduction on compaction processing makes the managed model economically competitive.
 
 Self-managed maintenance remains the appropriate choice for teams with multi-cloud platforms, strict control requirements, or existing operational processes built around Airflow DAGs and Spark jobs. The Iceberg Actions API is production-grade and well-documented. The operational cost is the scheduling complexity and the risk of hot partition conflicts if exclusion logic isn't implemented carefully.
 
@@ -209,7 +209,7 @@ FROM my_catalog.analytics.events.history;
 
 **Compaction effectiveness ratio.** Compare files-before vs files-after for completed compaction runs. The ideal ratio is 50+ input files per 1 output file. Low ratios (10:1) indicate compaction is running too frequently on tables that don't have sufficient small-file accumulation.
 
-Building a simple dashboard from these three metrics — files per partition, snapshot count, and compaction ratio — gives maintenance teams visibility into table health without requiring deep inspection of individual files.
+Building a simple dashboard from these three metrics—files per partition, snapshot count, and compaction ratio—gives maintenance teams visibility into table health without requiring deep inspection of individual files.
 
 ---
 
@@ -240,7 +240,7 @@ This tiered approach applies Z-order only where the read performance benefit jus
 
 ## Partition Evolution: Planning for Growth
 
-One of the most expensive compaction scenarios is a poorly designed partition strategy that requires a full table rewrite to fix. Iceberg's partition evolution feature allows changing a table's partitioning scheme without rewriting existing files — new files use the new scheme while old files retain their original partition structure.
+One of the most expensive compaction scenarios is a poorly designed partition strategy that requires a full table rewrite to fix. Iceberg's partition evolution feature allows changing a table's partitioning scheme without rewriting existing files—new files use the new scheme while old files retain their original partition structure.
 
 Updating a table from daily partitioning to hourly partitioning as data volume grows:
 
@@ -255,7 +255,7 @@ ALTER TABLE my_catalog.analytics.events
 DROP PARTITION FIELD days(event_date);
 ```
 
-After partition evolution, old data files retain the daily partition structure while new files use the hourly partition. Iceberg's hidden partitioning ensures queries remain transparent — the planner handles both partition schemes simultaneously. Over time, natural turnover (through retention policies or explicit rewrites) eliminates the old partition format from the table.
+After partition evolution, old data files retain the daily partition structure while new files use the hourly partition. Iceberg's hidden partitioning ensures queries remain transparent—the planner handles both partition schemes simultaneously. Over time, natural turnover (through retention policies or explicit rewrites) eliminates the old partition format from the table.
 
 Planning partition strategy before a table reaches scale avoids the costly alternative: exporting all data, dropping the table, recreating with the correct partition scheme, and re-ingesting everything. Iceberg's partition evolution is one of the format's most operationally valuable features for growing data platforms.
 
