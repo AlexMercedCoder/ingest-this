@@ -179,6 +179,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
              ))}
         </div>
       </div>
+      <img src={imageUrl} alt={title} className={styles.bannerImage} />
       <div className="blog-post">
         <MDXRemote {...mdxSource} components={components} />
       </div>
