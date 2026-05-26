@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Every data team knows documentation is important. And almost every data team has a backlog of undocumented tables, unlabeled columns, and outdated descriptions that nobody has time to fix. The problem isn't motivation. It's that manual documentation doesn't scale."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic_layer_seo/09-self-documenting-semantic-layer/self-documenting.png"
 tags:
   - semantic layer
   - seo

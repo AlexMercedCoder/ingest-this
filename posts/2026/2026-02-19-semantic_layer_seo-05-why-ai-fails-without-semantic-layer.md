@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Your team builds an AI agent. It connects to your data warehouse. A product manager types \"What was revenue last quarter?\" and gets a number. The number is wrong. Nobody knows it's wrong until Finance runs the same query manually and gets a different result."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic_layer_seo/05-why-ai-fails-without-semantic-layer/ai-semantic-layer.png"
 tags:
   - semantic layer
   - seo

@@ -4,7 +4,6 @@ date: "2026-03-07"
 description: "Google's AI ecosystem for knowledge work consists of two deeply integrated tools: Gemini (the conversational AI at gemini.google.com) and NotebookLM (the research-focused assistant at notebooklm.google.com). In early 2026, these two platforms became interoperable, allowing Gemini to access information stored in NotebookLM notebooks. This integration creates something unique in the AI landscape: a persistent knowledge infrastructure where documents you upload once become available across both conversational and research interfaces."
 author: "Alex Merced"
 category: "AI"
-bannerImage: ""
 tags:
   - ai
   - context management

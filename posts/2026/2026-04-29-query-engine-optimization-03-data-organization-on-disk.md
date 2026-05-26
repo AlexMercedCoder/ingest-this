@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Databases structure data on disk as heap files, sorted files, or LSM trees, then wrap it in formats like Parquet with metadata that lets engines skip irrelevant blocks."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/query-engine-optimization/03-data-organization-on-disk/write-read-spectrum.png"
 tags:
   - query engine
   - database internals

@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Traditional data modeling assumed you controlled the database. You defined schemas up front, enforced foreign keys at write time, and optimized with indexes. The lakehouse changes every one of those assumptions."
 author: "Alex Merced"
 category: "Data Modeling"
-bannerImage: "/images/2026/data_modeling/04-data-modeling-lakehouse/lakehouse-data-modeling.png"
 tags:
   - data modeling
   - database design

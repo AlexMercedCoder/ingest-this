@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Apache DataFusion, Velox, and Substrait form the foundation of modern composable query engine stacks. Learn how these components fit together and when to use each."
 author: "Alex Merced"
 category: "Data Architecture"
-bannerImage: "/images/2026/composable-query-engines/composable-query-engine-stack.png"
 tags:
   - apache datafusion rust
   - arrow ipc

@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Iceberg metadata tables let you query snapshots, files, manifests, and partitions using SQL. Here is every metadata table and how to use them."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/11-metadata-tables/metadata-tables-overview.png"
 tags:
   - apache iceberg
   - data lakehouse

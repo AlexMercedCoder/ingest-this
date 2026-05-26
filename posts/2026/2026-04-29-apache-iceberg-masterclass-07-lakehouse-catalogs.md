@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Lakehouse catalogs store metadata pointers, manage namespaces, and enforce access control. Here is the complete catalog landscape from Polaris to Glue."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/07-lakehouse-catalogs/catalog-role.png"
 tags:
   - apache iceberg
   - data lakehouse

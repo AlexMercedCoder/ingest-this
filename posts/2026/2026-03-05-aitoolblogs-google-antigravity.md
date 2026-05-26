@@ -4,7 +4,6 @@ date: "2026-03-05"
 description: "Google Antigravity is an agent-first IDE built by Google DeepMind. Its autonomous agents plan multi-step tasks, write code, browse documentation, and iterate without constant hand-holding. Dremio is a unified lakehouse platform that provides the business context, universal data access, and interactive query speed that AI agents need to produce accurate analytics."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/aitoolblogs/google-antigravity/antigravity-dremio-mcp-architecture.png"
 tags:
   - ai
   - dremio

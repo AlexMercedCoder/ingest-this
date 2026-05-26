@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Your organization uses Tableau for executive dashboards, Power BI for operational reports, and Python notebooks for data science. Revenue is defined in Tableau's calculated field, Power BI's DAX measure, and a SQL query inside a Jupyter notebook. Three tools. Three definitions. None of them match."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic_layer_seo/08-headless-bi-semantic-layer/headless-bi.png"
 tags:
   - semantic layer
   - seo

@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Amazon S3 is the default landing zone for data in the cloud. Log files, Parquet datasets, CSV exports, JSON events, IoT telemetry, and raw data dumps — it all ends up in S3 buckets. But S3 is storage, not an analytics engine. You can't run SQL against S3 natively. To query it, you need Amazon Athena (per-TB pricing), AWS Glue ETL jobs (cluster management), or a data warehouse that imports the data. All add cost, complexity, and latency."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/07-amazon-s3/banner.png"
 tags:
   - dremio
   - connectors

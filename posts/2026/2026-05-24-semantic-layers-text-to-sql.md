@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Text-to-SQL accuracy jumps from 40% to 85-95% when grounded in a semantic layer. Learn how Dremio, Snowflake Cortex Analyst, and dbt Semantic Layer improve AI analytics reliability."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic-layers-text-to-sql/cortex-vs-dbt-semantic-comparison.png"
 tags:
   - dbt semantic layer
   - dremio semantic layer

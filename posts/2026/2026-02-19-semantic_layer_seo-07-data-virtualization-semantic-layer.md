@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Every data pipeline you build to move data from one system to another costs you three things: time to build it, money to run it, and freshness you lose while waiting for the next sync. Most analytics architectures accept this cost as unavoidable. It isn't."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic_layer_seo/07-data-virtualization-semantic-layer/data-virtualization.png"
 tags:
   - semantic layer
   - seo

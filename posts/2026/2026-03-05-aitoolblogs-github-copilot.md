@@ -4,7 +4,6 @@ date: "2026-03-05"
 description: "GitHub Copilot is the most widely adopted AI coding assistant, integrated into VS Code, JetBrains IDEs, and the GitHub platform. Its agent mode allows Copilot to plan and execute multi-step coding tasks, run terminal commands, and interact with external tools through MCP. The Copilot CLI extends agentic development to the terminal. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/aitoolblogs/github-copilot/copilot-dremio-architecture.png"
 tags:
   - ai
   - dremio

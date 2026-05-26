@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "\"We already have a data catalog, so we don't need a semantic layer.\" This is one of the most common misconceptions in modern data architecture. Catalogs and semantic layers both deal with metadata. They both improve data accessibility. But they solve fundamentally different problems."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic_layer_seo/04-semantic-layer-vs-data-catalog/catalog-vs-semantic.png"
 tags:
   - semantic layer
   - seo

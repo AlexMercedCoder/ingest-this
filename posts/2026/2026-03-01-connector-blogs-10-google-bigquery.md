@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Google BigQuery is Google Cloud's serverless data warehouse. If your organization uses Google Cloud Platform, BigQuery is where your analytics data, marketing attribution, Google Analytics exports, and machine learning model outputs live. BigQuery is powerful within Google's ecosystem, but it creates challenges when your data spans multiple clouds or when costs grow with usage."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/10-google-bigquery/banner.png"
 tags:
   - dremio
   - connectors

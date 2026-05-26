@@ -4,7 +4,6 @@ date: "2026-03-05"
 description: "JetBrains AI Assistant is built into IntelliJ IDEA, PyCharm, DataGrip, and every JetBrains IDE. It provides AI chat, inline code generation, multi-file refactoring, and agentic background workers that can autonomously execute multi-step tasks. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/aitoolblogs/jetbrains-ai/jetbrains-dremio-architecture.png"
 tags:
   - ai
   - dremio

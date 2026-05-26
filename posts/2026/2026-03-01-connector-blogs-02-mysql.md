@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "MySQL runs more web applications, SaaS platforms, and e-commerce backends than any other database. It's fast for transactional reads and writes, but it becomes a bottleneck when your data team needs to run analytical queries, join MySQL data with other sources, or build dashboards that don't compete with application traffic."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/02-mysql/banner.png"
 tags:
   - dremio
   - connectors

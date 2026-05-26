@@ -4,7 +4,6 @@ date: "2026-03-07"
 description: "OpenWork is a desktop-native AI agent framework designed for local, multi-step task execution on your computer. Unlike browser-based AI tools or terminal agents, OpenWork operates as a desktop application that can interact with your file system, manage long-running sessions, and execute complex workflows autonomously. Its context management centers on Skills, session persistence, direct file system access, and a plugin architecture that extends its capabilities."
 author: "Alex Merced"
 category: "AI"
-bannerImage: ""
 tags:
   - ai
   - context management

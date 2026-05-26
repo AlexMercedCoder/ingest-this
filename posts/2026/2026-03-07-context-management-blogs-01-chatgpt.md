@@ -4,7 +4,6 @@ date: "2026-03-07"
 description: "Getting consistently useful results from ChatGPT requires more than writing good prompts. The real differentiator is how you manage context: the background information, instructions, documents, and accumulated knowledge that shapes every response ChatGPT generates. Without deliberate context management, you end up repeating yourself, getting generic answers, and wasting time course-correcting the AI."
 author: "Alex Merced"
 category: "AI"
-bannerImage: ""
 tags:
   - ai
   - context management

@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "A source team renames a column from `user_id` to `customer_id`. Twelve hours later, five dashboards show blank values, two ML pipelines fail, and the data engineering team spends the morning tracing a problem that could have been prevented with one rule: treat your schema like an API."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/debp/05-schema-evolution/schema-contract.png"
 tags:
   - data engineering
   - best practices

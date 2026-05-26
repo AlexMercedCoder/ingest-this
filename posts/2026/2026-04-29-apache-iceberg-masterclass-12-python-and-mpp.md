@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Access Iceberg tables from Python with PyIceberg, DuckDB, and Polars, or through MPP engines like Dremio, Spark, and Trino. Here is how each approach works."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/12-python-and-mpp/python-iceberg-stack.png"
 tags:
   - apache iceberg
   - data lakehouse

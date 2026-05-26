@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Dimensions change. A customer moves cities. A product gets reclassified. An employee changes departments. How your data model handles these changes determines whether your historical reports are accurate or misleading."
 author: "Alex Merced"
 category: "Data Modeling"
-bannerImage: "/images/2026/data_modeling/06-slowly-changing-dimensions/slowly-changing-dimensions.png"
 tags:
   - data modeling
   - database design

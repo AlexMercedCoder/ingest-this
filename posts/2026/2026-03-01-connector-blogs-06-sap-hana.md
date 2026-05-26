@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "SAP HANA is the in-memory database platform that powers SAP S/4HANA, SAP BW/4HANA, and custom enterprise applications across finance, manufacturing, logistics, and supply chain. It's fast for SAP-native analytics — real-time financial reporting, material requirements planning, and production analytics run directly on HANA's in-memory columnar engine. But SAP HANA exists in a walled garden."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/06-sap-hana/banner.png"
 tags:
   - dremio
   - connectors

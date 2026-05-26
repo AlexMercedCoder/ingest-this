@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Azure Storage is Microsoft's cloud storage platform, spanning Blob Storage, Azure Data Lake Storage Gen2 (ADLS Gen2), and Azure Files. If your organization uses Microsoft Azure, your data lake almost certainly lives in Azure Storage — Parquet files from Azure Data Factory pipelines, CSV exports from Azure SQL Database, JSON event streams from Azure Event Hubs, and raw data from Azure IoT Hub all land in Azure Storage containers."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/08-azure-storage/banner.png"
 tags:
   - dremio
   - connectors

@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Dimensional modeling works well when your source systems are stable and your business questions are predictable. But what happens when sources change constantly, new systems get added every quarter, and regulatory requirements demand a full audit trail of every attribute change?"
 author: "Alex Merced"
 category: "Data Modeling"
-bannerImage: "/images/2026/data_modeling/09-data-vault-modeling/data-vault-overview.png"
 tags:
   - data modeling
   - database design

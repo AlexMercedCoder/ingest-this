@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Most data teams jump straight from a stakeholder request to creating database tables. They skip the planning steps that prevent misalignment, redundancy, and rework. The result: tables that make sense to the engineer who built them but confuse everyone else."
 author: "Alex Merced"
 category: "Data Modeling"
-bannerImage: "/images/2026/data_modeling/02-types-of-data-models/types-of-data-models.png"
 tags:
   - data modeling
   - database design

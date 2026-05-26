@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "The Apache Iceberg REST Catalog specification defines a standard HTTP API for managing Iceberg table metadata. Any catalog implementation that conforms to this specification — Apache Polaris, Amazon S3 Tables, Confluent Tableflow, Tabular, Apache Gravitino, and custom-built services — can connect to Dremio Cloud through a single connector type."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: ""
 tags:
   - dremio
   - connectors

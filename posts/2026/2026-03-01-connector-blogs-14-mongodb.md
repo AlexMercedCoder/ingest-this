@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "MongoDB is the most popular NoSQL document database. It stores data in flexible JSON-like documents, making it ideal for applications with evolving schemas — user profiles, product catalogs, IoT sensor data, and content management systems. But MongoDB's document model creates analytics challenges: you can't run SQL joins natively, aggregation pipelines are complex, and connecting MongoDB data to relational sources requires custom application code or ETL."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: ""
 tags:
   - dremio
   - connectors

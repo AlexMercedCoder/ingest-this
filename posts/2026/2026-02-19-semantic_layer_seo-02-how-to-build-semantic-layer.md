@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Most teams start building a semantic layer the wrong way: they open their BI tool, create a few calculated fields, and call it done. Six months later, three dashboards define \"churn\" differently, nobody trusts the numbers, and the data team is debugging metric discrepancies instead of building new features."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic_layer_seo/02-how-to-build-semantic-layer/build-semantic-layer.png"
 tags:
   - semantic layer
   - seo

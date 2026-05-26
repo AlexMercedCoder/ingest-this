@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Row stores keep records together for fast transactions. Column stores keep field values together for fast analytics. Here is how each layout works and when to use it."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/query-engine-optimization/02-row-vs-column-storage/row-vs-column-layout.png"
 tags:
   - query engine
   - database internals

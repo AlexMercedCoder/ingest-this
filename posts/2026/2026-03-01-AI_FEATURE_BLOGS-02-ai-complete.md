@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Every data team has a version of this problem: a table full of raw data that needs human-readable summaries, translations, or narrative descriptions. Product descriptions that need rewriting for a new market. Customer records that need one-sentence executive summaries. Support interactions that need post-call notes."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/AI_FEATURE_BLOGS/02-ai-complete/banner.png"
 tags:
   - ai
   - dremio

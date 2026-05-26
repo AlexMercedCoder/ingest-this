@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Three years after Zhamak Dehghani's original papers, data mesh has proven valuable in specific organizational contexts and impractical in others. Here's what the practical implementations look like."
 author: "Alex Merced"
 category: "Data Architecture"
-bannerImage: "/images/2026/data-mesh-after-hype/data-mesh-domain-ownership-topology.png"
 tags:
   - data mesh practical implementation
   - data mesh reality check

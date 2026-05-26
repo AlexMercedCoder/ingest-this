@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Kafka 4.0 removes ZooKeeper and ships KRaft and KIP-848 by default. Learn what those changes mean for platform operations, upgrades, and client configurations."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/kafka-streaming-operations/kafka-40-migration-roadmap.png"
 tags:
   - kafka 4.0 upgrade
   - kafka kraft

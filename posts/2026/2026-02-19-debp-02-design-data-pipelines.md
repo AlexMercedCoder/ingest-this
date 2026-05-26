@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Most pipeline failures aren't caused by bad code. They're caused by no architecture. A script that reads from an API, transforms JSON, and writes to a database works fine on day one. On day ninety it fails at 3 AM because the API changed its response format, and the only way to recover is to rerun the entire pipeline from scratch — hoping that reprocessing three months of data doesn't create duplicates."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/debp/02-design-data-pipelines/pipeline-architecture.png"
 tags:
   - data engineering
   - best practices

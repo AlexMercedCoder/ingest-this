@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Amazon Redshift is AWS's managed data warehouse, designed for petabyte-scale analytics. If your organization chose Redshift for analytical workloads, you've built data pipelines, ETL jobs, and dashboards around it. But as data ecosystems grow, Redshift's limitations become painfully clear: connecting data outside Redshift requires ETL or Redshift Spectrum (additional cost per TB scanned), sharing Redshift data with non-AWS tools means exporting to S3, and Redshift's concurrency limits constrain how many dashboards and users can query simultaneously."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/09-amazon-redshift/banner.png"
 tags:
   - dremio
   - connectors

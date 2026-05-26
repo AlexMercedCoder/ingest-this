@@ -4,7 +4,6 @@ date: "2026-03-05"
 description: "Cursor is an AI-native code editor built as a fork of VS Code. It integrates AI directly into the editing experience with features like Chat, Composer (multi-file editing), and inline code generation. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/aitoolblogs/cursor/cursor-dremio-architecture.png"
 tags:
   - ai
   - dremio

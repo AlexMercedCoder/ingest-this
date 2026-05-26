@@ -4,7 +4,6 @@ date: "2026-03-07"
 description: "Google Antigravity is an agent-first IDE built by Google DeepMind's Advanced Agentic Coding team. It approaches context management differently from other AI coding tools because it is designed from the ground up around agentic workflows, where the AI is not just an assistant responding to prompts, but an autonomous agent that plans, executes, tracks progress, and retains knowledge across sessions. Its context management system centers on three pillars: Skills for reusable capability, Knowledge Items for persistent memory, and Artifacts for transparent documentation of its work."
 author: "Alex Merced"
 category: "AI"
-bannerImage: ""
 tags:
   - ai
   - context management

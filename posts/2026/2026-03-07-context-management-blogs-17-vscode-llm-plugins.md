@@ -4,7 +4,6 @@ date: "2026-03-07"
 description: "Visual Studio Code is the most widely used code editor in the world, and its extensibility means you can integrate AI capabilities through a growing ecosystem of LLM plugins. Unlike purpose-built AI editors (Cursor, Windsurf, Zed), VS Code gives you the freedom to choose and combine AI extensions, configure them to your preferences, and even switch between providers without changing editors. The tradeoff is that context management is not as seamlessly integrated as in dedicated AI editors. It requires more deliberate configuration."
 author: "Alex Merced"
 category: "AI"
-bannerImage: ""
 tags:
   - ai
   - context management

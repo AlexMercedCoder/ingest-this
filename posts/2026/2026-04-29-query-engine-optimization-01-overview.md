@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Every database is a collection of engineering tradeoffs. Learn the 9 design decisions that shape how query engines store, index, and process your data."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/query-engine-optimization/01-overview/query-engine-decision-map.png"
 tags:
   - query engine
   - database internals

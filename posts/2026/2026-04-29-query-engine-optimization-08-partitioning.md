@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Hash partitioning distributes data evenly. Range partitioning enables fast range scans. Both create tradeoffs. Here is how databases divide data across storage and nodes."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/query-engine-optimization/08-partitioning/partition-types.png"
 tags:
   - query engine
   - database internals

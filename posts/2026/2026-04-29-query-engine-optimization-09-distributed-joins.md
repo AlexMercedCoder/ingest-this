@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Distributed joins move data across the network using shuffle, broadcast, or co-location strategies. Here is how each works and when engines choose which."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/query-engine-optimization/09-distributed-joins/shuffle-join.png"
 tags:
   - query engine
   - database internals

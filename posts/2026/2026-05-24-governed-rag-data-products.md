@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Enterprise RAG architecture that trusts its own data requires governance at the retrieval layer. Learn how to build governed RAG using data products, access policies, and semantic layer routing."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/governed-rag-data-products/governed-rag-architecture.png"
 tags:
   - ai guardrails data
   - data product rag

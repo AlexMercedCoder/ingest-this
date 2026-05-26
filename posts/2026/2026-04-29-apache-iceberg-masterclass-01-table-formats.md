@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Table formats like Apache Iceberg solved the ACID, schema, and performance problems that turned data lakes into data swamps. Here is how each one works."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/01-table-formats/before-after-table-formats.png"
 tags:
   - apache iceberg
   - data lakehouse

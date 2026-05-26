@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Best practices documents are easy to write and hard to use. They list principles without context, advice without prioritization, and rules without explaining when to break them. This one is different. It's a practical, tool-agnostic checklist organized by the categories that matter most — with each item tied to a specific outcome."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/debp/10-de-best-practices-checklist/de-checklist.png"
 tags:
   - data engineering
   - best practices

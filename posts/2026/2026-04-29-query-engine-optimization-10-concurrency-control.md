@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Databases handle concurrent access using locks, MVCC, or optimistic concurrency control. Here is how each approach works and what tradeoffs each creates."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/query-engine-optimization/10-concurrency-control/locking-vs-mvcc.png"
 tags:
   - query engine
   - database internals

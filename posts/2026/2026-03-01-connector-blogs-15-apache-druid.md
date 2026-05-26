@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Apache Druid is a real-time analytics database designed for sub-second queries on high-ingestion-rate event data. Clickstream analytics, application monitoring, IoT telemetry, and ad-tech workloads rely on Druid's columnar storage and inverted indexes for instantaneous queries."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: ""
 tags:
   - dremio
   - connectors

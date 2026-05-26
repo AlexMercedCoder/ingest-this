@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Microsoft Azure Synapse Analytics combines big data analytics and enterprise data warehousing into a single Azure-integrated platform. If your organization has chosen the Microsoft cloud ecosystem, your cleaned and modeled analytical data likely lives in Synapse dedicated SQL pools or serverless SQL pools. Synapse works well within Azure, but it creates challenges when you need to connect that data with AWS, Google Cloud, or on-premises databases. Azure Data Factory pipelines handle some of this, but they add cost, latency, and engineering complexity."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: ""
 tags:
   - dremio
   - connectors

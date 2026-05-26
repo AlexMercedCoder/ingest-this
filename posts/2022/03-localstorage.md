@@ -3,7 +3,6 @@ title: Web Storage API Part 1 - LocalStorage and SessionStorage
 date: "2022-03-23"
 author: "Alex Merced"
 category: "oltp"
-bannerImage: "/images/postbanner/2022/batch-streaming.png"
 tags:
   - web storage
   - oltp

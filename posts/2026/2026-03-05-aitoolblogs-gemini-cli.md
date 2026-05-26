@@ -4,7 +4,6 @@ date: "2026-03-05"
 description: "Gemini CLI is Google's open-source terminal-based AI agent. It runs directly in your terminal, powered by Gemini models with a 1-million token context window. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections and Apache Arrow."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/aitoolblogs/gemini-cli/gemini-cli-dremio-architecture.png"
 tags:
   - ai
   - dremio

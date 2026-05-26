@@ -4,7 +4,6 @@ date: "2026-03-05"
 description: "OpenAI Codex CLI is a terminal-based coding agent built in Rust. It reads your codebase, writes files, executes commands, and supports MCP for connecting to external data services. Dremio is a unified lakehouse platform that provides the business context, universal data access, and query speed that coding agents need to produce accurate, working analytics code."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/aitoolblogs/openai-codex/codex-dremio-mcp-architecture.png"
 tags:
   - ai
   - dremio

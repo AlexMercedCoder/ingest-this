@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "\"We need real-time data.\" This is one of the most expensive sentences in data engineering — because it's rarely true, and implementing it when it's not needed multiplies complexity, cost, and operational burden."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/debp/06-batch-vs-streaming/batch-vs-streaming.png"
 tags:
   - data engineering
   - best practices

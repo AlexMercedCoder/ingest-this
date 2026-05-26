@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Oracle Database runs the most critical enterprise applications in the world — ERP systems, financial ledgers, supply chain management, and HR platforms. These systems generate massive volumes of data that business teams want to analyze, but running analytical queries directly against Oracle is expensive (license costs scale with CPU usage), complex (Oracle-specific SQL dialects and tooling), and risky (heavy queries can impact transactional performance)."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/03-oracle/banner.png"
 tags:
   - dremio
   - connectors

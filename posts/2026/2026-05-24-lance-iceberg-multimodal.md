@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "LanceDB and Apache Iceberg serve complementary roles in a multimodal AI lakehouse. Learn when to use Lance for embeddings and random access, and Iceberg for structured metadata and SQL analytics."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/lance-iceberg-multimodal/lance-iceberg-multimodal-architecture.png"
 tags:
   - ai-native table format
   - duckdb lance integration

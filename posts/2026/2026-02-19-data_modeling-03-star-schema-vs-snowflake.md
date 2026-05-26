@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Both star schemas and snowflake schemas are dimensional models. They both organize data into fact tables (measurable events) and dimension tables (context about those events). The difference is how they structure the dimensions."
 author: "Alex Merced"
 category: "Data Modeling"
-bannerImage: "/images/2026/data_modeling/03-star-schema-vs-snowflake/star-vs-snowflake.png"
 tags:
   - data modeling
   - database design

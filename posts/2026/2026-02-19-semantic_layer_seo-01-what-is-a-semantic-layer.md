@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "Ask three teams in your company how they calculate \"revenue\" and you'll get three answers. Sales counts bookings. Finance counts recognized revenue. Marketing counts pipeline value. All three call it \"revenue.\" All three get different numbers. Nobody knows which one is right."
 author: "Alex Merced"
 category: "Semantic Layer"
-bannerImage: "/images/2026/semantic_layer_seo/01-what-is-a-semantic-layer/semantic-layer-concept.png"
 tags:
   - semantic layer
   - seo

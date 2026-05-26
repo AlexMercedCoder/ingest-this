@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "S3 Tables and MinIO AI Stor embed the Iceberg catalog directly in the storage layer. Here is when embedded catalogs make sense and when they do not."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/08-embedded-catalogs/embedded-vs-standalone.png"
 tags:
   - apache iceberg
   - data lakehouse

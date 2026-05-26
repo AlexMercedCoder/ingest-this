@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Most classification workflows require exporting data to Python, running a model, and importing results back into your warehouse. Dremio's `AI_CLASSIFY` function eliminates that entire pipeline. You write a SELECT statement, pass in your text and your categories, and the LLM assigns a label. The classified data stays in your lakehouse, governed and queryable immediately."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/AI_FEATURE_BLOGS/01-ai-classify/banner.png"
 tags:
   - ai
   - dremio

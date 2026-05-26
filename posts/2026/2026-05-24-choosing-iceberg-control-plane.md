@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Choosing an Apache Iceberg catalog? Compare open-source Apache Polaris, open Unity Catalog, and managed cloud REST control planes to unify your lakehouse."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/choosing-iceberg-control-plane/catalog-governance-comparison.png"
 tags:
   - apache iceberg catalog
   - apache polaris

@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Iceberg's three-layer metadata tree eliminates directory listing and enables multi-level data skipping. Here is how scan planning actually works."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/03-iceberg-metadata-performance/scan-planning-cascade.png"
 tags:
   - apache iceberg
   - data lakehouse

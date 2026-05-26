@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "OPA, ABAC, row filters, and column masks make lakehouse governance programmable and scalable. Learn how Databricks, Snowflake Horizon, and BigQuery implement policy-as-code."
 author: "Alex Merced"
 category: "Data Architecture"
-bannerImage: "/images/2026/policy-as-code-governance/policy-as-code-tag-driven-access-flow.png"
 tags:
   - abac databricks
   - bigquery row-level security

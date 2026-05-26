@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "IBM Db2 is the relational database that powers critical applications across banking, insurance, government, healthcare, and manufacturing. For organizations running Db2 — particularly on IBM Z (mainframes) or IBM i — the database holds decades of transactional data: account balances, policy records, claim histories, manufacturing workflows, and government records. This data is enormously valuable for analytics but notoriously difficult to access outside the Db2/IBM ecosystem."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/05-ibm-db2/banner.png"
 tags:
   - dremio
   - connectors

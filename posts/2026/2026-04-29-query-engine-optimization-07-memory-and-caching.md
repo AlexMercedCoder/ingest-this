@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Databases use buffer pools, column caches, and result caches to keep hot data in RAM. Here is how each caching strategy works and what happens when data does not fit."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/query-engine-optimization/07-memory-and-caching/cache-hit-miss-latency.png"
 tags:
   - query engine
   - database internals

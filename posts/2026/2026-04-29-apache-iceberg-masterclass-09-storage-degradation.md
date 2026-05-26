@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Iceberg tables degrade through small files, orphan files, metadata bloat, sort order decay, and partition skew. Here is how to diagnose each problem."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/09-storage-degradation/storage-degradation-timeline.png"
 tags:
   - apache iceberg
   - data lakehouse

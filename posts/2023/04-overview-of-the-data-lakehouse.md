@@ -3,7 +3,6 @@ title: "Overview of the Data Lakehouse, Dremio and Apache Iceberg"
 date: "2023-04-05T12:12:03.284Z"
 author: "Alex Merced"
 category: "data engineering"
-bannerImage: "/images/postbanner/2023/B320A627-63C5-401F-A507-2786352C02FB.png"
 tags:
   - data engineering
   - data lakehouse

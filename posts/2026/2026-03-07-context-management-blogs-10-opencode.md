@@ -4,7 +4,6 @@ date: "2026-03-07"
 description: "OpenCode is an open-source terminal-based AI coding agent that prioritizes privacy, local-first operation, and broad model provider support. Built as a TUI (terminal user interface) application, it runs entirely in your terminal and supports dozens of LLM providers from OpenAI and Anthropic to local models through Ollama. Its context management system is built around configuration files, session persistence, MCP integration, and a dual-agent architecture that separates planning from code generation."
 author: "Alex Merced"
 category: "AI"
-bannerImage: ""
 tags:
   - ai
   - context management

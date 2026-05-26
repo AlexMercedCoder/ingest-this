@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Data clean rooms enable secure multi-party analytics without sharing raw data. Learn how Databricks Clean Rooms, AWS Clean Rooms, and BigQuery differential privacy work."
 author: "Alex Merced"
 category: "Data Architecture"
-bannerImage: "/images/2026/clean-rooms-privacy/clean-room-vs-direct-sharing.png"
 tags:
   - aws clean rooms
   - bigquery differential privacy

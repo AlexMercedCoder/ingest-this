@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Iceberg's hidden partitioning separates physical layout from user queries using transform functions. Here is how it works and why it eliminates accidental full scans."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/05-hidden-partitioning/exposed-vs-hidden-partitioning.png"
 tags:
   - apache iceberg
   - data lakehouse

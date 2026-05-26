@@ -4,7 +4,6 @@ date: "2026-04-13"
 description: "Part of the Open Source and the Lakehouse series"
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/apache-lakehouse/polaris-credential-vending.png"
 tags:
   - data lakehouse
   - apache iceberg

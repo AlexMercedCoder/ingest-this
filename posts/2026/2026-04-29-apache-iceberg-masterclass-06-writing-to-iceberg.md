@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "Here is exactly how an engine writes to an Iceberg table, step by step, from data files through the atomic commit that makes ACID guarantees possible."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/06-writing-to-iceberg/write-process-flow.png"
 tags:
   - apache iceberg
   - data lakehouse

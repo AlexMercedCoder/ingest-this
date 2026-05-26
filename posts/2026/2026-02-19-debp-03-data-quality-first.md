@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "When an analyst finds null values in a revenue column, the typical response is to add a calculated field in the BI tool: `IF revenue IS NULL THEN 0`. That \"fix\" doesn't fix anything. It masks a problem at the source — and every downstream consumer has to independently discover and patch the same issue."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/debp/03-data-quality-first/data-quality-pipeline.png"
 tags:
   - data engineering
   - best practices

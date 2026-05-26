@@ -4,7 +4,6 @@ date: "2026-03-05"
 description: "Claude CoWork is Anthropic's desktop agentic assistant. Unlike Claude Code (a terminal coding agent), CoWork operates as a general-purpose autonomous agent that reads and writes files, browses the web, manages tasks, and generates complete project artifacts. Dremio is a unified lakehouse platform that provides business context through its semantic layer, universal data access through query federation, and interactive speed through Reflections."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/aitoolblogs/claude-cowork/cowork-dremio-architecture.png"
 tags:
   - ai
   - dremio

@@ -4,7 +4,6 @@ date: "2026-04-29"
 description: "A practical walkthrough of creating, querying, and optimizing Iceberg tables on Dremio Cloud, from account setup to AI-powered analytics."
 author: "Alex Merced"
 category: "Data Lakehouse"
-bannerImage: "/images/2026/apache-iceberg-masterclass/14-hands-on-dremio-cloud/dremio-iceberg-workflow.png"
 tags:
   - apache iceberg
   - data lakehouse

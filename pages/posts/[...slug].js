@@ -44,12 +44,10 @@ const components = {
 
 // The page for each post
 export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime, slug }) {
-  const { title, author, category, date, bannerImage, tags, description } = frontmatter;
+  const { title, author, category, date, tags, description } = frontmatter;
   const postUrl = `https://ingestthis.com/posts/${slug}`;
   const metaDescription = description || `Read "${title}" by ${author} on IngestThis — covering ${tags.join(", ")}.`;
-  const imageUrl = bannerImage
-    ? (bannerImage.startsWith("http") ? bannerImage : `https://ingestthis.com${bannerImage}`)
-    : `https://ingestthis.com/api/og?title=${encodeURIComponent(title)}`;
+  const imageUrl = `https://ingestthis.com/og/${slug}.png`;
 
   return (
     <main className={styles.main}>
@@ -165,17 +163,6 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
           }}
         />
       </Head>
-
-      {bannerImage && (
-        <div className={styles.bannerWrap}>
-          <img
-            src={bannerImage}
-            alt={`Banner image for article: ${title}`}
-            className={styles.bannerImage}
-            loading="lazy"
-          />
-        </div>
-      )}
 
       <h1 className={styles.title}>{title}</h1>
       

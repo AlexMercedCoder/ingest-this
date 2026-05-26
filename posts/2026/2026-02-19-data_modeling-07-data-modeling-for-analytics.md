@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "The data model that runs your production application is almost never the right model for analytics. Transactional systems are designed for fast writes — inserting orders, updating inventory, processing payments. Analytics systems are designed for fast reads — scanning millions of rows, aggregating across dimensions, filtering by date ranges."
 author: "Alex Merced"
 category: "Data Modeling"
-bannerImage: "/images/2026/data_modeling/07-data-modeling-for-analytics/analytics-data-modeling.png"
 tags:
   - data modeling
   - database design

@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "A pipeline runs, processes 100,000 records, and loads them into the target table. Then it fails on a downstream step. The orchestrator retries the entire job. Now the table has 200,000 records — 100,000 of them duplicates. Revenue reports double. Dashboards misfire. Someone spends the next four hours manually deduplicating records and explaining to stakeholders why the numbers were wrong."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/debp/04-idempotent-pipelines/idempotent-pipeline.png"
 tags:
   - data engineering
   - best practices

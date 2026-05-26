@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Microsoft SQL Server is one of the most widely deployed enterprise databases in the world. ERP systems, CRM platforms, financial applications, and custom business applications run on SQL Server across on-premises data centers and Azure cloud deployments. But connecting SQL Server data to a modern analytics platform typically requires building ETL pipelines, managing SSIS packages, or purchasing additional SQL Server Enterprise licenses for analytics workloads."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/connector-blogs/04-microsoft-sql-server/banner.png"
 tags:
   - dremio
   - connectors

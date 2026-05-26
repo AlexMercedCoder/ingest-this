@@ -4,7 +4,6 @@ date: "2026-02-19"
 description: "A table with 500 million rows takes 45 seconds to query. After partitioning it by date, the same query — filtering on a single day — returns in 2 seconds. The SQL didn't change. The data didn't change. The only thing that changed was how the data was organized on disk."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: "/images/2026/debp/07-partition-and-organize/partition-overview.png"
 tags:
   - data engineering
   - best practices

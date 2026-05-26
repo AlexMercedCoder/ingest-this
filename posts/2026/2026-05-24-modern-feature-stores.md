@@ -4,7 +4,6 @@ date: "2026-05-24"
 description: "Feature stores like Feast now support streaming feature views from Kafka and Kinesis alongside batch pipelines. Learn how to build real-time features that maintain training-serving consistency."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/modern-feature-stores/feast-streaming-feature-view-architecture.png"
 tags:
   - feast kafka kinesis
   - feast streaming features

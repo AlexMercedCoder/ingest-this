@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Unstructured text is the most underused data in most organizations. Customer emails sit in inboxes. Contract notes live in text fields. Meeting summaries exist as free-text columns in CRM systems. The information is there, but it's locked inside prose that SQL can't filter, join, or aggregate."
 author: "Alex Merced"
 category: "AI"
-bannerImage: "/images/2026/AI_FEATURE_BLOGS/03-ai-generate/banner.png"
 tags:
   - ai
   - dremio

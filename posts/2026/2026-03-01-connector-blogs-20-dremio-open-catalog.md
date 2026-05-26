@@ -4,7 +4,6 @@ date: "2026-03-01"
 description: "Every Dremio Cloud account starts with a built-in Open Catalog — a fully managed Apache Iceberg catalog with integrated storage. When you create a Dremio Cloud project, you immediately have a catalog where you can create namespaces (folders), tables, and views without connecting any external sources, configuring storage, or setting up credentials."
 author: "Alex Merced"
 category: "Data Engineering"
-bannerImage: ""
 tags:
   - dremio
   - connectors
