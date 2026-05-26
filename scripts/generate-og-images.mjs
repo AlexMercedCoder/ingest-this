@@ -30,9 +30,10 @@ const OUTPUT_DIR = path.resolve("public/og");
 
 // ── Font loading ───────────────────────────────────────────────────────────
 
-async function loadFont(url) {
-  const res = await fetch(url);
-  return res.arrayBuffer();
+/** Load a font from a local bundled .ttf file */
+function loadFont(filename) {
+  const fontPath = path.join(import.meta.dirname, filename);
+  return fs.readFileSync(fontPath).buffer;
 }
 
 // ── Satori component ───────────────────────────────────────────────────────
@@ -178,17 +179,13 @@ async function generateOGImage(postPath) {
     fonts: [
       {
         name: "Inter",
-        data: await loadFont(
-          "https://fonts.cdnfonts.com/s/19790/Inter_18pt-Bold.woff"
-        ),
+        data: loadFont("inter-700.ttf"),
         weight: 700,
         style: "normal",
       },
       {
         name: "Inter",
-        data: await loadFont(
-          "https://fonts.cdnfonts.com/s/19790/Inter_18pt-Medium.woff"
-        ),
+        data: loadFont("inter-500.ttf"),
         weight: 500,
         style: "normal",
       },
