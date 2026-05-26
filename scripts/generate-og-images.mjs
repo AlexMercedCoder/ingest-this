@@ -161,10 +161,14 @@ async function generateOGImage(postPath) {
   const slug = deriveSlug(postPath);
   const outputPath = path.join(OUTPUT_DIR, `${slug}.png`);
 
-  // Already exists? Skip (we only regenerate when posts change)
+  // Already exists and source hasn't changed? Skip
   if (fs.existsSync(outputPath)) {
-    console.log(`  ✓ SKIP  ${slug} (exists)`);
-    return;
+    const srcStat = fs.statSync(postPath);
+    const outStat = fs.statSync(outputPath);
+    if (srcStat.mtimeMs < outStat.mtimeMs) {
+      console.log(`  ✓ SKIP  ${slug} (exists)`);
+      return;
+    }
   }
 
   // Render JSX-like tree to SVG via satori
