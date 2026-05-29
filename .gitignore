@@ -34,3 +34,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# generated og images
+/public/og
+/public/feed.xml
+/public/llms.txt
+/public/sitemap*.xml

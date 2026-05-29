@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import fs from "fs";
+import matter from "gray-matter";
 import styles from "../styles/Home.module.css";
+import BlogCard from "../components/BlogCard";
 
 // Must Read articles
 const MUST_READS = [
@@ -79,7 +82,7 @@ const SOCIAL_LINKS = [
   { name: "Buy Me a Coffee", desc: "Support the Content", url: "https://buymeacoffee.com/alexmerced" },
 ];
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -182,6 +185,25 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ── RECENT POSTS ── */}
+        <section className={styles.recentPosts}>
+          <div className={styles.recentPostsHeader}>
+            <span className={styles.recentPostsBadge}>Recent Articles</span>
+            <h2 className={styles.recentPostsTitle}>Latest from IngestThis</h2>
+            <p className={styles.recentPostsSubtitle}>
+              Data Engineering, Data Architecture, and AI insights fresh from our writers.
+            </p>
+          </div>
+          <div className={styles.recentPostsGrid}>
+            {posts && posts.map((post) => (
+              <BlogCard key={post.slug} post={post} />
+            ))}
+          </div>
+          <div className={styles.recentPostsMore}>
+            <a href="/blog" className={styles.recentPostsCta}>View All Articles →</a>
+          </div>
+        </section>
+
         {/* ── CONNECT ── */}
         <section className={styles.connectSection}>
           <h2 className={styles.connectTitle}>Connect with Alex</h2>
@@ -204,4 +226,43 @@ export default function Home() {
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const files = fs.readdirSync("posts");
+  let posts = [];
+
+  const addPost = (fileName) => {
+    const slug = fileName.replace(".md", "");
+    const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8");
+    const { data: frontmatter } = matter(readFile);
+
+    posts.push({
+      slug,
+      frontmatter,
+    });
+  };
+
+  files.forEach((fileName) => {
+    if (!fileName.includes(".md")) {
+      const subfiles = fs.readdirSync(`posts/${fileName}`);
+      subfiles.forEach((f) => {
+        addPost(`${fileName}/${f}`);
+      });
+      return true;
+    }
+    addPost(fileName);
+  });
+
+  posts.sort(
+    (x, y) =>
+      new Date(y.frontmatter.date).getTime() -
+      new Date(x.frontmatter.date).getTime()
+  );
+
+  return {
+    props: {
+      posts: posts.slice(0, 6),
+    },
+  };
 }
