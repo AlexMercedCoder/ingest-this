@@ -386,7 +386,7 @@ The community has deprecated this option in favor of Deletion Vectors, simplifyi
 
 ## Table Upgrade Path and Connector Compatibility
 
-All V3 features — manifest list encryption, deletion vectors, Variant types, geospatial types, and nanosecond timestamps — require upgrading your tables to format version 3.
+All V3 features : manifest list encryption, deletion vectors, Variant types, geospatial types, and nanosecond timestamps,  require upgrading your tables to format version 3.
 
 ```
 Existing V2 Table

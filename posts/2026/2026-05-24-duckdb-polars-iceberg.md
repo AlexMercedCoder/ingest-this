@@ -196,7 +196,7 @@ await conn.query(`
     );
 `);
 
-// Query directly from browser — no server required
+// Query directly from browser : no server required
 const result = await conn.query(`
     SELECT region, SUM(amount) as total_revenue
     FROM iceberg_catalog.main.orders

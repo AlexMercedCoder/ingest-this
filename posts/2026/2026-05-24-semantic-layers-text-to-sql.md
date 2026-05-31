@@ -97,7 +97,7 @@ Dremio has integrated generative AI directly into its semantic layer metadata ma
 
 For text-to-SQL accuracy, this automatic metadata generation directly improves the context available to AI models. When column descriptions, business definitions, and usage notes are automatically maintained and up-to-date, the AI has richer, more accurate context to draw from when generating SQL.
 
-Natural language discovery — finding datasets by describing what you're looking for in plain English rather than knowing specific table names, which further extends the semantic layer's value. A business analyst who doesn't know that revenue data lives in `fct_orders` can describe "I need revenue by customer segment for Q1" and Dremio's catalog surfaces the appropriate dataset automatically.
+Natural language discovery : finding datasets by describing what you're looking for in plain English rather than knowing specific table names, which further extends the semantic layer's value. A business analyst who doesn't know that revenue data lives in `fct_orders` can describe "I need revenue by customer segment for Q1" and Dremio's catalog surfaces the appropriate dataset automatically.
 
 ### Governed Access Through the Semantic Layer
 

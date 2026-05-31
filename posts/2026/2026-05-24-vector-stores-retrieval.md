@@ -172,7 +172,7 @@ results = table.search(query_vector) \
     .to_pandas()
 ```
 
-LanceDB integrates with DuckDB for SQL-based analytics on the same dataset — you can run aggregation queries and vector similarity searches against the same Lance table without data movement. This is particularly useful for ML workflows where you need both analytical queries (row counts by label, feature statistics) and retrieval queries (find similar training examples).
+LanceDB integrates with DuckDB for SQL-based analytics on the same dataset : you can run aggregation queries and vector similarity searches against the same Lance table without data movement. This is particularly useful for ML workflows where you need both analytical queries (row counts by label, feature statistics) and retrieval queries (find similar training examples).
 
 ---
 
