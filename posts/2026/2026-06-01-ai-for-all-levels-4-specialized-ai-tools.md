@@ -22,7 +22,7 @@ This is Part 4 of "Catching Up with Using AI for All Levels." If you are new her
 
 **Return to Part 3: ChatGPT and Claude Deep Dive**
 
-[Skip to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools](/posts/2026/2026-06-01-ai-for-all-levels-5-going-advanced)
+[Skip to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools](/posts/2026/2026-06-01-ai-for-all-levels-5-going-advanced.html)
 
 ---
 
@@ -260,10 +260,10 @@ For someone who generates music or images recreationally, the free tiers are gen
 
 Part 5 of this series covers the most advanced territory: open source models that run on your own computer, agent frameworks like Hermes Agent, and coding tools like OpenCode. These tools require more setup but offer privacy, offline access, and capabilities that cloud services cannot match.
 
-[Return to Part 1: What AI Is and Isnt](/posts/2026/2026-06-01-ai-for-all-levels-1-what-ai-is-and-isnt)
+[Return to Part 1: What AI Is and Isnt](/posts/2026/2026-06-01-ai-for-all-levels-1-what-ai-is-and-isnt.html)
 
-[Return to Part 2: Getting Started for Free](/posts/2026/2026-06-01-ai-for-all-levels-2-getting-started-for-free)
+[Return to Part 2: Getting Started for Free](/posts/2026/2026-06-01-ai-for-all-levels-2-getting-started-for-free.html)
 
-[Return to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive)
+[Return to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive.html)
 
 **[Continue to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools]**

@@ -18,11 +18,11 @@ This is Part 2 of "Catching Up with Using AI for All Levels." In Part 1, we cove
 
 **If you missed Part 1: What AI Is and Isnt, start there for the foundation.**
 
-[Continue to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive)
+[Continue to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive.html)
 
-[Skip to Part 4: Specialized AI Tools for Creation](/posts/2026/2026-06-01-ai-for-all-levels-4-specialized-ai-tools)
+[Skip to Part 4: Specialized AI Tools for Creation](/posts/2026/2026-06-01-ai-for-all-levels-4-specialized-ai-tools.html)
 
-[Skip to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools](/posts/2026/2026-06-01-ai-for-all-levels-5-going-advanced)
+[Skip to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools](/posts/2026/2026-06-01-ai-for-all-levels-5-going-advanced.html)
 
 ---
 
@@ -264,10 +264,10 @@ This post covered more than a dozen free AI tools available through your Google 
 
 Part 3 of this series covers ChatGPT and Claude, the two main competitors to Google's offerings. You will learn what you get at each paid tier, how to use desktop apps and advanced features like Clips and Dispatch, and whether the paid plans are worth it for your use case.
 
-[Return to Part 1: What AI Is and Isnt](/posts/2026/2026-06-01-ai-for-all-levels-1-what-ai-is-and-isnt)
+[Return to Part 1: What AI Is and Isnt](/posts/2026/2026-06-01-ai-for-all-levels-1-what-ai-is-and-isnt.html)
 
-[Continue to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive)
+[Continue to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive.html)
 
-[Skip to Part 4: Specialized AI Tools for Creation](/posts/2026/2026-06-01-ai-for-all-levels-4-specialized-ai-tools)
+[Skip to Part 4: Specialized AI Tools for Creation](/posts/2026/2026-06-01-ai-for-all-levels-4-specialized-ai-tools.html)
 
-[Skip to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools](/posts/2026/2026-06-01-ai-for-all-levels-5-going-advanced)
+[Skip to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools](/posts/2026/2026-06-01-ai-for-all-levels-5-going-advanced.html)

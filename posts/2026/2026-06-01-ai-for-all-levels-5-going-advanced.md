@@ -300,10 +300,10 @@ The point of this series is not to sell you on any particular tool or approach. 
 
 AI is not magic and it is not sentient, as we covered in Part 1. It is a tool, like a search engine or a spreadsheet, but more versatile than either. The more you understand what it is and what it is not, the better you will use it.
 
-[Return to Part 1: What AI Is and Isnt](/posts/2026/2026-06-01-ai-for-all-levels-1-what-ai-is-and-isnt)
+[Return to Part 1: What AI Is and Isnt](/posts/2026/2026-06-01-ai-for-all-levels-1-what-ai-is-and-isnt.html)
 
-[Return to Part 2: Getting Started for Free](/posts/2026/2026-06-01-ai-for-all-levels-2-getting-started-for-free)
+[Return to Part 2: Getting Started for Free](/posts/2026/2026-06-01-ai-for-all-levels-2-getting-started-for-free.html)
 
-[Return to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive)
+[Return to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive.html)
 
-[Return to Part 4: Specialized AI Tools for Creation](/posts/2026/2026-06-01-ai-for-all-levels-4-specialized-ai-tools)
+[Return to Part 4: Specialized AI Tools for Creation](/posts/2026/2026-06-01-ai-for-all-levels-4-specialized-ai-tools.html)
