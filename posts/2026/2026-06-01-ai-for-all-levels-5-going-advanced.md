@@ -16,13 +16,13 @@ This is the final installment of "Catching Up with Using AI for All Levels." Par
 
 This is the most technical post in the series, but do not let that scare you. The tools have matured significantly in 2026. Installing and running a local AI model is easier than it was six months ago, and the benefits are real: privacy, offline access, no subscription fees, and unlimited usage after the initial hardware investment.
 
-**Return to Part 1: What AI Is and Isnt**
+[Return to Part 1: What AI Is and Isnt](/posts/2026/2026-06-01-ai-for-all-levels-1-what-ai-is-and-isnt.html)
 
-**Return to Part 2: Getting Started for Free**
+[Return to Part 2: Getting Started for Free](/posts/2026/2026-06-01-ai-for-all-levels-2-getting-started-for-free.html)
 
-**Return to Part 3: ChatGPT and Claude Deep Dive**
+[Return to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/2026-06-01-ai-for-all-levels-3-chatgpt-and-claude-deep-dive.html)
 
-**Return to Part 4: Specialized AI Tools for Creation**
+[Return to Part 4: Specialized AI Tools for Creation](/posts/2026/2026-06-01-ai-for-all-levels-4-specialized-ai-tools.html)
 
 ---
 
