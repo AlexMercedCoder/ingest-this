@@ -5,148 +5,148 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Fri, 29 May 2026 16:35:41 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 08 Jun 2026 14:17:07 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
-      <title>Active Monitoring: How Agentic AI Auto-Heals and Protects Enterprise Data Pipelines</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-active-monitoring-agentic-ai-pipelines</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-active-monitoring-agentic-ai-pipelines</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Static alerts miss cascading pipeline failures. Learn how agentic AI monitors, traces root causes, and automatically rolls back broken enterprise data pipelines.]]></description>
+      <title>The Complete Guide to Agentic Coding Tools in 2026</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-agentic-coding-tools</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-agentic-coding-tools</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A deep dive into the four categories of agentic coding tools dominating 2026 — CLI agents, desktop IDEs, 24/7 autonomous agents, and model routers. 40+ tools compared.]]></description>
     </item>
     <item>
-      <title>Anatomy of an Agentic Analytics System: Inside the Multi-Step Reasoning Loop</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-anatomy-agentic-analytics-system</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-anatomy-agentic-analytics-system</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How does an agentic analytics system actually work? Inside the ReAct loop, tool calling, schema exploration, and self-correction that power autonomous data agents.]]></description>
+      <title>Agentic Lakehouse Concurrency and Isolation</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-agentic-lakehouse-concurrency-isolation-contracts</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-agentic-lakehouse-concurrency-isolation-contracts</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agentic writes need isolation contracts, not just write permissions.]]></description>
     </item>
     <item>
-      <title>Mastering Apache Iceberg v3: What's New and How to Plan Your Upgrade</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-apache-iceberg-v3-upgrade</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-apache-iceberg-v3-upgrade</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Iceberg v3 adds deletion vectors, VARIANT type, row lineage, and table encryption. Here's what changed and how to plan your upgrade.]]></description>
+      <title>What AI Is and Isnt: A Laypersons Guide to How LLMs Actually Work</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-1-what-ai-is-and-isnt</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-1-what-ai-is-and-isnt</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI is not magic or sentient. Learn what large language models actually do, how vectors and embeddings work, and why todays AI is pattern matching not thinking. 155 chars]]></description>
     </item>
     <item>
-      <title>Building a Custom Agentic Analytics System: Python, LangChain, and SQL Data Lakes</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-building-custom-agentic-analytics-python</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-building-custom-agentic-analytics-python</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Build a custom agentic analytics system using Python, LangChain, and Dremio. A developer tutorial covering SQL tool binding, prompt design, and secure execution.]]></description>
+      <title>Getting Started with AI for Free: Every Tool Google Gives You at No Cost</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-2-getting-started-for-free</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-2-getting-started-for-free</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[You already have access to powerful AI tools through your Google account and no subscription needed. Here is everything Google offers for free and how to use it today. 157 chars]]></description>
     </item>
     <item>
-      <title>The Death of the Data Swamp: Establishing Governance in Your 2026 Data Lakehouse</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-data-governance-lakehouse-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-data-governance-lakehouse-2026</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Data lakehouses become data swamps without active governance. Learn how schema enforcement, catalog stewardship, and drift detection keep your lakehouse clean in 2026.]]></description>
+      <title>ChatGPT and Claude: Which AI Service Should You Pay For</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-3-chatgpt-and-claude-deep-dive</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-3-chatgpt-and-claude-deep-dive</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ChatGPT and Claude are the two leading AI assistants. Here is what each offers at every price tier, how to use their desktop apps and advanced features like Dispatch and Clips, and which one fits your workflow. 162 chars]]></description>
     </item>
     <item>
-      <title>How Apache Iceberg Resolves the Hybrid-Cloud Challenge in Heavily Regulated Markets</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-iceberg-hybrid-cloud-regulated-markets</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-iceberg-hybrid-cloud-regulated-markets</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Iceberg gives regulated enterprises data sovereignty with hybrid-cloud deployments. Learn how open catalogs and Iceberg handle compliance requirements.]]></description>
+      <title>A Tour of Specialized AI Tools: Music, Video, Images, and More</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-4-specialized-ai-tools</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-4-specialized-ai-tools</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Beyond chatbots lie specialized AI tools for creating music, generating videos, and editing images. Here is a tour of the best tools in 2026 and how they fit into daily productivity. 157 chars]]></description>
     </item>
     <item>
-      <title>Securing Apache Iceberg Tables with Fine-Grained Row and Column Level Access Control</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-iceberg-row-column-access-control</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-iceberg-row-column-access-control</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Iceberg doesn't enforce row and column security on its own. Learn how catalog-level governance with Apache Polaris and Dremio delivers enterprise FGAC.]]></description>
+      <title>Going Advanced: Open Source Models, Hermes Agent, and Local AI</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-5-going-advanced</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-ai-for-all-levels-5-going-advanced</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Tired of subscriptions and privacy concerns? Open source models and agent frameworks let you run AI on your own hardware. Here is how to get started with Hermes Agent, OpenCode, DeepSeek, and local Llama models. 166 chars]]></description>
     </item>
     <item>
-      <title>Designing an Immutable Data Lakehouse: Best Practices for Iceberg Snapshot Expiration</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-iceberg-snapshot-expiration</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-iceberg-snapshot-expiration</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Iceberg snapshot bloat silently kills query performance. Learn the best practices for snapshot expiration, manifest cleanup, and automated table maintenance.]]></description>
+      <title>Anatomy of an Agentic Lakehouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-anatomy-agentic-lakehouse-four-layers</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-anatomy-agentic-lakehouse-four-layers</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An Agentic Lakehouse is storage, catalog governance, semantic context, and agents working as one operating model.]]></description>
     </item>
     <item>
-      <title>Decoupling Storage and Compute in Apache Iceberg: A Deep Dive into Cost Optimization</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-iceberg-storage-compute-decoupling</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-iceberg-storage-compute-decoupling</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Learn how Apache Iceberg decouples storage from compute to cut data platform costs, enable multi-engine routing, and eliminate proprietary lock-in.]]></description>
+      <title>Apache Iceberg v4 Roadmap and Metadata Trees</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-apache-iceberg-v4-roadmap-adaptive-metadata-delta-convergence</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-apache-iceberg-v4-roadmap-adaptive-metadata-delta-convergence</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The next open table format fight is not about who can store Parquet files. It is about who can plan large tables cheaply across many engines.]]></description>
     </item>
     <item>
-      <title>Legacy Warehouses to Open Lakehouses: A Step-by-Step Migration Playbook</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-legacy-warehouse-to-lakehouse-migration</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-legacy-warehouse-to-lakehouse-migration</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Migrating from a legacy data warehouse to an open lakehouse? This step-by-step playbook covers assessment, phased migration, validation, and avoiding common pitfalls.]]></description>
+      <title>Lakehouse Context Layers with Atlan and Iceberg v3</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-atlan-snowflake-iceberg-v3-context-layer</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-atlan-snowflake-iceberg-v3-context-layer</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The context layer explains what lakehouse data means, which is the part table formats do not solve alone.]]></description>
     </item>
     <item>
-      <title>Building the Brain of the Agentic Lakehouse: Designing an Open Catalog Architecture</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-open-catalog-architecture-agentic-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-open-catalog-architecture-agentic-lakehouse</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The open catalog is the brain of the agentic lakehouse. Learn how Apache Polaris, Dremio's Open Catalog, and catalog-native governance enable reliable AI data access.]]></description>
+      <title>Real-Time Agentic Analytics with ClickHouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-clickhouse-real-time-agentic-analytics-event-loops</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-clickhouse-real-time-agentic-analytics-event-loops</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Real-time agents need analytical systems that can answer while an event still matters.]]></description>
     </item>
     <item>
-      <title>Evaluating the TCO of an Open Lakehouse vs. Proprietary Data Warehouses</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-open-lakehouse-vs-proprietary-warehouse-tco</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-open-lakehouse-vs-proprietary-warehouse-tco</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Open lakehouse vs proprietary warehouse: a comprehensive TCO breakdown covering storage, compute, engineering, and hidden costs to help you make the right decision.]]></description>
+      <title>Composable Analytics Beats Metric Catalogs</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-composable-analytics-semantic-layers-expressiveness</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-composable-analytics-semantic-layers-expressiveness</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Metric catalogs tell agents what terms mean. Composable analytics tells agents how to reason with those terms safely.]]></description>
     </item>
     <item>
-      <title>Real-Time BI: Enabling Sub-Second Queries on Apache Iceberg Data Lakehouses</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-real-time-bi-iceberg-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-real-time-bi-iceberg-lakehouse</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Sub-second queries on Apache Iceberg are achievable with the right architecture. Learn how Reflections, C3 cache, and query acceleration close the BI latency gap.]]></description>
+      <title>Goal-Directed Analytics Agents on Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-goal-directed-analytics-agents-apache-iceberg-action-loops</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-goal-directed-analytics-agents-apache-iceberg-action-loops</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The next step after text-to-SQL is a governed action loop with checks before every external effect.]]></description>
     </item>
     <item>
-      <title>The Rise of Agentic Analytics: Shifting BI from Passive Dashboards to Goal-Directed Action</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-rise-of-agentic-analytics</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-rise-of-agentic-analytics</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agentic analytics replaces static dashboards with AI agents that pursue business goals autonomously. Learn what changed, why it matters, and what the shift requires.]]></description>
+      <title>Iceberg Remote Signing for Regulated Datasets</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-remote-signing-regulated-datasets</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-remote-signing-regulated-datasets</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Remote signing is the stricter pattern for lakehouse storage security because clients request signed file operations instead of receiving storage credentials.]]></description>
     </item>
     <item>
-      <title>The Semantic Layer as a Translation Engine: Bridging Natural Language and SQL</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-semantic-layer-translation-engine</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-semantic-layer-translation-engine</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The semantic layer translates business language into accurate SQL for AI agents. Learn how virtual datasets, metric definitions, and wikis power agentic analytics accuracy.]]></description>
+      <title>Apache Iceberg v3 Deletion Vectors on Snowflake</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-deletion-vectors-snowflake-dml</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-deletion-vectors-snowflake-dml</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Deletion vectors matter because row-level changes should not require a full rewrite of every affected data file.]]></description>
     </item>
     <item>
-      <title>Comparing the Top 2026 Agentic Analytics Tools: ThoughtSpot, Databricks, and Tableau</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-top-agentic-analytics-tools-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-top-agentic-analytics-tools-2026</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How do ThoughtSpot, Databricks, and Tableau compare as agentic analytics platforms in 2026? A breakdown of semantic depth, agent capabilities, and where Dremio fits.]]></description>
+      <title>CDC Without Complexity Using Iceberg v3 Row Lineage</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-row-lineage-cdc</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-row-lineage-cdc</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Row lineage gives Iceberg a native way to tell incremental consumers which rows changed and when they changed.]]></description>
     </item>
     <item>
-      <title>Trustworthy AI in the Agentic Lakehouse: Reconciling Concurrency and Isolation Contracts</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-trustworthy-ai-concurrency-isolation</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-trustworthy-ai-concurrency-isolation</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Hundreds of AI agents querying simultaneously create concurrency and isolation problems. Learn how Iceberg OCC, Dremio FGAC, and guardrail policies ensure trustworthy AI in the lakehouse.]]></description>
+      <title>The 2026 Guide to Iceberg View Federation</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-view-federation-portable-sql-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-view-federation-portable-sql-2026</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Portable views are the missing logic layer between open tables and multi-engine analytics.]]></description>
     </item>
     <item>
-      <title>The 2026 Unified Data Architecture: Reconciling Multi-Cloud Data Lakehouses</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-unified-data-architecture-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-unified-data-architecture-2026</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Multi-cloud data lakehouses in 2026 run on Apache Iceberg, open catalogs, and zero-ETL federation. Here's what a composable, unified architecture looks like.]]></description>
+      <title>Implementing MCP in the Lakehouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-mcp-lakehouse-semantic-data-layer-python</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-mcp-lakehouse-semantic-data-layer-python</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MCP gives AI clients a standard way to call governed lakehouse tools instead of guessing how to query your data.]]></description>
     </item>
     <item>
-      <title>Why Traditional Lakehouses Fail AI Agents: The Mathematical Case for the Agentic Lakehouse</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-why-lakehouses-fail-ai-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-why-lakehouses-fail-ai-agents</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Traditional lakehouses expose raw directories and ambiguous schemas to AI agents, causing hallucination. Here's the mathematical case for why this fails and what fixes it.]]></description>
+      <title>Microsoft Fabric Build 2026 Agentic Analytics Stack</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-microsoft-fabric-build-2026-agentic-analytics-stack</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-microsoft-fabric-build-2026-agentic-analytics-stack</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoft's Fabric direction shows that agentic analytics is becoming a platform architecture, not a chat feature.]]></description>
     </item>
     <item>
-      <title>The Era of Zero-ETL Federation: Fueling AI Agents with Real-Time Cross-Enterprise Data</title>
-      <link>https://ingestthis.com/posts/2026/2026-05-28-zero-etl-federation-ai-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-05-28-zero-etl-federation-ai-agents</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Zero-ETL federation lets AI agents join real-time CRM data with historical lakehouse tables instantly. Learn the architecture, tradeoffs, and how Dremio enables it.]]></description>
+      <title>Modern Python Tooling for Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-06-08-python-tooling-apache-iceberg-pyiceberg-iceframe-iceberg-cli</link>
+      <guid>https://ingestthis.com/posts/2026/2026-06-08-python-tooling-apache-iceberg-pyiceberg-iceframe-iceberg-cli</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Python has become a practical Iceberg control plane for metadata work, catalog automation, and smaller operational workflows.]]></description>
     </item>
     </channel>
   </rss>
