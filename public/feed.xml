@@ -5,7 +5,7 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 09 Jun 2026 16:23:17 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 09 Jun 2026 17:18:23 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
@@ -13,14 +13,14 @@
       <link>https://ingestthis.com/posts/2026/2026-06-08-agentic-coding-tools</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-agentic-coding-tools</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A deep dive into the four categories of agentic coding tools dominating 2026 — CLI agents, desktop IDEs, 24/7 autonomous agents, and model routers. 40+ tools compared.]]></description>
+      <description><![CDATA[A deep dive into the four categories of agentic coding tools dominating 2026: CLI agents, desktop IDEs, 24/7 autonomous agents, and model routers. 40+ tools compared.]]></description>
     </item>
     <item>
       <title>Agentic Lakehouse Concurrency and Isolation</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-agentic-lakehouse-concurrency-isolation-contracts</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-agentic-lakehouse-concurrency-isolation-contracts</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agentic writes need isolation contracts, not just write permissions.]]></description>
+      <description><![CDATA[How Iceberg optimistic concurrency control, partition-level isolation, and idempotency keys enable safe concurrent writes from multiple AI agents to the same lakehouse tables.]]></description>
     </item>
     <item>
       <title>What AI Is and Isnt: A Laypersons Guide to How LLMs Actually Work</title>
@@ -62,7 +62,7 @@
       <link>https://ingestthis.com/posts/2026/2026-06-08-anatomy-agentic-lakehouse-four-layers</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-anatomy-agentic-lakehouse-four-layers</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An Agentic Lakehouse is storage, catalog governance, semantic context, and agents working as one operating model.]]></description>
+      <description><![CDATA[The four-layer architecture of the agentic lakehouse: object storage, Apache Iceberg table format, Apache Polaris catalog, and the semantic/agent layer. How each layer provides guarantees for AI agent access.]]></description>
     </item>
     <item>
       <title>Apache Iceberg v4 Roadmap and Metadata Trees</title>
@@ -76,77 +76,77 @@
       <link>https://ingestthis.com/posts/2026/2026-06-08-atlan-snowflake-iceberg-v3-context-layer</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-atlan-snowflake-iceberg-v3-context-layer</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The context layer explains what lakehouse data means, which is the part table formats do not solve alone.]]></description>
+      <description><![CDATA[Lakehouse context layers bridge the gap between raw Iceberg tables and AI agents that need business meaning. Atlan and Snowflake Horizon each take different approaches to the same problem.]]></description>
     </item>
     <item>
       <title>Real-Time Agentic Analytics with ClickHouse</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-clickhouse-real-time-agentic-analytics-event-loops</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-clickhouse-real-time-agentic-analytics-event-loops</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Real-time agents need analytical systems that can answer while an event still matters.]]></description>
+      <description><![CDATA[ClickHouse has become the leading real-time analytics engine for AI agent workloads, with event-loop architectures that let agents query and act at sub-second speeds.]]></description>
     </item>
     <item>
       <title>Composable Analytics Beats Metric Catalogs</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-composable-analytics-semantic-layers-expressiveness</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-composable-analytics-semantic-layers-expressiveness</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Metric catalogs tell agents what terms mean. Composable analytics tells agents how to reason with those terms safely.]]></description>
+      <description><![CDATA[Metric catalogs define what terms mean. Composable analytics defines how terms combine, transform, and relate. For AI agents, composability is what turns definitions into reasoning.]]></description>
     </item>
     <item>
       <title>Goal-Directed Analytics Agents on Apache Iceberg</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-goal-directed-analytics-agents-apache-iceberg-action-loops</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-goal-directed-analytics-agents-apache-iceberg-action-loops</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The next step after text-to-SQL is a governed action loop with checks before every external effect.]]></description>
+      <description><![CDATA[How goal-directed analytics agents decompose business questions into sub-tasks, execute action loops over Apache Iceberg tables, and use the lakehouse as both a data source and a state store for agent action logs.]]></description>
     </item>
     <item>
       <title>Iceberg Remote Signing for Regulated Datasets</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-remote-signing-regulated-datasets</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-remote-signing-regulated-datasets</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Remote signing is the stricter pattern for lakehouse storage security because clients request signed file operations instead of receiving storage credentials.]]></description>
+      <description><![CDATA[Iceberg REST catalog remote signing provides per-file pre-signed URL access for regulated datasets. How it differs from credential vending, audit trail capabilities, and Snowflake implementation for PII/compliance workloads.]]></description>
     </item>
     <item>
       <title>Apache Iceberg v3 Deletion Vectors on Snowflake</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-deletion-vectors-snowflake-dml</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-deletion-vectors-snowflake-dml</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Deletion vectors matter because row-level changes should not require a full rewrite of every affected data file.]]></description>
+      <description><![CDATA[Apache Iceberg v3 deletion vectors replace positional delete files with binary bitmaps in Puffin files, delivering up to 10x faster DML on Snowflake. Deep dive into architecture, benchmarks, and migration.]]></description>
     </item>
     <item>
       <title>CDC Without Complexity Using Iceberg v3 Row Lineage</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-row-lineage-cdc</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-v3-row-lineage-cdc</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Row lineage gives Iceberg a native way to tell incremental consumers which rows changed and when they changed.]]></description>
+      <description><![CDATA[Iceberg v3 row lineage adds _row_id and _last_updated_sequence_number to every table, enabling native change data capture without Debezium or Kafka. Technical deep dive with Snowflake and Databricks examples.]]></description>
     </item>
     <item>
       <title>The 2026 Guide to Iceberg View Federation</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-iceberg-view-federation-portable-sql-2026</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-iceberg-view-federation-portable-sql-2026</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Portable views are the missing logic layer between open tables and multi-engine analytics.]]></description>
+      <description><![CDATA[Iceberg views standardize SQL view definitions across engines, enabling view federation across Polaris, Nessie, and Gravitino catalogs. How Snowflake Horizon, Databricks Unity Catalog, and open source catalogs handle portable SQL.]]></description>
     </item>
     <item>
       <title>Implementing MCP in the Lakehouse</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-mcp-lakehouse-semantic-data-layer-python</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-mcp-lakehouse-semantic-data-layer-python</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[MCP gives AI clients a standard way to call governed lakehouse tools instead of guessing how to query your data.]]></description>
+      <description><![CDATA[How to build a Model Context Protocol (MCP) server that exposes lakehouse tables and semantic views as AI-accessible tools, with Python implementation patterns and authentication.]]></description>
     </item>
     <item>
       <title>Microsoft Fabric Build 2026 Agentic Analytics Stack</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-microsoft-fabric-build-2026-agentic-analytics-stack</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-microsoft-fabric-build-2026-agentic-analytics-stack</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Microsoft's Fabric direction shows that agentic analytics is becoming a platform architecture, not a chat feature.]]></description>
+      <description><![CDATA[Microsoft Build 2026 revealed an agentic analytics stack built on Fabric IQ, OneLake Iceberg support, and semantic models. The architecture shows how Microsoft competes with open lakehouse platforms.]]></description>
     </item>
     <item>
       <title>Modern Python Tooling for Apache Iceberg</title>
       <link>https://ingestthis.com/posts/2026/2026-06-08-python-tooling-apache-iceberg-pyiceberg-iceframe-iceberg-cli</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-python-tooling-apache-iceberg-pyiceberg-iceframe-iceberg-cli</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Python has become a practical Iceberg control plane for metadata work, catalog automation, and smaller operational workflows.]]></description>
+      <description><![CDATA[PyIceberg, IceFrame, and the Iceberg CLI form a complete Python toolchain for Iceberg table management. Each tool targets a different workflow from metadata inspection to data engineering.]]></description>
     </item>
     </channel>
   </rss>
