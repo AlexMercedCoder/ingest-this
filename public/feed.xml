@@ -5,7 +5,7 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 09 Jun 2026 15:36:20 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 09 Jun 2026 16:23:17 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
@@ -69,7 +69,7 @@
       <link>https://ingestthis.com/posts/2026/2026-06-08-apache-iceberg-v4-roadmap-adaptive-metadata-delta-convergence</link>
       <guid>https://ingestthis.com/posts/2026/2026-06-08-apache-iceberg-v4-roadmap-adaptive-metadata-delta-convergence</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The next open table format fight is not about who can store Parquet files. It is about who can plan large tables cheaply across many engines.]]></description>
+      <description><![CDATA[A deep technical breakdown of Apache Iceberg v4's proposed architecture: adaptive metadata trees, one-file commits, relative paths, column families, and what the Delta 5.0 convergence actually means for your data platform.]]></description>
     </item>
     <item>
       <title>Lakehouse Context Layers with Atlan and Iceberg v3</title>
