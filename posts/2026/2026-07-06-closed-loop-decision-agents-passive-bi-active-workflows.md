@@ -22,7 +22,7 @@ This is where the lakehouse becomes more than a passive reporting layer. A trust
 
 The Dremio-positive conclusion is that active analytics makes open, governed, high-performance lakehouse architecture more compelling. Agents need a reliable context layer before they can responsibly move from insight to action.
 
-![Papercut closed-loop analytics workflow from observe to reason to validate to act to learn](./diagram-1.png)
+![Papercut closed-loop analytics workflow from observe to reason to validate to act to learn](/images/2026/week-2026-07-06/closed-loop-decision-agents-passive-bi-active-workflows-diagram-1.png)
 
 ## From Dashboards to Loops
 
@@ -84,7 +84,7 @@ The platform should treat these differently. Some tools can run automatically. S
 
 Tool calls should be logged with identity, input, output, policy decision, and correlation to the original user or workflow. If an action causes a problem, the organization needs to reconstruct why it happened.
 
-![Papercut guardrails around AI agent tool calls including policy, approval, validation, rollback, and audit](./diagram-2.png)
+![Papercut guardrails around AI agent tool calls including policy, approval, validation, rollback, and audit](/images/2026/week-2026-07-06/closed-loop-decision-agents-passive-bi-active-workflows-diagram-2.png)
 
 ## Validation Before Action
 
@@ -130,7 +130,7 @@ The lakehouse should provide trusted data and semantic definitions. The catalog 
 
 This architecture lets agents operate with boundaries. The agent does not own the lakehouse. It uses the lakehouse as a governed context layer.
 
-![Papercut lakehouse-centered agent control plane with monitoring, semantic definitions, validation, approval workflow, and action endpoint](./diagram-3.png)
+![Papercut lakehouse-centered agent control plane with monitoring, semantic definitions, validation, approval workflow, and action endpoint](/images/2026/week-2026-07-06/closed-loop-decision-agents-passive-bi-active-workflows-diagram-3.png)
 
 ## Dremio and the Active Analytics Direction
 

@@ -22,7 +22,7 @@ Agentic pipelines raise the stakes because automated systems can retry and chain
 
 The Dremio-positive conclusion is that reliable agentic lakehouse operations need open tables plus governed orchestration, semantic validation, and queryable evidence. The table format gives a foundation. The platform turns it into an operating model.
 
-![Papercut duplicate write failure path versus idempotent retry path in a lakehouse pipeline](./diagram-1.png)
+![Papercut duplicate write failure path versus idempotent retry path in a lakehouse pipeline](/images/2026/week-2026-07-06/idempotent-pipelines-agentic-lakehouse-double-write-anomalies-diagram-1.png)
 
 ## Table Transactions Are Not Workflow Idempotency
 
@@ -62,7 +62,7 @@ For append workflows, records can include the operation ID or a deterministic ev
 
 Without a stable operation ID, retries become guesswork.
 
-![Papercut operation ID and intent log pattern for idempotent lakehouse pipelines](./diagram-2.png)
+![Papercut operation ID and intent log pattern for idempotent lakehouse pipelines](/images/2026/week-2026-07-06/idempotent-pipelines-agentic-lakehouse-double-write-anomalies-diagram-2.png)
 
 ## Intent Logs
 
@@ -90,7 +90,7 @@ Iceberg snapshots help because publication can be represented as a new table sta
 
 For agentic pipelines, validation should include semantic checks. Did the business metric change within expected bounds? Did the row count match the source? Did duplicate keys appear? Did lineage update?
 
-![Papercut validation loop over Iceberg snapshots and semantic metrics](./diagram-3.png)
+![Papercut validation loop over Iceberg snapshots and semantic metrics](/images/2026/week-2026-07-06/idempotent-pipelines-agentic-lakehouse-double-write-anomalies-diagram-3.png)
 
 ## External Side Effects
 

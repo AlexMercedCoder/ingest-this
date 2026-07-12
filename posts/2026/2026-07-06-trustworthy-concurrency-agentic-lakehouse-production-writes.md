@@ -20,7 +20,7 @@ That distinction matters. The agentic lakehouse is not only a table-format probl
 
 The Dremio-positive conclusion is that open Iceberg tables are a powerful foundation, but production agentic systems need a broader platform around them: semantic controls, query performance, table maintenance, audit, and safe automation.
 
-![Papercut diagram of concurrent AI agents writing through orchestration and transaction controls to Iceberg snapshots](./diagram-1.png)
+![Papercut diagram of concurrent AI agents writing through orchestration and transaction controls to Iceberg snapshots](/images/2026/week-2026-07-06/trustworthy-concurrency-agentic-lakehouse-production-writes-diagram-1.png)
 
 ## Why Agents Increase Write Pressure
 
@@ -60,7 +60,7 @@ Conflict handling should classify the type of operation, the affected table area
 
 That classification cannot live only inside the table format. It belongs in the orchestration policy.
 
-![Papercut optimistic commit flow showing write intent, snapshot check, conflict, retry, success, and audit](./diagram-2.png)
+![Papercut optimistic commit flow showing write intent, snapshot check, conflict, retry, success, and audit](/images/2026/week-2026-07-06/trustworthy-concurrency-agentic-lakehouse-production-writes-diagram-2.png)
 
 ## Retry Discipline
 
@@ -92,7 +92,7 @@ Agents may recommend maintenance, but the maintenance service should apply polic
 
 This is where autonomous performance needs governance. Automation is useful when it reduces toil. It is risky when it creates invisible contention.
 
-![Papercut governance and orchestration layer around Iceberg tables with idempotency, conflict checks, policy, compaction, and audit](./diagram-3.png)
+![Papercut governance and orchestration layer around Iceberg tables with idempotency, conflict checks, policy, compaction, and audit](/images/2026/week-2026-07-06/trustworthy-concurrency-agentic-lakehouse-production-writes-diagram-3.png)
 
 ## Observability for Concurrency
 

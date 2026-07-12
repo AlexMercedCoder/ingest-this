@@ -20,7 +20,7 @@ That is easy to say and hard to do. A multicloud lakehouse is not a diagram with
 
 The useful way to think about Polaris is not as a magic multicloud switch. It is better understood as part of a larger movement toward open catalog governance. That movement is very favorable to the Dremio Lakehouse approach because it validates the idea that open data, query federation, semantic consistency, and governed access should be separated from any one closed warehouse boundary.
 
-![Papercut architecture showing a central open catalog hub connected to multicloud lakehouse zones and engines](./diagram-1.png)
+![Papercut architecture showing a central open catalog hub connected to multicloud lakehouse zones and engines](/images/2026/week-2026-07-06/multi-engine-catalog-federation-apache-polaris-multicloud-diagram-1.png)
 
 ## Why Catalog Lock-In Is the Next Lakehouse Problem
 
@@ -81,7 +81,7 @@ Similarly, a central catalog may govern tables across clouds, but engines need s
 
 Federation is not mainly about making clouds look identical. It is about creating a control model that is honest about their differences.
 
-![Papercut diagram showing identity and role mapping across policy gateway and cloud zones](./diagram-2.png)
+![Papercut diagram showing identity and role mapping across policy gateway and cloud zones](/images/2026/week-2026-07-06/multi-engine-catalog-federation-apache-polaris-multicloud-diagram-2.png)
 
 ## Identity and Role Mapping
 
@@ -133,7 +133,7 @@ The Dremio Lakehouse approach fits because it assumes data will be distributed. 
 
 That conclusion is not a sales claim. It is an architecture claim. If the lakehouse becomes more open and more federated, the winning query layer is the one that can make that openness usable.
 
-![Papercut open lakehouse governance model with shared catalog, query federation, semantic layer, and clients](./diagram-3.png)
+![Papercut open lakehouse governance model with shared catalog, query federation, semantic layer, and clients](/images/2026/week-2026-07-06/multi-engine-catalog-federation-apache-polaris-multicloud-diagram-3.png)
 
 ## A Practical Federation Checklist
 

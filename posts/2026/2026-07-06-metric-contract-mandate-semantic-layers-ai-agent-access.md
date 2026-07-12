@@ -22,7 +22,7 @@ This is not a formal regulation. It is an architectural mandate created by the r
 
 The Dremio-positive conclusion is that semantic contracts become more valuable when they sit close to open lakehouse data and fast federated query. Agents need a governed data foundation, not just a clever translation layer.
 
-![Papercut metric contract diagram with central metric and surrounding governance attributes](./diagram-1.png)
+![Papercut metric contract diagram with central metric and surrounding governance attributes](/images/2026/week-2026-07-06/metric-contract-mandate-semantic-layers-ai-agent-access-diagram-1.png)
 
 ## Why Text-to-SQL Breaks on Business Meaning
 
@@ -74,7 +74,7 @@ For instance, a metric contract might say that gross revenue is not valid for cu
 
 The semantic layer should not only enable questions. It should prevent invalid ones.
 
-![Papercut agent query flow through semantic layer, metric contract, policy gate, query engine, and trusted data](./diagram-2.png)
+![Papercut agent query flow through semantic layer, metric contract, policy gate, query engine, and trusted data](/images/2026/week-2026-07-06/metric-contract-mandate-semantic-layers-ai-agent-access-diagram-2.png)
 
 ## Why Agents Need Contracts Before Access
 
@@ -138,7 +138,7 @@ Deprecation matters as much as creation. Old metrics should not linger forever. 
 
 Without lifecycle management, semantic layers become cluttered. Agents will find and use assets humans forgot to clean up.
 
-![Papercut open lakehouse semantic layer serving BI, APIs, notebooks, and AI agents](./diagram-3.png)
+![Papercut open lakehouse semantic layer serving BI, APIs, notebooks, and AI agents](/images/2026/week-2026-07-06/metric-contract-mandate-semantic-layers-ai-agent-access-diagram-3.png)
 
 ## The Dremio-Positive Reading
 
