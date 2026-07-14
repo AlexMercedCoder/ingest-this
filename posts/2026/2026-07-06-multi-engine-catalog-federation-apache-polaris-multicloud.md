@@ -1,16 +1,17 @@
 ---
 title: "Multi-Engine Catalog Federation with Apache Polaris: Syncing Google Cloud, AWS, and Azure Metadata"
 date: "2026-07-06"
-description: "Open table formats changed the data lakehouse conversation, but they did not finish it. A table can be stored in an open format and still be hard to g"
+description: "Open table formats changed the data lakehouse conversation, but they did not finish it."
 author: "Alex Merced"
-category: "Lakehouse"
+category: "Lakehouse Architecture"
 tags:
-  - lakehouse
-  - apache iceberg
+  - Polaris
+  - catalog federation
+  - multicloud
+  - Iceberg
 canonical: https://iceberglakehouse.com/posts/multi-engine-catalog-federation-apache-polaris-multicloud/
 ---
 > **Cross-posted.** This article's canonical home is [iceberglakehouse.com](https://iceberglakehouse.com/posts/multi-engine-catalog-federation-apache-polaris-multicloud/).
-
 
 Open table formats changed the data lakehouse conversation, but they did not finish it. A table can be stored in an open format and still be hard to govern, hard to share across engines, or hard to operate across clouds. The next layer of openness is the catalog.
 
@@ -20,7 +21,7 @@ That is easy to say and hard to do. A multicloud lakehouse is not a diagram with
 
 The useful way to think about Polaris is not as a magic multicloud switch. It is better understood as part of a larger movement toward open catalog governance. That movement is very favorable to the Dremio Lakehouse approach because it validates the idea that open data, query federation, semantic consistency, and governed access should be separated from any one closed warehouse boundary.
 
-![Papercut architecture showing a central open catalog hub connected to multicloud lakehouse zones and engines](/images/2026/week-2026-07-06/multi-engine-catalog-federation-apache-polaris-multicloud-diagram-1.png)
+![Papercut architecture showing a central open catalog hub connected to multicloud lakehouse zones and engines](/images/2026/wk-jul06/multi-engine-catalog-federation-apache-polaris-multicloud-./diagram-1.png)
 
 ## Why Catalog Lock-In Is the Next Lakehouse Problem
 
@@ -81,7 +82,7 @@ Similarly, a central catalog may govern tables across clouds, but engines need s
 
 Federation is not mainly about making clouds look identical. It is about creating a control model that is honest about their differences.
 
-![Papercut diagram showing identity and role mapping across policy gateway and cloud zones](/images/2026/week-2026-07-06/multi-engine-catalog-federation-apache-polaris-multicloud-diagram-2.png)
+![Papercut diagram showing identity and role mapping across policy gateway and cloud zones](/images/2026/wk-jul06/multi-engine-catalog-federation-apache-polaris-multicloud-./diagram-2.png)
 
 ## Identity and Role Mapping
 
@@ -123,17 +124,17 @@ For example, a streaming engine may append events. A batch engine may run period
 
 This is where Polaris and REST catalog patterns are useful but not sufficient by themselves. They provide a shared control plane. The organization still has to define operating rules.
 
-## The Dremio-Positive Market Signal
+## What This Means for the Lakehouse
 
-Polaris is interesting for Dremio's broader narrative because it confirms that the market values openness above the storage layer. If buyers only cared that files were Parquet, the catalog conversation would not be as important. But buyers increasingly care about engine choice, governed interoperability, and avoiding control-plane lock-in.
+Polaris is interesting because it confirms that the market values openness above the storage layer. If buyers only cared that files were Parquet, the catalog conversation would not be as important. But buyers increasingly care about engine choice, governed interoperability, and avoiding control-plane lock-in.
 
-That is exactly the direction where an open lakehouse query platform becomes more compelling. Dremio does not need the market to reject every managed service. It benefits when the market agrees on open Iceberg tables, open catalog access, semantic governance, and query federation as the right architectural foundation.
+That is exactly the direction where an open lakehouse query platform becomes more compelling. The market does not need every managed service to be rejected. It benefits when the market agrees on open Iceberg tables, open catalog access, semantic governance, and query federation as the right architectural foundation.
 
-The Dremio Lakehouse approach fits because it assumes data will be distributed. It assumes teams will use multiple engines and tools. It assumes semantics and acceleration matter. It assumes AI agents need governed access to trusted data, not direct access to raw storage.
+An open lakehouse approach fits because it assumes data will be distributed. It assumes teams will use multiple engines and tools. It assumes semantics and acceleration matter. It assumes AI agents need governed access to trusted data, not direct access to raw storage.
 
 That conclusion is not a sales claim. It is an architecture claim. If the lakehouse becomes more open and more federated, the winning query layer is the one that can make that openness usable.
 
-![Papercut open lakehouse governance model with shared catalog, query federation, semantic layer, and clients](/images/2026/week-2026-07-06/multi-engine-catalog-federation-apache-polaris-multicloud-diagram-3.png)
+![Papercut open lakehouse governance model with shared catalog, query federation, semantic layer, and clients](/images/2026/wk-jul06/multi-engine-catalog-federation-apache-polaris-multicloud-./diagram-3.png)
 
 ## A Practical Federation Checklist
 

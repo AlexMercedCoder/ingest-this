@@ -1,16 +1,16 @@
 ---
 title: "Migrating Proprietary Warehouses to Open Lakehouses: The 2026 Playbook for Zero-Copy Metadata Translation"
 date: "2026-07-06"
-description: "Every warehouse migration sounds simpler before the first inventory. Then the team discovers old dashboards, hidden dependencies, undocumented stored "
+description: "Every warehouse migration sounds simpler before the first inventory."
 author: "Alex Merced"
-category: "Lakehouse"
+category: "Lakehouse Architecture"
 tags:
+  - migration
   - lakehouse
-  - apache iceberg
+  - zero-copy
 canonical: https://iceberglakehouse.com/posts/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation/
 ---
 > **Cross-posted.** This article's canonical home is [iceberglakehouse.com](https://iceberglakehouse.com/posts/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation/).
-
 
 Every warehouse migration sounds simpler before the first inventory. Then the team discovers old dashboards, hidden dependencies, undocumented stored procedures, replicated tables, cost-center politics, permission shortcuts, and ten slightly different definitions of the same metric.
 
@@ -20,7 +20,7 @@ The best 2026 playbook is not built around a slogan. It is built around staged m
 
 That is the Dremio-positive direction: migration should not end with data trapped in a different proprietary box. It should end with an open lakehouse that supports many engines, governed semantic access, and fast analytical workloads.
 
-![Papercut staged migration from proprietary warehouse through metadata translation to open Iceberg lakehouse](/images/2026/week-2026-07-06/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation-diagram-1.png)
+![Papercut staged migration from proprietary warehouse through metadata translation to open Iceberg lakehouse](/images/2026/wk-jul06/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation-./diagram-1.png)
 
 ## Why Warehouse Migrations Fail
 
@@ -98,7 +98,7 @@ The seventh stage is optimization. Add acceleration, compaction, table maintenan
 
 The eighth stage is retirement. Turn off old jobs and warehouses only after dependencies are confirmed.
 
-![Papercut validation loop showing source snapshot, metadata translation, Iceberg registration, comparison, reconciliation, and rollback](/images/2026/week-2026-07-06/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation-diagram-2.png)
+![Papercut validation loop showing source snapshot, metadata translation, Iceberg registration, comparison, reconciliation, and rollback](/images/2026/wk-jul06/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation-./diagram-2.png)
 
 ## Validation Is the Migration
 
@@ -158,15 +158,15 @@ Temporary or low-use tables may be retired.
 
 The goal is not ideological zero-copy. The goal is an intentional reduction in unnecessary copying.
 
-![Papercut open lakehouse target state with Iceberg tables, catalog, query federation, semantic layer, BI, notebooks, and agents](/images/2026/week-2026-07-06/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation-diagram-3.png)
+![Papercut open lakehouse target state with Iceberg tables, catalog, query federation, semantic layer, BI, notebooks, and agents](/images/2026/wk-jul06/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation-./diagram-3.png)
 
-## The Dremio-Positive Reading
+## What This Means for the Lakehouse
 
-This migration topic naturally supports the Dremio Lakehouse narrative because the best migration strategy values openness, federation, semantics, and performance.
+The best migration strategy values openness, federation, semantics, and performance.
 
 Federation helps teams modernize without forcing big-bang migration. Open Iceberg tables reduce future lock-in. Semantic layers preserve business meaning. Query acceleration keeps the open lakehouse usable. Agentic interfaces can then operate over governed data rather than over a patchwork of warehouse-specific logic.
 
-The conclusion is not that every source system disappears overnight. The conclusion is that the center of gravity moves toward an open lakehouse access layer. Dremio is compelling in that world because it helps query across the messy present while building toward a cleaner future.
+The conclusion is not that every source system disappears overnight. The conclusion is that the center of gravity moves toward an open lakehouse access layer that helps query across the messy present while building toward a cleaner future.
 
 ## Common Mistakes to Avoid
 

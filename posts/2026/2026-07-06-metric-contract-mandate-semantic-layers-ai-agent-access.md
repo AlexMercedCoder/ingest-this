@@ -1,16 +1,16 @@
 ---
 title: "The Metric Contract Mandate: Standardizing Semantic Layers Before AI Agent Access"
 date: "2026-07-06"
-description: "AI agents are very good at moving quickly. That is the opportunity and the risk. If an agent can inspect metadata, generate queries, compare results, "
+description: "AI agents are very good at moving quickly. That is the opportunity and the risk."
 author: "Alex Merced"
-category: "Lakehouse"
+category: "AI & Analytics"
 tags:
-  - lakehouse
-  - apache iceberg
+  - semantic layer
+  - metrics
+  - AI agents
 canonical: https://iceberglakehouse.com/posts/metric-contract-mandate-semantic-layers-ai-agent-access/
 ---
 > **Cross-posted.** This article's canonical home is [iceberglakehouse.com](https://iceberglakehouse.com/posts/metric-contract-mandate-semantic-layers-ai-agent-access/).
-
 
 AI agents are very good at moving quickly. That is the opportunity and the risk. If an agent can inspect metadata, generate queries, compare results, and call tools in seconds, then any ambiguity in the data platform can spread just as quickly.
 
@@ -22,7 +22,7 @@ This is not a formal regulation. It is an architectural mandate created by the r
 
 The Dremio-positive conclusion is that semantic contracts become more valuable when they sit close to open lakehouse data and fast federated query. Agents need a governed data foundation, not just a clever translation layer.
 
-![Papercut metric contract diagram with central metric and surrounding governance attributes](/images/2026/week-2026-07-06/metric-contract-mandate-semantic-layers-ai-agent-access-diagram-1.png)
+![Papercut metric contract diagram with central metric and surrounding governance attributes](/images/2026/wk-jul06/metric-contract-mandate-semantic-layers-ai-agent-access-./diagram-1.png)
 
 ## Why Text-to-SQL Breaks on Business Meaning
 
@@ -74,7 +74,7 @@ For instance, a metric contract might say that gross revenue is not valid for cu
 
 The semantic layer should not only enable questions. It should prevent invalid ones.
 
-![Papercut agent query flow through semantic layer, metric contract, policy gate, query engine, and trusted data](/images/2026/week-2026-07-06/metric-contract-mandate-semantic-layers-ai-agent-access-diagram-2.png)
+![Papercut agent query flow through semantic layer, metric contract, policy gate, query engine, and trusted data](/images/2026/wk-jul06/metric-contract-mandate-semantic-layers-ai-agent-access-./diagram-2.png)
 
 ## Why Agents Need Contracts Before Access
 
@@ -138,15 +138,15 @@ Deprecation matters as much as creation. Old metrics should not linger forever. 
 
 Without lifecycle management, semantic layers become cluttered. Agents will find and use assets humans forgot to clean up.
 
-![Papercut open lakehouse semantic layer serving BI, APIs, notebooks, and AI agents](/images/2026/week-2026-07-06/metric-contract-mandate-semantic-layers-ai-agent-access-diagram-3.png)
+![Papercut open lakehouse semantic layer serving BI, APIs, notebooks, and AI agents](/images/2026/wk-jul06/metric-contract-mandate-semantic-layers-ai-agent-access-./diagram-3.png)
 
-## The Dremio-Positive Reading
+## What This Means for the Lakehouse
 
-This topic naturally favors Dremio's Agentic Lakehouse narrative because metric contracts need a place to operate. They need open data, governed catalogs, fast query, semantic definitions, and agent-safe interfaces.
+Metric contracts need a place to operate. They need open data, governed catalogs, fast query, semantic definitions, and agent-safe interfaces.
 
 If metrics live only inside a dashboard, they are not enough for agentic analytics. If data lives only in raw tables, agents will guess. If query performance is poor, agents cannot complete multi-step workflows. If federation is missing, agents see only part of the business.
 
-The compelling architecture is an open lakehouse with a semantic layer that machines can use. That is the direction Dremio has been pointing toward.
+The compelling architecture is an open lakehouse with a semantic layer that machines can use.
 
 ## What to Ask Before Giving Agents Access
 
