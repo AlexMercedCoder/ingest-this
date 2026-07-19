@@ -5,7 +5,7 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 14 Jul 2026 01:10:30 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 18 Jul 2026 08:15:03 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
@@ -13,91 +13,105 @@
       <link>https://ingestthis.com/posts/2026/2026-07-06-arrow-flight-iceberg-rest-catalog-columnar-transfers</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-arrow-flight-iceberg-rest-catalog-columnar-transfers</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Modern lakehouse architecture is easier to reason about when you separate two questions.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Block vs. Object Storage: A Deep Dive Into the Foundation of Modern Data, and How the Lakehouse Made the Slow Option Fast</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-block-vs-object-storage-deep-dive</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-block-vs-object-storage-deep-dive</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[*By Alex Merced, Head of Developer Relations at Dremio* Here is one of the strangest and most consequential plot twists in the history of data infrastru.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>The Buyer's Scorecard for Agentic Analytics: Evaluating Tooling in the Enterprise AI Era</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-buyers-scorecard-agentic-analytics-enterprise-ai-era</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-buyers-scorecard-agentic-analytics-enterprise-ai-era</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agentic analytics demos are easy to enjoy and hard to evaluate.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Building Closed-Loop Decision Agents: Moving from Passive BI Dashboards to Active Goal-Directed Workflows</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-closed-loop-decision-agents-passive-bi-active-workflows</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-closed-loop-decision-agents-passive-bi-active-workflows</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Dashboards are excellent at showing people what happened. They are less good at deciding what should happen next.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Conversational AI on Managed Iceberg: Exposing Amazon S3 Tables through MCP</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-conversational-ai-managed-iceberg-s3-tables-mcp-server</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-conversational-ai-managed-iceberg-s3-tables-mcp-server</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The most interesting part of conversational analytics is not the chat box. The chat box is just the surface area.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Decoupled Catalogs vs. Managed Tables: Architectural Freedom in the Age of Table Format Convergence</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-decoupled-catalogs-vs-managed-tables-table-format-convergence</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-decoupled-catalogs-vs-managed-tables-table-format-convergence</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Open table formats have changed buyer expectations.]]></description>
+      <description><![CDATA[]]></description>
+    </item>
+    <item>
+      <title>Designing Your Own AI Harness: A Deep Dive Into the Architecture of Agent Loops, Tools, Context, and Control</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-06-designing-your-own-ai-harness</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-06-designing-your-own-ai-harness</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A deep dive into custom AI harness architecture: model layers, tool design, context management, permissions, control budgets, persistence, orchestration, and evaluation systems.]]></description>
+    </item>
+    <item>
+      <title>Deterministic Data Engineering With AI Harnesses: Using Claude Code, Codex, Antigravity, and OpenCode for Data Work You Can Actually Trust</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-06-deterministic-data-engineering-with-ai-harnesses</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-06-deterministic-data-engineering-with-ai-harnesses</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How to use AI agent harnesses for data engineering without losing determinism, reproducibility, and trust in your data pipelines and analytics.]]></description>
     </item>
     <item>
       <title>Preparing Your Data Lakehouse for the EU AI Act: Auditable Lineage and Data Provenance</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-eu-ai-act-data-lakehouse-lineage-provenance-compliance</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-eu-ai-act-data-lakehouse-lineage-provenance-compliance</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The EU AI Act changes the conversation around AI architecture because it makes trust operational.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Federation and the Lakehouse: Two Roads to Unified Data Access, and How to Know Which One to Take</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-federation-and-lakehouse</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-federation-and-lakehouse</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[*By Alex Merced, Head of Developer Relations at Dremio* Every data strategy document written this decade contains some version of the same sentence: we .]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>A Deep Dive Into File Compression: How Data Gets Smaller, Why Codecs Differ, and What to Actually Use in the Lakehouse</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-file-compression-deep-dive</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-file-compression-deep-dive</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[*By Alex Merced, Head of Developer Relations at Dremio* Somewhere in your data platform right now, a single configuration property is quietly deciding a.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>The File Format Renaissance: Parquet, Lance, Vortex, Nimble, BtrBlocks, and the New Physics of Columnar Storage</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-file-formats-renaissance</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-file-formats-renaissance</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[*By Alex Merced, Head of Developer Relations at Dremio* For a decade, the file format layer was the most settled real estate in data.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Enforcing Fine-Grained Security at Machine Speed: Dynamic Access Control for High-Frequency AI Agents</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-fine-grained-security-machine-speed-ai-agents</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-fine-grained-security-machine-speed-ai-agents</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI agents change the security model for analytics. A human user may run a handful of queries, pause, interpret the answer, and ask a follow-up.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Implementing Positional Deletes in Iceberg v3: Streamlining Merge-on-Read for Fast-Inbound Event Lakes</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-positional-deletes-deletion-vectors-event-lakes</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-positional-deletes-deletion-vectors-event-lakes</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Event data has a way of humbling neat architecture diagrams. It arrives late. It arrives twice. It arrives with incorrect attributes.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>Mapping the Variant Type in Iceberg v3: Standardizing Semi-Structured AI JSON Payloads</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-variant-type-ai-json-payloads</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-variant-type-ai-json-payloads</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI applications are messy data producers.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>The State of Apache Iceberg v4 in July 2026: What the Dev List Tells Us About the Format's Next Chapter</title>
@@ -111,42 +125,28 @@
       <link>https://ingestthis.com/posts/2026/2026-07-06-idempotent-pipelines-agentic-lakehouse-double-write-anomalies</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-idempotent-pipelines-agentic-lakehouse-double-write-anomalies</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agents retry. Networks fail. Jobs time out after doing some work. APIs return ambiguous responses. Schedulers run the same workflow twice.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>File Encryption for the Lakehouse: The Terminology, the Machinery, and the Hard Problem of Interoperable Encrypted Tables</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-lakehouse-encryption-deep-dive</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-lakehouse-encryption-deep-dive</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[*By Alex Merced, Head of Developer Relations at Dremio* For years, the open lakehouse had an honest gap that practitioners whispered about and slide dec.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>The 2026-07-28 Model Context Protocol Release Candidate: What the Stateless Spec Means for Data Platforms</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-mcp-2026-07-28-stateless-spec-data-platforms</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-mcp-2026-07-28-stateless-spec-data-platforms</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The date in this topic matters. Today is July 6, 2026. A release candidate dated July 28, 2026 is still in the future.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     <item>
       <title>The Metric Contract Mandate: Standardizing Semantic Layers Before AI Agent Access</title>
       <link>https://ingestthis.com/posts/2026/2026-07-06-metric-contract-mandate-semantic-layers-ai-agent-access</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-06-metric-contract-mandate-semantic-layers-ai-agent-access</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI agents are very good at moving quickly. That is the opportunity and the risk.]]></description>
-    </item>
-    <item>
-      <title>Multi-Engine Catalog Federation with Apache Polaris: Syncing Google Cloud, AWS, and Azure Metadata</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-multi-engine-catalog-federation-apache-polaris-multicloud</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-multi-engine-catalog-federation-apache-polaris-multicloud</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Open table formats changed the data lakehouse conversation, but they did not finish it.]]></description>
-    </item>
-    <item>
-      <title>Personal Context vs. Shared Context: A Deep Dive Into How Humans and Organizations Should Feed Their AI Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-personal-vs-shared-context</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-personal-vs-shared-context</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[*By Alex Merced, Head of Developer Relations at Dremio* The most important discovery of the agent era fits in one sentence: most AI failures are context.]]></description>
+      <description><![CDATA[]]></description>
     </item>
     </channel>
   </rss>
