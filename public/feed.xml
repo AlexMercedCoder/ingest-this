@@ -5,148 +5,148 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sat, 18 Jul 2026 08:15:03 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 24 Jul 2026 14:27:35 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
-      <title>High-Performance Columnar Transfers: Combining Apache Arrow Flight and Iceberg REST Catalogs</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-arrow-flight-iceberg-rest-catalog-columnar-transfers</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-arrow-flight-iceberg-rest-catalog-columnar-transfers</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>The Filters We Build: Scams, Slop, and the Search for Signal, From Radio Ads to AI</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-24-cognitive-filters-media-evolution</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-24-cognitive-filters-media-evolution</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How every media era from radio to AI forces humanity to build new cognitive filters -- the shield against scams and the sieve for finding signal in an ocean of noise.]]></description>
     </item>
     <item>
-      <title>Block vs. Object Storage: A Deep Dive Into the Foundation of Modern Data, and How the Lakehouse Made the Slow Option Fast</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-block-vs-object-storage-deep-dive</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-block-vs-object-storage-deep-dive</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>The Breakdown of the Open Lakehouse in 2026: Iceberg, Arrow, Polaris, Parquet, and Ossie, and How to Actually Build One</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-24-open-lakehouse-breakdown-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-24-open-lakehouse-breakdown-2026</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A detailed breakdown of the five Apache projects powering the open lakehouse in 2026 -- Parquet, Iceberg, Polaris, Arrow, and Ossie -- and how to build one yourself or use a managed platform.]]></description>
     </item>
     <item>
-      <title>The Buyer's Scorecard for Agentic Analytics: Evaluating Tooling in the Enterprise AI Era</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-buyers-scorecard-agentic-analytics-enterprise-ai-era</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-buyers-scorecard-agentic-analytics-enterprise-ai-era</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Understanding the RAMpocalypse: An Economic Autopsy of the Great Memory Shortage and What Comes Next</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-24-rampocalypse-economics</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-24-rampocalypse-economics</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An economic autopsy of the 2026 memory shortage -- why DRAM prices surged 90% in a quarter, and what supply, demand, and market structure mean for the future of computing hardware.]]></description>
     </item>
     <item>
-      <title>Building Closed-Loop Decision Agents: Moving from Passive BI Dashboards to Active Goal-Directed Workflows</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-closed-loop-decision-agents-passive-bi-active-workflows</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-closed-loop-decision-agents-passive-bi-active-workflows</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>The Own Goal: What the Hugging Face Breach Reveals About Why Open Models Are a Security Necessity</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-24-value-of-open-models-security</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-24-value-of-open-models-security</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How the 2026 Hugging Face breach proved that open models are a security necessity -- closed models failed to defend, an open Chinese model succeeded, and the lessons for AI policy.]]></description>
     </item>
     <item>
-      <title>Conversational AI on Managed Iceberg: Exposing Amazon S3 Tables through MCP</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-conversational-ai-managed-iceberg-s3-tables-mcp-server</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-conversational-ai-managed-iceberg-s3-tables-mcp-server</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Active Analytics Loops for AI Action Agents</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-active-analytics-loop-goal-directed-action-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-active-analytics-loop-goal-directed-action-agents</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of active analytics loops for ai action agents]]></description>
     </item>
     <item>
-      <title>Decoupled Catalogs vs. Managed Tables: Architectural Freedom in the Age of Table Format Convergence</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-decoupled-catalogs-vs-managed-tables-table-format-convergence</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-decoupled-catalogs-vs-managed-tables-table-format-convergence</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Apache Polaris and Multi-Engine Iceberg Catalogs</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-apache-polaris-asf-top-level-multi-engine-catalog-interoperability</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-apache-polaris-asf-top-level-multi-engine-catalog-interoperability</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of apache polaris and multi-engine iceberg catalogs]]></description>
     </item>
     <item>
-      <title>Designing Your Own AI Harness: A Deep Dive Into the Architecture of Agent Loops, Tools, Context, and Control</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-designing-your-own-ai-harness</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-designing-your-own-ai-harness</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A deep dive into custom AI harness architecture: model layers, tool design, context management, permissions, control budgets, persistence, orchestration, and evaluation systems.]]></description>
+      <title>Automated Materialized Views in Dremio</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-automated-materialized-views-autonomous-table-optimization-dremio-agentic-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-automated-materialized-views-autonomous-table-optimization-dremio-agentic-lakehouse</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of automated materialized views in dremio]]></description>
     </item>
     <item>
-      <title>Deterministic Data Engineering With AI Harnesses: Using Claude Code, Codex, Antigravity, and OpenCode for Data Work You Can Actually Trust</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-deterministic-data-engineering-with-ai-harnesses</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-deterministic-data-engineering-with-ai-harnesses</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How to use AI agent harnesses for data engineering without losing determinism, reproducibility, and trust in your data pipelines and analytics.]]></description>
+      <title>The Chase-Catch Gap in Enterprise AI Agents</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-chase-catch-gap-agentic-ai-enterprise-scale-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-chase-catch-gap-agentic-ai-enterprise-scale-2026</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of the chase-catch gap in enterprise ai agents]]></description>
     </item>
     <item>
-      <title>Preparing Your Data Lakehouse for the EU AI Act: Auditable Lineage and Data Provenance</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-eu-ai-act-data-lakehouse-lineage-provenance-compliance</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-eu-ai-act-data-lakehouse-lineage-provenance-compliance</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Data Lakehouse Open Standards for AI Agents</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-data-lakehouse-open-standards-agentic-era</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-data-lakehouse-open-standards-agentic-era</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of data lakehouse open standards for ai agents]]></description>
     </item>
     <item>
-      <title>Federation and the Lakehouse: Two Roads to Unified Data Access, and How to Know Which One to Take</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-federation-and-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-federation-and-lakehouse</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Dremio Lakehouse AI Report: Agentic Lessons</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-dremio-state-data-lakehouse-ai-report-agentic-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-dremio-state-data-lakehouse-ai-report-agentic-lakehouse</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of dremio lakehouse ai report: agentic lessons]]></description>
     </item>
     <item>
-      <title>A Deep Dive Into File Compression: How Data Gets Smaller, Why Codecs Differ, and What to Actually Use in the Lakehouse</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-file-compression-deep-dive</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-file-compression-deep-dive</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Five-Layer Agentic Lakehouse Architecture</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-five-layer-agentic-lakehouse-architecture-enterprise-pattern</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-five-layer-agentic-lakehouse-architecture-enterprise-pattern</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of five-layer agentic lakehouse architecture]]></description>
     </item>
     <item>
-      <title>The File Format Renaissance: Parquet, Lance, Vortex, Nimble, BtrBlocks, and the New Physics of Columnar Storage</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-file-formats-renaissance</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-file-formats-renaissance</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>GSA MCP Servers for Open Data AI Agents</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-gsa-model-context-protocol-server-hackathon-open-data-ai-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-gsa-model-context-protocol-server-hackathon-open-data-ai-agents</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of gsa mcp servers for open data ai agents]]></description>
     </item>
     <item>
-      <title>Enforcing Fine-Grained Security at Machine Speed: Dynamic Access Control for High-Frequency AI Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-fine-grained-security-machine-speed-ai-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-fine-grained-security-machine-speed-ai-agents</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Hybrid Lakehouse Design for Regulated Markets</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-hybrid-lakehouse-regulated-markets-on-prem-public-metadata</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-hybrid-lakehouse-regulated-markets-on-prem-public-metadata</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of hybrid lakehouse design for regulated markets]]></description>
     </item>
     <item>
-      <title>Implementing Positional Deletes in Iceberg v3: Streamlining Merge-on-Read for Fast-Inbound Event Lakes</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-positional-deletes-deletion-vectors-event-lakes</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-positional-deletes-deletion-vectors-event-lakes</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Iceberg v3 Deletion Vectors and Faster DML</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-iceberg-v3-deletion-vectors-merge-on-read-dml-performance</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-iceberg-v3-deletion-vectors-merge-on-read-dml-performance</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of iceberg v3 deletion vectors and faster dml]]></description>
     </item>
     <item>
-      <title>Mapping the Variant Type in Iceberg v3: Standardizing Semi-Structured AI JSON Payloads</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-variant-type-ai-json-payloads</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v3-variant-type-ai-json-payloads</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Iceberg Variant Type for AI JSON Data</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-iceberg-variant-type-semi-structured-ai-datasets</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-iceberg-variant-type-semi-structured-ai-datasets</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of iceberg variant type for ai json data]]></description>
     </item>
     <item>
-      <title>The State of Apache Iceberg v4 in July 2026: What the Dev List Tells Us About the Format's Next Chapter</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v4-state-july-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-iceberg-v4-state-july-2026</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[What the Iceberg v4 dev list tells us about adaptive metadata trees, single-file commits, column updates, and the format's next chapter in mid-2026.]]></description>
+      <title>Iceberg Concurrency for AI Agent Writes</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-llm-agency-concurrency-isolation-high-frequency-agent-writes-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-llm-agency-concurrency-isolation-high-frequency-agent-writes-iceberg</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of iceberg concurrency for ai agent writes]]></description>
     </item>
     <item>
-      <title>Designing Idempotent Pipelines in the Agentic Lakehouse: Eliminating Double-Write Anomalies</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-idempotent-pipelines-agentic-lakehouse-double-write-anomalies</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-idempotent-pipelines-agentic-lakehouse-double-write-anomalies</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>MCP Stateless Gateways for Data Agents</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-mcp-stateless-specifications-scalable-data-gateways-ai-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-mcp-stateless-specifications-scalable-data-gateways-ai-agents</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of mcp stateless gateways for data agents]]></description>
     </item>
     <item>
-      <title>File Encryption for the Lakehouse: The Terminology, the Machinery, and the Hard Problem of Interoperable Encrypted Tables</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-lakehouse-encryption-deep-dive</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-lakehouse-encryption-deep-dive</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Policy Layer for Autonomous AI Data Agents</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-policy-layer-security-policy-enforcement-autonomous-multi-agent-systems</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-policy-layer-security-policy-enforcement-autonomous-multi-agent-systems</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of policy layer for autonomous ai data agents]]></description>
     </item>
     <item>
-      <title>The 2026-07-28 Model Context Protocol Release Candidate: What the Stateless Spec Means for Data Platforms</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-mcp-2026-07-28-stateless-spec-data-platforms</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-mcp-2026-07-28-stateless-spec-data-platforms</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>REST Catalog Credential Vending for Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-credential-vending-zero-copy-security</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-credential-vending-zero-copy-security</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of rest catalog credential vending for iceberg]]></description>
     </item>
     <item>
-      <title>The Metric Contract Mandate: Standardizing Semantic Layers Before AI Agent Access</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-06-metric-contract-mandate-semantic-layers-ai-agent-access</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-06-metric-contract-mandate-semantic-layers-ai-agent-access</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>REST Catalog V2: Fixing Iceberg Protocol Debt</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-v2-standard-iceberg-scaling-protocol-debt</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-v2-standard-iceberg-scaling-protocol-debt</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An in-depth exploration of rest catalog v2: fixing iceberg protocol debt]]></description>
     </item>
     </channel>
   </rss>

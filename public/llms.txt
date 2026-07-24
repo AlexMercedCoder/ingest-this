@@ -20,6 +20,7 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - AI
 - AI & Agents
 - AI & Machine Learning
+- AI & Security
 - AI & Society
 - AI Tools & Software Development
 - Agentic AI
@@ -38,11 +39,15 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - Data Platforms
 - DevOps
 - Devops
+- Hardware
 - Javascript
 - Lakehouse
+- MCP
 - Open Source
+- Security & Governance
 - Semantic Layer
 - Software Development
+- Technology & Culture
 - data
 - data engineering
 - data lakehouse
@@ -55,6 +60,28 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 
 ## Technical Articles & Tutorials
 
+- [The Filters We Build: Scams, Slop, and the Search for Signal, From Radio Ads to AI](https://ingestthis.com/posts/2026/2026-07-24-cognitive-filters-media-evolution): How every media era from radio to AI forces humanity to build new cognitive filters -- the shield against scams and the sieve for finding signal in an ocean of noise.
+- [The Breakdown of the Open Lakehouse in 2026: Iceberg, Arrow, Polaris, Parquet, and Ossie, and How to Actually Build One](https://ingestthis.com/posts/2026/2026-07-24-open-lakehouse-breakdown-2026): A detailed breakdown of the five Apache projects powering the open lakehouse in 2026 -- Parquet, Iceberg, Polaris, Arrow, and Ossie -- and how to build one yourself or use a managed platform.
+- [Understanding the RAMpocalypse: An Economic Autopsy of the Great Memory Shortage and What Comes Next](https://ingestthis.com/posts/2026/2026-07-24-rampocalypse-economics): An economic autopsy of the 2026 memory shortage -- why DRAM prices surged 90% in a quarter, and what supply, demand, and market structure mean for the future of computing hardware.
+- [The Own Goal: What the Hugging Face Breach Reveals About Why Open Models Are a Security Necessity](https://ingestthis.com/posts/2026/2026-07-24-value-of-open-models-security): How the 2026 Hugging Face breach proved that open models are a security necessity -- closed models failed to defend, an open Chinese model succeeded, and the lessons for AI policy.
+- [Active Analytics Loops for AI Action Agents](https://ingestthis.com/posts/2026/2026-07-13-active-analytics-loop-goal-directed-action-agents): An in-depth exploration of active analytics loops for ai action agents
+- [Apache Polaris and Multi-Engine Iceberg Catalogs](https://ingestthis.com/posts/2026/2026-07-13-apache-polaris-asf-top-level-multi-engine-catalog-interoperability): An in-depth exploration of apache polaris and multi-engine iceberg catalogs
+- [Automated Materialized Views in Dremio](https://ingestthis.com/posts/2026/2026-07-13-automated-materialized-views-autonomous-table-optimization-dremio-agentic-lakehouse): An in-depth exploration of automated materialized views in dremio
+- [The Chase-Catch Gap in Enterprise AI Agents](https://ingestthis.com/posts/2026/2026-07-13-chase-catch-gap-agentic-ai-enterprise-scale-2026): An in-depth exploration of the chase-catch gap in enterprise ai agents
+- [Data Lakehouse Open Standards for AI Agents](https://ingestthis.com/posts/2026/2026-07-13-data-lakehouse-open-standards-agentic-era): An in-depth exploration of data lakehouse open standards for ai agents
+- [Dremio Lakehouse AI Report: Agentic Lessons](https://ingestthis.com/posts/2026/2026-07-13-dremio-state-data-lakehouse-ai-report-agentic-lakehouse): An in-depth exploration of dremio lakehouse ai report: agentic lessons
+- [Five-Layer Agentic Lakehouse Architecture](https://ingestthis.com/posts/2026/2026-07-13-five-layer-agentic-lakehouse-architecture-enterprise-pattern): An in-depth exploration of five-layer agentic lakehouse architecture
+- [GSA MCP Servers for Open Data AI Agents](https://ingestthis.com/posts/2026/2026-07-13-gsa-model-context-protocol-server-hackathon-open-data-ai-agents): An in-depth exploration of gsa mcp servers for open data ai agents
+- [Hybrid Lakehouse Design for Regulated Markets](https://ingestthis.com/posts/2026/2026-07-13-hybrid-lakehouse-regulated-markets-on-prem-public-metadata): An in-depth exploration of hybrid lakehouse design for regulated markets
+- [Iceberg v3 Deletion Vectors and Faster DML](https://ingestthis.com/posts/2026/2026-07-13-iceberg-v3-deletion-vectors-merge-on-read-dml-performance): An in-depth exploration of iceberg v3 deletion vectors and faster dml
+- [Iceberg Variant Type for AI JSON Data](https://ingestthis.com/posts/2026/2026-07-13-iceberg-variant-type-semi-structured-ai-datasets): An in-depth exploration of iceberg variant type for ai json data
+- [Iceberg Concurrency for AI Agent Writes](https://ingestthis.com/posts/2026/2026-07-13-llm-agency-concurrency-isolation-high-frequency-agent-writes-iceberg): An in-depth exploration of iceberg concurrency for ai agent writes
+- [MCP Stateless Gateways for Data Agents](https://ingestthis.com/posts/2026/2026-07-13-mcp-stateless-specifications-scalable-data-gateways-ai-agents): An in-depth exploration of mcp stateless gateways for data agents
+- [Policy Layer for Autonomous AI Data Agents](https://ingestthis.com/posts/2026/2026-07-13-policy-layer-security-policy-enforcement-autonomous-multi-agent-systems): An in-depth exploration of policy layer for autonomous ai data agents
+- [REST Catalog Credential Vending for Iceberg](https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-credential-vending-zero-copy-security): An in-depth exploration of rest catalog credential vending for iceberg
+- [REST Catalog V2: Fixing Iceberg Protocol Debt](https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-v2-standard-iceberg-scaling-protocol-debt): An in-depth exploration of rest catalog v2: fixing iceberg protocol debt
+- [Semantic View Autopilot for AI Governance](https://ingestthis.com/posts/2026/2026-07-13-semantic-view-autopilot-dynamic-metric-definition-governance): An in-depth exploration of semantic view autopilot for ai governance
+- [Zero-Copy Mirroring to Open Iceberg Tables](https://ingestthis.com/posts/2026/2026-07-13-zero-copy-mirroring-migration-proprietary-warehouses-open-iceberg): An in-depth exploration of zero-copy mirroring to open iceberg tables
 - [High-Performance Columnar Transfers: Combining Apache Arrow Flight and Iceberg REST Catalogs](https://ingestthis.com/posts/2026/2026-07-06-arrow-flight-iceberg-rest-catalog-columnar-transfers): Article about High-Performance Columnar Transfers: Combining Apache Arrow Flight and Iceberg REST Catalogs
 - [Block vs. Object Storage: A Deep Dive Into the Foundation of Modern Data, and How the Lakehouse Made the Slow Option Fast](https://ingestthis.com/posts/2026/2026-07-06-block-vs-object-storage-deep-dive): Article about Block vs. Object Storage: A Deep Dive Into the Foundation of Modern Data, and How the Lakehouse Made the Slow Option Fast
 - [The Buyer's Scorecard for Agentic Analytics: Evaluating Tooling in the Enterprise AI Era](https://ingestthis.com/posts/2026/2026-07-06-buyers-scorecard-agentic-analytics-enterprise-ai-era): Article about The Buyer's Scorecard for Agentic Analytics: Evaluating Tooling in the Enterprise AI Era
