@@ -60,6 +60,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
 
         {/* Open Graph */}
         <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="IngestThis" />
         <meta property="og:url" content={postUrl} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
