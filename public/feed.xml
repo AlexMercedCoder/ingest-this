@@ -5,9 +5,30 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sat, 25 Jul 2026 17:07:52 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 25 Jul 2026 22:56:05 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Every AI Model Family That Matters in Mid-2026</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-ai-model-families-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-ai-model-families-2026</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A full survey of the AI model landscape in mid-2026: frontier families, open-weight labs, local inference, specialists, and how to build a routing layer instead of a dependency.]]></description>
+    </item>
+    <item>
+      <title>The Apache Iceberg Market in the Middle of 2026</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-iceberg-market-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-iceberg-market-2026</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A survey of the Apache Iceberg market in July 2026: the state of the specification, platform support, the acquisition wave, the catalog contest, and how to evaluate real Iceberg support.]]></description>
+    </item>
+    <item>
+      <title>Three Vendors Are Rebuilding the Path From Transaction to Agent</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-transaction-to-agent-race</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-transaction-to-agent-race</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Databricks, Snowflake, and SAP are closing the gap between operational databases and analytical platforms through acquisition, betting on different layers of the same five-part architecture.]]></description>
+    </item>
     <item>
       <title>The Filters We Build: Scams, Slop, and the Search for Signal, From Radio Ads to AI</title>
       <link>https://ingestthis.com/posts/2026/2026-07-24-cognitive-filters-media-evolution</link>
@@ -126,27 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-13-mcp-stateless-specifications-scalable-data-gateways-ai-agents</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[An in-depth exploration of mcp stateless gateways for data agents]]></description>
-    </item>
-    <item>
-      <title>Policy Layer for Autonomous AI Data Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-policy-layer-security-policy-enforcement-autonomous-multi-agent-systems</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-policy-layer-security-policy-enforcement-autonomous-multi-agent-systems</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of policy layer for autonomous ai data agents]]></description>
-    </item>
-    <item>
-      <title>REST Catalog Credential Vending for Iceberg</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-credential-vending-zero-copy-security</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-credential-vending-zero-copy-security</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of rest catalog credential vending for iceberg]]></description>
-    </item>
-    <item>
-      <title>REST Catalog V2: Fixing Iceberg Protocol Debt</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-v2-standard-iceberg-scaling-protocol-debt</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-rest-catalog-v2-standard-iceberg-scaling-protocol-debt</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of rest catalog v2: fixing iceberg protocol debt]]></description>
     </item>
     </channel>
   </rss>
