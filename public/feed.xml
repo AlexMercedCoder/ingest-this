@@ -5,15 +5,29 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sat, 25 Jul 2026 22:56:05 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 26 Jul 2026 00:26:51 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Governing What Agents Cost You</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-agent-cost-governance</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-agent-cost-governance</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agents break the four assumptions analytics platforms were built on. A practical guide to identity, budgets, semantic layers, caching, and instrumentation for agent workloads.]]></description>
+    </item>
     <item>
       <title>Every AI Model Family That Matters in Mid-2026</title>
       <link>https://ingestthis.com/posts/2026/2026-07-ai-model-families-2026</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-ai-model-families-2026</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A full survey of the AI model landscape in mid-2026: frontier families, open-weight labs, local inference, specialists, and how to build a routing layer instead of a dependency.]]></description>
+    </item>
+    <item>
+      <title>Freshness Is a Contract, Not a Note on a Dashboard</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-freshness-as-a-contract</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-freshness-as-a-contract</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Data freshness needs to become an engineering contract with a measurable value, an owner, and consequences. How to decompose lag, make freshness queryable, and keep agents honest.]]></description>
     </item>
     <item>
       <title>The Apache Iceberg Market in the Middle of 2026</title>
@@ -23,11 +37,53 @@
       <description><![CDATA[A survey of the Apache Iceberg market in July 2026: the state of the specification, platform support, the acquisition wave, the catalog contest, and how to evaluate real Iceberg support.]]></description>
     </item>
     <item>
+      <title>The Whole Lakehouse Fits on Your Laptop Now</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-laptop-scale-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-laptop-scale-lakehouse</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Consumer hardware, columnar formats, single-node engines, and the Iceberg REST catalog crossed a threshold: a large share of cluster work now runs locally against the same governed tables.]]></description>
+    </item>
+    <item>
+      <title>Iceberg's Next Version Depends on Decisions Being Made in Parquet</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-parquet-constrains-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-parquet-constrains-iceberg</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The Iceberg and Parquet specifications are co-evolving. Several of the most consequential Iceberg v4 proposals are waiting on Parquet work, and practitioners should read both dev lists.]]></description>
+    </item>
+    <item>
+      <title>Building a Lakehouse That Stays Inside the Border</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-sovereign-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-sovereign-lakehouse</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Residency is a storage location. Sovereignty is who can compel access, who operates the systems, and whether you can leave. A practical guide to sovereign lakehouse architecture in 2026.]]></description>
+    </item>
+    <item>
+      <title>Table Maintenance Stopped Being a Product</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-table-maintenance-economics</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-table-maintenance-economics</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Iceberg table maintenance commoditized when every platform started shipping it. What the six operations are, what they cost, and the observability you should keep even when the work is managed.]]></description>
+    </item>
+    <item>
+      <title>The Model Class Enterprise Data Teams Are Not Using Yet</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-tabular-foundation-models</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-tabular-foundation-models</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Tabular foundation models perform supervised learning in a single forward pass with no training run. What they are, where they win, and what they change in the data architecture.]]></description>
+    </item>
+    <item>
       <title>Three Vendors Are Rebuilding the Path From Transaction to Agent</title>
       <link>https://ingestthis.com/posts/2026/2026-07-transaction-to-agent-race</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-transaction-to-agent-race</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Databricks, Snowflake, and SAP are closing the gap between operational databases and analytical platforms through acquisition, betting on different layers of the same five-part architecture.]]></description>
+    </item>
+    <item>
+      <title>What Zero-Copy Actually Costs</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-zero-copy-actually-costs</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-zero-copy-actually-costs</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Six architectures share the phrase zero-copy, and they have different costs, failure modes, and governance stories. A walk through federation, virtualization, sharing protocols, and materialization.]]></description>
     </item>
     <item>
       <title>The Filters We Build: Scams, Slop, and the Search for Signal, From Radio Ads to AI</title>
@@ -91,62 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-13-data-lakehouse-open-standards-agentic-era</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[An in-depth exploration of data lakehouse open standards for ai agents]]></description>
-    </item>
-    <item>
-      <title>Dremio Lakehouse AI Report: Agentic Lessons</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-dremio-state-data-lakehouse-ai-report-agentic-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-dremio-state-data-lakehouse-ai-report-agentic-lakehouse</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of dremio lakehouse ai report: agentic lessons]]></description>
-    </item>
-    <item>
-      <title>Five-Layer Agentic Lakehouse Architecture</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-five-layer-agentic-lakehouse-architecture-enterprise-pattern</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-five-layer-agentic-lakehouse-architecture-enterprise-pattern</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of five-layer agentic lakehouse architecture]]></description>
-    </item>
-    <item>
-      <title>GSA MCP Servers for Open Data AI Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-gsa-model-context-protocol-server-hackathon-open-data-ai-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-gsa-model-context-protocol-server-hackathon-open-data-ai-agents</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of gsa mcp servers for open data ai agents]]></description>
-    </item>
-    <item>
-      <title>Hybrid Lakehouse Design for Regulated Markets</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-hybrid-lakehouse-regulated-markets-on-prem-public-metadata</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-hybrid-lakehouse-regulated-markets-on-prem-public-metadata</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of hybrid lakehouse design for regulated markets]]></description>
-    </item>
-    <item>
-      <title>Iceberg v3 Deletion Vectors and Faster DML</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-iceberg-v3-deletion-vectors-merge-on-read-dml-performance</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-iceberg-v3-deletion-vectors-merge-on-read-dml-performance</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of iceberg v3 deletion vectors and faster dml]]></description>
-    </item>
-    <item>
-      <title>Iceberg Variant Type for AI JSON Data</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-iceberg-variant-type-semi-structured-ai-datasets</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-iceberg-variant-type-semi-structured-ai-datasets</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of iceberg variant type for ai json data]]></description>
-    </item>
-    <item>
-      <title>Iceberg Concurrency for AI Agent Writes</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-llm-agency-concurrency-isolation-high-frequency-agent-writes-iceberg</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-llm-agency-concurrency-isolation-high-frequency-agent-writes-iceberg</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of iceberg concurrency for ai agent writes]]></description>
-    </item>
-    <item>
-      <title>MCP Stateless Gateways for Data Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-mcp-stateless-specifications-scalable-data-gateways-ai-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-mcp-stateless-specifications-scalable-data-gateways-ai-agents</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of mcp stateless gateways for data agents]]></description>
     </item>
     </channel>
   </rss>
