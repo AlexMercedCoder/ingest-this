@@ -5,9 +5,58 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 26 Jul 2026 00:26:51 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 28 Jul 2026 13:00:35 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Building Agent Telemetry Tables in Iceberg That Survive an Audit</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-agent-telemetry-iceberg-audit</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-agent-telemetry-iceberg-audit</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A practical guide to building agent decision traces in Apache Iceberg that support audit reconstruction, governance review, and cost attribution across sessions.]]></description>
+    </item>
+    <item>
+      <title>When the Query Optimizer Starts Managing Its Own Materializations</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-autonomous-reflections-agentic-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-autonomous-reflections-agentic-lakehouse</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Autonomous materialized view management replaces quarterly review meetings with workload-driven scoring, and it's essential when AI agents generate unpredictable query patterns.]]></description>
+    </item>
+    <item>
+      <title>Why AI Agents Fail on Raw Data, and What to Give Them Instead</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-data-products-for-ai-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-data-products-for-ai-agents</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agents fail on raw lake data because business rules live in people's heads. Data products with semantic contracts fix this at the source.]]></description>
+    </item>
+    <item>
+      <title>Why Iceberg V4 Wants to Retire Equality Deletes, and What Streaming Teams Should Do About It</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-equality-deletes-iceberg-v4</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-equality-deletes-iceberg-v4</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Equality deletes made streaming upserts into Iceberg practical at the cost of read performance. V4 proposes retiring them in favor of deletion vectors with an async conversion path.]]></description>
+    </item>
+    <item>
+      <title>Surviving Commit Conflicts When Dozens of Writers Hit the Same Iceberg Table</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-iceberg-concurrent-commits-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-iceberg-concurrent-commits-agents</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Commit conflicts multiply with writer count, and AI agents introduce unpredictable write patterns. Here's how to diagnose, tune, and architect around Iceberg's optimistic concurrency.]]></description>
+    </item>
+    <item>
+      <title>Wiring an AI Agent to Apache Polaris with the Model Context Protocol</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-mcp-apache-polaris</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-mcp-apache-polaris</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The catalog is the right attachment point for AI agents working against a lakehouse. Here's how to wire the official Polaris MCP Server and add the read path it deliberately leaves out.]]></description>
+    </item>
+    <item>
+      <title>The Parquet Versioning Problem, and Why Iceberg Cares About It</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-parquet-versioning-iceberg-v4</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-parquet-versioning-iceberg-v4</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Parquet files have a version field that doesn't reliably signal feature requirements. A new versioning discipline is coming, borrowing from Iceberg's format version model.]]></description>
+    </item>
     <item>
       <title>Governing What Agents Cost You</title>
       <link>https://ingestthis.com/posts/2026/2026-07-agent-cost-governance</link>
@@ -98,55 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-24-open-lakehouse-breakdown-2026</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A detailed breakdown of the five Apache projects powering the open lakehouse in 2026 -- Parquet, Iceberg, Polaris, Arrow, and Ossie -- and how to build one yourself or use a managed platform.]]></description>
-    </item>
-    <item>
-      <title>Understanding the RAMpocalypse: An Economic Autopsy of the Great Memory Shortage and What Comes Next</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-24-rampocalypse-economics</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-24-rampocalypse-economics</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An economic autopsy of the 2026 memory shortage -- why DRAM prices surged 90% in a quarter, and what supply, demand, and market structure mean for the future of computing hardware.]]></description>
-    </item>
-    <item>
-      <title>The Own Goal: What the Hugging Face Breach Reveals About Why Open Models Are a Security Necessity</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-24-value-of-open-models-security</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-24-value-of-open-models-security</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How the 2026 Hugging Face breach proved that open models are a security necessity -- closed models failed to defend, an open Chinese model succeeded, and the lessons for AI policy.]]></description>
-    </item>
-    <item>
-      <title>Active Analytics Loops for AI Action Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-active-analytics-loop-goal-directed-action-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-active-analytics-loop-goal-directed-action-agents</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of active analytics loops for ai action agents]]></description>
-    </item>
-    <item>
-      <title>Apache Polaris and Multi-Engine Iceberg Catalogs</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-apache-polaris-asf-top-level-multi-engine-catalog-interoperability</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-apache-polaris-asf-top-level-multi-engine-catalog-interoperability</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of apache polaris and multi-engine iceberg catalogs]]></description>
-    </item>
-    <item>
-      <title>Automated Materialized Views in Dremio</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-automated-materialized-views-autonomous-table-optimization-dremio-agentic-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-automated-materialized-views-autonomous-table-optimization-dremio-agentic-lakehouse</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of automated materialized views in dremio]]></description>
-    </item>
-    <item>
-      <title>The Chase-Catch Gap in Enterprise AI Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-chase-catch-gap-agentic-ai-enterprise-scale-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-chase-catch-gap-agentic-ai-enterprise-scale-2026</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of the chase-catch gap in enterprise ai agents]]></description>
-    </item>
-    <item>
-      <title>Data Lakehouse Open Standards for AI Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-13-data-lakehouse-open-standards-agentic-era</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-13-data-lakehouse-open-standards-agentic-era</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An in-depth exploration of data lakehouse open standards for ai agents]]></description>
     </item>
     </channel>
   </rss>
