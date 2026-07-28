@@ -5,15 +5,36 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 28 Jul 2026 13:00:35 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 28 Jul 2026 13:48:24 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Guardrails for Analytics Agents That Do More Than Answer Questions</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-agent-guardrails-human-in-the-loop</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-agent-guardrails-human-in-the-loop</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The risk isn't agents going rogue, it's agents acting correctly on bad input at machine speed. Here's how to classify actions by consequence, gate capability, and design approval steps people actually use.]]></description>
+    </item>
     <item>
       <title>Building Agent Telemetry Tables in Iceberg That Survive an Audit</title>
       <link>https://ingestthis.com/posts/2026/2026-07-28-agent-telemetry-iceberg-audit</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-28-agent-telemetry-iceberg-audit</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A practical guide to building agent decision traces in Apache Iceberg that support audit reconstruction, governance review, and cost attribution across sessions.]]></description>
+    </item>
+    <item>
+      <title>What Agentic Analytics Actually Costs, and How to Keep It Bounded</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-agentic-analytics-tco</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-agentic-analytics-tco</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agent analytics generates two cost streams that scale on different variables. Here's the arithmetic, the levers that actually move the number, and how to build attribution before you need it.]]></description>
+    </item>
+    <item>
+      <title>Running an Apache Iceberg Lakehouse With No Internet Connection</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-air-gapped-iceberg-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-air-gapped-iceberg-lakehouse</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A practical guide to deploying an Iceberg lakehouse in air-gapped environments: component choices, artifact pipelines, identity without a cloud, and the operational realities that surprise teams.]]></description>
     </item>
     <item>
       <title>When the Query Optimizer Starts Managing Its Own Materializations</title>
@@ -37,6 +58,13 @@
       <description><![CDATA[Equality deletes made streaming upserts into Iceberg practical at the cost of read performance. V4 proposes retiring them in favor of deletion vectors with an async conversion path.]]></description>
     </item>
     <item>
+      <title>Apache Fluss and Kafka Solve Different Problems in an Iceberg Pipeline</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-fluss-kafka-iceberg-streaming</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-fluss-kafka-iceberg-streaming</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Fluss puts a columnar, indexed hot tier between Kafka and Iceberg. Here's what it changes structurally, what Kafka still does better, and how to benchmark the comparison yourself.]]></description>
+    </item>
+    <item>
       <title>Surviving Commit Conflicts When Dozens of Writers Hit the Same Iceberg Table</title>
       <link>https://ingestthis.com/posts/2026/2026-07-28-iceberg-concurrent-commits-agents</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-28-iceberg-concurrent-commits-agents</guid>
@@ -44,11 +72,25 @@
       <description><![CDATA[Commit conflicts multiply with writer count, and AI agents introduce unpredictable write patterns. Here's how to diagnose, tune, and architect around Iceberg's optimistic concurrency.]]></description>
     </item>
     <item>
+      <title>The Jackson 3 Problem in Apache Iceberg, and What It Means for Your Code</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-iceberg-jackson-3-migration</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-iceberg-jackson-3-migration</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Jackson 3 changes everything: package names, unchecked exceptions, flipped defaults. Here's what breaks, why the engines are fine and your service isn't, and how to migrate safely.]]></description>
+    </item>
+    <item>
       <title>Wiring an AI Agent to Apache Polaris with the Model Context Protocol</title>
       <link>https://ingestthis.com/posts/2026/2026-07-28-mcp-apache-polaris</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-28-mcp-apache-polaris</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[The catalog is the right attachment point for AI agents working against a lakehouse. Here's how to wire the official Polaris MCP Server and add the read path it deliberately leaves out.]]></description>
+    </item>
+    <item>
+      <title>Governing Iceberg Tables Across Regions Without Three Sets of Permissions</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-multi-region-catalog-federation</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-multi-region-catalog-federation</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Catalog federation gives you one authorization model and one audit point across regions. Here's what it solves, what it doesn't, and how to build a topology you can actually govern.]]></description>
     </item>
     <item>
       <title>The Parquet Versioning Problem, and Why Iceberg Cares About It</title>
@@ -105,48 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-sovereign-lakehouse</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Residency is a storage location. Sovereignty is who can compel access, who operates the systems, and whether you can leave. A practical guide to sovereign lakehouse architecture in 2026.]]></description>
-    </item>
-    <item>
-      <title>Table Maintenance Stopped Being a Product</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-table-maintenance-economics</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-table-maintenance-economics</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Iceberg table maintenance commoditized when every platform started shipping it. What the six operations are, what they cost, and the observability you should keep even when the work is managed.]]></description>
-    </item>
-    <item>
-      <title>The Model Class Enterprise Data Teams Are Not Using Yet</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-tabular-foundation-models</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-tabular-foundation-models</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Tabular foundation models perform supervised learning in a single forward pass with no training run. What they are, where they win, and what they change in the data architecture.]]></description>
-    </item>
-    <item>
-      <title>Three Vendors Are Rebuilding the Path From Transaction to Agent</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-transaction-to-agent-race</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-transaction-to-agent-race</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Databricks, Snowflake, and SAP are closing the gap between operational databases and analytical platforms through acquisition, betting on different layers of the same five-part architecture.]]></description>
-    </item>
-    <item>
-      <title>What Zero-Copy Actually Costs</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-zero-copy-actually-costs</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-zero-copy-actually-costs</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Six architectures share the phrase zero-copy, and they have different costs, failure modes, and governance stories. A walk through federation, virtualization, sharing protocols, and materialization.]]></description>
-    </item>
-    <item>
-      <title>The Filters We Build: Scams, Slop, and the Search for Signal, From Radio Ads to AI</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-24-cognitive-filters-media-evolution</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-24-cognitive-filters-media-evolution</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How every media era from radio to AI forces humanity to build new cognitive filters -- the shield against scams and the sieve for finding signal in an ocean of noise.]]></description>
-    </item>
-    <item>
-      <title>The Breakdown of the Open Lakehouse in 2026: Iceberg, Arrow, Polaris, Parquet, and Ossie, and How to Actually Build One</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-24-open-lakehouse-breakdown-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-24-open-lakehouse-breakdown-2026</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A detailed breakdown of the five Apache projects powering the open lakehouse in 2026 -- Parquet, Iceberg, Polaris, Arrow, and Ossie -- and how to build one yourself or use a managed platform.]]></description>
     </item>
     </channel>
   </rss>
