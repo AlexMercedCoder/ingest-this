@@ -5,7 +5,7 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 28 Jul 2026 13:48:24 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 28 Jul 2026 14:25:09 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
@@ -58,11 +58,25 @@
       <description><![CDATA[Equality deletes made streaming upserts into Iceberg practical at the cost of read performance. V4 proposes retiring them in favor of deletion vectors with an async conversion path.]]></description>
     </item>
     <item>
+      <title>The Five Layers Between Your Lakehouse and a Trustworthy Agent</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-five-layer-agentic-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-five-layer-agentic-lakehouse</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agent reliability is a property of the stack the model sits on. Five layers with distinct owners and failure modes turn the agent is unreliable into a specific diagnosis.]]></description>
+    </item>
+    <item>
       <title>Apache Fluss and Kafka Solve Different Problems in an Iceberg Pipeline</title>
       <link>https://ingestthis.com/posts/2026/2026-07-28-fluss-kafka-iceberg-streaming</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-28-fluss-kafka-iceberg-streaming</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Fluss puts a columnar, indexed hot tier between Kafka and Iceberg. Here's what it changes structurally, what Kafka still does better, and how to benchmark the comparison yourself.]]></description>
+    </item>
+    <item>
+      <title>Serving Sub-Second Queries Over an Iceberg Lakehouse With a Hot Tier</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-hot-tier-iceberg-serving</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-hot-tier-iceberg-serving</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A lakehouse cannot serve sub-second queries over seconds-old data. A hot tier in front solves it, with consequences for consistency, governance, and operational surface.]]></description>
     </item>
     <item>
       <title>Surviving Commit Conflicts When Dozens of Writers Hit the Same Iceberg Table</title>
@@ -93,11 +107,25 @@
       <description><![CDATA[Catalog federation gives you one authorization model and one audit point across regions. Here's what it solves, what it doesn't, and how to build a topology you can actually govern.]]></description>
     </item>
     <item>
+      <title>Federating Oracle With an Open Lakehouse Instead of Migrating It</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-oracle-lakehouse-federation</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-oracle-lakehouse-federation</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Federate first so analytics work now, migrate what benefits from migrating, and leave the rest where it is indefinitely. Here's how pushdown and view layers make it work.]]></description>
+    </item>
+    <item>
       <title>The Parquet Versioning Problem, and Why Iceberg Cares About It</title>
       <link>https://ingestthis.com/posts/2026/2026-07-28-parquet-versioning-iceberg-v4</link>
       <guid>https://ingestthis.com/posts/2026/2026-07-28-parquet-versioning-iceberg-v4</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Parquet files have a version field that doesn't reliably signal feature requirements. A new versioning discipline is coming, borrowing from Iceberg's format version model.]]></description>
+    </item>
+    <item>
+      <title>Building Iceberg Pipelines in Python Without Standing Up Spark</title>
+      <link>https://ingestthis.com/posts/2026/2026-07-28-python-native-iceberg-pipelines</link>
+      <guid>https://ingestthis.com/posts/2026/2026-07-28-python-native-iceberg-pipelines</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A large share of production transformations fit comfortably on one machine. PyIceberg, DuckDB, and branch isolation give you a production path that debugs in an IDE.]]></description>
     </item>
     <item>
       <title>Governing What Agents Cost You</title>
@@ -119,34 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-freshness-as-a-contract</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Data freshness needs to become an engineering contract with a measurable value, an owner, and consequences. How to decompose lag, make freshness queryable, and keep agents honest.]]></description>
-    </item>
-    <item>
-      <title>The Apache Iceberg Market in the Middle of 2026</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-iceberg-market-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-iceberg-market-2026</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A survey of the Apache Iceberg market in July 2026: the state of the specification, platform support, the acquisition wave, the catalog contest, and how to evaluate real Iceberg support.]]></description>
-    </item>
-    <item>
-      <title>The Whole Lakehouse Fits on Your Laptop Now</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-laptop-scale-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-laptop-scale-lakehouse</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Consumer hardware, columnar formats, single-node engines, and the Iceberg REST catalog crossed a threshold: a large share of cluster work now runs locally against the same governed tables.]]></description>
-    </item>
-    <item>
-      <title>Iceberg's Next Version Depends on Decisions Being Made in Parquet</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-parquet-constrains-iceberg</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-parquet-constrains-iceberg</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The Iceberg and Parquet specifications are co-evolving. Several of the most consequential Iceberg v4 proposals are waiting on Parquet work, and practitioners should read both dev lists.]]></description>
-    </item>
-    <item>
-      <title>Building a Lakehouse That Stays Inside the Border</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-sovereign-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-sovereign-lakehouse</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Residency is a storage location. Sovereignty is who can compel access, who operates the systems, and whether you can leave. A practical guide to sovereign lakehouse architecture in 2026.]]></description>
     </item>
     </channel>
   </rss>
