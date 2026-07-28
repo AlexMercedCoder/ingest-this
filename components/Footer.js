@@ -29,6 +29,9 @@ function Footer(props) {
         &copy; {new Date().getFullYear()} Alex Merced &mdash;{" "}
         <a href="https://www.alexmercedcoder.dev" rel="author noopener noreferrer">alexmercedcoder.dev</a>
       </p>
+      <p style={{fontSize:'0.8rem',marginTop:'0.25rem',opacity:0.7}}>
+        The views, thoughts, and opinions expressed on this site belong solely to Alex Merced and do not represent the views of any organization or employer.
+      </p>
     </footer>
   );
 }
