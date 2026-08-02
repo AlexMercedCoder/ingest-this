@@ -5,9 +5,30 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 28 Jul 2026 17:29:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 02 Aug 2026 20:45:55 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Apache Polaris 1.7.0 and the Quiet Work of Making a Catalog Trustworthy</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-02-apache-polaris-1-7-0</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-02-apache-polaris-1-7-0</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Polaris 1.7.0 deep dive: idempotent writes, semantic models, stricter credential vending, orphan cleanup, and what the upgrade asks of you.]]></description>
+    </item>
+    <item>
+      <title>Designing Batch Pipelines That Write Well Into Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-02-batch-pipelines-into-apache-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-02-batch-pipelines-into-apache-iceberg</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How to design batch pipelines that write well into Apache Iceberg: commit strategy, partitioning, sort order, write-audit-publish, and maintenance done right.]]></description>
+    </item>
+    <item>
+      <title>Apache Iceberg Support Across the Major Hyperscalers</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-02-iceberg-across-the-hyperscalers</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-02-iceberg-across-the-hyperscalers</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How AWS, Google Cloud, and Microsoft Azure actually support Apache Iceberg: storage, catalogs, maintenance, governance, and interoperability, layer by layer.]]></description>
+    </item>
     <item>
       <title>Guardrails for Analytics Agents That Do More Than Answer Questions</title>
       <link>https://ingestthis.com/posts/2026/2026-07-28-agent-guardrails-human-in-the-loop</link>
@@ -126,27 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-28-python-native-iceberg-pipelines</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A large share of production transformations fit comfortably on one machine. PyIceberg, DuckDB, and branch isolation give you a production path that debugs in an IDE.]]></description>
-    </item>
-    <item>
-      <title>Governing What Agents Cost You</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-agent-cost-governance</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-agent-cost-governance</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agents break the four assumptions analytics platforms were built on. A practical guide to identity, budgets, semantic layers, caching, and instrumentation for agent workloads.]]></description>
-    </item>
-    <item>
-      <title>Every AI Model Family That Matters in Mid-2026</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-ai-model-families-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-ai-model-families-2026</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A full survey of the AI model landscape in mid-2026: frontier families, open-weight labs, local inference, specialists, and how to build a routing layer instead of a dependency.]]></description>
-    </item>
-    <item>
-      <title>Freshness Is a Contract, Not a Note on a Dashboard</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-freshness-as-a-contract</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-freshness-as-a-contract</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Data freshness needs to become an engineering contract with a measurable value, an owner, and consequences. How to decompose lag, make freshness queryable, and keep agents honest.]]></description>
     </item>
     </channel>
   </rss>
