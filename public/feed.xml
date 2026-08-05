@@ -5,15 +5,36 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Wed, 05 Aug 2026 00:12:21 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 05 Aug 2026 00:34:50 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Budgeting for Agentic Analytics When Every Question Costs Something Different</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-agentic-analytics-tco-token-budgets</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-agentic-analytics-tco-token-budgets</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Budgeting for agentic analytics when every question costs something different: token economics, query economics, instrumentation, and the cost controls that actually return.]]></description>
+    </item>
+    <item>
+      <title>The Five Layers of an Agentic Lakehouse and Where the MCP Server Sits</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-agentic-lakehouse-mcp-architecture</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-agentic-lakehouse-mcp-architecture</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The five layers of an agentic lakehouse and where the MCP server sits: storage, catalog, semantic layer, MCP gateway, and agent surface, plus identity, session isolation, and budgets.]]></description>
+    </item>
     <item>
       <title>Building Apache Iceberg Lakehouses That Run Without an Internet Connection</title>
       <link>https://ingestthis.com/posts/2026/2026-08-04-building-air-gapped-iceberg-lakehouse</link>
       <guid>https://ingestthis.com/posts/2026/2026-08-04-building-air-gapped-iceberg-lakehouse</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[How to build an Apache Iceberg lakehouse that runs fully offline: storage, catalog, compute, cross-zone transfer, compliance, and the failure modes that bite.]]></description>
+    </item>
+    <item>
+      <title>Wiring Analytical Queries to Transactional APIs in Closed-Loop Decision Agents</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-closed-loop-decision-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-closed-loop-decision-agents</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Wiring analytical queries to transactional APIs in closed-loop decision agents: conditional writes, sagas with compensations, decision records, and blast radius controls.]]></description>
     </item>
     <item>
       <title>How Iceberg V3 Deletion Vectors Fixed Merge-on-Read for Streaming Tables</title>
@@ -42,6 +63,27 @@
       <guid>https://ingestthis.com/posts/2026/2026-08-04-lakehouse-vs-warehouse-tco</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[An honest TCO framework for open lakehouses versus proprietary warehouses: five cost categories, measured numbers, sensitivity analysis, and where each side still wins.]]></description>
+    </item>
+    <item>
+      <title>Why Agentic AI Needs a Governed Semantic Layer Behind the Model Context Protocol</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-mcp-governed-semantic-layer</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-mcp-governed-semantic-layer</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Why agentic AI needs a governed semantic layer behind the Model Context Protocol: metric consistency, access control, Apache Ossie for portable definitions, and Apache Polaris for enforcement.]]></description>
+    </item>
+    <item>
+      <title>Moving From Supply Chain Dashboards to Decision Loops With the Model Context Protocol</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-mcp-supply-chain-decision-loops</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-mcp-supply-chain-decision-loops</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Moving from supply chain dashboards to decision loops with MCP: sense, decide, act, and verify, with typed action tools, idempotency keys, and graduated human approval.]]></description>
+    </item>
+    <item>
+      <title>Metric Contracts as the Interface AI Agents Actually Need</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-metric-contracts-for-ai-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-metric-contracts-for-ai-agents</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Metric contracts as the interface AI agents need: calculation, inclusion rules, grain, temporal semantics, ownership, semantic versioning, and testing metrics in CI.]]></description>
     </item>
     <item>
       <title>Cross-Cloud Credential Vending in Apache Polaris and the End of Permanent Storage Keys</title>
@@ -105,48 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-28-agent-telemetry-iceberg-audit</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A practical guide to building agent decision traces in Apache Iceberg that support audit reconstruction, governance review, and cost attribution across sessions.]]></description>
-    </item>
-    <item>
-      <title>What Agentic Analytics Actually Costs, and How to Keep It Bounded</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-agentic-analytics-tco</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-agentic-analytics-tco</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agent analytics generates two cost streams that scale on different variables. Here's the arithmetic, the levers that actually move the number, and how to build attribution before you need it.]]></description>
-    </item>
-    <item>
-      <title>Running an Apache Iceberg Lakehouse With No Internet Connection</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-air-gapped-iceberg-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-air-gapped-iceberg-lakehouse</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A practical guide to deploying an Iceberg lakehouse in air-gapped environments: component choices, artifact pipelines, identity without a cloud, and the operational realities that surprise teams.]]></description>
-    </item>
-    <item>
-      <title>When the Query Optimizer Starts Managing Its Own Materializations</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-autonomous-reflections-agentic-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-autonomous-reflections-agentic-lakehouse</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Autonomous materialized view management replaces quarterly review meetings with workload-driven scoring, and it's essential when AI agents generate unpredictable query patterns.]]></description>
-    </item>
-    <item>
-      <title>Why AI Agents Fail on Raw Data, and What to Give Them Instead</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-data-products-for-ai-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-data-products-for-ai-agents</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agents fail on raw lake data because business rules live in people's heads. Data products with semantic contracts fix this at the source.]]></description>
-    </item>
-    <item>
-      <title>Why Iceberg V4 Wants to Retire Equality Deletes, and What Streaming Teams Should Do About It</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-equality-deletes-iceberg-v4</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-equality-deletes-iceberg-v4</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Equality deletes made streaming upserts into Iceberg practical at the cost of read performance. V4 proposes retiring them in favor of deletion vectors with an async conversion path.]]></description>
-    </item>
-    <item>
-      <title>The Five Layers Between Your Lakehouse and a Trustworthy Agent</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-five-layer-agentic-lakehouse</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-five-layer-agentic-lakehouse</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agent reliability is a property of the stack the model sits on. Five layers with distinct owners and failure modes turn the agent is unreliable into a specific diagnosis.]]></description>
     </item>
     </channel>
   </rss>
