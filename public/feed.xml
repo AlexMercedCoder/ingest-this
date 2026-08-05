@@ -5,9 +5,72 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 02 Aug 2026 20:45:55 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 05 Aug 2026 00:12:21 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Building Apache Iceberg Lakehouses That Run Without an Internet Connection</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-building-air-gapped-iceberg-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-building-air-gapped-iceberg-lakehouse</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How to build an Apache Iceberg lakehouse that runs fully offline: storage, catalog, compute, cross-zone transfer, compliance, and the failure modes that bite.]]></description>
+    </item>
+    <item>
+      <title>How Iceberg V3 Deletion Vectors Fixed Merge-on-Read for Streaming Tables</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-deletion-vectors-merge-on-read</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-deletion-vectors-merge-on-read</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Iceberg V3 deletion vectors replaced accumulating positional delete files and made merge-on-read viable for streaming and CDC tables.]]></description>
+    </item>
+    <item>
+      <title>How Iceberg V3 Variant Shredding Changed Semi-Structured Data on S3 Tables</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-variant-shredding-s3-tables</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-variant-shredding-s3-tables</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Iceberg V3's Variant type and Parquet shredding turn JSON columns into prunable typed columns, with real benchmark tradeoffs and a migration path.]]></description>
+    </item>
+    <item>
+      <title>Reading the Apache Iceberg V4 Proposals Before They Land</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v4-roadmap</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v4-roadmap</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A field guide to the Apache Iceberg V4 proposals: adaptive metadata trees, single-file commits, typed statistics, column families, and what is safe to build on today.]]></description>
+    </item>
+    <item>
+      <title>Building an Honest TCO Model for Open Lakehouses and Proprietary Warehouses</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-lakehouse-vs-warehouse-tco</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-lakehouse-vs-warehouse-tco</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[An honest TCO framework for open lakehouses versus proprietary warehouses: five cost categories, measured numbers, sensitivity analysis, and where each side still wins.]]></description>
+    </item>
+    <item>
+      <title>Cross-Cloud Credential Vending in Apache Polaris and the End of Permanent Storage Keys</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-polaris-cross-cloud-credential-vending</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-polaris-cross-cloud-credential-vending</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Apache Polaris vends short-lived, prefix-scoped storage credentials across AWS, Azure, and GCP, and how to retire permanent storage keys for good.]]></description>
+    </item>
+    <item>
+      <title>How the Iceberg REST Catalog Turned Into the Lakehouse Control Plane</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-rest-catalog-v2-multi-table-commits</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-rest-catalog-v2-multi-table-commits</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How the Iceberg REST catalog became the lakehouse control plane: multi-table atomic commits, credential vending, capability negotiation, and what still breaks.]]></description>
+    </item>
+    <item>
+      <title>A Migration Playbook for Moving Legacy Warehouses onto Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-warehouse-to-iceberg-migration-playbook</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-warehouse-to-iceberg-migration-playbook</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A dependency-first playbook for migrating legacy warehouses onto Apache Iceberg: snapshot vs migrate vs add_files, four-level parity validation, and federation-based cutover.]]></description>
+    </item>
+    <item>
+      <title>What Zero-Copy Data Sharing Actually Does Between Salesforce, Snowflake, and Databricks</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-04-zero-copy-data-sharing-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-04-zero-copy-data-sharing-iceberg</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What zero-copy data sharing actually does across Salesforce, Snowflake, and Databricks: query federation, file federation, catalog federation, and when copying still wins.]]></description>
+    </item>
     <item>
       <title>Apache Polaris 1.7.0 and the Quiet Work of Making a Catalog Trustworthy</title>
       <link>https://ingestthis.com/posts/2026/2026-08-02-apache-polaris-1-7-0</link>
@@ -84,69 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-07-28-five-layer-agentic-lakehouse</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Agent reliability is a property of the stack the model sits on. Five layers with distinct owners and failure modes turn the agent is unreliable into a specific diagnosis.]]></description>
-    </item>
-    <item>
-      <title>Apache Fluss and Kafka Solve Different Problems in an Iceberg Pipeline</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-fluss-kafka-iceberg-streaming</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-fluss-kafka-iceberg-streaming</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Fluss puts a columnar, indexed hot tier between Kafka and Iceberg. Here's what it changes structurally, what Kafka still does better, and how to benchmark the comparison yourself.]]></description>
-    </item>
-    <item>
-      <title>Serving Sub-Second Queries Over an Iceberg Lakehouse With a Hot Tier</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-hot-tier-iceberg-serving</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-hot-tier-iceberg-serving</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A lakehouse cannot serve sub-second queries over seconds-old data. A hot tier in front solves it, with consequences for consistency, governance, and operational surface.]]></description>
-    </item>
-    <item>
-      <title>Surviving Commit Conflicts When Dozens of Writers Hit the Same Iceberg Table</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-iceberg-concurrent-commits-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-iceberg-concurrent-commits-agents</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Commit conflicts multiply with writer count, and AI agents introduce unpredictable write patterns. Here's how to diagnose, tune, and architect around Iceberg's optimistic concurrency.]]></description>
-    </item>
-    <item>
-      <title>The Jackson 3 Problem in Apache Iceberg, and What It Means for Your Code</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-iceberg-jackson-3-migration</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-iceberg-jackson-3-migration</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Jackson 3 changes everything: package names, unchecked exceptions, flipped defaults. Here's what breaks, why the engines are fine and your service isn't, and how to migrate safely.]]></description>
-    </item>
-    <item>
-      <title>Wiring an AI Agent to Apache Polaris with the Model Context Protocol</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-mcp-apache-polaris</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-mcp-apache-polaris</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The catalog is the right attachment point for AI agents working against a lakehouse. Here's how to wire the official Polaris MCP Server and add the read path it deliberately leaves out.]]></description>
-    </item>
-    <item>
-      <title>Governing Iceberg Tables Across Regions Without Three Sets of Permissions</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-multi-region-catalog-federation</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-multi-region-catalog-federation</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Catalog federation gives you one authorization model and one audit point across regions. Here's what it solves, what it doesn't, and how to build a topology you can actually govern.]]></description>
-    </item>
-    <item>
-      <title>Federating Oracle With an Open Lakehouse Instead of Migrating It</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-oracle-lakehouse-federation</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-oracle-lakehouse-federation</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Federate first so analytics work now, migrate what benefits from migrating, and leave the rest where it is indefinitely. Here's how pushdown and view layers make it work.]]></description>
-    </item>
-    <item>
-      <title>The Parquet Versioning Problem, and Why Iceberg Cares About It</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-parquet-versioning-iceberg-v4</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-parquet-versioning-iceberg-v4</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Parquet files have a version field that doesn't reliably signal feature requirements. A new versioning discipline is coming, borrowing from Iceberg's format version model.]]></description>
-    </item>
-    <item>
-      <title>Building Iceberg Pipelines in Python Without Standing Up Spark</title>
-      <link>https://ingestthis.com/posts/2026/2026-07-28-python-native-iceberg-pipelines</link>
-      <guid>https://ingestthis.com/posts/2026/2026-07-28-python-native-iceberg-pipelines</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A large share of production transformations fit comfortably on one machine. PyIceberg, DuckDB, and branch isolation give you a production path that debugs in an IDE.]]></description>
     </item>
     </channel>
   </rss>
