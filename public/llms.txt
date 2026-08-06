@@ -60,6 +60,7 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 
 ## Technical Articles & Tutorials
 
+- [Apache Arrow Flight and ADBC, and Why Database Connectivity Finally Went Columnar](https://ingestthis.com/posts/2026/2026-08-06-arrow-flight-adbc-explained): Article about Apache Arrow Flight and ADBC, and Why Database Connectivity Finally Went Columnar
 - [Budgeting for Agentic Analytics When Every Question Costs Something Different](https://ingestthis.com/posts/2026/2026-08-04-agentic-analytics-tco-token-budgets): Budgeting for agentic analytics when every question costs something different: token economics, query economics, instrumentation, and the cost controls that actually return.
 - [The Five Layers of an Agentic Lakehouse and Where the MCP Server Sits](https://ingestthis.com/posts/2026/2026-08-04-agentic-lakehouse-mcp-architecture): The five layers of an agentic lakehouse and where the MCP server sits: storage, catalog, semantic layer, MCP gateway, and agent surface, plus identity, session isolation, and budgets.
 - [Autonomous Table Optimization When Your Query Workload Stops Being Predictable](https://ingestthis.com/posts/2026/2026-08-04-autonomous-table-optimization): Autonomous table optimization when query workloads stop being predictable: observing file layout and query patterns, scoring compaction work, adaptive sort order, and cost discipline.

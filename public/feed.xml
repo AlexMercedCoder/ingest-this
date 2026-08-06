@@ -5,9 +5,16 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Wed, 05 Aug 2026 00:50:55 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 06 Aug 2026 14:09:26 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Apache Arrow Flight and ADBC, and Why Database Connectivity Finally Went Columnar</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-06-arrow-flight-adbc-explained</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-06-arrow-flight-adbc-explained</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[]]></description>
+    </item>
     <item>
       <title>Budgeting for Agentic Analytics When Every Question Costs Something Different</title>
       <link>https://ingestthis.com/posts/2026/2026-08-04-agentic-analytics-tco-token-budgets</link>
@@ -140,13 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-08-04-zero-copy-data-sharing-iceberg</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[What zero-copy data sharing actually does across Salesforce, Snowflake, and Databricks: query federation, file federation, catalog federation, and when copying still wins.]]></description>
-    </item>
-    <item>
-      <title>Apache Polaris 1.7.0 and the Quiet Work of Making a Catalog Trustworthy</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-02-apache-polaris-1-7-0</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-02-apache-polaris-1-7-0</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Polaris 1.7.0 deep dive: idempotent writes, semantic models, stricter credential vending, orphan cleanup, and what the upgrade asks of you.]]></description>
     </item>
     </channel>
   </rss>
