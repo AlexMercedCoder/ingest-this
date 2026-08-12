@@ -7,7 +7,7 @@
   max-width: var(--page-max-width);
   margin: 0 auto;
   padding: var(--spacing-48) var(--spacing-40);
-  background-color: var(--color-midnight-canvas);
+  background-color: var(--surface-page);
   min-height: 100vh;
 }
 
@@ -23,14 +23,14 @@
   font-size: clamp(1.8rem, 4vw, var(--text-heading-lg));
   letter-spacing: var(--tracking-heading-lg);
   font-weight: var(--font-weight-bold);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
   margin-bottom: var(--spacing-12);
 }
 
 .featured a {
   font-size: clamp(1.5rem, 3vw, var(--text-heading-size));
   font-weight: var(--font-weight-bold);
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
   line-height: var(--leading-heading);
   letter-spacing: var(--tracking-heading);
   transition: color 0.2s;
@@ -52,7 +52,7 @@
 
 /* Card — Warm Violet base, alternate colors via nth-child */
 .card {
-  background-color: var(--color-warm-violet);
+  background-color: var(--accent-text-alt);
   border-radius: var(--radius-cards);
   overflow: hidden;
   transition: transform 0.25s ease, filter 0.25s ease;
@@ -62,9 +62,9 @@
   cursor: pointer;
 }
 
-.card:nth-child(3n+1) { background-color: var(--color-warm-violet); }
-.card:nth-child(3n+2) { background-color: var(--color-deep-plum); }
-.card:nth-child(3n)   { background-color: var(--color-charcoal-teal); }
+.card:nth-child(3n+1) { background-color: var(--accent-text-alt); }
+.card:nth-child(3n+2) { background-color: var(--card-plum); }
+.card:nth-child(3n)   { background-color: var(--card-teal); }
 
 .card:hover {
   transform: translateY(-6px);
@@ -92,7 +92,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,0.3);
+  color: var(--text-muted);
   font-size: 2rem;
 }
 
@@ -107,30 +107,30 @@
 .cardMeta {
   font-family: var(--font-apercu-pro-mono);
   font-size: var(--text-caption);
-  color: rgba(0,0,0,0.55);
+  color: rgba(0,0,0,0.74);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .card:nth-child(3n+2) .cardMeta {
-  color: rgba(255,255,255,0.45);
+  color: var(--text-muted);
 }
 .card:nth-child(3n) .cardMeta {
-  color: rgba(255,255,255,0.45);
+  color: var(--text-muted);
 }
 
 .cardTitle {
   font-family: var(--font-nng);
   font-size: var(--text-body);
   font-weight: var(--font-weight-bold);
-  color: var(--color-midnight-canvas);
+  color: var(--ink-on-pastel);
   line-height: 1.3;
   letter-spacing: -0.01em;
 }
 
 .card:nth-child(3n+2) .cardTitle,
 .card:nth-child(3n) .cardTitle {
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
 }
 
 .cardExcerpt {
@@ -143,7 +143,7 @@
 
 .card:nth-child(3n+2) .cardExcerpt,
 .card:nth-child(3n) .cardExcerpt {
-  color: rgba(255,255,255,0.65);
+  color: var(--text-muted);
 }
 
 /* ===== SIDEBAR ===== */
@@ -154,7 +154,7 @@
 }
 
 .searchBox {
-  background-color: var(--color-charcoal-teal);
+  background-color: var(--card-teal);
   padding: var(--spacing-20);
   border-radius: var(--radius-cards);
 }
@@ -164,7 +164,7 @@
   font-size: var(--text-body-sm);
   font-weight: var(--font-weight-bold);
   margin-bottom: var(--spacing-16);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -177,24 +177,24 @@
   margin-bottom: var(--spacing-12);
   font-family: var(--font-nng);
   background-color: rgba(0,0,0,0.4);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
   font-size: var(--text-body-sm);
 }
 
 .searchBox input::placeholder {
-  color: rgba(255,255,255,0.3);
+  color: var(--text-muted);
 }
 
 .searchBox input:focus {
   outline: none;
-  border-color: var(--color-warm-violet);
+  border-color: var(--accent-text-alt);
 }
 
 .searchButton {
   width: 100%;
   padding: var(--spacing-10) var(--spacing-16);
   background-color: var(--color-earth-clay);
-  color: var(--color-golden-ochre);
+  color: var(--accent-text);
   border: 1px solid var(--color-golden-ochre);
   border-radius: var(--radius-buttons);
   cursor: pointer;
@@ -212,7 +212,7 @@
 
 /* Categories sidebar */
 .categories {
-  background-color: var(--color-deep-plum);
+  background-color: var(--card-plum);
   padding: var(--spacing-20);
   border-radius: var(--radius-cards);
 }
@@ -233,7 +233,7 @@
 }
 
 .categories a:hover {
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
 }
 
 /* ===== PAGINATION BUTTONS ===== */
@@ -247,13 +247,13 @@
 
 .buttons button {
   padding: var(--spacing-12) var(--spacing-40);
-  background-color: var(--color-midnight-canvas);
+  background-color: var(--surface-page);
   border: 1px solid var(--color-ash-cloud);
   border-radius: var(--radius-buttons);
   cursor: pointer;
   font-family: var(--font-nng);
   font-weight: var(--font-weight-medium);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
   font-size: var(--text-body-sm);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -262,8 +262,8 @@
 
 .buttons button:hover {
   background-color: var(--color-earth-clay);
-  color: var(--color-golden-ochre);
-  border-color: var(--color-golden-ochre);
+  color: var(--accent-text);
+  border-color: var(--accent-text);
 }
 
 /* ===== RESPONSIVE ===== */

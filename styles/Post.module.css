@@ -4,7 +4,7 @@
   max-width: 760px;
   margin: 0 auto;
   padding: var(--spacing-48) var(--spacing-40);
-  background-color: var(--color-midnight-canvas);
+  background-color: var(--surface-page);
   min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--tracking-heading-lg);
   line-height: var(--leading-heading-lg);
-  color: var(--color-ash-cloud);
+  color: var(--text-heading);
   margin-bottom: var(--spacing-24);
 }
 
@@ -47,7 +47,7 @@
 .metaRow {
   display: flex;
   gap: var(--spacing-24);
-  color: rgba(255,255,255,0.45);
+  color: var(--text-muted);
   font-size: var(--text-body-sm);
   font-family: var(--font-apercu-pro-mono);
   font-weight: var(--font-weight-regular);
@@ -62,7 +62,7 @@
 }
 
 .metaRow a {
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
   transition: color 0.2s;
 }
 
@@ -81,7 +81,7 @@
 /* Category — Earth Clay filled pill */
 .categoryPill {
   background-color: var(--color-earth-clay);
-  color: var(--color-golden-ochre);
+  color: var(--accent-text);
   border: 1px solid var(--color-golden-ochre);
   padding: var(--spacing-4) var(--spacing-16);
   border-radius: var(--radius-buttons);
@@ -95,12 +95,12 @@
 
 .categoryPill:hover {
   background-color: #7a521f;
-  color: var(--color-golden-ochre);
+  color: var(--accent-text);
 }
 
 /* Tags — Charcoal Teal badge */
 .tagHash {
-  background-color: var(--color-charcoal-teal);
+  background-color: var(--card-teal);
   color: #aebbba;
   padding: var(--spacing-4) var(--spacing-8);
   border-radius: var(--radius-badges);
@@ -111,8 +111,8 @@
 }
 
 .tagHash:hover {
-  background-color: var(--color-deep-plum);
-  color: var(--color-warm-violet);
+  background-color: var(--card-plum);
+  color: var(--accent-text-alt);
 }
 
 /* ===== ARTICLE BODY ===== */
@@ -127,7 +127,7 @@
 .main :global(.blog-post) h4 {
   margin-top: var(--spacing-40);
   margin-bottom: var(--spacing-12);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
 }
 
 .main :global(.blog-post) p {
@@ -135,19 +135,19 @@
 }
 
 .main :global(.blog-post) a {
-  color: var(--color-golden-ochre);
+  color: var(--accent-text);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 .main :global(.blog-post) a:hover {
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
 }
 
 /* ===== READ NEXT ===== */
 .main h3 {
   font-size: var(--text-subheading);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
   margin-bottom: var(--spacing-16);
   letter-spacing: var(--tracking-heading);
 }
@@ -160,7 +160,7 @@
 }
 
 .relatedPost {
-  background-color: var(--color-deep-plum);
+  background-color: var(--card-plum);
   border-radius: var(--radius-cards);
   padding: var(--spacing-20);
   transition: filter 0.2s;
@@ -179,7 +179,7 @@
 }
 
 .relatedLink:hover {
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
 }
 
 /* ===== RESPONSIVE ===== */

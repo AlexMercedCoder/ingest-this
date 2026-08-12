@@ -23,15 +23,16 @@
   --surface-4: #e5e6e1;
 
   /* Semantic Aliases */
-  --background-color: var(--color-midnight-canvas);
+  --background-color: var(--surface-page);
   --surface-color: #0d0d0d;
   --text-main: var(--color-ash-cloud);
   --text-heading: var(--color-ash-cloud);
-  --text-muted: #9ca3af;
+  --text-muted: #b6bcc4;   /* 5.3:1 on the lightest card (charcoal teal) */
+  --text-dim:   #cfd4da;   /* for use over the darker plum cards */
   --border-color: var(--color-slate-text);
-  --primary-color: var(--color-warm-violet);
+  --primary-color: var(--accent-text-alt);
   --primary-hover: #cec5e0;
-  --accent-color: var(--color-golden-ochre);
+  --accent-color: var(--accent-text);
   --code-bg: #111111;
   --code-text: var(--color-cream-paper);
 
@@ -117,6 +118,64 @@
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
   --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
   --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
+
+  /* ── Semantic layer ──
+     The --color-* tokens above are brand constants. Only these change between
+     themes. --color-midnight-canvas used to mean both "page background" and
+     "ink text on a pastel card"; those roles are now separate, so the pastel
+     cards keep dark text in both themes. */
+  --surface-page:    var(--color-midnight-canvas);
+  --surface-raised:  #0d0d0d;
+  --surface-sunken:  #070707;
+  --hairline:        rgba(255, 255, 255, 0.08);
+  --ink-on-pastel:   #14161a;
+
+  /* Rotating card surfaces. In daylight these become tinted paper versions of
+     the same hues, so the "matte blocks" idea survives the theme flip. */
+  --card-plum:       var(--color-deep-plum);
+  --card-teal:       var(--color-charcoal-teal);
+  --card-deep:       #1a1428;
+  --ink-on-card:     var(--color-ash-cloud);
+
+  /* Accent *text*. The raw ochre and violet are tuned for midnight; on the
+     daylight card tints they drop to ~1.5:1, so they need theme-aware values
+     separate from the same hues used as fills. */
+  --accent-text:     var(--color-golden-ochre);
+  --accent-text-alt: var(--color-warm-violet);
+}
+
+/* ── Light theme ──
+   Huddle is dark by default (see design.md). This is the opt-in inverse: the
+   midnight canvas becomes warm paper while the pastel blocks and plum cards
+   carry over unchanged, which is what gives the system its character. */
+[data-theme="light"] {
+  --surface-page:    #efeee9;
+  --surface-raised:  #ffffff;
+  --surface-sunken:  #e7e5de;
+  --hairline:        rgba(20, 22, 26, 0.12);
+
+  --text-main:       #14161a;
+  --text-heading:    #14161a;
+  --text-muted:      #55606b;
+  --text-dim:        #3f4954;
+  --border-color:    #d8d5cd;
+  --code-bg:         #f3f2ee;
+  --code-text:       #14161a;
+
+  /* Warm violet is far too light to read on paper; the deep plum is the same
+     family and clears AA. */
+  --primary-color:   #453b60;
+  --primary-hover:   #2f2842;
+
+  --card-plum:       #e0dbec;
+  --card-teal:       #dde3e1;
+  --card-deep:       #e9e3d6;
+  --ink-on-card:     #14161a;
+
+  --accent-text:     #7a5518;
+  --accent-text-alt: #453b60;
+
+  color-scheme: light;
 }
 
 /* ===== RESET ===== */
@@ -133,8 +192,8 @@ html, body {
   font-size: var(--text-body);
   line-height: var(--leading-body);
   letter-spacing: var(--tracking-body);
-  background-color: var(--color-midnight-canvas);
-  color: var(--color-ash-cloud);
+  background-color: var(--surface-page);
+  color: var(--ink-on-card);
   width: 100%;
   overflow-x: hidden;
 }
@@ -142,7 +201,7 @@ html, body {
 /* ===== HEADINGS ===== */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-nng);
-  color: var(--color-ash-cloud);
+  color: var(--text-heading);
   font-weight: var(--font-weight-bold);
   line-height: 1.2;
   margin-bottom: var(--spacing-sm);
@@ -170,7 +229,7 @@ h4 {
 
 /* ===== LINKS ===== */
 a {
-  color: var(--color-warm-violet);
+  color: var(--primary-color);
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -191,7 +250,7 @@ code {
 }
 
 pre {
-  background-color: #0a0a0a;
+  background-color: var(--code-bg);
   color: var(--color-cream-paper);
   padding: var(--spacing-24);
   border-radius: var(--radius-cards);
@@ -213,7 +272,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: var(--spacing-24) 0;
-  background-color: var(--color-charcoal-teal);
+  background-color: var(--card-teal);
   border-radius: var(--radius-cards);
   overflow: hidden;
   border: 1px solid #3a4444;
@@ -229,8 +288,8 @@ th, td {
 }
 
 th {
-  background-color: var(--color-deep-plum);
-  color: var(--color-ash-cloud);
+  background-color: var(--card-plum);
+  color: var(--ink-on-card);
   font-family: var(--font-nng);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
@@ -246,7 +305,7 @@ tr:hover td {
 .blog-post {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
 }
 
 .blog-post img {
@@ -276,28 +335,28 @@ tr:hover td {
 
 .blog-post li {
   margin-bottom: var(--spacing-8);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
 }
 
 .blog-post p {
   margin-bottom: var(--spacing-16);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
 }
 
 .blog-post h2, .blog-post h3, .blog-post h4 {
   margin-top: var(--spacing-40);
   margin-bottom: var(--spacing-12);
-  color: var(--color-ash-cloud);
+  color: var(--ink-on-card);
 }
 
 .blog-post a {
-  color: var(--color-golden-ochre);
+  color: var(--accent-text);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 .blog-post a:hover {
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
 }
 
 /* ===== HR ===== */

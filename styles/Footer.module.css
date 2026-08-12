@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--color-midnight-canvas);
+  background-color: var(--surface-page);
   border-top: 1px solid rgba(255,255,255,0.06);
   padding: var(--spacing-48) var(--spacing-40) var(--spacing-32);
   margin-top: var(--spacing-96);
@@ -31,7 +31,7 @@
   font-size: var(--text-caption);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: rgba(255,255,255,0.35);
+  color: var(--text-muted);
 }
 
 .footerSection a,
@@ -39,13 +39,13 @@
   font-family: var(--font-moderat, var(--font-nng));
   font-size: var(--text-body-sm);
   letter-spacing: -0.021em;
-  color: rgba(255,255,255,0.55);
+  color: var(--text-muted);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .footerSection a:hover {
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
 }
 
 .footerCopy {
@@ -53,7 +53,7 @@
   text-align: center;
   font-family: var(--font-apercu-pro-mono);
   font-size: var(--text-caption);
-  color: rgba(255,255,255,0.25);
+  color: var(--text-muted);
   letter-spacing: 0.04em;
   max-width: var(--page-max-width);
   margin-left: auto;
@@ -61,13 +61,13 @@
 }
 
 .footerCopy a {
-  color: rgba(255,255,255,0.4);
+  color: var(--text-muted);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .footerCopy a:hover {
-  color: var(--color-warm-violet);
+  color: var(--accent-text-alt);
 }
 
 @media (max-width: 768px) {
