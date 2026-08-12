@@ -1,192 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Roboto:wght@400&family=Space+Mono:wght@400&family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
 
-/* ===== HUDDLE DESIGN SYSTEM TOKENS ===== */
+/* ===== SIGNAL — editorial journal for data practitioners =====
+   Warm ink rather than the blue-black of a reference site or the parchment of
+   a playground, with a single acid signal colour. Token names are kept stable
+   so the blog, post and search modules keep working; only the values and the
+   page layouts change. */
 :root {
-  /* Colors */
-  --color-midnight-canvas: #000000;
-  --color-ash-cloud: #ffffff;
-  --color-slate-text: #333333;
-  --color-cream-paper: #e5e6e1;
-  --color-warm-violet: #bbb2ce;
-  --color-golden-ochre: #e4b976;
-  --color-deep-plum: #453b60;
-  --color-rose-blush: #cb9da2;
-  --color-earth-clay: #65451d;
-  --color-charcoal-teal: #3a4444;
-  --color-crimson-grit: #5c2529;
+  /* Core palette */
+  --sig-ink:        #0c0b0a;
+  --sig-ink-2:      #141310;
+  --sig-ink-3:      #1c1a17;
+  --sig-rule:       #2a2723;
+  --sig-paper:      #f4f1e9;
+  --sig-dim:        #a9a49a;
+  --sig-faint:      #8a857b;
+  --sig-signal:     #d9f24b;
+  --sig-on-signal:  #0c0b0a;
+  --sig-clay:       #f0906a;
 
-  /* Surface Levels */
-  --surface-0: #000000;
-  --surface-1: #453b60;
-  --surface-2: #bbb2ce;
-  --surface-3: #e4b976;
-  --surface-4: #e5e6e1;
+  /* Surfaces */
+  --surface-page:    var(--sig-ink);
+  --surface-raised:  var(--sig-ink-2);
+  --surface-sunken:  var(--sig-ink-3);
+  --hairline:        var(--sig-rule);
 
-  /* Semantic Aliases */
-  --background-color: var(--surface-page);
-  --surface-color: #0d0d0d;
-  --text-main: var(--color-ash-cloud);
-  --text-heading: var(--color-ash-cloud);
-  --text-muted: #b6bcc4;   /* 5.3:1 on the lightest card (charcoal teal) */
-  --text-dim:   #cfd4da;   /* for use over the darker plum cards */
-  --border-color: var(--color-slate-text);
-  --primary-color: var(--accent-text-alt);
-  --primary-hover: #cec5e0;
-  --accent-color: var(--accent-text);
-  --code-bg: #111111;
-  --code-text: var(--color-cream-paper);
+  /* Text */
+  --text-main:       var(--sig-paper);
+  --text-heading:    var(--sig-paper);
+  --text-muted:      var(--sig-dim);
+  --text-dim:        var(--sig-faint);
+  --ink-on-card:     var(--sig-paper);
+  --ink-on-pastel:   var(--sig-on-signal);
 
-  /* Typography — Font Families */
+  /* Accents */
+  --primary-color:   var(--sig-signal);
+  --primary-hover:   #e6ff6b;
+  --accent-color:    var(--sig-signal);
+  --accent-text:     var(--sig-signal);
+  --accent-text-alt: var(--sig-clay);
+  --signal:          var(--sig-signal);
+  --on-signal:       var(--sig-on-signal);
+
+  --border-color:    var(--sig-rule);
+  --code-bg:         var(--sig-ink-3);
+  --code-text:       var(--sig-paper);
+
+  /* Card surfaces used by the blog and post pages */
+  --card-plum:  var(--sig-ink-2);
+  --card-teal:  var(--sig-ink-2);
+  --card-deep:  var(--sig-ink-2);
+
+  /* Typography */
   --font-nng: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-roboto: 'Roboto', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-roboto: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-apercu-pro-mono: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  --font-moderat: 'Montserrat', ui-sans-serif, system-ui, -apple-system, sans-serif;
-
-  /* Legacy aliases used in module CSS */
+  --font-moderat: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-heading: var(--font-nng);
   --font-body: var(--font-nng);
+  --font-mono: var(--font-apercu-pro-mono);
 
-  /* Typography — Scale */
   --text-caption: 12px;
-  --leading-caption: 1.58;
+  --leading-caption: 1.5;
   --text-body-sm: 14px;
-  --leading-body-sm: 1.43;
-  --tracking-body-sm: -0.103px;
+  --leading-body-sm: 1.5;
+  --tracking-body-sm: 0;
   --text-body: 16px;
-  --leading-body: 1.5;
-  --tracking-body: -0.011px;
-  --text-subheading: 22px;
-  --leading-subheading: 1.35;
-  --text-heading-size: 29px;
-  --leading-heading: 1.32;
-  --tracking-heading: -0.96px;
-  --text-heading-lg: 44px;
-  --leading-heading-lg: 1.22;
-  --tracking-heading-lg: -0.96px;
-  --text-display: 69px;
-  --leading-display: 1.1;
-  --tracking-display: -1.44px;
+  --leading-body: 1.6;
+  --tracking-body: 0;
+  --text-subheading: 21px;
+  --leading-subheading: 1.3;
+  --text-heading-size: 30px;
+  --leading-heading: 1.2;
+  --tracking-heading: -0.02em;
+  --text-heading-lg: 46px;
+  --leading-heading-lg: 1.08;
+  --tracking-heading-lg: -0.03em;
+  --text-display: 84px;
+  --leading-display: 0.94;
+  --tracking-display: -0.04em;
 
-  /* Font Weights */
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
+  --font-weight-black: 800;
 
   /* Spacing */
-  --spacing-4: 4px;
-  --spacing-5: 5px;
-  --spacing-6: 6px;
-  --spacing-8: 8px;
-  --spacing-10: 10px;
-  --spacing-12: 12px;
-  --spacing-14: 14px;
-  --spacing-16: 16px;
-  --spacing-18: 18px;
-  --spacing-20: 20px;
-  --spacing-24: 24px;
-  --spacing-32: 32px;
-  --spacing-40: 40px;
-  --spacing-48: 48px;
-  --spacing-96: 96px;
+  --spacing-4: 4px;   --spacing-5: 5px;   --spacing-6: 6px;   --spacing-8: 8px;
+  --spacing-10: 10px; --spacing-12: 12px; --spacing-14: 14px; --spacing-16: 16px;
+  --spacing-18: 18px; --spacing-20: 20px; --spacing-24: 24px; --spacing-32: 32px;
+  --spacing-40: 40px; --spacing-48: 48px; --spacing-64: 64px; --spacing-96: 96px;
   --spacing-144: 144px;
-
-  /* Legacy spacing aliases */
-  --spacing-xs: 0.5rem;
-  --spacing-sm: 1rem;
-  --spacing-md: 1.5rem;
-  --spacing-lg: 2rem;
-  --spacing-xl: 3rem;
+  --spacing-xs: 0.5rem; --spacing-sm: 1rem; --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;   --spacing-xl: 3rem;
 
   /* Layout */
-  --page-max-width: 1200px;
+  --page-max-width: 1180px;
   --section-gap: 48px;
   --card-padding: 12px;
   --element-gap: 12px;
 
-  /* Border Radius */
-  --radius-md: 4px;
-  --radius-lg: 8px;
-  --radius-3xl: 24px;
-  --radius-cards: 40px;
-  --radius-lists: 24px;
-  --radius-badges: 4px;
-  --radius-tags: 8px;
-  --radius-buttons: 1000px;
+  /* Radius — much tighter than before; this language is editorial, not soft. */
+  --radius-md: 3px;
+  --radius-lg: 6px;
+  --radius-3xl: 10px;
+  --radius-cards: 12px;
+  --radius-lists: 10px;
+  --radius-badges: 3px;
+  --radius-tags: 999px;
+  --radius-buttons: 999px;
 
-  /* Shadows — subtle, no heavy glow on dark base */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
-
-  /* ── Semantic layer ──
-     The --color-* tokens above are brand constants. Only these change between
-     themes. --color-midnight-canvas used to mean both "page background" and
-     "ink text on a pastel card"; those roles are now separate, so the pastel
-     cards keep dark text in both themes. */
-  --surface-page:    var(--color-midnight-canvas);
-  --surface-raised:  #0d0d0d;
-  --surface-sunken:  #070707;
-  --hairline:        rgba(255, 255, 255, 0.08);
-  --ink-on-pastel:   #14161a;
-
-  /* Rotating card surfaces. In daylight these become tinted paper versions of
-     the same hues, so the "matte blocks" idea survives the theme flip. */
-  --card-plum:       var(--color-deep-plum);
-  --card-teal:       var(--color-charcoal-teal);
-  --card-deep:       #1a1428;
-  --ink-on-card:     var(--color-ash-cloud);
-
-  /* Accent *text*. The raw ochre and violet are tuned for midnight; on the
-     daylight card tints they drop to ~1.5:1, so they need theme-aware values
-     separate from the same hues used as fills. */
-  --accent-text:     var(--color-golden-ochre);
-  --accent-text-alt: var(--color-warm-violet);
-
-  /* ── Project blocks ──
-     design.md: "soft, rounded cards in varied, muted pastels that suggest
-     individual project spaces ... allowing the pastel project cards to
-     visually dominate the interface". These are brand surfaces, so unlike the
-     other card tokens they stay put across themes; only the page around them
-     changes. Each block ships with the text colour that reads on it. */
-  --block-1-bg: #bbb2ce; --block-1-ink: #17151f;  /* warm violet  */
-  --block-2-bg: #e4b976; --block-2-ink: #241a08;  /* golden ochre */
-  --block-3-bg: #cb9da2; --block-3-ink: #241416;  /* rose blush   */
-  --block-4-bg: #e5e6e1; --block-4-ink: #15161a;  /* cream paper  */
-  --block-5-bg: #453b60; --block-5-ink: #ece8f5;  /* deep plum    */
-  --block-6-bg: #3a4444; --block-6-ink: #e6ecec;  /* charcoal teal*/
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-md: 0 6px 20px rgba(0,0,0,0.45);
+  --shadow-lg: 0 18px 44px rgba(0,0,0,0.55);
 }
 
-/* ── Light theme ──
-   Huddle is dark by default (see design.md). This is the opt-in inverse: the
-   midnight canvas becomes warm paper while the pastel blocks and plum cards
-   carry over unchanged, which is what gives the system its character. */
+/* Daylight: warm paper, same signal. */
 [data-theme="light"] {
-  --surface-page:    #efeee9;
-  --surface-raised:  #ffffff;
-  --surface-sunken:  #e7e5de;
-  --hairline:        rgba(20, 22, 26, 0.12);
+  --sig-ink:   #f5f2ea;
+  --sig-ink-2: #ffffff;
+  --sig-ink-3: #ebe7dd;
+  --sig-rule:  #ddd7ca;
+  --sig-paper: #14120f;
+  --sig-dim:   #57524a;
+  --sig-faint: #6b665d;
+  --sig-clay:  #a8431d;
 
-  --text-main:       #14161a;
-  --text-heading:    #14161a;
-  --text-muted:      #55606b;
-  --text-dim:        #3f4954;
-  --border-color:    #d8d5cd;
-  --code-bg:         #f3f2ee;
-  --code-text:       #14161a;
-
-  /* Warm violet is far too light to read on paper; the deep plum is the same
-     family and clears AA. */
-  --primary-color:   #453b60;
-  --primary-hover:   #2f2842;
-
-  --card-plum:       #e0dbec;
-  --card-teal:       #dde3e1;
-  --card-deep:       #e9e3d6;
-  --ink-on-card:     #14161a;
-
-  --accent-text:     #7a5518;
-  --accent-text-alt: #453b60;
+  --primary-color:   #4d6600;
+  --primary-hover:   #3b4f00;
+  --accent-text:     #4d6600;
+  --ink-on-card:     #14120f;
 
   color-scheme: light;
 }
@@ -201,6 +144,8 @@
 html, body {
   padding: 0;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: var(--font-nng);
   font-size: var(--text-body);
   line-height: var(--leading-body);
@@ -288,7 +233,7 @@ table {
   background-color: var(--card-teal);
   border-radius: var(--radius-cards);
   overflow: hidden;
-  border: 1px solid #3a4444;
+  border: 1px solid var(--border-color);
 }
 
 th, td {
@@ -311,7 +256,7 @@ th {
 }
 
 tr:hover td {
-  background-color: rgba(255,255,255,0.03);
+  background-color: var(--surface-raised);
 }
 
 /* ===== BLOG POST CONTENT ===== */
@@ -337,7 +282,7 @@ tr:hover td {
   margin: var(--spacing-24) 0;
   color: var(--color-cream-paper);
   font-style: italic;
-  background-color: rgba(187, 178, 206, 0.08);
+  background-color: var(--surface-sunken);
   border-radius: 0 var(--radius-cards) var(--radius-cards) 0;
 }
 

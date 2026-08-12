@@ -17,7 +17,7 @@
 }
 
 .modal {
-  background-color: #0d0d0d;
+  background-color: var(--surface-raised);
   width: 100%;
   max-width: 600px;
   border-radius: var(--radius-cards);

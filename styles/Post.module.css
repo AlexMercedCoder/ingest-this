@@ -94,14 +94,14 @@
 }
 
 .categoryPill:hover {
-  background-color: #7a521f;
+  background-color: var(--primary-hover);
   color: var(--accent-text);
 }
 
 /* Tags — Charcoal Teal badge */
 .tagHash {
   background-color: var(--card-teal);
-  color: #aebbba;
+  color: var(--text-muted);
   padding: var(--spacing-4) var(--spacing-8);
   border-radius: var(--radius-badges);
   font-size: var(--text-caption);

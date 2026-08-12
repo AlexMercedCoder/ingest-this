@@ -82,7 +82,7 @@ const SOCIAL_LINKS = [
   { name: "Buy Me a Coffee", desc: "Support the Content", url: "https://buymeacoffee.com/alexmerced" },
 ];
 
-export default function Home({ posts }) {
+export default function Home({ posts, postCount }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -111,138 +111,111 @@ export default function Home({ posts }) {
 
       <main className={styles.main}>
 
-        {/* ── HERO ── */}
-        <section className={styles.hero}>
-          <div className={styles.heroCopy}>
-            <p className={styles.heroKicker}>For data professionals</p>
-            <h1>
-              Ingest<span className={styles.heroMark}>This!</span>
-            </h1>
-            <h2>Data engineering, science, and architecture, explained properly.</h2>
-            <p className={styles.heroLede}>
-              Articles, tutorials, and reference material for data engineers,
-              scientists, analysts, and architects.
-            </p>
-            <div className={styles.heroActions}>
-              <a href="/blog" className={styles.heroCta}>Read the blog</a>
-              <a
-                href="https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q"
-                rel="noopener noreferrer"
-                className={styles.heroCtaGhost}
-              >
-                Join the Slack
-              </a>
-            </div>
-            <p className={styles.heroNote}>
-              Guest submissions welcome. Pitch an idea at{" "}
-              <a href="mailto:alex@ingestthis.com">alex@ingestthis.com</a>.
-            </p>
+        {/* ── Masthead ── */}
+        <header className={styles.masthead}>
+          <p className={styles.kicker}>
+            Data engineering <span>·</span> science <span>·</span> architecture
+          </p>
+          <h1 className={styles.wordmark}>
+            Ingest<span className={styles.wordmarkAccent}>This</span>
+          </h1>
+          <p className={styles.standfirst}>
+            Working notes for people who move data for a living. Pipelines,
+            lakehouses, table formats, and the architecture underneath them.
+          </p>
+          <div className={styles.mastheadActions}>
+            <a href="/blog" className={styles.btnSignal}>Read the archive</a>
+            <a
+              href="https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q"
+              rel="noopener noreferrer"
+              className={styles.btnLine}
+            >
+              Join the Slack
+            </a>
+          </div>
+          <dl className={styles.colophon}>
+            <div><dt>Articles</dt><dd>{postCount}+</dd></div>
+            <div><dt>Topics</dt><dd>Iceberg, pipelines, AI</dd></div>
+            <div><dt>Submissions</dt><dd>Open</dd></div>
+            <div><dt>Price</dt><dd>Free</dd></div>
+          </dl>
+        </header>
+
+        {/* ── Index of latest articles ── */}
+        <section className={styles.indexSection}>
+          <div className={styles.sectionHead}>
+            <h2>Latest</h2>
+            <a href="/blog" className={styles.sectionLink}>All articles</a>
           </div>
 
-          {/* Stacked project blocks: the design language stated up front,
-              rather than only appearing far down the page. */}
-          <ul className={styles.heroBlocks} aria-hidden="true">
-            <li><span>Apache Iceberg</span><em>tables that behave</em></li>
-            <li><span>Pipelines</span><em>ingest, model, serve</em></li>
-            <li><span>Lakehouse</span><em>one copy of the truth</em></li>
-            <li><span>Agentic AI</span><em>data agents can trust</em></li>
-          </ul>
+          <ol className={styles.index}>
+            {posts && posts.map((post, i) => (
+              <li key={post.slug}>
+                <a href={`/posts/${post.slug}`} className={styles.indexRow}>
+                  <span className={styles.indexNum}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className={styles.indexBody}>
+                    <span className={styles.indexTitle}>
+                      {post.frontmatter.title}
+                    </span>
+                    {post.frontmatter.description && (
+                      <span className={styles.indexDek}>
+                        {post.frontmatter.description}
+                      </span>
+                    )}
+                  </span>
+                  <span className={styles.indexMeta}>
+                    {post.frontmatter.date}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
         </section>
 
-        {/* ── JSON-LD ── */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "IngestThis",
-              url: "https://ingestthis.com/",
-              description: "Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects covering Data Engineering, Apache Iceberg, Data Lakehouses, and AI.",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: { "@type": "EntryPoint", urlTemplate: "https://ingestthis.com/blog?q={search_term_string}" },
-                "query-input": "required name=search_term_string",
-              },
-              publisher: {
-                "@type": "Organization",
-                name: "IngestThis",
-                url: "https://ingestthis.com/",
-                logo: { "@type": "ImageObject", url: "https://ingestthis.com/images/ig-logo-huddle.png" },
-                sameAs: [
-                  "https://twitter.com/amdatalakehouse",
-                  "https://www.linkedin.com/in/alexmerced",
-                  "https://www.youtube.com/@alexmerceddata",
-                  "https://bsky.app/profile/alextalksdatalakehouses.fyi",
-                ],
-              },
-            }),
-          }}
-        />
-
-        {/* ── MUST READS ── */}
-        <section className={styles.mustReads}>
-          <div className={styles.mustReadsHeader}>
-            <span className={styles.mustReadsBadge}>Must Reads</span>
-            <h2 className={styles.mustReadsTitle}>Data Lakehouses &amp; Agentic Analytics</h2>
-            <p className={styles.mustReadsSubtitle}>
-              Authoritative guides to the modern data ecosystem — curated from Dremio&apos;s engineering blog.
-            </p>
+        {/* ── Reference shelf ── */}
+        <section className={styles.shelfSection}>
+          <div className={styles.sectionHead}>
+            <h2>Reference shelf</h2>
+            <span className={styles.sectionNote}>Long reads from around the web</span>
           </div>
-          <div className={styles.mustReadsGrid}>
-            {MUST_READS.map((article) => (
+          <div className={styles.shelf}>
+            {MUST_READS.map((item, i) => (
               <a
-                key={article.url}
-                href={article.url}
-                className={styles.mustReadCard}
+                key={item.url}
+                href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                className={styles.shelfItem}
               >
-                <span className={styles.mustReadTag}>{article.tag}</span>
-                <h3 className={styles.mustReadTitle}>{article.title}</h3>
-                <p className={styles.mustReadSummary}>{article.summary}</p>
-                <span className={styles.mustReadCta}>Read on Dremio.com →</span>
+                <span className={styles.shelfTag}>{item.tag}</span>
+                <h3 className={styles.shelfTitle}>{item.title}</h3>
+                <p className={styles.shelfSummary}>{item.summary}</p>
+                <span className={styles.shelfCta}>Read</span>
               </a>
             ))}
           </div>
         </section>
 
-        {/* ── RECENT POSTS ── */}
-        <section className={styles.recentPosts}>
-          <div className={styles.recentPostsHeader}>
-            <span className={styles.recentPostsBadge}>Recent Articles</span>
-            <h2 className={styles.recentPostsTitle}>Latest from IngestThis</h2>
-            <p className={styles.recentPostsSubtitle}>
-              Data Engineering, Data Architecture, and AI insights fresh from our writers.
-            </p>
+        {/* ── Colophon / elsewhere ── */}
+        <section className={styles.elsewhere}>
+          <div className={styles.sectionHead}>
+            <h2>Elsewhere</h2>
+            <span className={styles.sectionNote}>
+              Pitch an idea: <a href="mailto:alex@ingestthis.com">alex@ingestthis.com</a>
+            </span>
           </div>
-          <div className={styles.recentPostsGrid}>
-            {posts && posts.map((post) => (
-              <BlogCard key={post.slug} post={post} />
-            ))}
-          </div>
-          <div className={styles.recentPostsMore}>
-            <a href="/blog" className={styles.recentPostsCta}>View All Articles →</a>
-          </div>
-        </section>
-
-        {/* ── CONNECT ── */}
-        <section className={styles.connectSection}>
-          <h2 className={styles.connectTitle}>Connect with Alex</h2>
-          <div className={styles.socialGrid}>
+          <ul className={styles.linkColumns}>
             {SOCIAL_LINKS.map((link) => (
-              <a
-                key={link.url}
-                href={link.url}
-                className={styles.socialCard}
-                target={link.url.startsWith("http") ? "_blank" : undefined}
-                rel={link.url.startsWith("http") ? "noopener noreferrer" : undefined}
-              >
-                <h3>{link.name}</h3>
-                <p>{link.desc}</p>
-              </a>
+              <li key={link.url}>
+                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                  <span>{link.name}</span>
+                  <em>{link.desc}</em>
+                </a>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
 
       </main>
@@ -284,7 +257,9 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts: posts.slice(0, 6),
+      posts: posts.slice(0, 8),
+      // Rounded down so the figure stays honest as the archive grows.
+      postCount: Math.floor(posts.length / 25) * 25,
     },
   };
 }

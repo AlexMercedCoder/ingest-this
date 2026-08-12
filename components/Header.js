@@ -45,22 +45,23 @@ function Header (props){
         <div id="logo" style={{display:'flex', alignItems:'center'}}>
           <Link href="/" style={{display:'flex', alignItems:'center', gap:'10px', textDecoration:'none'}}>
             {/* Data-pipeline icon */}
-            <svg width="40" height="40" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{flexShrink:0}}>
-              <rect x="1" y="1" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
-              <rect x="1" y="9" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
-              <rect x="1" y="17" width="12" height="4" rx="1.5" stroke="#bbb2ce" strokeWidth="1.5"/>
-              <path d="M17 11h4M17 11l-2.5-2.5M17 11l-2.5 2.5" stroke="#bbb2ce" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <svg width="26" height="26" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{flexShrink:0}}>
+              <rect x="1" y="1" width="12" height="4" rx="1.5" stroke="var(--signal)" strokeWidth="1.5"/>
+              <rect x="1" y="9" width="12" height="4" rx="1.5" stroke="var(--signal)" strokeWidth="1.5"/>
+              <rect x="1" y="17" width="12" height="4" rx="1.5" stroke="var(--signal)" strokeWidth="1.5"/>
+              <path d="M17 11h4M17 11l-2.5-2.5M17 11l-2.5 2.5" stroke="var(--signal)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             {/* Wordmark */}
             <span style={{
               fontFamily: "'Inter', ui-sans-serif, system-ui, sans-serif",
-              fontWeight: 700,
-              fontSize: '3rem',
-              letterSpacing: '-0.04em',
+              fontWeight: 800,
+              fontSize: '1.5rem',
+              letterSpacing: '-0.035em',
               lineHeight: 1,
               userSelect: 'none',
+              color: 'var(--text-heading)',
             }}>
-              <span style={{color:'#bbb2ce'}}>Ingest</span><span style={{color:'#e4b976'}}>This</span>
+              Ingest<span style={{ color: 'var(--accent-text)' }}>This</span>
             </span>
           </Link>
         </div>

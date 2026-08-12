@@ -50,32 +50,32 @@
   align-content: start;
 }
 
-/* Card — Warm Violet base, alternate colors via nth-child */
+/* Card — hairline-ruled tile on the page surface */
 .card {
-  background-color: var(--accent-text-alt);
+  background-color: var(--surface-page);
+  border: 1px solid var(--border-color);
   border-radius: var(--radius-cards);
   overflow: hidden;
-  transition: transform 0.25s ease, filter 0.25s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
   display: flex;
   flex-direction: column;
   height: 100%;
   cursor: pointer;
 }
 
-.card:nth-child(3n+1) { background-color: var(--accent-text-alt); }
-.card:nth-child(3n+2) { background-color: var(--card-plum); }
-.card:nth-child(3n)   { background-color: var(--card-teal); }
 
 .card:hover {
-  transform: translateY(-6px);
-  filter: brightness(1.08);
+  transform: translateY(-3px);
+  background-color: var(--surface-raised);
+  border-color: var(--text-dim);
 }
 
 .cardImageContainer {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  background-color: rgba(0,0,0,0.3);
+  background-color: var(--surface-sunken);
   border-radius: var(--radius-cards) var(--radius-cards) 0 0;
   overflow: hidden;
 }
@@ -107,43 +107,27 @@
 .cardMeta {
   font-family: var(--font-apercu-pro-mono);
   font-size: var(--text-caption);
-  color: rgba(0,0,0,0.74);
-  letter-spacing: 0.04em;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
-.card:nth-child(3n+2) .cardMeta {
-  color: var(--text-muted);
-}
-.card:nth-child(3n) .cardMeta {
-  color: var(--text-muted);
-}
 
 .cardTitle {
   font-family: var(--font-nng);
   font-size: var(--text-body);
   font-weight: var(--font-weight-bold);
-  color: var(--ink-on-pastel);
+  color: var(--text-heading);
   line-height: 1.3;
-  letter-spacing: -0.01em;
-}
-
-.card:nth-child(3n+2) .cardTitle,
-.card:nth-child(3n) .cardTitle {
-  color: var(--ink-on-card);
+  letter-spacing: -0.015em;
 }
 
 .cardExcerpt {
   font-size: var(--text-body-sm);
-  color: rgba(0,0,0,0.65);
+  color: var(--text-muted);
   line-height: var(--leading-body-sm);
   font-family: var(--font-roboto);
   flex: 1;
-}
-
-.card:nth-child(3n+2) .cardExcerpt,
-.card:nth-child(3n) .cardExcerpt {
-  color: var(--text-muted);
 }
 
 /* ===== SIDEBAR ===== */
@@ -176,7 +160,7 @@
   border-radius: var(--radius-buttons);
   margin-bottom: var(--spacing-12);
   font-family: var(--font-nng);
-  background-color: rgba(0,0,0,0.4);
+  background-color: var(--surface-sunken);
   color: var(--ink-on-card);
   font-size: var(--text-body-sm);
 }
@@ -207,7 +191,7 @@
 }
 
 .searchButton:hover {
-  background-color: #7a521f;
+  background-color: var(--primary-hover);
 }
 
 /* Categories sidebar */

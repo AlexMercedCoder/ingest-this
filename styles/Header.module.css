@@ -4,10 +4,10 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--spacing-16) var(--spacing-40);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: color-mix(in srgb, var(--surface-page) 88%, transparent);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid var(--border-color);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -24,20 +24,21 @@
 
 /* Nav links — ghost pill style */
 .link {
-  color: var(--text-main);
-  padding: var(--spacing-6) var(--spacing-16);
-  border-radius: var(--radius-buttons);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--text-body-sm);
-  letter-spacing: -0.021em;
+  color: var(--text-muted);
+  padding: var(--spacing-6) var(--spacing-12);
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-caption);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: color 0.2s ease, background-color 0.2s ease;
   cursor: pointer;
 }
 
 .link:hover {
-  color: var(--primary-color);
-  background-color: var(--hairline);
+  color: var(--text-main);
+  background-color: var(--surface-raised);
 }
 
 /* Search & Theme toggle — minimal ghost buttons */
@@ -57,7 +58,7 @@
 .themeToggle:hover, .searchTrigger:hover {
   color: var(--ink-on-card);
   border-color: var(--color-charcoal-teal);
-  background-color: rgba(255,255,255,0.04);
+  background-color: var(--surface-raised);
 }
 
 /* Responsive */

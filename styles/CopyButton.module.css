@@ -2,9 +2,9 @@
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--surface-sunken);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #e2e8f0;
+  color: var(--text-main);
   border-radius: 4px;
   padding: 0.25rem 0.5rem;
   font-size: 0.8rem;
@@ -14,6 +14,6 @@
 }
 
 .copyButton:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--border-color);
   border-color: var(--text-muted);
 }
