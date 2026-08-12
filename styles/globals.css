@@ -142,6 +142,19 @@
      separate from the same hues used as fills. */
   --accent-text:     var(--color-golden-ochre);
   --accent-text-alt: var(--color-warm-violet);
+
+  /* ── Project blocks ──
+     design.md: "soft, rounded cards in varied, muted pastels that suggest
+     individual project spaces ... allowing the pastel project cards to
+     visually dominate the interface". These are brand surfaces, so unlike the
+     other card tokens they stay put across themes; only the page around them
+     changes. Each block ships with the text colour that reads on it. */
+  --block-1-bg: #bbb2ce; --block-1-ink: #17151f;  /* warm violet  */
+  --block-2-bg: #e4b976; --block-2-ink: #241a08;  /* golden ochre */
+  --block-3-bg: #cb9da2; --block-3-ink: #241416;  /* rose blush   */
+  --block-4-bg: #e5e6e1; --block-4-ink: #15161a;  /* cream paper  */
+  --block-5-bg: #453b60; --block-5-ink: #ece8f5;  /* deep plum    */
+  --block-6-bg: #3a4444; --block-6-ink: #e6ecec;  /* charcoal teal*/
 }
 
 /* ── Light theme ──

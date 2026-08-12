@@ -113,18 +113,40 @@ export default function Home({ posts }) {
 
         {/* ── HERO ── */}
         <section className={styles.hero}>
-          <h1>IngestThis!</h1>
-          <h2>Data Engineering, Science, and Architecture Content</h2>
-          <p>
-            Home for data professionals. Articles, tutorials, and resources for Data Engineers,
-            Scientists, Analysts, and Architects.
-          </p>
-          <p>
-            Guest submissions are welcome. Pitch your idea by emailing{" "}
-            <a href="mailto:alex@ingestthis.com">alex@ingestthis.com</a> or join the{" "}
-            <a href="https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q" rel="noopener noreferrer">The Data Lakehouse Hub Slack community</a>.
-          </p>
-          <a href="/blog" className={styles.heroCta}>Read the Blog →</a>
+          <div className={styles.heroCopy}>
+            <p className={styles.heroKicker}>For data professionals</p>
+            <h1>
+              Ingest<span className={styles.heroMark}>This!</span>
+            </h1>
+            <h2>Data engineering, science, and architecture, explained properly.</h2>
+            <p className={styles.heroLede}>
+              Articles, tutorials, and reference material for data engineers,
+              scientists, analysts, and architects.
+            </p>
+            <div className={styles.heroActions}>
+              <a href="/blog" className={styles.heroCta}>Read the blog</a>
+              <a
+                href="https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q"
+                rel="noopener noreferrer"
+                className={styles.heroCtaGhost}
+              >
+                Join the Slack
+              </a>
+            </div>
+            <p className={styles.heroNote}>
+              Guest submissions welcome. Pitch an idea at{" "}
+              <a href="mailto:alex@ingestthis.com">alex@ingestthis.com</a>.
+            </p>
+          </div>
+
+          {/* Stacked project blocks: the design language stated up front,
+              rather than only appearing far down the page. */}
+          <ul className={styles.heroBlocks} aria-hidden="true">
+            <li><span>Apache Iceberg</span><em>tables that behave</em></li>
+            <li><span>Pipelines</span><em>ingest, model, serve</em></li>
+            <li><span>Lakehouse</span><em>one copy of the truth</em></li>
+            <li><span>Agentic AI</span><em>data agents can trust</em></li>
+          </ul>
         </section>
 
         {/* ── JSON-LD ── */}

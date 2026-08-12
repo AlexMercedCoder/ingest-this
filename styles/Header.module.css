@@ -63,9 +63,21 @@
 /* Responsive */
 @media (max-width: 768px) {
   .header {
-    padding: var(--spacing-12) var(--spacing-20);
+    padding: var(--spacing-12) var(--spacing-16);
     flex-wrap: wrap;
     gap: var(--spacing-8);
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: var(--spacing-4);
+    max-width: 100%;
+  }
+
+  .link {
+    padding: var(--spacing-6) var(--spacing-10);
+    font-size: var(--text-caption);
   }
 
   .nav {
