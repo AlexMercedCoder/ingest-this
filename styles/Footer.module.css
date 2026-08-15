@@ -81,3 +81,26 @@
     justify-content: flex-start;
   }
 }
+.network {
+  max-width: var(--page-max-width);
+  margin: 0 auto var(--spacing-40);
+  padding-top: var(--spacing-32);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: left;
+}
+
+.networkTitle {
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent-text);
+  margin: 0 0 var(--spacing-32);
+}
+
+.networkGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-48);
+}

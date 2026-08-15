@@ -113,6 +113,30 @@ export default function Home({ posts, postCount }) {
 
         {/* ── Masthead ── */}
         <header className={styles.masthead}>
+          <svg className={styles.streamViz} viewBox="0 0 1440 700" preserveAspectRatio="xMaxYMid meet" aria-hidden="true" focusable="false">
+            <g>
+              <line className={styles.streamTrack} x1="1440" y1="210" x2="1080" y2="210" />
+              <line className={styles.streamTrack} x1="1440" y1="270" x2="1080" y2="270" />
+              <line className={styles.streamTrack} x1="1440" y1="330" x2="1080" y2="330" />
+              <line className={styles.streamTrack} x1="1440" y1="390" x2="1080" y2="390" />
+              <line className={styles.streamTrack} x1="1440" y1="450" x2="1080" y2="450" />
+              <line className={styles.streamPacket} pathLength={100} x1="1440" y1="210" x2="1080" y2="210" style={{ animationDuration: '5s', animationDelay: '-0.4s' }} />
+              <line className={styles.streamPacket} pathLength={100} x1="1440" y1="270" x2="1080" y2="270" style={{ animationDuration: '6.5s', animationDelay: '-2.1s' }} />
+              <line className={styles.streamPacket} pathLength={100} x1="1440" y1="330" x2="1080" y2="330" style={{ animationDuration: '4.5s', animationDelay: '-3.3s' }} />
+              <line className={styles.streamPacket} pathLength={100} x1="1440" y1="390" x2="1080" y2="390" style={{ animationDuration: '7s', animationDelay: '-1.2s' }} />
+              <line className={styles.streamPacket} pathLength={100} x1="1440" y1="450" x2="1080" y2="450" style={{ animationDuration: '5.5s', animationDelay: '-4.0s' }} />
+              <line className={styles.streamGate} x1="1080" y1="176" x2="1080" y2="484" />
+              <line className={styles.streamTick} x1="1073" y1="210" x2="1087" y2="210" />
+              <line className={styles.streamTick} x1="1073" y1="270" x2="1087" y2="270" />
+              <line className={styles.streamTick} x1="1073" y1="330" x2="1087" y2="330" />
+              <line className={styles.streamTick} x1="1073" y1="390" x2="1087" y2="390" />
+              <line className={styles.streamTick} x1="1073" y1="450" x2="1087" y2="450" />
+              <line className={styles.streamBar} pathLength={100} x1="960" y1="505" x2="1070" y2="505" style={{ animationDelay: '-0.3s' }} />
+              <line className={styles.streamBar} pathLength={100} x1="960" y1="522" x2="1038" y2="522" style={{ animationDelay: '-1.4s' }} />
+              <line className={styles.streamBar} pathLength={100} x1="960" y1="539" x2="1056" y2="539" style={{ animationDelay: '-2.5s' }} />
+              <line className={styles.streamBar} pathLength={100} x1="960" y1="556" x2="1022" y2="556" style={{ animationDelay: '-3.6s' }} />
+            </g>
+          </svg>
           <p className={styles.kicker}>
             Data engineering <span>·</span> science <span>·</span> architecture
           </p>
