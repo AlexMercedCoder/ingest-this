@@ -138,6 +138,10 @@
   font-size: 0.9rem;
   text-decoration: none;
   transition: color 0.2s ease;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .runList a:hover { color: var(--accent-text); }
@@ -146,4 +150,19 @@
   content: "\00B7";
   margin-right: 12px;
   opacity: 0.5;
+}
+
+/* Mobile: the inline run degenerates to roughly one item per row, which left a
+   separator stranded at the start of most lines and 17px tap targets. Below
+   640px the items become chips instead: no separators, real touch targets. */
+@media (max-width: 640px) {
+  .runList { gap: 8px; }
+  .runList li + li::before { content: none !important; margin-right: 0 !important; }
+  .runList a {
+    display: block;
+    padding: 9px 12px;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 4px;
+    line-height: 1.2;
+  }
 }
