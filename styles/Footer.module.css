@@ -104,3 +104,46 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: var(--spacing-48);
 }
+
+.run {
+  max-width: var(--page-max-width);
+  margin: 0 auto var(--spacing-32);
+  padding-top: var(--spacing-32);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: left;
+}
+
+.runTitle {
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent-text);
+  margin: 0 0 var(--spacing-16, 16px);
+}
+
+.runList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.runList a {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.runList a:hover { color: var(--accent-text); }
+
+.runList li + li::before {
+  content: "\00B7";
+  margin-right: 12px;
+  opacity: 0.5;
+}

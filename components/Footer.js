@@ -84,46 +84,34 @@ function Footer(props) {
         </div>
       </nav>
 
-      <nav className={styles.network} aria-label="The Alex Merced Network">
-        <h2 className={styles.networkTitle}>The Alex Merced Network</h2>
-        <div className={styles.networkGrid}>
-          {NETWORK.map((group) => (
-            <div key={group.title} className={styles.footerSection}>
-              <strong>{group.title}</strong>
-              {group.sites.map((site) => (
-                <a
-                  key={site.url}
-                  href={site.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+      <nav className={styles.run} aria-label="The Alex Merced Network">
+        <h2 className={styles.runTitle}>The Alex Merced Network</h2>
+        <ul className={styles.runList}>
+          {NETWORK.flatMap((g) => g.sites)
+            .filter((s) => s.url !== "https://ingestthis.com")
+            .map((site) => (
+              <li key={site.url}>
+                <a href={site.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
                   {site.label}
                 </a>
-              ))}
-            </div>
-          ))}
-        </div>
+              </li>
+            ))}
+        </ul>
       </nav>
 
-      <nav className={styles.network} aria-label="Events and community">
-        <h2 className={styles.networkTitle}>Events &amp; Community</h2>
-        <div className={styles.networkGrid}>
-          {COMMUNITY.map((group) => (
-            <div key={group.title} className={styles.footerSection}>
-              <strong>{group.title}</strong>
-              {group.sites.map((site) => (
-                <a
-                  key={site.url}
-                  href={site.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+      <nav className={styles.run} aria-label="Events and community">
+        <h2 className={styles.runTitle}>Events &amp; Community</h2>
+        <ul className={styles.runList}>
+          {COMMUNITY.flatMap((g) => g.sites)
+            .filter((s) => s.url !== "https://ingestthis.com")
+            .map((site) => (
+              <li key={site.url}>
+                <a href={site.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
                   {site.label}
                 </a>
-              ))}
-            </div>
-          ))}
-        </div>
+              </li>
+            ))}
+        </ul>
       </nav>
       <p className={styles.footerCopy}>
         &copy; {new Date().getFullYear()} Alex Merced &mdash;{" "}
