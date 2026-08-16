@@ -60,6 +60,19 @@ ${categories.map((c) => `- ${c}`).join("\n")}
 ## Technical Articles & Tutorials
 
 ${items.join("\n")}
+
+## Events
+- [Agentic Lakehouse Events](https://luma.com/agenticlakehouse): global meetups and webinars on agentic analytics
+- [Data Lakehouse Hub Events](https://luma.com/DataLakehouseHub): global lakehouse meetups, linkups and webinars
+
+## Community
+- [Data Lakehouse Hub Slack](https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q): practitioner community for lakehouse architecture
+- [Data Events Slack](https://join.slack.com/t/data-events/shared_invite/zt-38vgrooy9-U9ral_gr3NAz_Siih1QwmQ): announcements for data conferences and meetups
+- [Data & Tech Slack](https://join.slack.com/t/datatechcommunity/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA): broader data and technology community
+- [r/datalakehouseandai](https://www.reddit.com/r/datalakehouseandai/): subreddit for data lakehouse and AI discussion
+- [Data Lakehouse Hub on LinkedIn](https://www.linkedin.com/company/data-lakehouse-hub/): company page for the Data Lakehouse Hub
+- [Alex Merced Tech on YouTube](https://www.youtube.com/@AlexMercedCoder): software development and engineering channel
+- [Alex Merced Data & AI on YouTube](https://www.youtube.com/@alexmerceddata): data lakehouse and AI channel
 `;
 
   fs.writeFileSync(FILE_PATH, content);
