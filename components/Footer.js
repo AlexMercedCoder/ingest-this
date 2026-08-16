@@ -32,6 +32,33 @@ const NETWORK = [
   },
 ];
 
+const COMMUNITY = [
+  {
+    title: "Event Calendars",
+    sites: [
+      { label: "Agentic Lakehouse Events", url: "https://luma.com/agenticlakehouse" },
+      { label: "Data Lakehouse Hub Events", url: "https://luma.com/DataLakehouseHub" },
+    ],
+  },
+  {
+    title: "Communities",
+    sites: [
+      { label: "Data Lakehouse Hub Slack", url: "https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q" },
+      { label: "Data Events Slack", url: "https://join.slack.com/t/data-events/shared_invite/zt-38vgrooy9-U9ral_gr3NAz_Siih1QwmQ" },
+      { label: "Data & Tech Slack", url: "https://join.slack.com/t/datatechcommunity/shared_invite/zt-12xrk4qmd-y~6jUFFd7kdaLhgLURKwoA" },
+      { label: "r/datalakehouseandai", url: "https://www.reddit.com/r/datalakehouseandai/" },
+      { label: "Data Lakehouse Hub on LinkedIn", url: "https://www.linkedin.com/company/data-lakehouse-hub/" },
+    ],
+  },
+  {
+    title: "YouTube",
+    sites: [
+      { label: "Alex Merced Tech", url: "https://www.youtube.com/@AlexMercedCoder" },
+      { label: "Alex Merced Data & AI", url: "https://www.youtube.com/@alexmerceddata" },
+    ],
+  },
+];
+
 function Footer(props) {
   return (
     <footer className={styles.footer}>
@@ -61,6 +88,27 @@ function Footer(props) {
         <h2 className={styles.networkTitle}>The Alex Merced Network</h2>
         <div className={styles.networkGrid}>
           {NETWORK.map((group) => (
+            <div key={group.title} className={styles.footerSection}>
+              <strong>{group.title}</strong>
+              {group.sites.map((site) => (
+                <a
+                  key={site.url}
+                  href={site.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {site.label}
+                </a>
+              ))}
+            </div>
+          ))}
+        </div>
+      </nav>
+
+      <nav className={styles.network} aria-label="Events and community">
+        <h2 className={styles.networkTitle}>Events &amp; Community</h2>
+        <div className={styles.networkGrid}>
+          {COMMUNITY.map((group) => (
             <div key={group.title} className={styles.footerSection}>
               <strong>{group.title}</strong>
               {group.sites.map((site) => (
