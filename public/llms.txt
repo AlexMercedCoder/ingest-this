@@ -39,11 +39,13 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - Data Platforms
 - DevOps
 - Devops
+- Governance
 - Hardware
 - Javascript
 - Lakehouse
 - MCP
 - Open Source
+- Security
 - Security & Governance
 - Semantic Layer
 - Software Development
@@ -60,6 +62,20 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 
 ## Technical Articles & Tutorials
 
+- [Mastering Apache Iceberg v3 Deletion Vectors for High-Throughput Streaming Ingest](https://ingestthis.com/posts/2026/2026-08-19-apache-iceberg-v3-deletion-vectors-streaming-ingest): Apache Iceberg v3 deletion vectors for high-throughput streaming ingest: how bitmaps and Puffin files fix CDC write amplification and read decay.
+- [The Decoupled Data Lakehouse: Multi-Engine Freedom with Open REST Catalogs](https://ingestthis.com/posts/2026/2026-08-19-decoupled-data-lakehouse-multi-engine-rest-catalogs): The decoupled data lakehouse: multi-engine freedom with open REST catalogs, credential vending, and an estate that outlives its tools.
+- [The Five Layers of an Agentic Lakehouse](https://ingestthis.com/posts/2026/2026-08-19-five-layers-agentic-lakehouse): The five layers of an agentic lakehouse: Storage, Catalog, Semantic, Gateway, and Agent Surface, and how one question travels through all of them.
+- [Goal-Directed Data Quality Agents: Anomaly Quarantine on Apache Iceberg](https://ingestthis.com/posts/2026/2026-08-19-goal-directed-data-quality-agents-iceberg): Goal-directed data quality agents that watch Apache Iceberg tables, detect anomalies, and quarantine suspect data safely with snapshot isolation and branches.
+- [Managing the TCO of Agentic Analytics: Token Budgets, Query Throttles, and the Economics of Autonomy](https://ingestthis.com/posts/2026/2026-08-19-managing-tco-agentic-analytics): Managing the total cost of agentic analytics: token budgets, query throttles, unit economics, and the FinOps discipline that keeps AI spend under control.
+- [Metric Contracts in 2026: Standardizing Business Logic Across Multi-Agent Frameworks](https://ingestthis.com/posts/2026/2026-08-19-metric-contracts-2026): Metric contracts in 2026: versioned, testable definitions of business logic that let multi-agent frameworks compute revenue identically, with OSI interchange.
+- [Policy-Aware Lakehouse Telemetry: Building Auditable AI Records on Apache Iceberg for the EU AI Act Era](https://ingestthis.com/posts/2026/2026-08-19-policy-aware-lakehouse-telemetry-eu-ai-act): Policy-aware lakehouse telemetry for the EU AI Act era: build auditable, immutable, governed AI decision records on Apache Iceberg.
+- [Query Routing at Machine Scale: Multi-Engine Workload Distribution for the Agentic Lakehouse](https://ingestthis.com/posts/2026/2026-08-19-query-routing-machine-scale): Query routing at machine scale for the agentic lakehouse: engine selection, acceleration substitution, admission control, and placement across multi-engine estates.
+- [Securing the Agentic Lakehouse Gateway: A Threat Model for Prompt Injection, Exfiltration, and the Firewall That Reads Sentences](https://ingestthis.com/posts/2026/2026-08-19-securing-agentic-lakehouse-gateway): A threat model for the agentic lakehouse gateway covering prompt injection, exfiltration, and the firewall that reads sentences.
+- [Semantic Layer Federation: One Meaning for Data That Lives Everywhere](https://ingestthis.com/posts/2026/2026-08-19-semantic-layer-federation-multi-cloud): Build a federated semantic layer across multi-cloud data so one set of governed metric definitions serves BI tools, dashboards, and AI agents identically.
+- [Building Lightweight Serverless Ingestion to Apache Iceberg with PyIceberg and DuckDB](https://ingestthis.com/posts/2026/2026-08-19-serverless-iceberg-ingestion-pyiceberg-duckdb): Build lightweight serverless ingestion to Apache Iceberg with PyIceberg and DuckDB, running small feeds in functions that bill for seconds.
+- [Building Stateless AI Tool Gateways with FastMCP, the 2026 MCP Spec, and Kubernetes](https://ingestthis.com/posts/2026/2026-08-19-stateless-mcp-tool-gateways-fastmcp): How to build stateless AI tool gateways with FastMCP, the 2026 MCP specification, and Kubernetes, and why statelessness finally makes MCP scale.
+- [Write-Audit-Publish with Apache Iceberg Branches: CI/CD for Your Data](https://ingestthis.com/posts/2026/2026-08-19-write-audit-publish-iceberg-branches): Write-Audit-Publish with Apache Iceberg branches brings CI/CD to your data: stage, audit, then fast-forward to main so consumers never see unvalidated bytes.
+- [Zero-Copy Warehouse Modernization: Moving to Apache Iceberg Without Downtime](https://ingestthis.com/posts/2026/2026-08-19-zero-copy-warehouse-modernization-iceberg): A practical guide to modernizing a data warehouse to Apache Iceberg without downtime, using federation first, then redirecting new data, then materializing what earns a migration.
 - [The Plan and the Worker: Two Open Specifications for Agent Harnesses](https://ingestthis.com/posts/2026/2026-08-10-agentic-graph-open-agent-profile-two-open-specs-agent-harnesses): Two open specifications, the Agentic Graph Specification and the Open Agent Profile, turn agent plans and agent identity into portable, reviewable files.
 - [Apache Arrow Flight and ADBC, and Why Database Connectivity Finally Went Columnar](https://ingestthis.com/posts/2026/2026-08-06-arrow-flight-adbc-explained): Article about Apache Arrow Flight and ADBC, and Why Database Connectivity Finally Went Columnar
 - [Budgeting for Agentic Analytics When Every Question Costs Something Different](https://ingestthis.com/posts/2026/2026-08-04-agentic-analytics-tco-token-budgets): Budgeting for agentic analytics when every question costs something different: token economics, query economics, instrumentation, and the cost controls that actually return.

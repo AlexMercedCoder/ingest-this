@@ -5,9 +5,107 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 16 Aug 2026 21:16:48 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 19 Aug 2026 19:26:05 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Mastering Apache Iceberg v3 Deletion Vectors for High-Throughput Streaming Ingest</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-apache-iceberg-v3-deletion-vectors-streaming-ingest</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-apache-iceberg-v3-deletion-vectors-streaming-ingest</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Iceberg v3 deletion vectors for high-throughput streaming ingest: how bitmaps and Puffin files fix CDC write amplification and read decay.]]></description>
+    </item>
+    <item>
+      <title>The Decoupled Data Lakehouse: Multi-Engine Freedom with Open REST Catalogs</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-decoupled-data-lakehouse-multi-engine-rest-catalogs</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-decoupled-data-lakehouse-multi-engine-rest-catalogs</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The decoupled data lakehouse: multi-engine freedom with open REST catalogs, credential vending, and an estate that outlives its tools.]]></description>
+    </item>
+    <item>
+      <title>The Five Layers of an Agentic Lakehouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-five-layers-agentic-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-five-layers-agentic-lakehouse</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The five layers of an agentic lakehouse: Storage, Catalog, Semantic, Gateway, and Agent Surface, and how one question travels through all of them.]]></description>
+    </item>
+    <item>
+      <title>Goal-Directed Data Quality Agents: Anomaly Quarantine on Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-goal-directed-data-quality-agents-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-goal-directed-data-quality-agents-iceberg</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Goal-directed data quality agents that watch Apache Iceberg tables, detect anomalies, and quarantine suspect data safely with snapshot isolation and branches.]]></description>
+    </item>
+    <item>
+      <title>Managing the TCO of Agentic Analytics: Token Budgets, Query Throttles, and the Economics of Autonomy</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-managing-tco-agentic-analytics</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-managing-tco-agentic-analytics</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Managing the total cost of agentic analytics: token budgets, query throttles, unit economics, and the FinOps discipline that keeps AI spend under control.]]></description>
+    </item>
+    <item>
+      <title>Metric Contracts in 2026: Standardizing Business Logic Across Multi-Agent Frameworks</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-metric-contracts-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-metric-contracts-2026</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Metric contracts in 2026: versioned, testable definitions of business logic that let multi-agent frameworks compute revenue identically, with OSI interchange.]]></description>
+    </item>
+    <item>
+      <title>Policy-Aware Lakehouse Telemetry: Building Auditable AI Records on Apache Iceberg for the EU AI Act Era</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-policy-aware-lakehouse-telemetry-eu-ai-act</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-policy-aware-lakehouse-telemetry-eu-ai-act</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Policy-aware lakehouse telemetry for the EU AI Act era: build auditable, immutable, governed AI decision records on Apache Iceberg.]]></description>
+    </item>
+    <item>
+      <title>Query Routing at Machine Scale: Multi-Engine Workload Distribution for the Agentic Lakehouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-query-routing-machine-scale</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-query-routing-machine-scale</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Query routing at machine scale for the agentic lakehouse: engine selection, acceleration substitution, admission control, and placement across multi-engine estates.]]></description>
+    </item>
+    <item>
+      <title>Securing the Agentic Lakehouse Gateway: A Threat Model for Prompt Injection, Exfiltration, and the Firewall That Reads Sentences</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-securing-agentic-lakehouse-gateway</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-securing-agentic-lakehouse-gateway</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A threat model for the agentic lakehouse gateway covering prompt injection, exfiltration, and the firewall that reads sentences.]]></description>
+    </item>
+    <item>
+      <title>Semantic Layer Federation: One Meaning for Data That Lives Everywhere</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-semantic-layer-federation-multi-cloud</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-semantic-layer-federation-multi-cloud</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Build a federated semantic layer across multi-cloud data so one set of governed metric definitions serves BI tools, dashboards, and AI agents identically.]]></description>
+    </item>
+    <item>
+      <title>Building Lightweight Serverless Ingestion to Apache Iceberg with PyIceberg and DuckDB</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-serverless-iceberg-ingestion-pyiceberg-duckdb</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-serverless-iceberg-ingestion-pyiceberg-duckdb</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Build lightweight serverless ingestion to Apache Iceberg with PyIceberg and DuckDB, running small feeds in functions that bill for seconds.]]></description>
+    </item>
+    <item>
+      <title>Building Stateless AI Tool Gateways with FastMCP, the 2026 MCP Spec, and Kubernetes</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-stateless-mcp-tool-gateways-fastmcp</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-stateless-mcp-tool-gateways-fastmcp</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How to build stateless AI tool gateways with FastMCP, the 2026 MCP specification, and Kubernetes, and why statelessness finally makes MCP scale.]]></description>
+    </item>
+    <item>
+      <title>Write-Audit-Publish with Apache Iceberg Branches: CI/CD for Your Data</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-write-audit-publish-iceberg-branches</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-write-audit-publish-iceberg-branches</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Write-Audit-Publish with Apache Iceberg branches brings CI/CD to your data: stage, audit, then fast-forward to main so consumers never see unvalidated bytes.]]></description>
+    </item>
+    <item>
+      <title>Zero-Copy Warehouse Modernization: Moving to Apache Iceberg Without Downtime</title>
+      <link>https://ingestthis.com/posts/2026/2026-08-19-zero-copy-warehouse-modernization-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-08-19-zero-copy-warehouse-modernization-iceberg</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A practical guide to modernizing a data warehouse to Apache Iceberg without downtime, using federation first, then redirecting new data, then materializing what earns a migration.]]></description>
+    </item>
     <item>
       <title>The Plan and the Worker: Two Open Specifications for Agent Harnesses</title>
       <link>https://ingestthis.com/posts/2026/2026-08-10-agentic-graph-open-agent-profile-two-open-specs-agent-harnesses</link>
@@ -49,104 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-08-04-building-air-gapped-iceberg-lakehouse</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[How to build an Apache Iceberg lakehouse that runs fully offline: storage, catalog, compute, cross-zone transfer, compliance, and the failure modes that bite.]]></description>
-    </item>
-    <item>
-      <title>Wiring Analytical Queries to Transactional APIs in Closed-Loop Decision Agents</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-closed-loop-decision-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-closed-loop-decision-agents</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Wiring analytical queries to transactional APIs in closed-loop decision agents: conditional writes, sagas with compensations, decision records, and blast radius controls.]]></description>
-    </item>
-    <item>
-      <title>Surviving Optimistic Commit Collisions When Hundreds of Agents Write to Iceberg</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-high-concurrency-agent-writes-iceberg</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-high-concurrency-agent-writes-iceberg</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Surviving optimistic commit collisions when hundreds of agents write to Iceberg: which conflicts are real, commit buffers, partitioning, and the patterns that prevent commit storms.]]></description>
-    </item>
-    <item>
-      <title>How Iceberg V3 Deletion Vectors Fixed Merge-on-Read for Streaming Tables</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-deletion-vectors-merge-on-read</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-deletion-vectors-merge-on-read</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How Iceberg V3 deletion vectors replaced accumulating positional delete files and made merge-on-read viable for streaming and CDC tables.]]></description>
-    </item>
-    <item>
-      <title>How Iceberg V3 Variant Shredding Changed Semi-Structured Data on S3 Tables</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-variant-shredding-s3-tables</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v3-variant-shredding-s3-tables</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How Iceberg V3's Variant type and Parquet shredding turn JSON columns into prunable typed columns, with real benchmark tradeoffs and a migration path.]]></description>
-    </item>
-    <item>
-      <title>Reading the Apache Iceberg V4 Proposals Before They Land</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v4-roadmap</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-iceberg-v4-roadmap</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A field guide to the Apache Iceberg V4 proposals: adaptive metadata trees, single-file commits, typed statistics, column families, and what is safe to build on today.]]></description>
-    </item>
-    <item>
-      <title>Building an Honest TCO Model for Open Lakehouses and Proprietary Warehouses</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-lakehouse-vs-warehouse-tco</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-lakehouse-vs-warehouse-tco</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[An honest TCO framework for open lakehouses versus proprietary warehouses: five cost categories, measured numbers, sensitivity analysis, and where each side still wins.]]></description>
-    </item>
-    <item>
-      <title>Why Agentic AI Needs a Governed Semantic Layer Behind the Model Context Protocol</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-mcp-governed-semantic-layer</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-mcp-governed-semantic-layer</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Why agentic AI needs a governed semantic layer behind the Model Context Protocol: metric consistency, access control, Apache Ossie for portable definitions, and Apache Polaris for enforcement.]]></description>
-    </item>
-    <item>
-      <title>Moving From Supply Chain Dashboards to Decision Loops With the Model Context Protocol</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-mcp-supply-chain-decision-loops</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-mcp-supply-chain-decision-loops</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Moving from supply chain dashboards to decision loops with MCP: sense, decide, act, and verify, with typed action tools, idempotency keys, and graduated human approval.]]></description>
-    </item>
-    <item>
-      <title>Metric Contracts as the Interface AI Agents Actually Need</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-metric-contracts-for-ai-agents</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-metric-contracts-for-ai-agents</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Metric contracts as the interface AI agents need: calculation, inclusion rules, grain, temporal semantics, ownership, semantic versioning, and testing metrics in CI.]]></description>
-    </item>
-    <item>
-      <title>Cross-Cloud Credential Vending in Apache Polaris and the End of Permanent Storage Keys</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-polaris-cross-cloud-credential-vending</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-polaris-cross-cloud-credential-vending</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How Apache Polaris vends short-lived, prefix-scoped storage credentials across AWS, Azure, and GCP, and how to retire permanent storage keys for good.]]></description>
-    </item>
-    <item>
-      <title>Designing Policy-Aware Telemetry Tables for AI Systems in Apache Iceberg</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-policy-aware-ai-telemetry-iceberg</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-policy-aware-ai-telemetry-iceberg</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Designing policy-aware AI telemetry tables in Apache Iceberg: what to log, tamper evidence, retention against conflicting deletion requirements, and tracing agent decisions.]]></description>
-    </item>
-    <item>
-      <title>Defending the Lakehouse Gateway Against Prompt Injection and Data Exfiltration</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-preventing-prompt-injection-lakehouse-gateway</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-preventing-prompt-injection-lakehouse-gateway</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Defending the lakehouse gateway against prompt injection and data exfiltration: per-user identity, no-SQL tool surfaces, volume bounds, and detection in query behavior.]]></description>
-    </item>
-    <item>
-      <title>How the Iceberg REST Catalog Turned Into the Lakehouse Control Plane</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-rest-catalog-v2-multi-table-commits</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-rest-catalog-v2-multi-table-commits</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How the Iceberg REST catalog became the lakehouse control plane: multi-table atomic commits, credential vending, capability negotiation, and what still breaks.]]></description>
-    </item>
-    <item>
-      <title>A Migration Playbook for Moving Legacy Warehouses onto Apache Iceberg</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-04-warehouse-to-iceberg-migration-playbook</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-04-warehouse-to-iceberg-migration-playbook</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A dependency-first playbook for migrating legacy warehouses onto Apache Iceberg: snapshot vs migrate vs add_files, four-level parity validation, and federation-based cutover.]]></description>
     </item>
     </channel>
   </rss>
