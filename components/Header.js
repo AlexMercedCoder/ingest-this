@@ -78,6 +78,7 @@ function Header (props){
                 🔍
             </button>
             <Link href="/blog"><div className={styles.link}>BLOG</div></Link>
+            <Link href="/books"><div className={styles.link}>BOOKS</div></Link>
             <a href="https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q"><div className={styles.link}>COMMUNITY</div></a>
             <a href="https://open.spotify.com/show/2PRDrWVpgDvKxN6n1oUsJF?si=9b37b1ba28e2444b"><div className={styles.link}>PODCAST</div></a>
             <ThemeToggle />
