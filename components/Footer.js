@@ -19,6 +19,7 @@ const NETWORK = [
       { label: "DataLakehouseHub.com", url: "https://datalakehousehub.com" },
       { label: "IcebergLakehouse.com", url: "https://iceberglakehouse.com" },
       { label: "AgenticLakehouse.com", url: "https://agenticlakehouse.com" },
+      { label: "AgenticAnalyticsNow.com", url: "https://agenticanalyticsnow.com" },
       { label: "OpenAgenticPlatform.com", url: "https://openagenticplatform.com" },
       { label: "AlexMercedAI.com", url: "https://www.alexmercedai.com" },
       { label: "SemanticLakehouse.com", url: "https://semanticlakehouse.com" },
