@@ -22,6 +22,7 @@ const NETWORK = [
       { label: "OpenAgenticPlatform.com", url: "https://openagenticplatform.com" },
       { label: "AlexMercedAI.com", url: "https://www.alexmercedai.com" },
       { label: "SemanticLakehouse.com", url: "https://semanticlakehouse.com" },
+      { label: "OpenLakehouse.AlexMerced.com", url: "https://openlakehouse.alexmerced.com" },
       { label: "DataEngnr.com", url: "https://dataengnr.com" },
     ],
   },

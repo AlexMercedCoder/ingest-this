@@ -11,6 +11,7 @@
       "slug": "ai-ready-data",
       "description": "Designing data platforms optimized for LLMs, AI agents, and retrieval-augmented generation (RAG) workflows.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "ai-engineering",
         "data-engineering",
@@ -27,6 +28,7 @@
       "slug": "the-book-on-agentic-analytics",
       "description": "Explores the foundations of agentic data architecture, where AI agents autonomously discover, query, and analyze data.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "agentic",
         "data-engineering",
@@ -43,6 +45,7 @@
       "slug": "the-book-on-data-data-engineering-data-analytics-and-agentic-ai-volume-1",
       "description": "A complete guide to modern data systems, data engineering, analytics, and AI.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "data-engineering",
         "agentic",
@@ -59,6 +62,7 @@
       "slug": "the-book-on-data-data-engineering-data-analytics-and-agentic-ai-volume-2",
       "description": "A complete guide to SQL analytics, BI, and agentic AI for modern data platforms.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "data-engineering",
         "agentic",
@@ -75,6 +79,7 @@
       "slug": "the-book-on-using-apache-iceberg-with-python",
       "description": "A hands-on guide to working with Apache Iceberg using Python tools like PyIceberg, PySpark, and other Python-based engines.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "iceberg",
         "data-engineering"
@@ -90,6 +95,7 @@
       "slug": "using-ai-agents-for-data-engineering-and-data-analysis",
       "description": "A practical guide to leveraging AI agents for automating data engineering pipelines and performing intelligent data analysis.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "agentic",
         "data-engineering"
@@ -105,6 +111,7 @@
       "slug": "apache-iceberg-the-definitive-guide",
       "description": "A comprehensive guide to Apache Iceberg and modern lakehouse architecture, covering table format internals, schema evolution, partitioning, and integration with major query engines.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "iceberg",
         "lakehouse"
@@ -120,6 +127,7 @@
       "slug": "apache-polaris-the-definitive-guide",
       "description": "A guide to open catalogs for Apache Iceberg lakehouses, covering Polaris catalog architecture, configuration, and governance.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "catalogs",
         "iceberg",
@@ -136,6 +144,7 @@
       "slug": "architecting-an-apache-iceberg-lakehouse",
       "description": "Architecture patterns and best practices for building production-grade, Iceberg-based data platforms from the ground up.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "iceberg",
         "lakehouse"
@@ -151,6 +160,7 @@
       "slug": "apache-iceberg-for-agentic-ai-connecting-structured-enterprise",
       "description": "Explores how to connect structured enterprise data in Apache Iceberg lakehouses to agentic AI systems.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "agentic",
         "iceberg",
@@ -167,6 +177,7 @@
       "slug": "dremio-and-the-semantic-layer",
       "description": "The journey to providing meaning and context for AI with Dremio's semantic layer.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "semantic",
         "lakehouse"
@@ -182,6 +193,7 @@
       "slug": "enabling-agentic-analytics-with-apache-iceberg-and-dremio",
       "description": "A practical guide to building AI-ready lakehouse systems using Apache Iceberg and Dremio for agentic analytics workflows.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "agentic",
         "iceberg",
@@ -198,6 +210,7 @@
       "slug": "the-2026-guide-to-lakehouses-apache-iceberg-and-agentic-ai",
       "description": "A comprehensive guide covering the convergence of lakehouse architecture, Apache Iceberg, and the rise of agentic AI systems.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "lakehouse",
         "iceberg",
@@ -214,6 +227,7 @@
       "slug": "the-ai-lakehouse-architecting-data-platforms-for-ai",
       "description": "Explores how to architect data lakehouse platforms specifically designed to serve AI and machine learning workloads.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "lakehouse",
         "ai-engineering",
@@ -230,6 +244,7 @@
       "slug": "the-book-on-apache-polaris",
       "description": "Building the open data lakehouse with the industry standard Iceberg REST catalog.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "catalogs",
         "iceberg",
@@ -246,6 +261,7 @@
       "slug": "the-lakehouse-built-for-everyone",
       "description": "From laptop prototypes to enterprise-scale agentic AI with Apache Iceberg and Dremio.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "lakehouse"
       ],
@@ -260,6 +276,7 @@
       "slug": "the-no-lock-in-apache-iceberg-lakehouse-with-agentic-analytics",
       "description": "A practical guide to building a portable Apache Iceberg lakehouse with open catalogs, agentic analytics, and AI-ready data platforms while avoiding vendor lock-in.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "lakehouse",
         "iceberg",
@@ -276,6 +293,7 @@
       "slug": "the-open-source-lakehouse-architecting-the-decoupled-analytical-foundation",
       "description": "Covers building a fully decoupled lakehouse using open source technologies, emphasizing modularity and vendor independence.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "lakehouse",
         "iceberg"
@@ -291,6 +309,7 @@
       "slug": "ai-and-agents-for-normal-people",
       "description": "A practical guide to using AI tools for everyday tasks, covering Gemini, NotebookLM, ChatGPT, Claude, and local agent workflows without technical jargon.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "agentic",
         "ai-productivity"
@@ -306,6 +325,7 @@
       "slug": "ai-application-architecture-patterns-for-building-intelligent-systems",
       "description": "Covers architectural patterns for building intelligent applications, from inference pipelines to multi-agent orchestration.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "ai-engineering",
         "agentic"
@@ -321,6 +341,7 @@
       "slug": "being-productive-with-open-models",
       "description": "A practical guide to using open models with Opencode, PI, and Hermes for AI-assisted development.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "ai-productivity",
         "agentic"
@@ -336,6 +357,7 @@
       "slug": "building-knowledge-systems-for-ai-graphs-rag-memory-and-context",
       "description": "A deep dive into building robust knowledge systems for AI using knowledge graphs, RAG, memory architectures, and context management.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "ai-engineering",
         "semantic",
@@ -352,6 +374,7 @@
       "slug": "constructing-context-and-semantics-for-ai-agents",
       "description": "A practical guide to embeddings, knowledge graphs, memory systems, RAG, evaluation, and production agent architectures.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "semantic",
         "agentic",
@@ -368,6 +391,7 @@
       "slug": "evaluating-ai-systems-testing-llms-rag-and-agents",
       "description": "A guide to properly testing and evaluating AI systems, including benchmarking strategies for LLMs, RAG pipelines, and agents.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "ai-engineering",
         "agentic"
@@ -383,6 +407,7 @@
       "slug": "governing-ai-systems",
       "description": "A guide to AI governance frameworks, covering risk management, compliance, ethics, and organizational oversight of AI systems.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "ai-engineering",
         "agentic"
@@ -398,6 +423,7 @@
       "slug": "hands-on-agentic-engineering-a-practical-guide-to-building-multi-agent-systems",
       "description": "A practical guide to building multi-agent systems with Apache Iceberg.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "agentic",
         "ai-engineering"
@@ -413,6 +439,7 @@
       "slug": "the-agentic-enterprise-deploying-ai-agents-across-the-modern-organization",
       "description": "A guide to deploying AI agents across enterprise functions, covering strategy, governance, and organizational adoption.",
       "category": "Tech",
+      "categorySlug": "tech",
       "topics": [
         "agentic",
         "ai-engineering"
