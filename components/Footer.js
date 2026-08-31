@@ -11,6 +11,7 @@ const NETWORK = [
       { label: "Books", url: "https://books.alexmerced.com" },
       { label: "AlexMercedCoder.dev", url: "https://alexmercedcoder.dev" },
       { label: "AlexMercedData.com", url: "https://alexmerceddata.com" },
+      { label: "AlexMercedMusic.com", url: "https://alexmercedmusic.com" },
     ],
   },
   {
