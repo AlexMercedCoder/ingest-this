@@ -5,148 +5,148 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Sat, 29 Aug 2026 17:59:01 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 02 Sep 2026 18:37:10 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
     <item>
-      <title>Agent-Driven Storage Tiering for Apache Iceberg: Moving Cold Data Without Breaking Queries</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-agent-driven-iceberg-storage-tiering</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-agent-driven-iceberg-storage-tiering</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A background agent can move cold Iceberg partitions to cheaper tiers without breaking live queries. Heatmaps, path-safe moves, and restore paths.]]></description>
+      <title>Data Quality Tooling Compared: Great Expectations, Soda, dbt Tests, and Anomaly Detection</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-data-quality-tooling-compared</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-data-quality-tooling-compared</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A comparison of Great Expectations, Soda, dbt tests, and anomaly detection, and a layered design that uses each where it fits.]]></description>
     </item>
     <item>
-      <title>Securing the Agentic Lakehouse Gateway: Preventing Prompt Injection and Data Exfiltration</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-agentic-lakehouse-gateway-prompt-injection</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-agentic-lakehouse-gateway-prompt-injection</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agentic lakehouse gateways face prompt injection and exfiltration through query results. A threat model and defenses for the layer in front of data.]]></description>
+      <title>The Data Team of the Agentic Era: Generalists Owning End-to-End Workflows</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-data-team-of-the-agentic-era</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-data-team-of-the-agentic-era</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The case for generalists owning end-to-end data workflows with agents, the counterargument, and how to make the transition work.]]></description>
     </item>
     <item>
-      <title>Apache Ossie and Apache Polaris: Putting Semantic Models in the Open Catalog</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-apache-ossie-polaris-semantic-models</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-apache-ossie-polaris-semantic-models</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Ossie and Polaris put metric definitions in the open catalog. What the spec covers, what Polaris stores, and what is still unfinished.]]></description>
+      <title>dbt on Iceberg: Incremental Models on Open Tables</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-dbt-on-iceberg-incremental-models</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-dbt-on-iceberg-incremental-models</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How dbt incremental materializations map to Iceberg operations, and the configuration, predicates, and maintenance that keep them healthy.]]></description>
     </item>
     <item>
-      <title>Arrow Flight SQL and ADBC: Why the Database Driver Is the Slowest Part of Your Query</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-arrow-flight-sql-adbc-connectivity</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-arrow-flight-sql-adbc-connectivity</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[JDBC and ODBC often dominate large-result time. Flight SQL and ADBC keep data columnar from server to client, with Python, Go, and Rust examples.]]></description>
+      <title>Disaster Recovery for Iceberg Tables: Replication, Backup, and Restore</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-disaster-recovery-for-iceberg-tables</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-disaster-recovery-for-iceberg-tables</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Disaster recovery for Iceberg across four tiers: snapshots, object versioning, catalog backup, and cross-region replication.]]></description>
     </item>
     <item>
-      <title>DataFusion Comet 1.0 and What Native Rust Scans Change for Spark on Iceberg</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-datafusion-comet-1-spark-iceberg</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-datafusion-comet-1-spark-iceberg</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[DataFusion Comet 1.0 replaces Spark Iceberg scans with native Rust. What speeds up, what still falls back to the JVM, and how to deploy it.]]></description>
+      <title>Deleting User Data From an Immutable Lakehouse: GDPR Hard Deletes on Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-gdpr-hard-deletes-on-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-gdpr-hard-deletes-on-iceberg</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How to turn a logical delete on immutable Iceberg into a physical erasure across snapshots, versions, replicas, and downstream copies.]]></description>
     </item>
     <item>
-      <title>FSST and ALP: The Two Encodings Fixing Parquet's Weakest Compression Cases</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-fsst-alp-parquet-encodings</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-fsst-alp-parquet-encodings</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ALP and FSST target Parquet's worst cases: floats and high-cardinality strings. How they work and what they change for Iceberg tables.]]></description>
+      <title>Geospatial Data in Apache Iceberg: Geometry, Geography, and GeoParquet</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-geospatial-data-in-apache-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-geospatial-data-in-apache-iceberg</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Iceberg v3 geometry and geography types, bounding boxes, and native Parquet types give spatial data first-class standing.]]></description>
     </item>
     <item>
-      <title>Governance-as-Code for the Lakehouse: Managing REST Catalog RBAC and Masking in Git</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-governance-as-code-lakehouse-rest-catalog</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-governance-as-code-lakehouse-rest-catalog</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Put REST catalog RBAC and masking in Git. How to review grants, apply them safely, and keep lakehouse access from drifting.]]></description>
+      <title>Default Column Values and Field IDs: How Iceberg Schema Evolution Works at the Spec Level</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-iceberg-default-values-and-field-ids</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-iceberg-default-values-and-field-ids</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How field IDs and initial and write defaults let Iceberg change schemas on large tables without rewriting data, at the spec level.]]></description>
     </item>
     <item>
-      <title>Metric Contracts in Code: Testing, Versioning, and Serving Business Logic to Multi-Agent Systems</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-metric-contracts-code-multi-agent</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-metric-contracts-code-multi-agent</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Metric contracts in code let teams test, version, and serve business logic to multi-agent systems without each agent inventing its own SQL.]]></description>
+      <title>The Iceberg Table Properties That Actually Matter</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-iceberg-table-properties-that-matter</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-iceberg-table-properties-that-matter</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The Iceberg table properties that decide file count, pruning, write amplification, retention, and metadata growth, by workload.]]></description>
     </item>
     <item>
-      <title>High-Throughput Branch Merging: Automating Concurrency and Conflict Resolution in Multi-Branch Iceberg Pipelines</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-multi-branch-iceberg-merge-automation</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-multi-branch-iceberg-merge-automation</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[High-throughput Iceberg branch merges need conflict detection and automation. How to reconcile concurrent writes without stalling pipelines.]]></description>
+      <title>Inside the Puffin File Format</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-inside-the-puffin-file-format</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-inside-the-puffin-file-format</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The Puffin file format inside out, byte by byte, covering Theta sketches for distinct values and deletion vectors.]]></description>
     </item>
     <item>
-      <title>Multi-Cloud REST Catalog Topologies: Running Apache Polaris Across AWS, Azure, and GCP</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-multi-cloud-polaris-rest-catalog-topologies</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-multi-cloud-polaris-rest-catalog-topologies</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Polaris can catalog Iceberg tables across AWS, Azure, and GCP. Four topologies, credential vending, and the tradeoffs of each design.]]></description>
+      <title>The Lakehouse Ingestion Tool Landscape: Fivetran, Airbyte, dlt, and CDC vs Batch</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-lakehouse-ingestion-tools</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-lakehouse-ingestion-tools</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Fivetran, Airbyte, dlt, and CDC and streaming tools land well-behaved Apache Iceberg tables, and how to choose and maintain them.]]></description>
     </item>
     <item>
-      <title>Parquet-Only Manifests in Iceberg v4: Why the Metadata Layer Is Going Columnar</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-parquet-manifests-iceberg-v4</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-parquet-manifests-iceberg-v4</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Iceberg v4 is moving manifests from Avro to Parquet so planners can read only the stats they need. Why the metadata layer is going columnar.]]></description>
+      <title>Local Iceberg Development Environments: Docker, MinIO, and In-Memory Catalogs for CI</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-local-iceberg-development-environments</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-local-iceberg-development-environments</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Local Iceberg development environments: in-process catalogs, a Docker Compose stack with MinIO, and CI configurations that run either.]]></description>
     </item>
     <item>
-      <title>Query Routing at Machine Scale: Dynamic Workload Distribution Across Lakehouse Engines</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-query-routing-lakehouse-engines</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-query-routing-lakehouse-engines</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Route each lakehouse query by shape, not by sender. Signals, rules, and how to keep dashboards, batch jobs, and agents from sharing one engine.]]></description>
+      <title>Metadata Platforms in 2026: DataHub, OpenMetadata, Atlan, and Catalog Convergence</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-metadata-platforms-in-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-metadata-platforms-in-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How the technical catalog and the metadata platform are converging in 2026, and how to arrange the two layers for a lakehouse.]]></description>
     </item>
     <item>
-      <title>Semantic Layer Federation: One Logical Model Over Data on Three Clouds</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-semantic-layer-federation-three-clouds</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-semantic-layer-federation-three-clouds</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[One logical model over Iceberg and databases on three clouds. Pushdown, egress, Reflections, and where semantic federation still breaks.]]></description>
+      <title>Moving Iceberg Tables Between Catalogs Without Rewriting Data</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-moving-iceberg-tables-between-catalogs</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-moving-iceberg-tables-between-catalogs</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Why moving Iceberg tables between catalogs is a pointer copy, and the protocol that makes a cutover safe for one table or thousands.]]></description>
     </item>
     <item>
-      <title>Serverless Iceberg Ingestion with PyIceberg and DuckDB: Micro-Batches Without a Spark Cluster</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-serverless-iceberg-microbatch-pyiceberg-duckdb</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-serverless-iceberg-microbatch-pyiceberg-duckdb</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Land small Iceberg micro-batches with PyIceberg and DuckDB in a serverless function. Commits, concurrency, and why Spark is the wrong default.]]></description>
+      <title>Logs, Traces, and Metrics as Tables: Building an OpenTelemetry Data Lake on Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-opentelemetry-data-lake-on-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-opentelemetry-data-lake-on-iceberg</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Building an OpenTelemetry data lake on Iceberg: schemas for spans, logs, and metrics, ingestion, query patterns, and retention.]]></description>
     </item>
     <item>
-      <title>Zero-Copy Warehouse Modernization: Migrating Legacy Databases to Apache Iceberg Without Downtime</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-25-zero-copy-legacy-db-to-iceberg</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-25-zero-copy-legacy-db-to-iceberg</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Move a legacy warehouse to Iceberg without downtime by virtualizing first. Consumer cutover, parity checks, and background copy without double-ETL.]]></description>
+      <title>Orchestration in 2026: Airflow 3 vs Dagster vs Prefect vs Event-Driven</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-orchestration-in-2026</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-orchestration-in-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Where Airflow 3, Dagster, Prefect, and event-driven triggering stand for lakehouse pipelines in 2026, after the Prefect acquisition of Dagster.]]></description>
     </item>
     <item>
-      <title>The Agent Is Now a Named Coworker, and It Needs a File Format</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-24-agents-with-personalities</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-24-agents-with-personalities</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Named, persistent agents need a file format. Open Agent Profile, Buzz, Grok Bot, and Hermes Bot Mode show why a portable agent identity matters.]]></description>
+      <title>Postgres Meets the Lakehouse: pg_lake, pg_duckdb, and When Postgres Is Enough</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-postgres-meets-the-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-postgres-meets-the-lakehouse</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What pg_lake, pg_duckdb, and pg_mooncake do at the Iceberg level, and honest thresholds for when Postgres is enough.]]></description>
     </item>
     <item>
-      <title>Your Agent Should Answer the Phone: A Field Guide to AI Gateways on Slack, Discord, Telegram, Signal, and Teams</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-24-ai-gateways-field-guide</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-24-ai-gateways-field-guide</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A field guide to AI gateways on Slack, Discord, Telegram, Signal, and Teams: architecture, auth, cost, and the failure modes that matter.]]></description>
+      <title>Schema Registries and Event Schemas: Avro, Protobuf, and JSON Schema on the Way Into the Lakehouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-schema-registries-and-event-schemas</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-schema-registries-and-event-schemas</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Avro, Protobuf, and JSON Schema evolve through a registry, and how that maps to the schema evolution rules of Iceberg.]]></description>
     </item>
     <item>
-      <title>Graphs in AI Engineering Have Solved Three Problems. The Fourth Is the Plan.</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-24-graphs-in-ai-engineering</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-24-graphs-in-ai-engineering</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Knowledge graphs, GraphRAG, and LangGraph solved three problems. The fourth is the work itself: a reviewable graph of bounded agentic loops.]]></description>
+      <title>Storage-Partitioned Joins and the Bucket Transform</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-storage-partitioned-joins-and-the-bucket-transform</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-storage-partitioned-joins-and-the-bucket-transform</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How the spec-defined bucket transform lets engines skip the shuffle in joins, and how to set it up and keep it engaged in Spark.]]></description>
     </item>
     <item>
-      <title>The Hidden Cost of Tiny Iceberg Commits</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-24-hidden-cost-of-tiny-iceberg-commits</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-24-hidden-cost-of-tiny-iceberg-commits</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Trace what one tiny Iceberg commit writes, then model hourly, per-minute, and per-second cadences so streaming costs become arithmetic, not adjectives.]]></description>
+      <title>Synthetic Data in the Lakehouse: Generation, Governance, and Testing</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-synthetic-data-in-the-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-synthetic-data-in-the-lakehouse</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What synthetic data in a lakehouse is for, the generation methods, how to preserve fidelity, and where synthetic tables belong.]]></description>
     </item>
     <item>
-      <title>Deletion Vectors vs Position Deletes vs Equality Deletes: The Iceberg Delete Story in 2026</title>
-      <link>https://ingestthis.com/posts/2026/2026-08-24-iceberg-delete-story-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-08-24-iceberg-delete-story-2026</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Position deletes, equality deletes, and deletion vectors compared from the Iceberg spec: what each writes, how readers apply it, and when to use which.]]></description>
+      <title>Will AI Replace Data Engineers?</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-02-will-ai-replace-data-engineers</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-02-will-ai-replace-data-engineers</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What the evidence shows about whether AI replaces data engineers, which parts of the job compress, and which parts do not.]]></description>
     </item>
     </channel>
   </rss>

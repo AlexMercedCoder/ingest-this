@@ -19,6 +19,7 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 
 - AI
 - AI & Agents
+- AI & Data
 - AI & Machine Learning
 - AI & Security
 - AI & Society
@@ -34,9 +35,11 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - Data Analytics
 - Data Architecture
 - Data Engineering
+- Data Governance
 - Data Lakehouse
 - Data Modeling
 - Data Platforms
+- Data Quality
 - DevOps
 - Devops
 - Governance
@@ -44,6 +47,7 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - Javascript
 - Lakehouse
 - MCP
+- Observability
 - Open Source
 - Security
 - Security & Governance
@@ -62,6 +66,26 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 
 ## Technical Articles & Tutorials
 
+- [Data Quality Tooling Compared: Great Expectations, Soda, dbt Tests, and Anomaly Detection](https://ingestthis.com/posts/2026/2026-09-02-data-quality-tooling-compared): A comparison of Great Expectations, Soda, dbt tests, and anomaly detection, and a layered design that uses each where it fits.
+- [The Data Team of the Agentic Era: Generalists Owning End-to-End Workflows](https://ingestthis.com/posts/2026/2026-09-02-data-team-of-the-agentic-era): The case for generalists owning end-to-end data workflows with agents, the counterargument, and how to make the transition work.
+- [dbt on Iceberg: Incremental Models on Open Tables](https://ingestthis.com/posts/2026/2026-09-02-dbt-on-iceberg-incremental-models): How dbt incremental materializations map to Iceberg operations, and the configuration, predicates, and maintenance that keep them healthy.
+- [Disaster Recovery for Iceberg Tables: Replication, Backup, and Restore](https://ingestthis.com/posts/2026/2026-09-02-disaster-recovery-for-iceberg-tables): Disaster recovery for Iceberg across four tiers: snapshots, object versioning, catalog backup, and cross-region replication.
+- [Deleting User Data From an Immutable Lakehouse: GDPR Hard Deletes on Iceberg](https://ingestthis.com/posts/2026/2026-09-02-gdpr-hard-deletes-on-iceberg): How to turn a logical delete on immutable Iceberg into a physical erasure across snapshots, versions, replicas, and downstream copies.
+- [Geospatial Data in Apache Iceberg: Geometry, Geography, and GeoParquet](https://ingestthis.com/posts/2026/2026-09-02-geospatial-data-in-apache-iceberg): How Iceberg v3 geometry and geography types, bounding boxes, and native Parquet types give spatial data first-class standing.
+- [Default Column Values and Field IDs: How Iceberg Schema Evolution Works at the Spec Level](https://ingestthis.com/posts/2026/2026-09-02-iceberg-default-values-and-field-ids): How field IDs and initial and write defaults let Iceberg change schemas on large tables without rewriting data, at the spec level.
+- [The Iceberg Table Properties That Actually Matter](https://ingestthis.com/posts/2026/2026-09-02-iceberg-table-properties-that-matter): The Iceberg table properties that decide file count, pruning, write amplification, retention, and metadata growth, by workload.
+- [Inside the Puffin File Format](https://ingestthis.com/posts/2026/2026-09-02-inside-the-puffin-file-format): The Puffin file format inside out, byte by byte, covering Theta sketches for distinct values and deletion vectors.
+- [The Lakehouse Ingestion Tool Landscape: Fivetran, Airbyte, dlt, and CDC vs Batch](https://ingestthis.com/posts/2026/2026-09-02-lakehouse-ingestion-tools): How Fivetran, Airbyte, dlt, and CDC and streaming tools land well-behaved Apache Iceberg tables, and how to choose and maintain them.
+- [Local Iceberg Development Environments: Docker, MinIO, and In-Memory Catalogs for CI](https://ingestthis.com/posts/2026/2026-09-02-local-iceberg-development-environments): Local Iceberg development environments: in-process catalogs, a Docker Compose stack with MinIO, and CI configurations that run either.
+- [Metadata Platforms in 2026: DataHub, OpenMetadata, Atlan, and Catalog Convergence](https://ingestthis.com/posts/2026/2026-09-02-metadata-platforms-in-2026): How the technical catalog and the metadata platform are converging in 2026, and how to arrange the two layers for a lakehouse.
+- [Moving Iceberg Tables Between Catalogs Without Rewriting Data](https://ingestthis.com/posts/2026/2026-09-02-moving-iceberg-tables-between-catalogs): Why moving Iceberg tables between catalogs is a pointer copy, and the protocol that makes a cutover safe for one table or thousands.
+- [Logs, Traces, and Metrics as Tables: Building an OpenTelemetry Data Lake on Iceberg](https://ingestthis.com/posts/2026/2026-09-02-opentelemetry-data-lake-on-iceberg): Building an OpenTelemetry data lake on Iceberg: schemas for spans, logs, and metrics, ingestion, query patterns, and retention.
+- [Orchestration in 2026: Airflow 3 vs Dagster vs Prefect vs Event-Driven](https://ingestthis.com/posts/2026/2026-09-02-orchestration-in-2026): Where Airflow 3, Dagster, Prefect, and event-driven triggering stand for lakehouse pipelines in 2026, after the Prefect acquisition of Dagster.
+- [Postgres Meets the Lakehouse: pg_lake, pg_duckdb, and When Postgres Is Enough](https://ingestthis.com/posts/2026/2026-09-02-postgres-meets-the-lakehouse): What pg_lake, pg_duckdb, and pg_mooncake do at the Iceberg level, and honest thresholds for when Postgres is enough.
+- [Schema Registries and Event Schemas: Avro, Protobuf, and JSON Schema on the Way Into the Lakehouse](https://ingestthis.com/posts/2026/2026-09-02-schema-registries-and-event-schemas): How Avro, Protobuf, and JSON Schema evolve through a registry, and how that maps to the schema evolution rules of Iceberg.
+- [Storage-Partitioned Joins and the Bucket Transform](https://ingestthis.com/posts/2026/2026-09-02-storage-partitioned-joins-and-the-bucket-transform): How the spec-defined bucket transform lets engines skip the shuffle in joins, and how to set it up and keep it engaged in Spark.
+- [Synthetic Data in the Lakehouse: Generation, Governance, and Testing](https://ingestthis.com/posts/2026/2026-09-02-synthetic-data-in-the-lakehouse): What synthetic data in a lakehouse is for, the generation methods, how to preserve fidelity, and where synthetic tables belong.
+- [Will AI Replace Data Engineers?](https://ingestthis.com/posts/2026/2026-09-02-will-ai-replace-data-engineers): What the evidence shows about whether AI replaces data engineers, which parts of the job compress, and which parts do not.
 - [Agent-Driven Storage Tiering for Apache Iceberg: Moving Cold Data Without Breaking Queries](https://ingestthis.com/posts/2026/2026-08-25-agent-driven-iceberg-storage-tiering): A background agent can move cold Iceberg partitions to cheaper tiers without breaking live queries. Heatmaps, path-safe moves, and restore paths.
 - [Securing the Agentic Lakehouse Gateway: Preventing Prompt Injection and Data Exfiltration](https://ingestthis.com/posts/2026/2026-08-25-agentic-lakehouse-gateway-prompt-injection): Agentic lakehouse gateways face prompt injection and exfiltration through query results. A threat model and defenses for the layer in front of data.
 - [Apache Ossie and Apache Polaris: Putting Semantic Models in the Open Catalog](https://ingestthis.com/posts/2026/2026-08-25-apache-ossie-polaris-semantic-models): Apache Ossie and Polaris put metric definitions in the open catalog. What the spec covers, what Polaris stores, and what is still unfinished.
