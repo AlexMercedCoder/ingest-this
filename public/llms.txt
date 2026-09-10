@@ -32,6 +32,7 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - Apache Parquet
 - Apache Polaris
 - Artificial Intelligence
+- Cost Optimization
 - Data Analytics
 - Data Architecture
 - Data Engineering
@@ -40,19 +41,23 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 - Data Modeling
 - Data Platforms
 - Data Quality
+- Data Security
 - DevOps
 - Devops
 - Governance
 - Hardware
 - Javascript
 - Lakehouse
+- Lakehouse Architecture
 - MCP
+- Market Analysis
 - Observability
 - Open Source
 - Security
 - Security & Governance
 - Semantic Layer
 - Software Development
+- Streaming
 - Technology & Culture
 - data
 - data engineering
@@ -66,6 +71,23 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 
 ## Technical Articles & Tutorials
 
+- [Agentic Data Architecture](https://ingestthis.com/posts/2026/2026-09-10-agentic-data-architecture): A six-layer reference architecture for agents on company data: planners, tool boundaries, identity, the semantic layer, and what breaks when a layer is missing.
+- [Running Apache Polaris in Production](https://ingestthis.com/posts/2026/2026-09-10-apache-polaris-in-production): Apache Polaris past the quickstart: persistence backends, realm bootstrap, replica token signing, upgrades, backups, and which failures take the lakehouse offline.
+- [What the 2026 Consolidation Means for Open Formats](https://ingestthis.com/posts/2026/2026-09-10-consolidation-2026-open-formats): Tabular, Dremio, and a wave of data platform acquisitions: what changes for teams building on open formats and which guarantees survive a change of ownership.
+- [Context Engineering for Data Agents](https://ingestthis.com/posts/2026/2026-09-10-context-engineering-for-data-agents): Why text-to-SQL accuracy collapses on enterprise schemas, the five kinds of context an agent needs, where each one hides, and how to make the semantics legible.
+- [Guardrails for AI on Company Data](https://ingestthis.com/posts/2026/2026-09-10-guardrails-ai-company-data): The control surfaces that actually contain damage once an agent is fooled: identity, permissions, audit trails, and prompt injection at the query layer.
+- [Migrating Into Iceberg Without Moving Data](https://ingestthis.com/posts/2026/2026-09-10-iceberg-in-place-migration): add_files, snapshot, and migrate compared: the three in-place paths into Iceberg, the reconciliation each requires, the layout traps, and the rollback story.
+- [What Iceberg Table Maintenance Actually Costs](https://ingestthis.com/posts/2026/2026-09-10-iceberg-maintenance-budget): A cost model for compaction, snapshot expiry, orphan cleanup, and manifest rewriting: what each operation spends, on which meter, and how to set a schedule.
+- [Running an Iceberg Lakehouse on Kubernetes](https://ingestthis.com/posts/2026/2026-09-10-iceberg-on-kubernetes): Catalog, maintenance, and compaction as Kubernetes workloads: scheduling classes, job structure, credential flow, and the failures that come from the interaction.
+- [Partition Statistics Files in Apache Iceberg](https://ingestthis.com/posts/2026/2026-09-10-iceberg-partition-statistics-files): The underused Iceberg metadata for planning: what the partition statistics file holds, what the spec guarantees, how to write one, and when it earns its slot.
+- [What to Assert When You Test an Iceberg Pipeline](https://ingestthis.com/posts/2026/2026-09-10-iceberg-pipeline-assertions): Fixtures, in-memory catalogs, and golden metadata: the assertions that catch wrong rows, unsafe reruns, schema drift, and concurrent-write corruption in CI.
+- [The 2026 Iceberg REST Catalog Compatibility Report](https://ingestthis.com/posts/2026/2026-09-10-iceberg-rest-catalog-compatibility-report-2026): A repeatable test for what an Iceberg REST catalog actually serves, a scoring scheme that separates design from breakage, and the 2026 evidence across seven catalogs.
+- [Serving Iceberg Tables From Two Regions](https://ingestthis.com/posts/2026/2026-09-10-iceberg-two-region-serving): Three multi-region topologies that work and one that mostly does not, what an Iceberg commit costs across regions, and where the catalog has to live.
+- [How Iceberg Catalogs Hand Engines Storage Access](https://ingestthis.com/posts/2026/2026-09-10-iceberg-vended-credentials): Credential vending end to end: the wire protocol, scoped access on each cloud, remote signing, credential lifetime on long jobs, and failures that look like bugs.
+- [Kafka Connect to Iceberg: How the Commit Actually Works](https://ingestthis.com/posts/2026/2026-09-10-kafka-connect-iceberg-commits): Exactly-once semantics in the Iceberg sink connector: the coordinator, the control topic, offsets stored inside Iceberg snapshots, and where duplicates still get in.
+- [What a Query Costs](https://ingestthis.com/posts/2026/2026-09-10-lakehouse-unit-economics): Four meters, their real proportions, and how to attribute compute to a query, a table, and a team so a platform can answer what a dashboard costs to run.
+- [The Open Lakehouse Explained, Then Built on Your Laptop with Dremio and MinIO](https://ingestthis.com/posts/2026/2026-09-10-open-lakehouse-on-your-laptop): The five layers of the open lakehouse explained, then a lab: Parquet, Iceberg, Polaris, Arrow, and Ossie running in two containers on your own machine.
+- [Where Lock-In Went](https://ingestthis.com/posts/2026/2026-09-10-where-lock-in-went): The format war ended and exit cost did not: where lock-in relocated after open tables won, how to measure it, and which costs are worth keeping down.
 - [Data Quality Tooling Compared: Great Expectations, Soda, dbt Tests, and Anomaly Detection](https://ingestthis.com/posts/2026/2026-09-02-data-quality-tooling-compared): A comparison of Great Expectations, Soda, dbt tests, and anomaly detection, and a layered design that uses each where it fits.
 - [The Data Team of the Agentic Era: Generalists Owning End-to-End Workflows](https://ingestthis.com/posts/2026/2026-09-02-data-team-of-the-agentic-era): The case for generalists owning end-to-end data workflows with agents, the counterargument, and how to make the transition work.
 - [dbt on Iceberg: Incremental Models on Open Tables](https://ingestthis.com/posts/2026/2026-09-02-dbt-on-iceberg-incremental-models): How dbt incremental materializations map to Iceberg operations, and the configuration, predicates, and maintenance that keep them healthy.
