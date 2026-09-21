@@ -5,9 +5,16 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Thu, 10 Sep 2026 20:23:09 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 21 Sep 2026 16:28:10 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Fast Classification Models, LLMs, and the Apache Iceberg Lakehouse</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-jev-classification-models-iceberg-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-jev-classification-models-iceberg-lakehouse</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How fast classification models like Jev alongside open alternatives such as GLiClass compare with LLMs, and how to run both together inside an Apache Iceberg lakehouse.]]></description>
+    </item>
     <item>
       <title>Agentic Data Architecture</title>
       <link>https://ingestthis.com/posts/2026/2026-09-10-agentic-data-architecture</link>
@@ -140,13 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-09-02-data-team-of-the-agentic-era</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[The case for generalists owning end-to-end data workflows with agents, the counterargument, and how to make the transition work.]]></description>
-    </item>
-    <item>
-      <title>dbt on Iceberg: Incremental Models on Open Tables</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-02-dbt-on-iceberg-incremental-models</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-02-dbt-on-iceberg-incremental-models</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How dbt incremental materializations map to Iceberg operations, and the configuration, predicates, and maintenance that keep them healthy.]]></description>
     </item>
     </channel>
   </rss>

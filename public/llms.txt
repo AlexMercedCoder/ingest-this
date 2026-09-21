@@ -71,6 +71,7 @@ IngestThis is a technical blog focused on the modern data ecosystem — covering
 
 ## Technical Articles & Tutorials
 
+- [Fast Classification Models, LLMs, and the Apache Iceberg Lakehouse](https://ingestthis.com/posts/2026/2026-09-21-jev-classification-models-iceberg-lakehouse): How fast classification models like Jev alongside open alternatives such as GLiClass compare with LLMs, and how to run both together inside an Apache Iceberg lakehouse.
 - [Agentic Data Architecture](https://ingestthis.com/posts/2026/2026-09-10-agentic-data-architecture): A six-layer reference architecture for agents on company data: planners, tool boundaries, identity, the semantic layer, and what breaks when a layer is missing.
 - [Running Apache Polaris in Production](https://ingestthis.com/posts/2026/2026-09-10-apache-polaris-in-production): Apache Polaris past the quickstart: persistence backends, realm bootstrap, replica token signing, upgrades, backups, and which failures take the lakehouse offline.
 - [What the 2026 Consolidation Means for Open Formats](https://ingestthis.com/posts/2026/2026-09-10-consolidation-2026-open-formats): Tabular, Dremio, and a wave of data platform acquisitions: what changes for teams building on open formats and which guarantees survive a change of ownership.
