@@ -5,15 +5,71 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Mon, 21 Sep 2026 16:28:10 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 22 Sep 2026 00:39:11 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Why the Iceberg DataFusion Integration Is Moving to Apache DataFusion</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-datafusion-iceberg-moves-to-apache-datafusion</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-datafusion-iceberg-moves-to-apache-datafusion</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Why the Iceberg DataFusion integration moved to the DataFusion project, and what the split means for users, Comet, and iceberg-rust contributors.]]></description>
+    </item>
+    <item>
+      <title>What Iceberg v4's Proposed FILE Type Means for Multimodal Tables</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-iceberg-v4-file-type-multimodal-tables</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-iceberg-v4-file-type-multimodal-tables</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Iceberg v4's proposed FILE type brings first-class media references to tables, via Parquet's FILE logical type, ranges, checksums, and pre-signed URLs.]]></description>
+    </item>
     <item>
       <title>Fast Classification Models, LLMs, and the Apache Iceberg Lakehouse</title>
       <link>https://ingestthis.com/posts/2026/2026-09-21-jev-classification-models-iceberg-lakehouse</link>
       <guid>https://ingestthis.com/posts/2026/2026-09-21-jev-classification-models-iceberg-lakehouse</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[How fast classification models like Jev alongside open alternatives such as GLiClass compare with LLMs, and how to run both together inside an Apache Iceberg lakehouse.]]></description>
+    </item>
+    <item>
+      <title>How Apache Ossie Is Deciding What Agents and BI Tools Can Ask a Semantic Layer</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-ossie-semantic-query-interface-agents</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-ossie-semantic-query-interface-agents</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Apache Ossie's layered query design gives AI agents both a constrained dimensional interface and a grain-safe SQL interface for semantic layers.]]></description>
+    </item>
+    <item>
+      <title>CVE-2026-73334 and the Trust Boundary Inside an Encrypted Parquet File</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-parquet-kms-url-cve-2026-73334-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-parquet-kms-url-cve-2026-73334-iceberg</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CVE-2026-73334 lets a tampered Parquet footer route a reader's KMS token to an attacker. Here's the fix, Iceberg's safe path, and how to audit your lakehouse.]]></description>
+    </item>
+    <item>
+      <title>Parquet Page Indexes and the Last Mile of Pruning in Apache Iceberg</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-parquet-page-index-pruning-iceberg</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-parquet-page-index-pruning-iceberg</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Parquet page indexes can cut selective Iceberg scans by an order of magnitude on sorted data. How they work, what they cost, and how to lay out tables.]]></description>
+    </item>
+    <item>
+      <title>How Apache Polaris Plans to Share Iceberg Tables Across Organizations</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-polaris-open-sharing-iceberg-tables</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-polaris-open-sharing-iceberg-tables</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Polaris's Open Sharing proposal adds first-class shares, external consumers, and listings so any Iceberg REST engine can read shared tables.]]></description>
+    </item>
+    <item>
+      <title>Keeping Lakehouse Traffic Off the Public Internet With Apache Polaris</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-polaris-private-networking-lakehouse</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-polaris-private-networking-lakehouse</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A private Polaris lakehouse still leaks data if the storage hop goes public. How to bind vended credentials to private networks on AWS, Azure, and GCP.]]></description>
+    </item>
+    <item>
+      <title>Vector Search Directly Over Iceberg Tables, and When You Still Need a Vector Database</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-21-vector-search-over-iceberg-tables</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-21-vector-search-over-iceberg-tables</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Embeddings are just columns. When exact vector search over Iceberg scans beats a vector database, when it does not, and how to lay out tables.]]></description>
     </item>
     <item>
       <title>Agentic Data Architecture</title>
@@ -91,62 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-09-10-iceberg-rest-catalog-compatibility-report-2026</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A repeatable test for what an Iceberg REST catalog actually serves, a scoring scheme that separates design from breakage, and the 2026 evidence across seven catalogs.]]></description>
-    </item>
-    <item>
-      <title>Serving Iceberg Tables From Two Regions</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-iceberg-two-region-serving</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-iceberg-two-region-serving</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Three multi-region topologies that work and one that mostly does not, what an Iceberg commit costs across regions, and where the catalog has to live.]]></description>
-    </item>
-    <item>
-      <title>How Iceberg Catalogs Hand Engines Storage Access</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-iceberg-vended-credentials</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-iceberg-vended-credentials</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Credential vending end to end: the wire protocol, scoped access on each cloud, remote signing, credential lifetime on long jobs, and failures that look like bugs.]]></description>
-    </item>
-    <item>
-      <title>Kafka Connect to Iceberg: How the Commit Actually Works</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-kafka-connect-iceberg-commits</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-kafka-connect-iceberg-commits</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Exactly-once semantics in the Iceberg sink connector: the coordinator, the control topic, offsets stored inside Iceberg snapshots, and where duplicates still get in.]]></description>
-    </item>
-    <item>
-      <title>What a Query Costs</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-lakehouse-unit-economics</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-lakehouse-unit-economics</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Four meters, their real proportions, and how to attribute compute to a query, a table, and a team so a platform can answer what a dashboard costs to run.]]></description>
-    </item>
-    <item>
-      <title>The Open Lakehouse Explained, Then Built on Your Laptop with Dremio and MinIO</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-open-lakehouse-on-your-laptop</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-open-lakehouse-on-your-laptop</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The five layers of the open lakehouse explained, then a lab: Parquet, Iceberg, Polaris, Arrow, and Ossie running in two containers on your own machine.]]></description>
-    </item>
-    <item>
-      <title>Where Lock-In Went</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-where-lock-in-went</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-where-lock-in-went</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The format war ended and exit cost did not: where lock-in relocated after open tables won, how to measure it, and which costs are worth keeping down.]]></description>
-    </item>
-    <item>
-      <title>Data Quality Tooling Compared: Great Expectations, Soda, dbt Tests, and Anomaly Detection</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-02-data-quality-tooling-compared</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-02-data-quality-tooling-compared</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A comparison of Great Expectations, Soda, dbt tests, and anomaly detection, and a layered design that uses each where it fits.]]></description>
-    </item>
-    <item>
-      <title>The Data Team of the Agentic Era: Generalists Owning End-to-End Workflows</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-02-data-team-of-the-agentic-era</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-02-data-team-of-the-agentic-era</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The case for generalists owning end-to-end data workflows with agents, the counterargument, and how to make the transition work.]]></description>
     </item>
     </channel>
   </rss>
