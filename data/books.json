@@ -3,7 +3,7 @@
   "source": "https://alexmerced.com/entity/books.json",
   "catalog": "https://books.alexmerced.com/",
   "intro": "Books on data engineering and the lakehouse: ingestion, table formats, catalogs, and the agentic layer arriving on top of them.",
-  "totalInCatalog": 65,
+  "totalInCatalog": 77,
   "count": 27,
   "books": [
     {
