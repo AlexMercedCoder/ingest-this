@@ -6,6 +6,7 @@ import Link from "next/link";
 import Head from "next/head";
 import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
+import remarkGfm from 'remark-gfm'
 import rehypeHighlight from 'rehype-highlight'
 
 import Comments from "../../components/Comments";
@@ -244,6 +245,7 @@ export async function getStaticProps({ params: { slug } }) {
   
   const mdxSource = await serialize(content, {
     mdxOptions: {
+      remarkPlugins: [remarkGfm],
       rehypePlugins: [rehypeHighlight],
     },
   })
