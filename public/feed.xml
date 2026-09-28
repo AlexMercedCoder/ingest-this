@@ -5,9 +5,30 @@
       <link>https://ingestthis.com</link>
       <description>Articles, tutorials, and resources for Data Engineers, Scientists, Analysts, and Architects.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 22 Sep 2026 00:39:11 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 28 Sep 2026 18:06:59 GMT</lastBuildDate>
       <atom:link href="https://ingestthis.com/feed.xml" rel="self" type="application/rss+xml" />
       
+    <item>
+      <title>Turning an Analytics Question Into a Verified Agentic Graph</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-28-ags-multi-agent-analytics-workflow</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-28-ags-multi-agent-analytics-workflow</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A complete AGS 1.0 graph for governed metric questions, with verification gates, deterministic check scripts, and reconciliation against a semantic layer.]]></description>
+    </item>
+    <item>
+      <title>Keeping Audit Snapshots Alive While Iceberg Snapshot Expiration Runs Every Night</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-28-iceberg-tags-regulatory-snapshot-retention</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-28-iceberg-tags-regulatory-snapshot-retention</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How Iceberg snapshot tags keep audit snapshots alive through nightly expiration: retention calendars, RETAIN semantics, compaction cost, and erasure conflicts.]]></description>
+    </item>
+    <item>
+      <title>Twelve Queries That Pass Every Schema Check and Still Return the Wrong Number</title>
+      <link>https://ingestthis.com/posts/2026/2026-09-28-semantic-failure-catalog-ai-agent-queries</link>
+      <guid>https://ingestthis.com/posts/2026/2026-09-28-semantic-failure-catalog-ai-agent-queries</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Twelve query patterns that pass schema validation and still return wrong numbers, with detectors, required metadata, and tested code for each.]]></description>
+    </item>
     <item>
       <title>Why the Iceberg DataFusion Integration Is Moving to Apache DataFusion</title>
       <link>https://ingestthis.com/posts/2026/2026-09-21-datafusion-iceberg-moves-to-apache-datafusion</link>
@@ -126,27 +147,6 @@
       <guid>https://ingestthis.com/posts/2026/2026-09-10-iceberg-on-kubernetes</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Catalog, maintenance, and compaction as Kubernetes workloads: scheduling classes, job structure, credential flow, and the failures that come from the interaction.]]></description>
-    </item>
-    <item>
-      <title>Partition Statistics Files in Apache Iceberg</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-iceberg-partition-statistics-files</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-iceberg-partition-statistics-files</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The underused Iceberg metadata for planning: what the partition statistics file holds, what the spec guarantees, how to write one, and when it earns its slot.]]></description>
-    </item>
-    <item>
-      <title>What to Assert When You Test an Iceberg Pipeline</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-iceberg-pipeline-assertions</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-iceberg-pipeline-assertions</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Fixtures, in-memory catalogs, and golden metadata: the assertions that catch wrong rows, unsafe reruns, schema drift, and concurrent-write corruption in CI.]]></description>
-    </item>
-    <item>
-      <title>The 2026 Iceberg REST Catalog Compatibility Report</title>
-      <link>https://ingestthis.com/posts/2026/2026-09-10-iceberg-rest-catalog-compatibility-report-2026</link>
-      <guid>https://ingestthis.com/posts/2026/2026-09-10-iceberg-rest-catalog-compatibility-report-2026</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A repeatable test for what an Iceberg REST catalog actually serves, a scoring scheme that separates design from breakage, and the 2026 evidence across seven catalogs.]]></description>
     </item>
     </channel>
   </rss>
