@@ -8,30 +8,39 @@ const NETWORK = [
       { label: "AlexMerced.com", url: "https://alexmerced.com" },
       { label: "WhoIsAlexMerced.com", url: "https://whoisalexmerced.com" },
       { label: "AlexMercedMedia.com", url: "https://alexmercedmedia.com" },
+      { label: "Branding.AlexMerced.com", url: "https://branding.alexmerced.com" },
       { label: "Books", url: "https://books.alexmerced.com" },
+      { label: "Resources.AlexMerced.com", url: "https://resources.alexmerced.com" },
       { label: "AlexMercedCoder.dev", url: "https://alexmercedcoder.dev" },
       { label: "AlexMercedData.com", url: "https://alexmerceddata.com" },
+      { label: "OpenDataLakehouse.com", url: "https://opendatalakehouse.com" },
       { label: "AlexMercedMusic.com", url: "https://alexmercedmusic.com" },
+      { label: "AlexMercedLibertarian.com", url: "https://alexmercedlibertarian.com" },
+      { label: "D6Storyteller.AlexMerced.com", url: "https://d6storyteller.alexmerced.com" },
     ],
   },
   {
     title: "Lakehouse & Data",
     sites: [
       { label: "DataLakehouseHub.com", url: "https://datalakehousehub.com" },
+      { label: "DataLakehouse.help", url: "https://datalakehouse.help" },
       { label: "IcebergLakehouse.com", url: "https://iceberglakehouse.com" },
       { label: "AgenticLakehouse.com", url: "https://agenticlakehouse.com" },
       { label: "AgenticAnalyticsNow.com", url: "https://agenticanalyticsnow.com" },
       { label: "OpenAgenticPlatform.com", url: "https://openagenticplatform.com" },
       { label: "AlexMercedAI.com", url: "https://www.alexmercedai.com" },
+      { label: "DataAIWiki.com", url: "https://dataaiwiki.com" },
       { label: "SemanticLakehouse.com", url: "https://semanticlakehouse.com" },
       { label: "OpenLakehouse.AlexMerced.com", url: "https://openlakehouse.alexmerced.com" },
       { label: "DataEngnr.com", url: "https://dataengnr.com" },
+      { label: "WeekOfData.com", url: "https://weekofdata.com" },
     ],
   },
   {
     title: "Blogs",
     sites: [
       { label: "AlexMerced.blog", url: "https://alexmerced.blog" },
+      { label: "Tuts.AlexMercedCoder.dev", url: "https://tuts.alexmercedcoder.dev" },
       { label: "GrokOverflow.com", url: "https://grokoverflow.com" },
     ],
   },
@@ -91,7 +100,7 @@ function Footer(props) {
         </div>
         <div className={styles.footerSection}>
           <strong>Author</strong>
-          <a href="https://www.alexmercedcoder.dev" rel="author noopener noreferrer">Alex Merced</a>
+          <a href="https://alexmercedcoder.dev" rel="author noopener noreferrer">Alex Merced</a>
           <a href="https://www.linkedin.com/in/alexmerced" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://www.twitter.com/alexmercedcoder" rel="noopener noreferrer">Twitter / X</a>
         </div>
@@ -128,7 +137,7 @@ function Footer(props) {
       </nav>
       <p className={styles.footerCopy}>
         &copy; {new Date().getFullYear()} Alex Merced &mdash;{" "}
-        <a href="https://www.alexmercedcoder.dev" rel="author noopener noreferrer">alexmercedcoder.dev</a>
+        <a href="https://alexmercedcoder.dev" rel="author noopener noreferrer">alexmercedcoder.dev</a>
       </p>
       <p style={{fontSize:'0.8rem',marginTop:'0.25rem',opacity:0.7}}>
         The views, thoughts, and opinions expressed on this site belong solely to Alex Merced and do not represent the views of any organization or employer.
