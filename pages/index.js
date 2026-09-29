@@ -147,6 +147,9 @@ export default function Home({ posts, postCount }) {
             Working notes for people who move data for a living. Pipelines,
             lakehouses, table formats, and the architecture underneath them.
           </p>
+          <p className={styles.standfirst}>
+            Operations path: <a href="/posts/2026/2026-02-19-debp-02-design-data-pipelines">design a pipeline</a> → <a href="/posts/2026/2026-02-19-debp-08-testing-data-pipelines">test it</a> → <a href="/posts/2026/2026-02-19-debp-09-observability-monitoring">monitor it</a>.
+          </p>
           <div className={styles.mastheadActions}>
             <a href="/blog" className={styles.btnSignal}>Read the archive</a>
             <a

@@ -1,7 +1,21 @@
+const fs = require('fs');
+const path = require('path');
+const matter = require('gray-matter');
+
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://ingestthis.com',
   generateRobotsTxt: true,
+  transform: async (config, url) => {
+    if (url.startsWith('/posts/')) {
+      const source = path.join(__dirname, 'posts', `${url.slice('/posts/'.length)}.md`);
+      if (fs.existsSync(source)) {
+        const canonical = matter(fs.readFileSync(source, 'utf8')).data.canonical;
+        if (canonical && !canonical.startsWith('https://ingestthis.com/')) return null;
+      }
+    }
+    return { loc: url, changefreq: 'weekly', priority: url.startsWith('/posts/') ? 0.9 : 0.7 };
+  },
   // optional
   robotsTxtOptions: {
     policies: [

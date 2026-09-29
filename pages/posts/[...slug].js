@@ -47,6 +47,7 @@ const components = {
 export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime, slug }) {
   const { title, author, category, date, tags, description } = frontmatter;
   const postUrl = `https://ingestthis.com/posts/${slug}`;
+  const canonicalUrl = /^https:\/\/[^\s]+$/.test(frontmatter.canonical || '') ? frontmatter.canonical : postUrl;
   const metaDescription = description || `Read "${title}" by ${author} on IngestThis — covering ${tags.join(", ")}.`;
   const imageUrl = `https://ingestthis.com/og/${slug}.png`;
 
@@ -62,7 +63,8 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
         {/* Open Graph */}
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="IngestThis" />
-        <meta property="og:url" content={postUrl} />
+        <meta property="og:url" content={canonicalUrl} />
+        <link rel="canonical" href={canonicalUrl} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content={imageUrl} />
@@ -90,12 +92,12 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
               "@type": "Article",
               mainEntityOfPage: {
                 "@type": "WebPage",
-                "@id": postUrl,
+                "@id": canonicalUrl,
               },
               headline: title,
               description: metaDescription,
               image: [imageUrl],
-              url: postUrl,
+              url: canonicalUrl,
               datePublished: date,
               dateModified: date,
               keywords: tags.join(", "),
