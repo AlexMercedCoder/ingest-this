@@ -7,6 +7,9 @@ module.exports = {
   siteUrl: 'https://ingestthis.com',
   generateRobotsTxt: true,
   transform: async (config, url) => {
+    // Retired site: only the moved homepage stays in the sitemap; every other
+    // URL 301s (netlify.toml).
+    if (url.split('?')[0] !== '/') return null;
     if (url.startsWith('/posts/')) {
       const source = path.join(__dirname, 'posts', `${url.slice('/posts/'.length)}.md`);
       if (fs.existsSync(source)) {

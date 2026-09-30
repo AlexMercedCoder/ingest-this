@@ -535,3 +535,16 @@
     padding-top: 0;
   }
 }
+
+/* Retired-site "moved" homepage */
+.moved {
+  max-width: 720px;
+  margin: 64px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+.moved h1 { font-size: 2rem; margin-bottom: 16px; }
+.moved a { text-decoration: underline; }
+.movedList { list-style: none; padding: 0; margin: 24px 0; display: grid; gap: 16px; }
+.movedList li { display: flex; flex-direction: column; gap: 4px; padding: 16px; border: 1px solid currentColor; border-radius: 8px; }
+.movedList li a { font-weight: 700; font-size: 1.125rem; }
