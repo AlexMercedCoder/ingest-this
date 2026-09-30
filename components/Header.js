@@ -24,18 +24,7 @@ function Header (props){
     return (
      <>
       <header className={styles.header}>
-                <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-VV24N90YMR"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-VV24N90YMR');
-        `}
-      </Script>
+      {/* GA4 comes from network/network-head.html via pages/_document.js */}
         <Head>
         {!router.asPath.startsWith('/posts/') && <link rel="canonical" href={`https://ingestthis.com${router.asPath.split("?")[0]}`} />}
         <meta property="og:site_name" content="IngestThis" />

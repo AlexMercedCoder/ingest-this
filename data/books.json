@@ -19,7 +19,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSN7GLH2.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/ai-ready-data.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/ai-ready-data/",
       "amazon": "https://www.amazon.com/AI-Ready-Data-Designing-Platforms-Agents/dp/B0GSN7GLH2"
     },
@@ -36,7 +36,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GQN4Q41Y.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-book-on-agentic-analytics.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-book-on-agentic-analytics/",
       "amazon": "https://www.amazon.com/dp/B0GQN4Q41Y"
     },
@@ -53,7 +53,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GZTXJQ1C.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-book-on-data-data-engineering-data-analytics-and-agentic-ai-volume-1.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-book-on-data-data-engineering-data-analytics-and-agentic-ai-volume-1/",
       "amazon": "https://www.amazon.com/dp/B0GZTXJQ1C"
     },
@@ -70,7 +70,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GZVJB6ML.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-book-on-data-data-engineering-data-analytics-and-agentic-ai-volume-2.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-book-on-data-data-engineering-data-analytics-and-agentic-ai-volume-2/",
       "amazon": "https://www.amazon.com/dp/B0GZVJB6ML"
     },
@@ -86,7 +86,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GNZ454FF.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-book-on-using-apache-iceberg-with-python.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-book-on-using-apache-iceberg-with-python/",
       "amazon": "https://www.amazon.com/dp/B0GNZ454FF"
     },
@@ -102,7 +102,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GR6PYJT9.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/using-ai-agents-for-data-engineering-and-data-analysis.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/using-ai-agents-for-data-engineering-and-data-analysis/",
       "amazon": "https://www.amazon.com/dp/B0GR6PYJT9"
     },
@@ -118,7 +118,7 @@
       ],
       "publisher": "O'Reilly Media",
       "flagship": true,
-      "cover": "https://images.amazon.com/images/P/1098148622.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/apache-iceberg-the-definitive-guide.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/apache-iceberg-the-definitive-guide/",
       "amazon": "https://www.amazon.com/dp/1098148622"
     },
@@ -135,7 +135,7 @@
       ],
       "publisher": "O'Reilly Media",
       "flagship": true,
-      "cover": "https://images.amazon.com/images/P/B0FBRJ7J1Y.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/apache-polaris-the-definitive-guide.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/apache-polaris-the-definitive-guide/",
       "amazon": "https://www.amazon.com/dp/B0FBRJ7J1Y"
     },
@@ -151,7 +151,7 @@
       ],
       "publisher": "Manning Publications",
       "flagship": true,
-      "cover": "https://images.amazon.com/images/P/1633435105.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/architecting-an-apache-iceberg-lakehouse.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/architecting-an-apache-iceberg-lakehouse/",
       "amazon": "https://www.amazon.com/dp/1633435105"
     },
@@ -168,7 +168,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0DYTX2WZY.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/apache-iceberg-for-agentic-ai-connecting-structured-enterprise.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/apache-iceberg-for-agentic-ai-connecting-structured-enterprise/",
       "amazon": "https://www.amazon.com/Apache-Iceberg-Agentic-Connecting-Structured-ebook/dp/B0DYTX2WZY"
     },
@@ -184,7 +184,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GWF7PFDG.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/dremio-and-the-semantic-layer.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/dremio-and-the-semantic-layer/",
       "amazon": "https://www.amazon.com/dp/B0GWF7PFDG"
     },
@@ -201,7 +201,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GQXT6W3N.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/enabling-agentic-analytics-with-apache-iceberg-and-dremio.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/enabling-agentic-analytics-with-apache-iceberg-and-dremio/",
       "amazon": "https://www.amazon.com/dp/B0GQXT6W3N"
     },
@@ -218,7 +218,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GQNY21TD.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-2026-guide-to-lakehouses-apache-iceberg-and-agentic-ai.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-2026-guide-to-lakehouses-apache-iceberg-and-agentic-ai/",
       "amazon": "https://www.amazon.com/dp/B0GQNY21TD"
     },
@@ -235,7 +235,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSMQ6M2J.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-ai-lakehouse-architecting-data-platforms-for-ai.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-ai-lakehouse-architecting-data-platforms-for-ai/",
       "amazon": "https://www.amazon.com/AI-Lakehouse-Architecting-Data-Platforms/dp/B0GSMQ6M2J"
     },
@@ -252,7 +252,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GZDVCV24.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-book-on-apache-polaris.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-book-on-apache-polaris/",
       "amazon": "https://www.amazon.com/dp/B0GZDVCV24"
     },
@@ -267,7 +267,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GYL5Q5YV.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-lakehouse-built-for-everyone.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-lakehouse-built-for-everyone/",
       "amazon": "https://www.amazon.com/dp/B0GYL5Q5YV"
     },
@@ -284,7 +284,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0H49TDNX3.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-no-lock-in-apache-iceberg-lakehouse-with-agentic-analytics.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-no-lock-in-apache-iceberg-lakehouse-with-agentic-analytics/",
       "amazon": "https://www.amazon.com/dp/B0H49TDNX3"
     },
@@ -300,7 +300,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0D46P3VB7.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-open-source-lakehouse-architecting-the-decoupled-analytical-foundation.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-open-source-lakehouse-architecting-the-decoupled-analytical-foundation/",
       "amazon": "https://www.amazon.com/Open-Source-Lakehouse-Architecting-Analytical-ebook/dp/B0D46P3VB7"
     },
@@ -316,7 +316,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0H59GBTMW.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/ai-and-agents-for-normal-people.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/ai-and-agents-for-normal-people/",
       "amazon": "https://www.amazon.com/dp/B0H59GBTMW"
     },
@@ -332,7 +332,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSVFT3H4.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/ai-application-architecture-patterns-for-building-intelligent-systems.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/ai-application-architecture-patterns-for-building-intelligent-systems/",
       "amazon": "https://www.amazon.com/AI-Application-Architecture-Patterns-Intelligent/dp/B0GSVFT3H4"
     },
@@ -348,7 +348,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0H76JQ55R.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/being-productive-with-open-models.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/being-productive-with-open-models/",
       "amazon": "https://www.amazon.com/dp/B0H76JQ55R"
     },
@@ -365,7 +365,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSWFSSRC.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/building-knowledge-systems-for-ai-graphs-rag-memory-and-context.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/building-knowledge-systems-for-ai-graphs-rag-memory-and-context/",
       "amazon": "https://www.amazon.com/Building-Knowledge-Systems-AI-Context/dp/B0GSWFSSRC"
     },
@@ -382,7 +382,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSHRZNZ5.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/constructing-context-and-semantics-for-ai-agents.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/constructing-context-and-semantics-for-ai-agents/",
       "amazon": "https://www.amazon.com/Constructing-Context-Semantics-Agents-Embeddings/dp/B0GSHRZNZ5"
     },
@@ -398,7 +398,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSVPQ667.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/evaluating-ai-systems-testing-llms-rag-and-agents.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/evaluating-ai-systems-testing-llms-rag-and-agents/",
       "amazon": "https://www.amazon.com/Evaluating-AI-Systems-Testing-Agents/dp/B0GSVPQ667"
     },
@@ -414,7 +414,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSMVQ1TH.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/governing-ai-systems.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/governing-ai-systems/",
       "amazon": "https://www.amazon.com/Governing-AI-Systems/dp/B0GSMVQ1TH"
     },
@@ -430,7 +430,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GWTZ1394.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/hands-on-agentic-engineering-a-practical-guide-to-building-multi-agent-systems.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/hands-on-agentic-engineering-a-practical-guide-to-building-multi-agent-systems/",
       "amazon": "https://www.amazon.com/dp/B0GWTZ1394"
     },
@@ -446,7 +446,7 @@
       ],
       "publisher": null,
       "flagship": false,
-      "cover": "https://images.amazon.com/images/P/B0GSN3NNS5.01._SCLZZZZZZZ_.jpg",
+      "cover": "https://books.alexmerced.com/covers/the-agentic-enterprise-deploying-ai-agents-across-the-modern-organization.jpg",
       "canonicalPage": "https://books.alexmerced.com/books/the-agentic-enterprise-deploying-ai-agents-across-the-modern-organization/",
       "amazon": "https://www.amazon.com/Agentic-Enterprise-Deploying-Agents-Organization/dp/B0GSN3NNS5"
     }

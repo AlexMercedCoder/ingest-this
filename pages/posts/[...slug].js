@@ -55,7 +55,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
     <main className={styles.main}>
       <Head>
         {/* ... existing head content ... */}
-        <title>{title} | IngestThis</title>
+        <title>{`${title} | IngestThis`}</title>
         <meta name="description" content={metaDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
