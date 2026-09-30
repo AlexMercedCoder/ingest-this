@@ -8,7 +8,10 @@ tags:
   - semantic layer
   - seo
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-self-documenting-semantic-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-self-documenting-semantic-layer/).
 
 ![Self-documenting semantic layer : AI generating descriptions and labels automatically](/images/2026/semantic_layer_seo/09-self-documenting-semantic-layer/self-documenting.png)
 

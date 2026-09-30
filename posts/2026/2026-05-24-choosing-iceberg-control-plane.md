@@ -10,7 +10,11 @@ tags:
   - iceberg rest catalog
   - lakehouse interoperability
   - unity catalog iceberg
+canonical: https://iceberglakehouse.com/posts/2026-05-24-choosing-iceberg-control-plane/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-choosing-iceberg-control-plane/).
+
 # Choosing the Right Iceberg Control Plane: Polaris vs. Unity Catalog vs. Cloud REST
 
 Modern data architecture is undergoing a quiet but fundamental shift. For years, teams focused on choosing the right open table format, debating the file-level mechanics of Delta Lake versus Apache Iceberg. Today, that format debate is largely settled by metadata interoperability. 

@@ -8,7 +8,10 @@ title: "Dremio and Modern Data Architecture: Data Lakes, Data Lakehouses and Dat
 date: "2023-06-02T12:12:03.284Z"
 category: "data engineering"
 
+canonical: https://tuts.alexmercedcoder.dev/2023/6/06-dremio-modern-data-architecture/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/6/06-dremio-modern-data-architecture/).
 
 Today it can seem like a buzzword onslaught in the data space with terms like Data Mesh, Data Lakehouse, and many more being thrown out with every vendor trying to make their claim that they provide "the answer." However, in this article, I will discuss the underlying reality that does leave a need for solutions to today's data challenges. Yes, I work for Dremio, but I also genuinely believe that after going over the problems in today's data world, you'll agree that Dremio is well-positioned to be part of the solution among many technologies rising up today.
 

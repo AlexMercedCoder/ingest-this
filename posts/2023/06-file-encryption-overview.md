@@ -8,7 +8,10 @@ title: "Overview of File Encryption Algorithms for Everyone"
 date: "2023-06-21T12:12:03.284Z"
 category: "data engineering"
 
+canonical: https://tuts.alexmercedcoder.dev/2023/6/06-file-encryption-overview/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/6/06-file-encryption-overview/).
 
 Welcome to the thrilling world of file encryption! In this blog post, we'll unravel the secrets of file encryption algorithms and why they are the superhero capes for your data. Picture encryption as a fortress that transforms your plain text into an unbreakable secret code, shielding it from nosy intruders. So, let's buckle up and explore the popular encryption algorithms that rule the digital realm, including AES, MD5, SHA-1, SHA-2 (256 & 512), and a few more hidden gems. We'll also arm you with some fantastic tips on how to choose the right algorithm for your specific needs. Get ready for a wild ride!
 

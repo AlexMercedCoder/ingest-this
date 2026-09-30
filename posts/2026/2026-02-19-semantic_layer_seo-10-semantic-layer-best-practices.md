@@ -8,7 +8,10 @@ tags:
   - semantic layer
   - seo
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-best-practices/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-best-practices/).
 
 ![Semantic layer best practices checklist : checks and mistakes](/images/2026/semantic_layer_seo/10-semantic-layer-best-practices/best-practices.png)
 

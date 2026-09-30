@@ -9,11 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - dremio
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-11/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-11/).
 
 This is Part 11 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 10](/posts/2026/2026-04-29-apache-iceberg-masterclass-10-maintaining-iceberg) covered maintenance operations. This article covers the metadata tables that let you inspect Iceberg table internals using standard SQL.
 

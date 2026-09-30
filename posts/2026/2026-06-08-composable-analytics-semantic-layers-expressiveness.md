@@ -9,7 +9,10 @@ tags:
   - data-architecture
   - data-engineering
   - open-source
+canonical: https://datalakehousehub.com/blog/composable-analytics-semantic-layers-expressiveness/
 ---
+
+> **Cross-posted.** This article's canonical home is [Data Lakehouse Hub](https://datalakehousehub.com/blog/composable-analytics-semantic-layers-expressiveness/).
 
 ## The Definition Trap
 

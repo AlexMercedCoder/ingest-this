@@ -11,7 +11,11 @@ tags:
   - embedded analytics engine
   - substrait plan format
   - velox c++ engine
+canonical: https://iceberglakehouse.com/posts/2026-05-24-composable-query-engines/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-composable-query-engines/).
+
 # Building Composable Query Engines with Rust Runtimes
 
 For most of data engineering history, a query engine was a monolithic system. You picked a database or warehouse, and it owned everything from the SQL parser through the disk I/O layer. The engine choice was also your storage choice, your catalog choice, and often your governance choice. Composability, the ability to mix and match components from different systems, was minimal.

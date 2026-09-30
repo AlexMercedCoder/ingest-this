@@ -7,7 +7,10 @@ category: "Data Modeling"
 tags:
   - data modeling
   - database design
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-dimensional-modeling/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-dimensional-modeling/).
 
 ![Dimensional model showing a central fact table connected to surrounding dimension tables](/images/2026/data_modeling/05-dimensional-modeling/dimensional-modeling.png)
 

@@ -9,11 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - dremio
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-03/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-03/).
 
 This is Part 3 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 2](/posts/2026/2026-04-29-apache-iceberg-masterclass-02-metadata-structures) covered the metadata structures of all five table formats. This article focuses on exactly how query engines use Iceberg's metadata to avoid reading data they don't need.
 

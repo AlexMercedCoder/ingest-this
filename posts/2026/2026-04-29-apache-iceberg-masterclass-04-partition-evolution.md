@@ -9,11 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - dremio
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-04/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-04/).
 
 This is Part 4 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 3](/posts/2026/2026-04-29-apache-iceberg-masterclass-03-iceberg-metadata-performance) covered metadata-driven performance. This article explains how Iceberg handles the problem that has plagued data lakes for over a decade: what happens when your partition strategy needs to change.
 

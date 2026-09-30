@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-10/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-10/).
 
 This is Part 10 of a 10-part series on query engine design. [Part 9](/posts/2026/2026-04-29-query-engine-optimization-09-distributed-joins) covered distributed joins. This final article covers how engines handle the inevitable conflict when multiple users read and write the same data simultaneously.
 

@@ -7,7 +7,10 @@ category: "Data Engineering"
 tags:
   - data engineering
   - best practices
+canonical: https://iceberglakehouse.com/posts/2026-02-debp-observability-monitoring/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-debp-observability-monitoring/).
 
 ![Pipeline observability dashboard showing metrics, logs, and data lineage](/images/2026/debp/09-observability-monitoring/observability-dashboard.png)
 

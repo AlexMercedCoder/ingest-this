@@ -10,7 +10,10 @@ tags:
   - data-engineering
   - data-architecture
   - open-source
+canonical: https://datalakehousehub.com/blog/clickhouse-real-time-agentic-analytics-event-loops/
 ---
+
+> **Cross-posted.** This article's canonical home is [Data Lakehouse Hub](https://datalakehousehub.com/blog/clickhouse-real-time-agentic-analytics-event-loops/).
 
 ## The Agent Query Wave
 

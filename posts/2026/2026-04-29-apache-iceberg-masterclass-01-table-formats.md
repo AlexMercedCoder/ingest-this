@@ -9,11 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - dremio
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-01/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-01/).
 
 This is Part 1 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). This article covers the fundamental question: what problem do table formats solve, and why does the choice between them matter?
 

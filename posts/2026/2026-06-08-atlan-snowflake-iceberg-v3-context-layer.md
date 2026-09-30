@@ -10,7 +10,10 @@ tags:
   - data-engineering
   - snowflake
   - data-platforms
+canonical: https://datalakehousehub.com/blog/atlan-snowflake-iceberg-v3-context-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Data Lakehouse Hub](https://datalakehousehub.com/blog/atlan-snowflake-iceberg-v3-context-layer/).
 
 ## The Gap Between Table Formats and Business Meaning
 

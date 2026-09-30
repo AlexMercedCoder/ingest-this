@@ -8,7 +8,10 @@ tags:
   - semantic layer
   - seo
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-why-ai-fails-without-semantic-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-why-ai-fails-without-semantic-layer/).
 
 ![AI with vs without a semantic layer : failure modes and fixes](/images/2026/semantic_layer_seo/05-why-ai-fails-without-semantic-layer/ai-semantic-layer.png)
 

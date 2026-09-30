@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-01/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-01/).
 
 Every database you have ever used is a collection of deliberate engineering tradeoffs. PostgreSQL is fast at looking up a single customer record but slow at scanning a billion rows for an aggregate. ClickHouse is the opposite. DuckDB runs analytical queries on your laptop at speeds that embarrass some cloud data warehouses, but it is not designed to handle 10,000 concurrent transactional writes per second. Dremio accelerates analytical queries on lakehouse data using Apache Arrow and Iceberg, but it is not a replacement for a transactional OLTP database.
 

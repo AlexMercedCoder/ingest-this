@@ -8,7 +8,10 @@ tags:
   - AI-ready metadata
   - lineage quality LLM query failures
   - metadata for AI agents
+canonical: https://iceberglakehouse.com/posts/ai-ready-metadata-lineage-quality-llm-query-failures/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/ai-ready-metadata-lineage-quality-llm-query-failures/).
 
 AI-ready metadata reduces query failures by making ownership, freshness, lineage, quality, and policy visible at execution time. For data platform teams exposing analytical tools to LLMs, the useful question is what changes in production and what simply sounds current.
 

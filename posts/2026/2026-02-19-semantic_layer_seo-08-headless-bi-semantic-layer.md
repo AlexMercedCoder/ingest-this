@@ -8,7 +8,10 @@ tags:
   - semantic layer
   - seo
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-headless-bi-semantic-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-headless-bi-semantic-layer/).
 
 ![Headless BI : one semantic layer serving all consumers](/images/2026/semantic_layer_seo/08-headless-bi-semantic-layer/headless-bi.png)
 

@@ -7,7 +7,10 @@ category: "Data Modeling"
 tags:
   - data modeling
   - database design
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-what-is-data-modeling/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-what-is-data-modeling/).
 
 ![Data entities connected by relationship lines forming a structured data model](/images/2026/data_modeling/01-what-is-data-modeling/data-modeling-overview.png)
 

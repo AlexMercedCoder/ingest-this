@@ -6,7 +6,10 @@ author: "Alex Merced"
 title: "Overview of the Open Lakehouse: Why Dremio?"
 date: "2023-10-11T12:12:03.284Z"
 category: "data lakehouse"
+canonical: https://tuts.alexmercedcoder.dev/2023/10/10-why-dremio-iceberg-data-lakehouse/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/10/10-why-dremio-iceberg-data-lakehouse/).
 
 ## Pain Points
 

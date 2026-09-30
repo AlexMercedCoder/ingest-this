@@ -10,7 +10,11 @@ tags:
   - kafka to iceberg
   - real-time lakehouse flink
   - schema evolution flink
+canonical: https://datalakehousehub.com/blog/2026-05-real-time-lakehouse-flink/
 ---
+
+> **Cross-posted.** This article's canonical home is [Data Lakehouse Hub](https://datalakehousehub.com/blog/2026-05-real-time-lakehouse-flink/).
+
 # Real-Time Lakehouse Patterns with Apache Flink and Iceberg
 
 Most streaming pipelines solve the wrong problem. Teams spend months building infrastructure to move data fast, then discover their downstream lakehouse tables are a mess: thousands of tiny files per partition, schemas that drift silently across topics, and compaction jobs fighting live writes at 3 a.m. The ingestion is fast, but the data is barely usable.

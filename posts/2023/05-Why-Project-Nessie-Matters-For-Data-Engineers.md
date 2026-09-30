@@ -8,7 +8,10 @@ title: "What is Nessie and Why as a Data Engineer or Architect you should care?"
 date: "2023-05-30T12:12:03.284Z"
 category: "data engineering"
 
+canonical: https://tuts.alexmercedcoder.dev/2023/5/05-why-project-nessie-matters-for-data-engineers/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/5/05-why-project-nessie-matters-for-data-engineers/).
 
 We need to establish a few things to understand why the open-source data catalog, Project Nessie, matters so much.
 

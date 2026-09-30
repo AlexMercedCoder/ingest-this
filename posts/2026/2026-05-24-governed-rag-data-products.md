@@ -12,7 +12,11 @@ tags:
   - governed retrieval augmented generation
   - rag access control
   - semantic layer rag
+canonical: https://iceberglakehouse.com/posts/2026-05-24-governed-rag-data-products/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-governed-rag-data-products/).
+
 # Designing Governed RAG on Data Products
 
 The first generation of enterprise RAG deployments had a serious trust problem. Organizations gave AI assistants access to the data warehouse, or to a vector store filled with documents scraped from internal wikis and Confluence, and discovered that the answers came back authoritative-sounding but frequently wrong, stale, or based on data the querying user wasn't supposed to see.

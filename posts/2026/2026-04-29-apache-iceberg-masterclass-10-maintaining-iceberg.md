@@ -9,11 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - dremio
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-10/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-10/).
 
 This is Part 10 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 9](/posts/2026/2026-04-29-apache-iceberg-masterclass-09-storage-degradation) covered how tables degrade. This article covers the four maintenance operations that keep Iceberg tables healthy and the three approaches to running them.
 

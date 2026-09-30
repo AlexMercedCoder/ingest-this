@@ -8,7 +8,10 @@ title: "An Approach to Architecting a Lower Cost, Fast and Self-Service Data Lak
 date: "2023-09-22T12:12:03.284Z"
 category: "data engineering"
 
+canonical: https://tuts.alexmercedcoder.dev/2023/9/09-architecting-low-cost-fast-self-service-lakehouse/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/9/09-architecting-low-cost-fast-self-service-lakehouse/).
 
 There are several goals data architects are perpetually trying to improve upon:
 

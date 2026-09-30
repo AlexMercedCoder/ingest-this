@@ -7,7 +7,10 @@ category: "Data Modeling"
 tags:
   - data modeling
   - database design
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-data-modeling-best-practices/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-data-modeling-best-practices/).
 
 ![Checklist of data modeling quality markers with warning symbols on common mistakes](/images/2026/data_modeling/10-data-modeling-best-practices/best-practices-checklist.png)
 

@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-08/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-08/).
 
 This is Part 8 of a 10-part series on query engine design. [Part 7](/posts/2026/2026-04-29-query-engine-optimization-07-memory-and-caching) covered memory management. This article covers how engines divide data across files, disks, or cluster nodes to enable parallel processing and reduce the amount of data each query must touch.
 

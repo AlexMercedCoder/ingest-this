@@ -8,7 +8,10 @@ tags:
   - semantic layer
   - seo
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-vs-metrics-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-vs-metrics-layer/).
 
 ![Semantic layer vs metrics layer : the metrics layer is a subset](/images/2026/semantic_layer_seo/03-semantic-layer-vs-metrics-layer/semantic-vs-metrics.png)
 

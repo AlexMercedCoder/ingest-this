@@ -8,7 +8,10 @@ tags:
   - apache-iceberg
   - data-engineering
   - data-analytics
+canonical: https://datalakehousehub.com/blog/iceberg-view-federation-portable-sql-2026/
 ---
+
+> **Cross-posted.** This article's canonical home is [Data Lakehouse Hub](https://datalakehousehub.com/blog/iceberg-view-federation-portable-sql-2026/).
 
 A view is the simplest and most powerful abstraction in data engineering. It is a saved SQL query that behaves like a table. Users query the view, not the underlying tables, and the engine resolves the SQL at query time. Every major query engine supports views. The problem is that each engine stores view metadata in a proprietary format. A view created in Trino cannot be read by Spark, even if they share the same Iceberg catalog and the same underlying data.
 

@@ -8,7 +8,10 @@ tags:
   - apache-iceberg
   - data-engineering
   - python
+canonical: https://datalakehousehub.com/blog/python-tooling-apache-iceberg-pyiceberg-iceframe-iceberg-cli/
 ---
+
+> **Cross-posted.** This article's canonical home is [Data Lakehouse Hub](https://datalakehousehub.com/blog/python-tooling-apache-iceberg-pyiceberg-iceframe-iceberg-cli/).
 
 ## The Python Iceberg Ecosystem in 2026
 

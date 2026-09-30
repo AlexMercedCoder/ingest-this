@@ -8,7 +8,10 @@ tags:
   - data lakehouse
   - apache iceberg
   - open source
+canonical: https://iceberglakehouse.com/posts/2026-03-07-apache-arrow/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-03-07-apache-arrow/).
 
 *Read the complete Open Source and the Lakehouse series:*
 * [Part 1: Apache Software Foundation: History, Purpose, and Process](/posts/2026-04-13-apache-lakehouse-01-apache-software-foundation)

@@ -9,11 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - dremio
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-06/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-06/).
 
 This is Part 6 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 5](/posts/2026/2026-04-29-apache-iceberg-masterclass-05-hidden-partitioning) covered hidden partitioning. This article walks through the exact steps an engine takes when writing data to an Iceberg table, when the write becomes visible, and how concurrent writers are handled.
 

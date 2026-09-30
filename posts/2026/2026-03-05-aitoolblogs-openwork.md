@@ -9,7 +9,10 @@ tags:
   - dremio
   - coding tools
   - developer tools
+canonical: https://iceberglakehouse.com/posts/2026-03-aitool-openwork/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-03-aitool-openwork/).
 
 OpenWork is an open-source desktop AI agent built on the OpenCode engine. It runs entirely on your machine with your own API keys, giving you full control over your data and your AI costs. Dremio is a unified lakehouse platform built on open standards like Apache Iceberg, Apache Arrow, and Apache Polaris.
 

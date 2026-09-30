@@ -8,7 +8,10 @@ tags:
   - backend
   - SQL
   - database
+canonical: https://tuts.alexmercedcoder.dev/2022/5/05-introduction-to-sql/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/5/05-introduction-to-sql/).
 
 ## What is SQL?
 

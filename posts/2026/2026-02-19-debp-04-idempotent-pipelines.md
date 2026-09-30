@@ -7,7 +7,10 @@ category: "Data Engineering"
 tags:
   - data engineering
   - best practices
+canonical: https://iceberglakehouse.com/posts/2026-02-debp-idempotent-pipelines/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-debp-idempotent-pipelines/).
 
 ![Pipeline running multiple times and converging to the same result](/images/2026/debp/04-idempotent-pipelines/idempotent-pipeline.png)
 

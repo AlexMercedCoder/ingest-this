@@ -12,7 +12,11 @@ tags:
   - domain ownership data
   - federated governance data platform
   - zhamak dehghani data mesh
+canonical: https://iceberglakehouse.com/posts/2026-05-24-data-mesh-after-hype/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-data-mesh-after-hype/).
+
 # Data Mesh After the Hype: What Actually Works
 
 When Zhamak Dehghani published the original data mesh papers at Thoughtworks in 2019 and 2020, the response split sharply between organizations that saw it as a fundamental rethinking of data platform architecture and skeptics who viewed it as a repackaging of existing domain-driven design concepts applied to data teams.

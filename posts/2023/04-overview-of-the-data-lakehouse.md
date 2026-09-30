@@ -7,7 +7,10 @@ tags:
   - data engineering
   - data lakehouse
   - dremio
+canonical: https://tuts.alexmercedcoder.dev/2023/4/04-overview-of-the-data-lakehouse/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/4/04-overview-of-the-data-lakehouse/).
 
 In this article, I hope clarify the who, what, why, and how of:
 

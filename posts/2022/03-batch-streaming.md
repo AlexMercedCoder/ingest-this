@@ -7,9 +7,10 @@ tags:
   - data engineering
   - batch
   - streaming
+canonical: https://tuts.alexmercedcoder.dev/2022/3/03-batch-vs-streaming/
 ---
 
-
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/3/03-batch-vs-streaming/).
 
 ## Where data comes from
 

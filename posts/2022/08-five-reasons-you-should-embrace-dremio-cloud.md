@@ -8,7 +8,10 @@ tags:
   - data engineering
   - data lake
   - data lakehouse
+canonical: https://tuts.alexmercedcoder.dev/2022/8/08-five-reasons-you-should-embrace-dremio-cloud/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/8/08-five-reasons-you-should-embrace-dremio-cloud/).
 
 [Dremio Cloud](https://www.dremio.com/get-started/) makes it easier to enjoy the performance and ease of use often associated with data warehouses. It combines that performance/ease of use with the openness and affordability associated with data lakes, the data lakehouse dream. In this article, I hope to discuss five reasons Dremio Cloud is a tool every data lakehouse should have in its arsenal.
 

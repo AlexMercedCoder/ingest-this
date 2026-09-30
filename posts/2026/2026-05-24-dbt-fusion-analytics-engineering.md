@@ -11,7 +11,11 @@ tags:
   - dbt fusion vs code
   - dbt sql comprehension
   - dbt state-aware orchestration
+canonical: https://iceberglakehouse.com/posts/2026-05-24-dbt-fusion-analytics-engineering/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-dbt-fusion-analytics-engineering/).
+
 # How dbt Fusion Reshapes Analytics Engineering
 
 The dbt Core engine that analytics engineering teams have relied on since 2017 was built in Python at a time when the job of the tool was to template SQL and run it against a warehouse. It worked well for that job. It also inherited the constraints of a text-template system: SQL was a string to be rendered, not code to be analyzed. The engine had no understanding of column references, type compatibility, or cross-model dependencies beyond the explicit `ref()` calls that connected models in the DAG.

@@ -11,7 +11,11 @@ tags:
   - focus billing data
   - snowflake cost management
   - warehouse finops focus specification
+canonical: https://iceberglakehouse.com/posts/2026-05-24-finops-warehouse-cost/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-finops-warehouse-cost/).
+
 # FinOps for Data Warehouses with Open Billing Data
 
 Warehouse costs are the most visible and most contentious line item on a data platform's budget. Every query is metered. Every dashboard refresh costs something. Engineering leaders who can't explain where costs are coming from can't make informed decisions about where to cut, where to invest, or how to set fair internal budgets by team.

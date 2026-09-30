@@ -12,7 +12,11 @@ tags:
   - policy as code data governance lakehouse
   - snowflake horizon governance
   - tag-based policies
+canonical: https://iceberglakehouse.com/posts/2026-05-24-policy-as-code-governance/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-policy-as-code-governance/).
+
 # Policy as Code for Lakehouse Governance
 
 The traditional approach to data access governance relies on role-based access control: you define roles, assign users to roles, and grant roles access to specific tables or schemas. For a team of ten analysts and a handful of sensitive tables, this is manageable. For an organization with hundreds of analysts, dozens of data domains, and fine-grained sensitivity classifications across thousands of tables, RBAC becomes a maintenance burden that governance teams can't keep current.

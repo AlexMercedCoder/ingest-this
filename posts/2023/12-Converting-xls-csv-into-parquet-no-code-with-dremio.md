@@ -9,7 +9,10 @@ tags:
   - Excel
   - CSV
   - Parquet
+canonical: https://tuts.alexmercedcoder.dev/2023/12/12-converting-xls-csv-into-parquet-no-code-with-dremio/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/12/12-converting-xls-csv-into-parquet-no-code-with-dremio/).
 
 XLS and CSV files continue to be widely used for storing and exchanging data. They are simple, human-readable, and universally supported. However, as the need for high-performance analytics and big data processing grows, a new standard has emerged - Parquet files. Parquet is a columnar storage format that offers significant advantages in terms of speed and efficiency, making it increasingly popular in the analytics community.
 

@@ -12,7 +12,11 @@ tags:
   - pgvector hnsw
   - vector store comparison retrieval workloads
   - weaviate bm25
+canonical: https://iceberglakehouse.com/posts/2026-05-24-vector-stores-retrieval/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-vector-stores-retrieval/).
+
 # Choosing Vector Stores for Retrieval Workloads
 
 Vector retrieval has become a standard component in data platform architectures, not just an ML research topic. RAG pipelines use it to retrieve document context before generation. Recommendation systems use it to find similar items. Search applications use it to retrieve semantically relevant results that keyword search misses.

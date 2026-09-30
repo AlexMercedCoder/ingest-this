@@ -7,7 +7,10 @@ category: "Data Modeling"
 tags:
   - data modeling
   - database design
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-data-modeling-lakehouse/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-data-modeling-lakehouse/).
 
 ![Traditional data warehouse model vs. open lakehouse model with flexible schema and views](/images/2026/data_modeling/04-data-modeling-lakehouse/lakehouse-data-modeling.png)
 

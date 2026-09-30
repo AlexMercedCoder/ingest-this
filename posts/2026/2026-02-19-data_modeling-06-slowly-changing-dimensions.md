@@ -7,7 +7,10 @@ category: "Data Modeling"
 tags:
   - data modeling
   - database design
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-slowly-changing-dimensions/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-slowly-changing-dimensions/).
 
 ![Dimension timeline showing attribute values changing across time periods](/images/2026/data_modeling/06-slowly-changing-dimensions/slowly-changing-dimensions.png)
 

@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-05/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-05/).
 
 This is Part 5 of a 10-part series on query engine design. [Part 4](/posts/2026/2026-04-29-query-engine-optimization-04-indexing-strategies) covered indexing strategies. This article covers what happens after the engine parses your SQL: how the optimizer decides the fastest way to execute it.
 

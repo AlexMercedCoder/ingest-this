@@ -10,7 +10,11 @@ tags:
   - changelog stream paimon
   - paimon lsm tree
   - paimon vs iceberg
+canonical: https://iceberglakehouse.com/posts/2026-05-24-paimon-vs-iceberg-mutable-streams/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-paimon-vs-iceberg-mutable-streams/).
+
 # When Paimon Beats Iceberg for Mutable Streams
 
 Most lakehouse format comparisons skip the part that actually matters for streaming teams: how the format handles mutations. Apache Iceberg is excellent for append-heavy analytics, schema evolution, and multi-engine compatibility. But feed a high-churn CDC stream of updates and deletes into Iceberg using merge-on-read (MoR), and you're managing a growing pile of delete files that accumulate between compaction runs.

@@ -9,11 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - dremio
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-14/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-14/).
 
 This is Part 14 of a 15-part [Apache Iceberg Masterclass](/posts/2026/2026-04-29-apache-iceberg-masterclass-01-table-formats). [Part 13](/posts/2026/2026-04-29-apache-iceberg-masterclass-13-streaming-to-iceberg) covered streaming approaches. This article is a practical walkthrough of working with Iceberg on [Dremio Cloud](https://www.dremio.com/get-started/), covering table creation, data ingestion, optimization, semantic layer construction, and AI-powered analytics.
 

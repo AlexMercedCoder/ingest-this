@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-06/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-06/).
 
 This is Part 6 of a 10-part series on query engine design. [Part 5](/posts/2026/2026-04-29-query-engine-optimization-05-query-optimizer) covered how optimizers pick a plan. This article covers what happens next: how the engine actually processes data through the operators in that plan.
 

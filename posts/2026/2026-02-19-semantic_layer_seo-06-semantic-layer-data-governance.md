@@ -8,7 +8,10 @@ tags:
   - semantic layer
   - seo
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-data-governance/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-data-governance/).
 
 ![Data governance through a semantic layer : centralized policies and documentation](/images/2026/semantic_layer_seo/06-semantic-layer-data-governance/governance-semantic.png)
 

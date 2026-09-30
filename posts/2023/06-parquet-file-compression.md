@@ -8,7 +8,10 @@ title: "Parquet File Compression for Everyone (zstd, brotli, lz4, gzip, snappy)"
 date: "2023-06-19T12:12:03.284Z"
 category: "data engineering"
 
+canonical: https://tuts.alexmercedcoder.dev/2023/6/06-parquet-file-compression/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/6/06-parquet-file-compression/).
 
 You know how when you're packing for a trip, you try to stuff as many clothes as you can into your suitcase without breaking the zipper? That's kind of like data compression in the big data universe. We've got a massive amount of data being pulled in from all corners, and we have to find a way to fit it into our digital suitcases without paying excess baggage fees or slowing down our journey.
 

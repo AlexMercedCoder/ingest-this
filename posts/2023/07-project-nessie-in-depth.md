@@ -8,7 +8,10 @@ title: "Project Nessie: A Look in the Depths"
 date: "2023-07-10T12:12:03.284Z"
 category: "data engineering"
 
+canonical: https://tuts.alexmercedcoder.dev/2023/7/07-project-nessie-in-depth/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/7/07-project-nessie-in-depth/).
 
 Once upon a time, in the mystical realm of data lakes, there was a growing problem. The inhabitants of this realm, data scientists, and engineers, were struggling with managing their vast and ever-evolving data assets. It was like trying to organize a library where the books constantly rewrote themselves. [Enter Project Nessie](https://projectnessie.org/), a solution as elusive and exciting as its namesake, the Loch Ness Monster.
 

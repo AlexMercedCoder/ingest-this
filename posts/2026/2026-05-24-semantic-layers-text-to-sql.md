@@ -12,7 +12,11 @@ tags:
   - metricflow
   - semantic layer text-to-sql
   - snowflake cortex analyst
+canonical: https://iceberglakehouse.com/posts/2026-05-24-semantic-layers-text-to-sql/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-semantic-layers-text-to-sql/).
+
 # Why Semantic Layers Make Enterprise Text-to-SQL Safer
 
 Text-to-SQL generated serious excitement when early demonstrations showed AI assistants turning plain English into working SQL. It also generated serious skepticism from the analytics engineers who knew what those SQL queries were actually running against: messy schemas with inconsistent column naming, duplicate business logic spread across dozens of views, and metric definitions that varied by team.

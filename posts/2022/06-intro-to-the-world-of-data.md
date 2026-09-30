@@ -9,7 +9,10 @@ tags:
   - database
   - data warehouse
   - data lakehouse
+canonical: https://tuts.alexmercedcoder.dev/2022/6/06-the-world-of-data/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/6/06-the-world-of-data/).
 
 In this article, I hope to paint a picture of the modern data world and when done you should have a decent understanding of the roles of Data Engineers, Data Analysts and Data Scientists and the technologies that empower them.
 

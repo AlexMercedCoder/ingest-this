@@ -8,7 +8,10 @@ tags:
   - semantic layer
   - seo
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-how-to-build-semantic-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-how-to-build-semantic-layer/).
 
 ![Building a semantic layer : Bronze, Silver, and Gold tiers](/images/2026/semantic_layer_seo/02-how-to-build-semantic-layer/build-semantic-layer.png)
 

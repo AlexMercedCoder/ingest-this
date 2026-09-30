@@ -6,7 +6,10 @@ author: "Alex Merced"
 title: "An In-Depth Overview of Open Lakehouse Tech: Apache Iceberg & Nessie"
 date: "2023-10-28T12:12:03.284Z"
 category: "data lakehouse"
+canonical: https://tuts.alexmercedcoder.dev/2023/10/10-an-in-depth-overview-of-iceberg-nessie/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/10/10-an-in-depth-overview-of-iceberg-nessie/).
 
 # Unleashing the Power of Open Lakehouse Technologies: Apache Iceberg and Project Nessie
 

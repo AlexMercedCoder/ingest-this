@@ -8,7 +8,10 @@ tags:
   - autonomous materialization
   - AI agents table performance
   - reflections
+canonical: https://iceberglakehouse.com/posts/autonomous-materialization-ai-agents-table-performance/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/autonomous-materialization-ai-agents-table-performance/).
 
 Autonomous materialization is useful when it is tied to workload evidence, governance checks, and lifecycle management. For platform teams tuning repeated analytical workloads, the useful question is what changes in production and what simply sounds current.
 

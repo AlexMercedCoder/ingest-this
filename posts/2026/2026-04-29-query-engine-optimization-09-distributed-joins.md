@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-09/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-09/).
 
 This is Part 9 of a 10-part series on query engine design. [Part 8](/posts/2026/2026-04-29-query-engine-optimization-08-partitioning) covered partitioning. This article covers the most expensive operation in distributed query processing: joining two tables whose data lives on different nodes.
 

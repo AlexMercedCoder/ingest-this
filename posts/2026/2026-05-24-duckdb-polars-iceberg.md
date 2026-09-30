@@ -10,7 +10,11 @@ tags:
   - duckdb-wasm iceberg
   - polars cloud remote execution
   - polars iceberg sink
+canonical: https://iceberglakehouse.com/posts/2026-05-24-duckdb-polars-iceberg/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-duckdb-polars-iceberg/).
+
 # Using DuckDB and Polars to Query Iceberg Tables
 
 Two years ago, DuckDB and Polars were single-process analytical tools with limited lakehouse integration. You could read Parquet files from S3 using either, but writing to a catalog-managed Iceberg table required Spark or Flink. That constraint has been removed.

@@ -11,7 +11,11 @@ tags:
   - openlineage data observability
   - openlineage dbt
   - openlineage spark
+canonical: https://iceberglakehouse.com/posts/2026-05-24-openlineage-observability/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-openlineage-observability/).
+
 # OpenLineage as the Spine of Data Observability
 
 Data platform incidents follow a predictable pattern. A pipeline fails or a dashboard goes stale. Someone opens Slack and asks which table feeds that dashboard. Someone else checks the Airflow UI and traces it to a Spark job. A third person pulls up the dbt DAG and realizes the issue is three steps upstream in a staging model that reads from an Iceberg table that failed due to a schema change two days ago. The entire investigation takes hours of manual archaeology.

@@ -11,7 +11,11 @@ tags:
   - databricks clean rooms
   - delta sharing
   - privacy budget data analytics
+canonical: https://iceberglakehouse.com/posts/2026-05-24-clean-rooms-privacy/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-clean-rooms-privacy/).
+
 # Clean Rooms for Privacy-Preserving Analytics
 
 Every organization that wants to collaborate on data faces the same tension. The analysis is valuable, as matching your customer purchase history against a partner's ad impression data reveals attribution patterns that neither party could see alone. The data is sensitive: sharing raw customer records with an external party creates PII exposure risk, regulatory compliance problems, and the permanent problem of data copies that live outside your control.

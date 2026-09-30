@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-04/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-04/).
 
 This is Part 4 of a 10-part series on query engine design. [Part 3](/posts/2026/2026-04-29-query-engine-optimization-03-data-organization-on-disk) covered how data is structured within files. This article covers the auxiliary data structures that make lookups fast: indexes.
 

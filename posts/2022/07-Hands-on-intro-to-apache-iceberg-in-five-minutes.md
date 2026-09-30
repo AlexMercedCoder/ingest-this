@@ -7,7 +7,10 @@ category: "frontend"
 tags:
   - data engineering
   - data lake
+canonical: https://tuts.alexmercedcoder.dev/2022/7/07-hands-on-intro-to-apache-iceberg-in-five-minutes/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/7/07-hands-on-intro-to-apache-iceberg-in-five-minutes/).
 
 As a Developer Advocate for [Dremio](https://www.dremio.com) I spend a lot of time doing research on technology and best practices around engineering Data Lakehouses and sharing what I learn through content for [Subsurface - The Data Lakehouse Community](https://www.dremio.com/subsurface). One of the major topics I've been diving deep into is the topic of Data Lakehouse Table Formats, these allow you to take the files on your data lake and group them into tables data processing engines like Dremio can operate on.
 

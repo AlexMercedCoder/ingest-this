@@ -7,7 +7,10 @@ category: "Data Modeling"
 tags:
   - data modeling
   - database design
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-data-modeling-for-analytics/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-data-modeling-for-analytics/).
 
 ![OLTP normalized model vs. OLAP denormalized model side by side](/images/2026/data_modeling/07-data-modeling-for-analytics/analytics-data-modeling.png)
 

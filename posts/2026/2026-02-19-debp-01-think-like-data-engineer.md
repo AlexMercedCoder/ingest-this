@@ -7,7 +7,10 @@ category: "Data Engineering"
 tags:
   - data engineering
   - best practices
+canonical: https://iceberglakehouse.com/posts/2026-02-debp-think-like-data-engineer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-debp-think-like-data-engineer/).
 
 ![Data flowing through a system of interconnected pipeline stages from sources to consumers](/images/2026/debp/01-think-like-data-engineer/data-engineer-mindset.png)
 

@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-03/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-03/).
 
 This is Part 3 of a 10-part series on query engine design. [Part 2](/posts/2026/2026-04-29-query-engine-optimization-02-row-vs-column-storage) covered row vs. column storage layouts. This article goes one level deeper: how data is physically structured within files, and what metadata accompanies it to make reads efficient.
 

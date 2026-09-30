@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-07/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-07/).
 
 This is Part 7 of a 10-part series on query engine design. [Part 6](/posts/2026/2026-04-29-query-engine-optimization-06-execution-models) covered execution models. This article covers how engines manage their most precious resource: memory.
 

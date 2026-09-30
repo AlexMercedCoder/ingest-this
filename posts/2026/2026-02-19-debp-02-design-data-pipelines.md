@@ -7,7 +7,10 @@ category: "Data Engineering"
 tags:
   - data engineering
   - best practices
+canonical: https://iceberglakehouse.com/posts/2026-02-debp-design-data-pipelines/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-debp-design-data-pipelines/).
 
 ![Data pipeline architecture with four layers flowing from ingestion through staging, transformation, and serving](/images/2026/debp/02-design-data-pipelines/pipeline-architecture.png)
 

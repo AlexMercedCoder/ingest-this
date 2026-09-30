@@ -8,7 +8,10 @@ tags:
   - native Iceberg scan operators
   - Rust data systems
   - C++ query engines
+canonical: https://iceberglakehouse.com/posts/rust-vs-cpp-table-layer-native-scan-operators/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/rust-vs-cpp-table-layer-native-scan-operators/).
 
 The Rust versus C++ discussion is really about table-layer execution safety, interoperability, and performance envelopes. For engineers building native table and query execution layers, the useful question is what changes in production and what simply sounds current.
 

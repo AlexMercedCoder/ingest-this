@@ -8,11 +8,10 @@ tags:
   - query engine
   - database internals
   - performance optimization
+canonical: https://iceberglakehouse.com/posts/2026-04-29-query-engine-02/
 ---
 
-
-
-
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-query-engine-02/).
 
 This is Part 2 of a 10-part series on query engine design. [Part 1 (Overview)](/posts/2026/2026-04-29-query-engine-optimization-01-overview) introduced the nine decisions every engine must make. This article covers the first and most fundamental: how bytes are arranged on disk.
 

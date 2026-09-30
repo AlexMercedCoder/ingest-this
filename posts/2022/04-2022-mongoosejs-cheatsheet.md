@@ -9,7 +9,10 @@ tags:
   - javascript
   - node
   - database
+canonical: https://tuts.alexmercedcoder.dev/2022/4/04-2022-mongoosejs-cheatsheet/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/4/04-2022-mongoosejs-cheatsheet/).
 
 ## What is Mongoose?
 

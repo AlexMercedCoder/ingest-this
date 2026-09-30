@@ -12,7 +12,11 @@ tags:
   - lancedb format
   - lancedb iceberg multimodal ai data
   - multimodal training data lakehouse
+canonical: https://iceberglakehouse.com/posts/2026-05-24-lance-iceberg-multimodal/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-lance-iceberg-multimodal/).
+
 # Lance and Iceberg for Multimodal AI Data
 
 Apache Iceberg was designed for analytical workloads: columnar scans, partition pruning, SQL aggregations. It's excellent at returning the answer to "what was the average revenue by region for the last 30 days?" and poor at answering "give me the 500 training images most similar to this query image."

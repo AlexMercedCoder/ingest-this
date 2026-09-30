@@ -7,7 +7,10 @@ category: "Data Modeling"
 tags:
   - data modeling
   - database design
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-denormalization-when-why/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-denormalization-when-why/).
 
 ![Normalized model with many interconnected tables vs. denormalized wide flat table](/images/2026/data_modeling/08-denormalization-when-why/denormalization-overview.png)
 

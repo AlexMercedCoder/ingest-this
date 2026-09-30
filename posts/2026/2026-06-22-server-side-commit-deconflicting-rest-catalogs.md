@@ -8,7 +8,10 @@ tags:
   - server-side commit deconflicting
   - Iceberg commits
   - REST catalog concurrency
+canonical: https://iceberglakehouse.com/posts/server-side-commit-deconflicting-rest-catalogs/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/server-side-commit-deconflicting-rest-catalogs/).
 
 Server-side commit deconflicting is about moving concurrency control closer to the catalog contract. For engineers responsible for high-concurrency lakehouse writes, the useful question is what changes in production and what simply sounds current.
 

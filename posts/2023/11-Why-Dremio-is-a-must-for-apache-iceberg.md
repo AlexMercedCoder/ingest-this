@@ -7,7 +7,10 @@ category: "data lakehouse"
 tags:
   - Apache Iceberg
   - Data Lakehouse
+canonical: https://tuts.alexmercedcoder.dev/2023/11/11-why-dremio-is-a-must-for-apache-iceberg/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/11/11-why-dremio-is-a-must-for-apache-iceberg/).
 
 When crafting an [Apache Iceberg-based Data Lakehouse](https://www.dremio.com/blog/apache-iceberg-101-your-guide-to-learning-apache-iceberg-concepts-and-practices/), there are many things you need to concern yourself with:
 

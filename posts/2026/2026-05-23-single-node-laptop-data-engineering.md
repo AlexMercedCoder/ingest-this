@@ -11,7 +11,10 @@ tags:
   - polars
   - datafusion
   - data lakehouse
+canonical: https://iceberglakehouse.com/posts/2026-05-23-single-node-data-engineering-duckdb-datafusion-polars-lakesail/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-23-single-node-data-engineering-duckdb-datafusion-polars-lakesail/).
 
 # Single-Node Data Engineering: DuckDB, DataFusion, Polars, and LakeSail
 

@@ -10,7 +10,11 @@ tags:
   - iceberg deletion vectors
   - iceberg row lineage
   - iceberg version 3
+canonical: https://iceberglakehouse.com/posts/2026-05-24-iceberg-cdc-pipelines/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-iceberg-cdc-pipelines/).
+
 # What Iceberg V3 Advances Mean for CDC Pipelines
 
 Change Data Capture pipelines expose one of Apache Iceberg's most persistent weaknesses: its original mechanism for handling updates and deletes. When you stream CDC events into Iceberg using merge-on-read semantics, you accumulate delete files. Each update or delete operation for a row creates a separate positional delete file that the query engine must reconcile against the original data file at read time. The delete files pile up between compaction runs. Read performance degrades. Compaction becomes a continuous obligation.
