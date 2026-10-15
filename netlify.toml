@@ -1,4 +1,52 @@
+# Retired site (crawl fix 2026-10-15): 301-only. The homepage and the
+# machine-readable files go to alexmerced.com; robots.txt stays 200 so crawlers
+# can see the 301s; a final catch-all sends any unknown path to alexmerced.com.
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
 
+[[redirects]]
+  from = "/"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sitemap-0.xml"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/llms.txt"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/llms-full.txt"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rss.xml"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/feed.xml"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true
 
 # D1 retirement (2026-09-29): every post 301s to its canonical copy; taxonomy
 # pages go to the closest topic hub. Map: docs-and-audits/network-audit-2026-09-29/redirect-maps/ingestthis.com.csv
@@ -3443,7 +3491,7 @@
 
 [[redirects]]
   from = "/blog/tag/batch"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3455,7 +3503,7 @@
 
 [[redirects]]
   from = "/blog/category/oltp"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3467,7 +3515,7 @@
 
 [[redirects]]
   from = "/blog/tag/oltp"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3581,13 +3629,13 @@
 
 [[redirects]]
   from = "/blog/tag/Excel"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/CSV"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3617,7 +3665,7 @@
 
 [[redirects]]
   from = "/blog/tag/Apache%20Hive"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3665,7 +3713,7 @@
 
 [[redirects]]
   from = "/blog/tag/Open%20Source"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3695,13 +3743,13 @@
 
 [[redirects]]
   from = "/blog/tag/streamlit"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/Devops"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3713,7 +3761,7 @@
 
 [[redirects]]
   from = "/blog/tag/devops"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3737,25 +3785,25 @@
 
 [[redirects]]
   from = "/blog/tag/dbt"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/DevOps"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/devOps"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Continuous%20Integration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3839,25 +3887,25 @@
 
 [[redirects]]
   from = "/blog/tag/langchain"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/DevOps"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Helm"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Kubernetes"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3905,13 +3953,13 @@
 
 [[redirects]]
   from = "/blog/tag/Optimization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Table%20Maintenance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3923,7 +3971,7 @@
 
 [[redirects]]
   from = "/blog/tag/Compaction"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3935,25 +3983,25 @@
 
 [[redirects]]
   from = "/blog/tag/Clustering"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Sorting"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Z-order"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Query%20Optimization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3965,19 +4013,19 @@
 
 [[redirects]]
   from = "/blog/tag/Snapshot%20Expiration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Manifest%20Rewrite"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Table%20Optimization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -3989,25 +4037,25 @@
 
 [[redirects]]
   from = "/blog/tag/Automation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Partition%20Evolution"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Parallelism"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Resilience"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4055,7 +4103,7 @@
 
 [[redirects]]
   from = "/blog/category/Software%20Development"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4073,7 +4121,7 @@
 
 [[redirects]]
   from = "/blog/tag/software%20development"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4085,7 +4133,7 @@
 
 [[redirects]]
   from = "/blog/tag/retrieval-augmented%20generation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4097,13 +4145,13 @@
 
 [[redirects]]
   from = "/blog/tag/artificial%20intelligence"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/language%20models"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4115,13 +4163,13 @@
 
 [[redirects]]
   from = "/blog/tag/recursion"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/open%20source"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4133,7 +4181,7 @@
 
 [[redirects]]
   from = "/blog/tag/best%20practices"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4151,7 +4199,7 @@
 
 [[redirects]]
   from = "/blog/tag/seo"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4169,7 +4217,7 @@
 
 [[redirects]]
   from = "/blog/tag/connectors"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4187,13 +4235,13 @@
 
 [[redirects]]
   from = "/blog/tag/context%20management"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/query%20engine"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4205,7 +4253,7 @@
 
 [[redirects]]
   from = "/blog/tag/performance%20optimization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4217,19 +4265,19 @@
 
 [[redirects]]
   from = "/blog/tag/manifest%20list%20encryption"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/duckdb"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/polars"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4259,7 +4307,7 @@
 
 [[redirects]]
   from = "/blog/tag/s3%20tables%20maintenance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4295,13 +4343,13 @@
 
 [[redirects]]
   from = "/blog/tag/aws%20clean%20rooms"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/bigquery%20differential%20privacy"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4355,13 +4403,13 @@
 
 [[redirects]]
   from = "/blog/tag/substrait%20plan%20format"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/velox%20c%2B%2B%20engine"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4427,7 +4475,7 @@
 
 [[redirects]]
   from = "/blog/tag/dbt%20fusion%20vs%20code"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4439,7 +4487,7 @@
 
 [[redirects]]
   from = "/blog/tag/dbt%20state-aware%20orchestration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4463,7 +4511,7 @@
 
 [[redirects]]
   from = "/blog/tag/polars%20cloud%20remote%20execution"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4475,7 +4523,7 @@
 
 [[redirects]]
   from = "/blog/tag/bigquery%20jobs%20view"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4499,7 +4547,7 @@
 
 [[redirects]]
   from = "/blog/tag/snowflake%20cost%20management"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4535,7 +4583,7 @@
 
 [[redirects]]
   from = "/blog/tag/governed%20retrieval%20augmented%20generation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4601,7 +4649,7 @@
 
 [[redirects]]
   from = "/blog/tag/kip-848%20consumer%20rebalance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4619,7 +4667,7 @@
 
 [[redirects]]
   from = "/blog/tag/duckdb%20lance%20integration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4637,7 +4685,7 @@
 
 [[redirects]]
   from = "/blog/tag/lancedb%20format"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4661,7 +4709,7 @@
 
 [[redirects]]
   from = "/blog/tag/mlflow%203%20features"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4703,7 +4751,7 @@
 
 [[redirects]]
   from = "/blog/tag/feature%20engineering%20platform"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4715,19 +4763,19 @@
 
 [[redirects]]
   from = "/blog/tag/kubeflow%20feast"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/online%20offline%20feature%20store"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/training%20serving%20skew"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4739,13 +4787,13 @@
 
 [[redirects]]
   from = "/blog/tag/marquez%20lineage"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/openlineage%20airflow"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4757,7 +4805,7 @@
 
 [[redirects]]
   from = "/blog/tag/openlineage%20dbt"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4769,7 +4817,7 @@
 
 [[redirects]]
   from = "/blog/tag/apache%20paimon%20mutable%20streams"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4781,13 +4829,13 @@
 
 [[redirects]]
   from = "/blog/tag/changelog%20stream%20paimon"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/paimon%20lsm%20tree"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4805,13 +4853,13 @@
 
 [[redirects]]
   from = "/blog/tag/bigquery%20row-level%20security"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/column%20masking%20governance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4829,13 +4877,13 @@
 
 [[redirects]]
   from = "/blog/tag/snowflake%20horizon%20governance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/tag-based%20policies"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4895,7 +4943,7 @@
 
 [[redirects]]
   from = "/blog/tag/metricflow"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4907,7 +4955,7 @@
 
 [[redirects]]
   from = "/blog/tag/snowflake%20cortex%20analyst"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -4925,31 +4973,31 @@
 
 [[redirects]]
   from = "/blog/tag/lancedb%20multimodal"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/milvus%20hybrid%20search"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/pgvector%20hnsw"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/vector%20store%20comparison%20retrieval%20workloads"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/weaviate%20bm25"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5099,19 +5147,19 @@
 
 [[redirects]]
   from = "/blog/tag/Claude%20Code"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/OpenCode"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/model%20routers"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5141,7 +5189,7 @@
 
 [[redirects]]
   from = "/blog/tag/deepseek"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5153,13 +5201,13 @@
 
 [[redirects]]
   from = "/blog/tag/nous%20research"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/slack%20integration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5171,7 +5219,7 @@
 
 [[redirects]]
   from = "/blog/category/Artificial%20Intelligence"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5183,7 +5231,7 @@
 
 [[redirects]]
   from = "/blog/tag/productivity"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5213,7 +5261,7 @@
 
 [[redirects]]
   from = "/blog/tag/open-source"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5237,7 +5285,7 @@
 
 [[redirects]]
   from = "/blog/tag/artificial-intelligence"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5249,7 +5297,7 @@
 
 [[redirects]]
   from = "/blog/tag/snowflake"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5267,7 +5315,7 @@
 
 [[redirects]]
   from = "/blog/tag/clickhouse"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5291,13 +5339,13 @@
 
 [[redirects]]
   from = "/blog/tag/microsoft-fabric"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/Open%20Source"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5345,7 +5393,7 @@
 
 [[redirects]]
   from = "/blog/tag/autonomous%20materialization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5357,7 +5405,7 @@
 
 [[redirects]]
   from = "/blog/tag/reflections"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5405,7 +5453,7 @@
 
 [[redirects]]
   from = "/blog/tag/real-time%20event%20streams"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5453,7 +5501,7 @@
 
 [[redirects]]
   from = "/blog/tag/event-driven%20table%20compaction"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5501,7 +5549,7 @@
 
 [[redirects]]
   from = "/blog/tag/token%20exchange"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5513,7 +5561,7 @@
 
 [[redirects]]
   from = "/blog/tag/root%20manifests"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5597,7 +5645,7 @@
 
 [[redirects]]
   from = "/blog/tag/client%20capabilities"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5621,13 +5669,13 @@
 
 [[redirects]]
   from = "/blog/tag/C%2B%2B%20query%20engines"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/server-side%20commit%20deconflicting"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5657,7 +5705,7 @@
 
 [[redirects]]
   from = "/blog/tag/open%20tables"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5669,7 +5717,7 @@
 
 [[redirects]]
   from = "/blog/tag/governance%20control%20plane"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5681,7 +5729,7 @@
 
 [[redirects]]
   from = "/blog/tag/columnar%20transfers"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5693,7 +5741,7 @@
 
 [[redirects]]
   from = "/blog/tag/architecture"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5705,7 +5753,7 @@
 
 [[redirects]]
   from = "/blog/tag/evaluation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5717,7 +5765,7 @@
 
 [[redirects]]
   from = "/blog/tag/workflows"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5729,7 +5777,7 @@
 
 [[redirects]]
   from = "/blog/tag/amazon%20s3%20tables"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5771,13 +5819,13 @@
 
 [[redirects]]
   from = "/blog/tag/tool%20calling"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/OpenAI%20Codex"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5795,7 +5843,7 @@
 
 [[redirects]]
   from = "/blog/tag/compliance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5807,19 +5855,19 @@
 
 [[redirects]]
   from = "/blog/tag/unified%20access"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/file%20compression"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/codecs"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5831,13 +5879,13 @@
 
 [[redirects]]
   from = "/blog/tag/lance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/vortex"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5849,13 +5897,13 @@
 
 [[redirects]]
   from = "/blog/tag/fine-grained%20security"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/access%20control"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5867,25 +5915,25 @@
 
 [[redirects]]
   from = "/blog/tag/positional%20deletes"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/event%20lakes"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/variant%20type"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/json"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5921,25 +5969,25 @@
 
 [[redirects]]
   from = "/blog/tag/double-write"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/encryption"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/security"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/model%20context%20protocol"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5957,7 +6005,7 @@
 
 [[redirects]]
   from = "/blog/tag/metric%20contracts"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5969,19 +6017,19 @@
 
 [[redirects]]
   from = "/blog/tag/multicloud"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/foundations"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/apache"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -5993,49 +6041,49 @@
 
 [[redirects]]
   from = "/blog/tag/governance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/olap"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/htap"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/operational"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/analytical"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/personal%20context"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/shared%20context"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/air-gapped"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6047,7 +6095,7 @@
 
 [[redirects]]
   from = "/blog/tag/migration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6071,7 +6119,7 @@
 
 [[redirects]]
   from = "/blog/tag/A2A"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6089,7 +6137,7 @@
 
 [[redirects]]
   from = "/blog/tag/ADBC"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6131,7 +6179,7 @@
 
 [[redirects]]
   from = "/blog/tag/CDC"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6143,19 +6191,19 @@
 
 [[redirects]]
   from = "/blog/tag/paimon"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/concurrency"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/production%20writes"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6179,13 +6227,13 @@
 
 [[redirects]]
   from = "/blog/tag/open%20weights"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/knowledge%20accessibility"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6215,19 +6263,19 @@
 
 [[redirects]]
   from = "/blog/tag/Interoperability"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Materialized%20Views"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Enterprise"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6239,7 +6287,7 @@
 
 [[redirects]]
   from = "/blog/tag/Open%20Standards"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6263,7 +6311,7 @@
 
 [[redirects]]
   from = "/blog/tag/Government"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6281,7 +6329,7 @@
 
 [[redirects]]
   from = "/blog/tag/Regulated%20Markets"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6293,31 +6341,31 @@
 
 [[redirects]]
   from = "/blog/tag/Deletion%20Vectors"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/DML"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Variant%20Type"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/JSON"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Concurrency"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6329,25 +6377,25 @@
 
 [[redirects]]
   from = "/blog/tag/Specifications"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/Security%20%26%20Governance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Security"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Policy%20Enforcement"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6365,7 +6413,7 @@
 
 [[redirects]]
   from = "/blog/tag/Credential%20Vending"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6383,7 +6431,7 @@
 
 [[redirects]]
   from = "/blog/tag/Protocol"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6395,73 +6443,73 @@
 
 [[redirects]]
   from = "/blog/tag/Governance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Metrics"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Zero-Copy"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Migration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/Technology%20%26%20Culture"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Media"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Cognitive%20Filters"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Scams"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Information%20Overload"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Curation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Digital%20Literacy"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Apache%20Ossie"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6473,31 +6521,31 @@
 
 [[redirects]]
   from = "/blog/category/Hardware"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/DRAM"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Memory%20Shortage"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Economics"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Hardware"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6509,7 +6557,7 @@
 
 [[redirects]]
   from = "/blog/tag/Semiconductors"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6527,31 +6575,31 @@
 
 [[redirects]]
   from = "/blog/tag/Open%20Models"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Hugging%20Face"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Cybersecurity"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/OpenAI"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Guardrails"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6563,31 +6611,31 @@
 
 [[redirects]]
   from = "/blog/tag/Human-in-the-Loop"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Telemetry"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Cost%20Optimization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Air-Gapped"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/On-Premises"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6599,7 +6647,7 @@
 
 [[redirects]]
   from = "/blog/tag/Apache%20Fluss"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6611,13 +6659,13 @@
 
 [[redirects]]
   from = "/blog/tag/Hot%20Tier"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Jackson"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6629,19 +6677,19 @@
 
 [[redirects]]
   from = "/blog/tag/Library%20Migration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Multi-Region"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Oracle"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6653,7 +6701,7 @@
 
 [[redirects]]
   from = "/blog/tag/File%20Formats"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6671,7 +6719,7 @@
 
 [[redirects]]
   from = "/blog/tag/cost%20governance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6695,13 +6743,13 @@
 
 [[redirects]]
   from = "/blog/tag/local%20inference"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/model%20routing"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6731,13 +6779,13 @@
 
 [[redirects]]
   from = "/blog/tag/local%20development"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/open%20formats"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6749,43 +6797,43 @@
 
 [[redirects]]
   from = "/blog/tag/GDPR"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/compaction"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/table%20maintenance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/small%20files"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/tabular%20foundation%20models"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/TabPFN"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/prediction"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6797,7 +6845,7 @@
 
 [[redirects]]
   from = "/blog/tag/zero-copy"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6809,7 +6857,7 @@
 
 [[redirects]]
   from = "/blog/tag/egress%20costs"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6827,43 +6875,43 @@
 
 [[redirects]]
   from = "/blog/tag/AWS"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Google%20Cloud"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Microsoft%20Azure"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/S3%20Tables"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/TCO"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Cost%20Management"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Token%20Budgets"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6875,43 +6923,43 @@
 
 [[redirects]]
   from = "/blog/tag/Autonomous"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/MinIO"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Lakekeeper"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Decision%20Loops"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Saga%20Pattern"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Idempotency"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Optimistic%20Concurrency"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6923,7 +6971,7 @@
 
 [[redirects]]
   from = "/blog/tag/Commit"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6935,13 +6983,13 @@
 
 [[redirects]]
   from = "/blog/tag/Merge-on-Read"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Variant"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -6971,31 +7019,31 @@
 
 [[redirects]]
   from = "/blog/tag/Cost%20Analysis"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Supply%20Chain"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Metric%20Contracts"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/RBAC"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Multi-Cloud"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7013,7 +7061,7 @@
 
 [[redirects]]
   from = "/blog/tag/Compliance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7025,7 +7073,7 @@
 
 [[redirects]]
   from = "/blog/tag/Playbook"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7043,13 +7091,13 @@
 
 [[redirects]]
   from = "/blog/tag/Salesforce"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Snowflake"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7067,7 +7115,7 @@
 
 [[redirects]]
   from = "/blog/tag/columnar"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7079,7 +7127,7 @@
 
 [[redirects]]
   from = "/blog/tag/Open%20Specifications"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7091,25 +7139,25 @@
 
 [[redirects]]
   from = "/blog/tag/AGS"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/OAP"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/v3"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/deletion%20vectors"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7127,55 +7175,55 @@
 
 [[redirects]]
   from = "/blog/tag/multi-engine"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/anomaly%20detection"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/FinOps"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/token%20budgets"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/Governance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/telemetry"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/query%20routing"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/workload%20management"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/Security"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7187,43 +7235,43 @@
 
 [[redirects]]
   from = "/blog/tag/threat%20modeling"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/federation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/multi-cloud"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/metrics"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/DuckDB"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/serverless"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/ingestion"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7235,25 +7283,25 @@
 
 [[redirects]]
   from = "/blog/tag/tool%20gateways"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/write-audit-publish"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/branches"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/continuous-integration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7277,19 +7325,19 @@
 
 [[redirects]]
   from = "/blog/tag/gateways"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Slack"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/graphs"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7301,7 +7349,7 @@
 
 [[redirects]]
   from = "/blog/tag/knowledge%20graphs"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7313,25 +7361,25 @@
 
 [[redirects]]
   from = "/blog/tag/position%20deletes"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/equality%20deletes"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/libraries"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/ecosystem"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7349,37 +7397,37 @@
 
 [[redirects]]
   from = "/blog/tag/compatibility"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/testing"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/scan%20planning"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/query%20engines"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/row%20lineage"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/performance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7391,25 +7439,25 @@
 
 [[redirects]]
   from = "/blog/tag/semi-structured"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/commits"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/shredding"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/managed%20tables"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7421,13 +7469,13 @@
 
 [[redirects]]
   from = "/blog/tag/cost%20optimization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/connectivity"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7445,31 +7493,31 @@
 
 [[redirects]]
   from = "/blog/tag/encodings"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/ALP"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/FSST"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/automation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/routing"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7487,13 +7535,13 @@
 
 [[redirects]]
   from = "/blog/tag/Great%20Expectations"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Soda"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7505,7 +7553,7 @@
 
 [[redirects]]
   from = "/blog/tag/Anomaly%20Detection"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7523,25 +7571,25 @@
 
 [[redirects]]
   from = "/blog/tag/Generalists"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Specialists"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Organization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Incremental%20Models"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7553,31 +7601,31 @@
 
 [[redirects]]
   from = "/blog/tag/dbt-trino"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Disaster%20Recovery"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Replication"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Backup"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Restore"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7595,13 +7643,13 @@
 
 [[redirects]]
   from = "/blog/tag/Erasure"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Geospatial"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7613,97 +7661,97 @@
 
 [[redirects]]
   from = "/blog/tag/Geometry"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Geography"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Schema%20Evolution"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Field%20IDs"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Default%20Values"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Table%20Properties"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Tuning"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Maintenance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Puffin"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/File%20Format"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Theta%20Sketches"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Ingestion"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Fivetran"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Airbyte"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/dlt"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Local%20Development"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7715,7 +7763,7 @@
 
 [[redirects]]
   from = "/blog/tag/CI"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7733,7 +7781,7 @@
 
 [[redirects]]
   from = "/blog/tag/Atlan"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7745,61 +7793,61 @@
 
 [[redirects]]
   from = "/blog/category/Observability"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/OpenTelemetry"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Logs"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Traces"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Observability"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Airflow"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Dagster"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Prefect"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Orchestration"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Event-Driven"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7811,55 +7859,55 @@
 
 [[redirects]]
   from = "/blog/tag/pg_lake"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/pg_duckdb"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/pg_mooncake"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Schema%20Registry"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Avro"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Protobuf"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/JSON%20Schema"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Bucketing"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Query%20Planning"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7883,25 +7931,25 @@
 
 [[redirects]]
   from = "/blog/tag/Testing"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Generation"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Careers"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Labor%20Economics"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7913,25 +7961,25 @@
 
 [[redirects]]
   from = "/blog/tag/Model%20Context%20Protocol"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/platform%20operations"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/Market%20Analysis"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/acquisitions"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7949,7 +7997,7 @@
 
 [[redirects]]
   from = "/blog/tag/context%20engineering"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -7973,31 +8021,31 @@
 
 [[redirects]]
   from = "/blog/tag/audit%20trails"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/add_files"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/platform%20engineering"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/query%20planning"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/partition%20statistics"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8015,37 +8063,37 @@
 
 [[redirects]]
   from = "/blog/tag/benchmarking"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/multi-region"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/replication"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/latency"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/credential%20vending"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/remote%20signing"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8069,7 +8117,7 @@
 
 [[redirects]]
   from = "/blog/tag/exactly-once"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8081,13 +8129,13 @@
 
 [[redirects]]
   from = "/blog/category/Cost%20Optimization"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/unit%20economics"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8105,13 +8153,13 @@
 
 [[redirects]]
   from = "/blog/tag/vendor%20lock-in"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/procurement"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8123,55 +8171,55 @@
 
 [[redirects]]
   from = "/blog/tag/Multimodal"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/FILE%20type"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/classification"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Jev"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Encryption"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/KMS"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/CVE"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Pruning"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Performance"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8183,19 +8231,19 @@
 
 [[redirects]]
   from = "/blog/tag/Networking"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Private%20Link"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/tag/Vector%20Search"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8207,7 +8255,7 @@
 
 [[redirects]]
   from = "/blog/tag/Verification"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8219,13 +8267,13 @@
 
 [[redirects]]
   from = "/blog/tag/*"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/category/*"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8237,19 +8285,19 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/posts/*"
-  to = "/"
+  to = "https://alexmerced.com/"
   status = 301
   force = true
 
@@ -8259,3 +8307,9 @@
   status = 301
   force = true
 
+# Final catch-all: anything not matched above (and not robots.txt) 301s home.
+[[redirects]]
+  from = "/*"
+  to = "https://alexmerced.com/"
+  status = 301
+  force = true

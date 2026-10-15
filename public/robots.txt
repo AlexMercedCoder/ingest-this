@@ -1,33 +1,4 @@
-# *
+# This site is retired. Every URL 301s to its new home on alexmerced.com
+# or the network site that now hosts the post.
 User-agent: *
 Allow: /
-
-# Google-Extended
-User-agent: Google-Extended
-Allow: /
-
-# GPTBot
-User-agent: GPTBot
-Allow: /
-
-# OAI-SearchBot
-User-agent: OAI-SearchBot
-Allow: /
-
-# Claude-Web
-User-agent: Claude-Web
-Allow: /
-
-# PerplexityBot
-User-agent: PerplexityBot
-Allow: /
-
-# anthropic-ai
-User-agent: anthropic-ai
-Allow: /
-
-# Host
-Host: https://ingestthis.com
-
-# Sitemaps
-Sitemap: https://ingestthis.com/sitemap.xml
